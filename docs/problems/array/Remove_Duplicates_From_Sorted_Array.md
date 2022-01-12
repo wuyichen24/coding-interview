@@ -11,7 +11,7 @@
 
 ## Solutions
 - Solution 1: Fast slow pointers.
-   - Use one pointer (faster pointer) to traverse the whole array, and another pointer (slow) points to the next element of the end of the sorted sequence.
+   - Use one pointer (fast pointer) to traverse the whole array, and another pointer (slow) points to the next element of the end of the sorted sequence.
    - When the values are not same for those 2 pointers:
       - Assign the value of the faster pointer to the place of the slow pointer.
       - Move the slow pointer to next element.
