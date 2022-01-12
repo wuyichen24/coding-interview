@@ -23,7 +23,7 @@
    | Problem | Variation |
    | ----- | -----|
    | Find the middle element of a linked list | Variation 1 |
-   | Remove Duplicates from Sorted Array | Variation 2 |
+   | [Remove Duplicates from Sorted Array](../problems/array/Remove_Duplicates_From_Sorted_Array.md) | Variation 2 |
 
 ### Brute force pointers
 - Concepts
