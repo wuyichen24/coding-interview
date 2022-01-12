@@ -65,7 +65,7 @@
 - **Manipulation**
    - **Remove**
       - Remove duplicates
-         - LeetCode-26 Remove Duplicates from Sorted Array
+         - [Remove Duplicates from Sorted Array](docs/problems/array/Remove_Duplicates_From_Sorted_Array.md)
          - [Remove Duplicates from List](docs/problems/linked_list/Remove_Duplicates_From_List.md)
          - [Remove Duplicates from Sorted List](docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - Remove by value
