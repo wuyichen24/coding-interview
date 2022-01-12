@@ -7,7 +7,7 @@
 - Remove all duplicates from a sorted array.
 - Keep all the non-duplicated elements at the beginning at the array.
 - Return the number of non-duplicated elements.
-- Cannot allocate another array and the space complexity must be O(1).
+- The algorithm must modify the input array in-place (Cannot allocate another array).
 
 ## Solutions
 - Solution 1: Fast slow pointers.
