@@ -15,9 +15,15 @@
 ## Variations
 ### Fast slow pointers
 - Concepts
-   - The fast pointer moves two steps and the slow pointer moves one step.
+   - One pointer moves fast and another pointer moves slow.
+- Variations
+   - Variation 1: The fast pointer moves two steps while the slow pointer moves one step.
+   - Variation 2: One pointer traverses and another pointer marks the end of a meaningful sequence.
 - Problems can use this patterns
-   - Find the middle element of a linked list.
+   | Problem | Variation |
+   | ----- | -----|
+   | Find the middle element of a linked list | Variation 1 |
+   | Remove Duplicates from Sorted Array | Variation 2 |
 
 ### Brute force pointers
 - Concepts
