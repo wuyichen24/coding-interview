@@ -69,7 +69,7 @@
          - [Remove Duplicates from List](docs/problems/linked_list/Remove_Duplicates_From_List.md)
          - [Remove Duplicates from Sorted List](docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - Remove by value
-         - LeetCode-27 Remove Element
+         - [Remove All Occurrences of Value from Array](docs/problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
    - **Reverse**
       - [Reverse List](docs/problems/linked_list/Reverse_List.md)
       - [Reverse Sub-list](docs/problems/linked_list/Reverse_Sub_List.md)
