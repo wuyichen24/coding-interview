@@ -15,6 +15,9 @@
    - When the values are not same for those 2 pointers:
       - Assign the value of the faster pointer to the place of the slow pointer.
       - Move the slow pointer to next element.
+
+  ![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/8989447/149065748-37ed869e-ee47-4f8c-8b43-b26d931c75c2.png)
+
   ```java
   public int removeDuplicates(int[] nums) {
       int end_index = 1;
