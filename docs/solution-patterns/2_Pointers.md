@@ -22,8 +22,8 @@
 - Problems can use this patterns
    | Problem | Variation |
    | ----- | -----|
-   | <li>Find the middle element of a linked list | Variation 1 |
-   | <li>[Remove Duplicates from Sorted Array](../problems/array/Remove_Duplicates_From_Sorted_Array.md)<li>[Remove All Occurrences of Value from Array](../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md) | Variation 2 |
+   | <ul><li>Find the middle element of a linked list</ul> | Variation 1 |
+   | <ul><li>[Remove Duplicates from Sorted Array](../problems/array/Remove_Duplicates_From_Sorted_Array.md)<li>[Remove All Occurrences of Value from Array](../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)</ul> | Variation 2 |
 
 ### Brute force pointers
 - Concepts
