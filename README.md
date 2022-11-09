@@ -148,7 +148,7 @@
 | Problem | Company | Interview Stage |
 |----|----|----|
 | [Get Equilibrium Index from Array](docs/problems/array/Get_Equilibrium_Index_From_Array.md) | Facebook | Screening |
-| [Get Sums of All Root-to-leaf Paths](docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths.md) | Facebook | Onsite |
+| [Get Sums of All Root-to-leaf Paths](docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md) | Facebook | Onsite |
 | [Find Missing Ranges from Array](docs/problems/array/Find_Missing_Ranges_from_Array.md) | Facebook | Onsite |
 | [Get Range Sum of Binary Search Tree](docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Facebook | Onsite |
 | [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
