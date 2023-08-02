@@ -9,7 +9,7 @@
 
 ## Solutions
 - Solution 1: Fast slow pointers + Stack
-   - Get the middle node and add all the node of the first half into a stack.
+   - Get the middle node (use fast and slow pointers) and add all the node of the first half into a stack.
    - Ignore the middle node if the linked list has a odd number of nodes.
    - Pop each value from the stack and compare it with each node in the second half of the linked list.
 
@@ -27,8 +27,8 @@
         
       while (fast != null && fast.next != null) {
           stack.add(slow.val);
-          slow = slow.next;
-          fast = fast.next.next;
+          slow = slow.next;            // slow pointer just moves 1
+          fast = fast.next.next;       // fast pointer moves 2
       }
         
       if (fast != null) {
