@@ -129,7 +129,7 @@ This page is to document some coding standard operations.
   ```java
   List<List<Integer>> list = new ArrayList<>();
   ```
-- **Common functions for stack**
+- **Common functions for list**
   | Function | Description |
   | ---- | ---- |
   | `sublist(i,j)` | Get the sub-list `[i,j-1]` of the existing list. |
