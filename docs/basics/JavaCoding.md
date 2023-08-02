@@ -112,8 +112,21 @@ This page is to document some coding standard operations.
          } 
      }
      ```  
+- **Arrays**
+  ```java
+  List<Integer> list = Arrays.asList(1,2,3,4);         // Initialize a list from array
+  ```
 
 ### List
+- **Initialize a list from array**
+  ```java
+  Integer[] array = {1, 2, 3, 4, 5};
+  List<Integer> list = Arrays.asList(array);
+  ```
+- **Initialize a list of lists**
+  ```java
+  List<List<Integer>> list = new ArrayList<>();
+  ```
 - **Sort a list in ascending order**
   ```java
   Collections.sort(list);
@@ -124,10 +137,6 @@ This page is to document some coding standard operations.
   ```java
   Collections.sort(list);
   Collections.reverse(list);
-  ```
-- **Initialize a list of lists**
-  ```java
-  List<List<Integer>> list = new ArrayList<>();
   ```
 - **Common functions for list**
   | Function | Description |
