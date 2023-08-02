@@ -31,7 +31,7 @@
    - The division operation can be defined as `numerator - i * divisor = reminder`
    - So the problem can be abstracted as searching `i`.
    - So we can use binary search to search `i`;
-   - The upper bound of `i` can be the numerator (example: 31/31), the lower bound of `i` can be `0` (example: 3/5).
+   - The upper bound of `i` can be the numerator (example: 31/1), the lower bound of `i` can be `0` (example: 3/5).
   ```java
   public static void printQuotientAndReminder2(int numerator, int divisor) {
       int low = 0;
