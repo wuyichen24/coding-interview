@@ -23,7 +23,14 @@
 - [**Common Topics**](#common-topics)
 
 ## Concept
-### Code
+### Variations
+-  Double Linked Lists
+   ![DLL1](https://github.com/wuyichen24/coding-interview/assets/8989447/1c7297e4-122f-4bd0-a4f6-7f625368bee7)
+
+-  Static List
+-  Symmetric Matrix
+-  Sparse Matrix
+### Java class
 ```
 ListNode {
     int      data;
