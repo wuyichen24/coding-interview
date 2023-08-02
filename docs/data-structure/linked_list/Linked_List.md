@@ -129,7 +129,7 @@ ListNode getKth(ListNode head, int k) {
       return pA;
   }
   ```
-- **Solution 3**: Get the (N-K+1)th node from the head.
+- **Solution 3**: Get the (N-K+1)th node from the head (If you can know the size of the linked list).
 
 ### Manipulation
 #### Add
