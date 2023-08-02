@@ -64,7 +64,7 @@
         ![sern1](https://user-images.githubusercontent.com/8989447/118384894-66a2d980-b5c7-11eb-9999-65113aea1db2.png)
         
    - The serial number of each cell can be calculated from or to the row and column of that cell.
-      - From row+colum to serial number: `SerialNumber = row x CN + column` (`CN` is the number of row)
+      - From row+colum to serial number: `SerialNumber = row x CN + column` (`CN` is the number of columns)
       - From serial number to row+column: 
         ```
         row    = serialNumber / CN
