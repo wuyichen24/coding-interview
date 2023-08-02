@@ -45,8 +45,10 @@
       int pivot = nums[right];
       int i = left;
       for (int j = left; j < right; j++) {
-          if (nums[j] < pivot) swap(nums[i], nums[j]);
-          i = i + 1;
+          if (nums[j] < pivot) {
+              swap(nums[i], nums[j]);
+              i = i + 1;
+          }
       }
       swap(nums[i], nums[right]);
       return i;
