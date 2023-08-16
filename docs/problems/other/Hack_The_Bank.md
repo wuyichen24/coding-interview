@@ -63,7 +63,48 @@ Return *a single string representing the maximum reordered password that is less
                - Call the backtracking function for checking the next Jerry's next digit
       - Stop condition 2
          - If all the Tom's possible numbers are larger than the Jerry's digit and the previous digit comparison is same, it means that it is not possible to build Tom's password which is less than or equal to Jerry's, so return `-1` as result.
+
   ```java
+  public String maximizePassword(int tomPassword, int jerryPassword) {
+      char[] tomDigits = String.valueOf(tomPassword).toCharArray();
+      char[] jerryDigits = String.valueOf(jerryPassword).toCharArray();
+
+      Arrays.sort(tomDigits);
+
+      List<Character> tomList = new ArrayList<>();
+      for (char c : tomDigits) {
+          tomList.add(c);
+      }
+      List<Character> jerryList = new ArrayList<>();
+      for (char c : jerryDigits) {
+          jerryList.add(c);
+      }
+
+      StringBuilder result = new StringBuilder();
+
+      return backtracking(0, result, tomList, jerryList, true).toString();
+  }
+
+  public StringBuilder backtracking(int j, StringBuilder result, List<Character> tomList, List<Character> jerryList, boolean isSameInPreviousDigit) {
+      if (j == jerryList.size()) {
+          if (!tomList.isEmpty()) {
+              return new StringBuilder().append("-1");
+          }
+          return result;
+      }
+
+      for (int i = tomList.size() - 1; i >=0; i--) {
+          if (tomList.get(i) <= jerryList.get(j) || !isSameInPreviousDigit) {
+              if (tomList.get(i) != jerryList.get(j)) {
+                  isSameInPreviousDigit = false;
+              }
+              result.append(tomList.get(i));
+              tomList.remove(i);
+              return backtracking(j+1, result, tomList, jerryList, isSameInPreviousDigit);
+          }
+      }
+      return new StringBuilder().append("-1");
+  }
   ```
               
    
