@@ -106,5 +106,7 @@ Return *a single string representing the maximum reordered password that is less
       return new StringBuilder().append("-1");
   }
   ```
-              
+
+![Hack_The_Bank drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/78edf7dd-8822-4c7d-9d2d-c747b405134e)
+
    
