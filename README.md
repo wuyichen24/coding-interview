@@ -145,7 +145,7 @@
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
 ## Problems In Real Interviews
-| Problem | Company | Interview Stage |
+| Problem | Company | Stage |
 |----|----|----|
 | [Get Equilibrium Index from Array](docs/problems/array/Get_Equilibrium_Index_From_Array.md) | Facebook | Screening |
 | [Get Sums of All Root-to-leaf Paths](docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md) | Facebook | Onsite |
@@ -154,3 +154,4 @@
 | [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
 | [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
 | [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
+| [Hack The Bank](docs/problems/other/Hack_The_Bank.md) | ByteDance | |
