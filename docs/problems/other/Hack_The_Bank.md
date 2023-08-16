@@ -9,7 +9,10 @@ With Tom's cat knowledge, he thinks he can hack Jerry's account by **reordering*
 
 Return *a single string representing the maximum reordered password that is less or equal to Jerry's password value*. If there is no such reordering, return "-1"
 
-- Example
+- **Input Format For Custom Testing**
+   - The first line contains an integer, `tomPassword`, denoting Tom's bank account password.
+   - The second line contains an integer, `jerryPassword`, denoting Jerry's bank account password.
+- **Example**
    - Example 1
        - Sample Input For Custom Testing
          ```
