@@ -39,12 +39,12 @@ Return *a single string representing the maximum reordered password that is less
 - Solution 1: Backtracking
    - Basic ideas
       - Sort the Tom's password in ascending order.
-      - Use 2 pointers to compare each digit from Jerry's password with Tom's possible numbers in descending order
+      - Use 2 pointers to compare each digit from Jerry's password with Tom's possible numbers in descending order.
    - Logic for original function:
       - Convert Tom's and Jerry's passwords from integer to char array.
       - Sort the Tom's char array in ascending order.
       - Create a `StringBuilder` to collect the final result.
-      - Call the backtracking function
+      - Call the backtracking function to compare the first Jerry's digit.
    -  Logic for backtracking function:
       - Stop condition 1:
          - If we already traverse all the digits in Jerry's, return the result.
