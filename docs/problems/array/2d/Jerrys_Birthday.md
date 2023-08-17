@@ -68,4 +68,54 @@ Tom is a verstile cat. With his 2 gift vards and his intelligence, return a sing
         ```
       - Explanation
          - The TikTok gift card is worth $10 and Amazon gift card is worth $10. There are 2 items from TikTok Store and 1 item from Amazon Store. Tom can purchase the 2nd item from TikTok with $7 (happiness value of 2), and the 3rd item from Amazon store.
+       
+## Solutions
+- Solution 1: Backtracking
+   - Logic for the backtracking
+      - Stop condition 1:
+         - If the number of gifts have been selected already reach 2, return the total happiness directly.
+      - Iteration:
+         - Check each item from items:
+            - If the item is from TikTok (`items[i][0] == 1`) and the TikTok gift card remaining balance can cover the price (`x - items[i][1] >= 0`)
+               - Mark this item as seleted (`items[i][0] = 0`)
+               - Call the backtracking function to select the next item and save the current maximum happiness.
+            - If the item is from Amazon (`items[i][0] == 2`) and the TikTok gift card remaining balance can cover the price (`y - items[i][1] >= 0`)
+               - Mark this item as seleted (`items[i][0] = 0`)
+               - Call the backtracking function to select the next item and save the current maximum happiness.
+            - Compare the current happiness and return the maximum happiness.
+      - Stop condition 2:
+          - If cannot select any item from the remaining items, return "-1" as a signal.
+       
+  ```java
+  public static int maximumHappiness(int x, int y, int[][] items) {
+      return backtracking(0, items, 0, x, y);
+  }
 
+  public static int backtracking(int numOfGifts, int[][] items, int totalHappiness, int x, int y) {
+      if (numOfGifts == 2) {
+          return totalHappiness;
+      }
+
+      int maxHappiness = 0;
+      for (int i = 0; i < items.length; i++) {
+          int currentHappiness = 0;
+          if (items[i][0] == 1 && (x - items[i][1] >= 0)) {
+              items[i][0] = 0;         // use 0 to mark this item has been selected
+              currentHappiness = backtracking(numOfGifts + 1, items, totalHappiness + items[i][2], x - items[i][1], y);
+          }
+          if (items[i][0] == 2 && (y - items[i][1] >= 0)) {
+              items[i][0] = 0;         // use 0 to mark this item has been selected
+              currentHappiness = backtracking(numOfGifts + 1, items, totalHappiness + items[i][2], x, y - items[i][1]);
+          }
+
+          if (currentHappiness > maxHappiness) {
+              maxHappiness = currentHappiness;
+          }
+      }
+
+      if (maxHappiness > 0) {
+          return maxHappiness;
+      }
+      return -1;
+  }
+  ```
