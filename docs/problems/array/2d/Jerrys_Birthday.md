@@ -28,3 +28,9 @@ Tom is a verstile cat. With his 2 gift vards and his intelligence, return a sing
       - `x`: Tom's TikTok gift card value.
       - `y`: Tom's Amazon gift card value.
       - `items`: a **0-indexed** 2D array with dimension `n * 3` representing the available items at both stores.
+- **Constraints**
+   - 1 <= x <= 10<sup>9</sup>
+   - 1 <= y <= 10<sup>9</sup>
+   - items[i][0] = 1 or items[i][0] = 2 where 0 < = i < n
+   - 1 < items[i][0] <= 10<sup>9</sup> where 0 < = i < n
+   
