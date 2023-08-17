@@ -155,3 +155,4 @@
 | [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
 | [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
 | [Hack The Bank](docs/problems/other/Hack_The_Bank.md) | ByteDance | |
+| [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md) | ByteDance | |
