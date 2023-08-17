@@ -53,8 +53,8 @@
 | Is Symmetric Binary Tree | | <li>isMirror(root.left,root.right) | |
 | Is Is Same Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isSame(t1.l,t2.l) && isSame(t1.r,t2.r)</ul></ul> | |
 | Is Mirror Binary Trees | | <li>Recursion<ul><ul><li>(t1.v==t2.v) && isMirror(t1.l,t2.r) && isMirror(t1.r,t2.l)</ul></ul> | |
-| Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
-| Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
-| [Convert Binary Search Tree to Sorted Doubly Linked List](problems/tree/Convert_Binary_Search_Tree_To_Sorted_Doubly_Linked_List.md) | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
+| [Is Sub Binary Trees](../problems/tree/Is_Sub_Binary_Trees.md) | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
+| [Balance Binary Search Tree](../problems/tree/Balance_Binary_Search_Tree.md) | | <li>Convert tree into list and rebuild BST from list | |
+| [Convert Binary Search Tree to Sorted Doubly Linked List](../problems/tree/Convert_Binary_Search_Tree_To_Sorted_Doubly_Linked_List.md) | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
 | [Get All Distance K Nodes from Target Node in Binary Tree](../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md) | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Depth-first search (Recursion) | |
 | [Get Right Side View of Binary Tree](../problems/tree/Get_Right_Side_View_Of_Binary_Tree.md) | | <li>Breadth-first search (Queue)<li>Use null to separate each level<li>If current node is null, so last node is right view |
