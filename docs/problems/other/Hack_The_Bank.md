@@ -12,31 +12,32 @@ Return *a single string representing the maximum reordered password that is less
 - **Input Format For Custom Testing**
    - The first line contains an integer, `tomPassword`, denoting Tom's bank account password.
    - The second line contains an integer, `jerryPassword`, denoting Jerry's bank account password.
-- **Example**
-   - Example 1
-       - Sample Input For Custom Testing
-         ```
-         123
-         322
-         ```
-       - Sample Output
-         ```
-         321
-         ```
-       - Explanation
-          - By reordering the digits of "123", we can prove that "321" is the maximize value that is less or equal to "322".
-   - Example 2
-       - Sample Input For Custom Testing
-         ```
-         1230
-         666
-         ```
-       - Sample Output
-         ```
-         -1
-         ```
-       - Explanation
-          - We can prove that Tom's reordered password value is always greater than Jerry's password value. Since Tom's action is detected by policy, he will be caught, return "-1"
+
+## Examples
+- Example 1
+   - Sample Input For Custom Testing
+     ```
+     123
+     322
+     ```
+   - Sample Output
+     ```
+     321
+     ```
+   - Explanation
+      - By reordering the digits of "123", we can prove that "321" is the maximize value that is less or equal to "322".
+- Example 2
+   - Sample Input For Custom Testing
+     ```
+     1230
+     666
+     ```
+   - Sample Output
+     ```
+     -1
+     ```
+   - Explanation
+      - We can prove that Tom's reordered password value is always greater than Jerry's password value. Since Tom's action is detected by policy, he will be caught, return "-1".
 
 ## Solution
 - Solution 1: Backtracking
