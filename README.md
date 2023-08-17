@@ -135,6 +135,9 @@
    - [Get Number of Groups in Undirected Graph](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
    - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
    - [Group Shifted Strings](docs/problems/string/Group_Shifted_Strings.md)
+- **Find the best combination for satisfying a criteria**
+   - [Hack The Bank](docs/problems/other/Hack_The_Bank.md)
+   - [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md)
 - **Detect Cycle**
    - [Detect Cycle in Undirected Graph](docs/problems/graph/Detect_Cycle_In_Undirected_Graph.md)
    - LeetCode-1041 Robot Bounded In Circle
