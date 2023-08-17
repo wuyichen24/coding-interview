@@ -57,6 +57,9 @@
    - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../../docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
    - [Get All Word Combinations for Constructing String](docs/problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
    - [Get All Operator Combinations to Make Expression Match Target Number](../../docs/problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
+- Find the best combination for satisfying a criteria
+   - [Hack The Bank](docs/problems/other/Hack_The_Bank.md)
+   - [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md)
 
 ## Strategies
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
