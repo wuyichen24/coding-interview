@@ -56,5 +56,5 @@
 | Is Sub Binary Trees | | <li>Recursion<ul><ul><li>s.v==t.v && isSameTree(s,t)<li>isSameTree(s.l,t) or isSameTree(s.r,t)</ul></ul> | |
 | Balance Binary Search Tree | | <li>Convert tree into list and rebuild BST from list | |
 | Convert Binary Search Tree to Sorted Doubly Linked List | | <li>In-order traverse<li>Record last visit node<li>last.right=curr,node.left = last | |
-| Get All Distance K Nodes from Target Node in Binary Tree | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Recursion | |
-| Get Right Side View of Binary Tree | | <li>Breadth-first search<li>Use null to separate each level<li>If current node is null, so last node is right view |
+| [Get All Distance K Nodes from Target Node in Binary Tree](../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md) | Distance K nodes in following cases<li>Child nodes<li>Parent node<li>Nodes in another branch | <li>Depth-first search (Recursion) | |
+| [Get Right Side View of Binary Tree](../problems/tree/Get_Right_Side_View_Of_Binary_Tree.md) | | <li>Breadth-first search (Queue)<li>Use null to separate each level<li>If current node is null, so last node is right view |
