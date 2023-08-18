@@ -32,3 +32,29 @@ It's your job to write a program to automatically detect the task scheduler's bu
       - Worker A cleans streets [0, 3], and worker B cleans streets [3, 5]. Street 6 is the only street that was not cleaned, so return 1.
 
 ## Solutions
+- Solution 1
+   - Create a boolean array to mark which street was not cleaned.
+   - Look through all the plans, mark the street has been cleaned.
+   - Look through the boolean array, check how many streets were not cleaned.
+  ```java
+  public int findMissingStreets(int m, int n, int[][] plans) {
+      boolean[] cleanedStreets = new boolean[n];
+      for (int i = 0; i < cleanedStreets.length; i++) {
+           cleanedStreets[i] = false;
+      }
+
+      for (int i = 0; i < m; i++) {
+          for (int j = plans[i][0]; j <= plans[i][1]; j++) {
+              cleanedStreets[j] = true;
+          }
+      }
+
+      int uncleanedStreets = 0;
+      for (int i = 0; i < cleanedStreets.length; i++) {
+          if (cleanedStreets[i] == false) {
+              uncleanedStreets++;
+          }
+      }
+      return uncleanedStreets;
+  }
+  ```
