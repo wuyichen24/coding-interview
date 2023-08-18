@@ -12,3 +12,8 @@ Write an algorithm to help Mr Gao evaluate the shortest time from home to office
 
 Output
 - The shortest time from work to home: Long
+
+## Solutions
+- Solution 1: Dijkstra's algorithm
+
+  
