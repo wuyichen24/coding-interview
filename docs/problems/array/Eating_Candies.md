@@ -70,6 +70,9 @@ They want to be fair. Their goal is to eat the same total weight of candies. Wha
    - Explanation
       - Alice will eat candies with weights `[7,3,20]` and Bob will eat candies with weights `[10,8,11,1]`, they each eat 30 weight. There is no better partition so the answer is 7.
 
+## Understanding question
+- Alice and Bob can eat different numbers of candies, not both of them need to eat candies at each round.
+
 ## Solutions
 - Solution 1: 2 pointers
    - Idea
@@ -82,6 +85,7 @@ They want to be fair. Their goal is to eat the same total weight of candies. Wha
             - If left sum = right sum, record the result, both pointer `i` and pointer `j` need to be moved.
             - If left sum > right sum, only pointer `j` needs to be moved.
             - If left sum < right sum, only pointer `i` needs to be moved.
+
 
   ```java         
   public static int maxCandiesCount(int[] candies) {
