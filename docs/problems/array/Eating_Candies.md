@@ -72,3 +72,15 @@ They want to be fair. Their goal is to eat the same total weight of candies. Wha
 
 ## Solutions
 - Solution 1: 2 pointers
+   - Idea
+      - Create 2 pointers, one pointer (`i`) starts from left and another one (`j`) starts from right.
+      - Create 2 boolean variables, indicate pointer `i` and pointer `j` needs to move or not in next round respectively.
+      - When the pointer `i` is less than the pointer `j`:
+         - If pointer `i` needs to be moved, move it to the next position on the right.
+         - If pointer `j` needs to be moved, move it to the next position on the left.
+         - Compare the sum of the left side with the sum of the right side:
+            - If left sum = right sum, record the result, both pointer `i` and pointer `j` need to be moved.
+            - If left sum > right sum, only pointer `j` needs to be moved.
+            - If left sum < right sum, only pointer `i` needs to be moved.
+  ```java
+  ```
