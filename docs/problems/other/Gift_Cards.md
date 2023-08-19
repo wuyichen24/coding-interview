@@ -50,7 +50,7 @@ How many different ways is Jugg able to buy the item?
                 - Add the number of valid solutions from sub problems.
       - Stop condition 2:
           - Return the total number of valid solution.
-   - Edge cases
+   - **Edge cases**
       - `[10, 10, 10, 50]` and `[10, 10, 50, 10]` should be considered as one valid solution (the position of the cards should not be considered).
   ```java
   public int giftCard(int n, int m) {
