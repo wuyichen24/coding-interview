@@ -74,13 +74,50 @@ They want to be fair. Their goal is to eat the same total weight of candies. Wha
 - Solution 1: 2 pointers
    - Idea
       - Create 2 pointers, one pointer (`i`) starts from left and another one (`j`) starts from right.
-      - Create 2 boolean variables, indicate pointer `i` and pointer `j` needs to move or not in next round respectively.
+      - Create 2 boolean variables, indicate pointer `i` and pointer `j` were moved or not in previous round respectively.
       - When the pointer `i` is less than the pointer `j`:
-         - If pointer `i` needs to be moved, move it to the next position on the right.
-         - If pointer `j` needs to be moved, move it to the next position on the left.
-         - Compare the sum of the left side with the sum of the right side:
+         - If pointer `i` was moved, calculate the new left sum.
+         - If pointer `j` was moved, calculate the new right sum.
+         - Compare the new left sum with the new right sum:
             - If left sum = right sum, record the result, both pointer `i` and pointer `j` need to be moved.
             - If left sum > right sum, only pointer `j` needs to be moved.
             - If left sum < right sum, only pointer `i` needs to be moved.
-  ```java
+
+  ```java         
+  public static int maxCandiesCount(int[] candies) {
+      int i = 0;
+      int j = candies.length - 1;
+      int leftSum = 0;
+      int rightSum = 0;
+      boolean iWasMoved = true;
+      boolean jWasMoved = true;
+      int answer = 0;
+
+      while (i < j) {
+          if (iWasMoved) {
+              leftSum = leftSum + candies[i];
+              iWasMoved = false;
+          }
+          if (jWasMoved) {
+              rightSum = rightSum + candies[j];
+              jWasMoved = false;
+          }
+
+          if (leftSum == rightSum) {
+              answer = (i + 1) + (candies.length - j);
+              i++;
+              j--;
+              iWasMoved = true;
+              jWasMoved = true;
+          } else if (leftSum > rightSum) {
+              j--;
+              jWasMoved = true;
+          } else {
+              i++;
+              iWasMoved = true;
+          }
+      }
+
+      return answer;
+  }
   ```
