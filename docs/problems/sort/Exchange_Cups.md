@@ -36,7 +36,7 @@ N(N < 10000)
    - Bubble sort cannot be used in this question, because it will only swap 2 elements next to each other.
 
 ## Solutions
-- Solution 1: 2 pointers
+- Solution 1: Selection sort
    - Idea
       - Use one pointer (`i`) to traverse each element from left to right.
       - Use another pointer (`j`) to traverse each element on the right side of the pointer `i` to find the minimal element after the pointer `i`.
