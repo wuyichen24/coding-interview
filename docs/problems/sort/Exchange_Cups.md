@@ -15,7 +15,7 @@ After several times, the serial number of the cups is made:
 
 For such a simple case, obviously, at least 2 swaps are required to reset.
 
-The input format is two lines:
+**The input format is two lines**:
 
 Line 1: A positive integer N (N < 10000) representing the number of bottles
 Second line: N positive integers, separated by spaces, indicating the current arrangement of the bottles.
