@@ -162,3 +162,4 @@
 | [Gift Cards](docs/problems/other/Gift_Cards.md) | ByteDance | Online Assessment (HackerRank) |
 | [Dust Control](docs/problems/other/Dust_Control.md) | ByteDance | Online Assessment (HackerRank) |
 | [Shortest Time to Office](docs/problems/graph/Shortest_Time_To_Office.md) | ByteDance | Online Assessment (HackerRank) |
+| [Eating Candies](docs/problems/array/Eating_Candies.md) | ByteDance | Online Assessment (HackerRank) |
