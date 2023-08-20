@@ -119,3 +119,4 @@ Complete the function *getMaxProduct* in the editor below.
   ```
 ## References
 - [Tiktok Practice OA](https://leetcode.com/discuss/interview-question/2772039/Tiktok-Practice-OA)
+- [TikTok (ByteDance) OA practice](https://leetcode.com/company/bytedance/discuss/2705415/TikTok-(ByteDance)-OA-practice)
