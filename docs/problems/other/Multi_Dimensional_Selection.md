@@ -47,6 +47,7 @@ Complete the function *getMaxProduct* in the editor below.
       - The minimum cost accross all the selections is 1. The optimal selection with cost 1 is [2, 3, 2, 3] with the product 1 * 4 = 4
 - Example 2
    - Input
+     ```
      STDIN          FUNCTION
      -----          --------
      2       ->    arr[] size n = 2
