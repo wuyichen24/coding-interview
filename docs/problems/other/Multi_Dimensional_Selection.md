@@ -112,8 +112,8 @@ Complete the function *getMaxProduct* in the editor below.
           h = max(h, arr[r][c + 1 + w])
           index[r] += 1
 
-  # for all minimal cost ranges, check which one can cover more nums
-  ct = max(sum(bisect.bisect_right(row, h) - bisect.bisect_left(row, l) for row in arr) for l, h in res[1])
+      # for all minimal cost ranges, check which one can cover more nums
+      ct = max(sum(bisect.bisect_right(row, h) - bisect.bisect_left(row, l) for row in arr) for l, h in res[1])
 
-  return ct * res[0]
+      return ct * res[0]
   ```
