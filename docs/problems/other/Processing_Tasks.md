@@ -51,8 +51,8 @@ Please calculate the minimum time that the computer can process all the tasks.
           int end = tasks[i][1];
           int load = tasks[i][2];
 
-          stack.add(new int[]{start, 0, load, i});
-          stack.add(new int[]{end, 1, load, i});
+          stack.add(new int[]{start, 0, load, i});  // use 0 to indicate a starting point
+          stack.add(new int[]{end, 1, load, i});    // use 1 to indicate an ending point
       }
 
       Collections.sort(stack, (a, b) -> {
@@ -120,3 +120,7 @@ Please calculate the minimum time that the computer can process all the tasks.
 
       return res
   ```
+## References
+- [Leetcode - Weekly Contest 336](https://leetcode.com/contest/weekly-contest-336/problems/minimum-time-to-complete-all-tasks/)
+- [Leetcode - Weekly Contest 336 - Solution](https://leetcode.com/contest/weekly-contest-336/problems/minimum-time-to-complete-all-tasks/)
+- [Leetcode - Discussion about the problem](https://leetcode.com/discuss/interview-question/2770147/an-interesting-oa-question-expedia/1671632)
