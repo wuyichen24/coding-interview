@@ -117,3 +117,5 @@ Complete the function *getMaxProduct* in the editor below.
 
       return ct * res[0]
   ```
+## References
+- [Tiktok Practice OA](https://leetcode.com/discuss/interview-question/2772039/Tiktok-Practice-OA)
