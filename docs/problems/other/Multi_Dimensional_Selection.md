@@ -27,7 +27,9 @@ Complete the function *getMaxProduct* in the editor below.
 **Constraints**
 
 1 <= n <= 10^3
+
 2 <= m <= 10^3
+
 1 <= arr[i][j] <= 10^9
 
 ## Examples
