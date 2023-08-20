@@ -14,15 +14,18 @@ Some of the possible selections are [2, 3, 8], [1, 2, 3, 9], [1, 3, 4, 8, 9] etc
 Here the minimum cost of all the possible selections is 6. The possible selections with the cost 6 are [2, 4, 8] and [2, 3, 4, 8]. The maximum value of the required product is obtained using the latter selection i.e. 6 * 4 = 24. Hence the answer is 24.
 
 **Function Description**
+
 Complete the function *getMaxProduct* in the editor below.
 
 *getMaxProduct* has the following parameter:
   *int arr[n][m]*: the given 2-d array
 
 **Returns**
+  
   int: the maximum possible product
 
 **Constraints**
+
 1 <= n <= 10^3
 2 <= m <= 10^3
 1 <= arr[i][j] <= 10^9
