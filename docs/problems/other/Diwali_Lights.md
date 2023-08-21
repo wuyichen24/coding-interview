@@ -76,3 +76,54 @@ Alex and Rome have bought a new LED light set for Diwali containing N LEDS, Howe
       - We have to find only one light such that it lights up at some point. We can see that choosing any light will do. So, there are 2 ways.
         
 ## Solution
+- Solution 1
+  ```cpp
+  int diwaliLights(int n, int k, vector<vector<int>> lights) {
+      vector<int> L(n), R(n);
+      for (int i = 0; i < n; ++i){
+          L[i] = light[i][0];
+          R[i] = light[i][1];
+      }
+      vector<int> all; // all numbers
+      for (int i = 0; i < ssize(L); ++i){
+          all.push_back(L[i]);
+          all.push_back(R[i]);
+      }
+      ranges::sort(all); // sort
+      all.resize(unique(begin(all), end(all)) - begin(all)); // delete dup
+      unordered_map<int, int> mp;
+      for (int i = 0; i < ssize(all); ++i){ // assign a rank
+          mp[all[i]] = i;
+      }
+      vector<int> add(ssize(all)), lose(ssize(all));
+      for (int i = 0; i < ssize(L); ++i){
+          ++add[mp[L[i]]]; // put rank into it
+          ++lose[mp[R[i]]];
+      }
+      const int N = 200002, M = (int) 1e9+7;
+      array<long long, N> fact{1, 1}, invfact{1, 1}, inv{0, 1};
+      for (int i = 2; i < N; ++i){ // mod inverse stuff
+          inv[i] = M - M/i*inv[M%i] % M;
+          fact[i] = i * fact[i-1] % M;
+          invfact[i] = invfact[i-1] * inv[i] % M;
+      }
+      auto comb = [&](int a, int b){ // comb fun
+          return fact[a] * invfact[a-b] % M * invfact[b] % M;
+      };
+      long long ans = 0;
+      for (int i = 0, sum = 0; i < ssize(all); ++i){
+          sum += add[i];
+          if (sum >= k && lose[i]){ // if sum is enough, and that something ends, we add to ans.
+              for (int j = max(1, k - sum + lose[i]); j <= min(lose[i], k); ++j){
+                  ans += comb(lose[i], j) * comb(sum - lose[i], k - j) % M;
+                  ans %= M;
+              }
+          }
+          sum -= lose[i];
+      }
+      cout << ans; // output ans
+  }
+  ```
+
+## References
+- [Number of ways of lighting K bulbs(Bytedance OA)](https://leetcode.com/company/bytedance/discuss/2579754/Number-of-ways-of-lighting-K-bulbs(Bytedance-OA))
