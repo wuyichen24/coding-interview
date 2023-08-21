@@ -165,4 +165,5 @@
 | [Eating Candies](docs/problems/array/Eating_Candies.md) | ByteDance | Online Assessment (HackerRank) |
 | [Exchange Cups](docs/problems/sort/Exchange_Cups.md) | ByteDance | Online Assessment (HackerRank) |
 | [Processing Tasks](docs/problems/other/Processing_Tasks.md) | ByteDance | Online Assessment (HackerRank) |
-| [Multi Dimensional Selection](docs/problems/other/Multi_Dimensional_Selection.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Multi Dimensional Selection*](docs/problems/other/Multi_Dimensional_Selection.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Diwali Lights*](docs/problems/other/Diwali_Lights.md) | ByteDance | Online Assessment (HackerRank) | 
