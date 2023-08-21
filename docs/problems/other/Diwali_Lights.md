@@ -127,3 +127,4 @@ Alex and Rome have bought a new LED light set for Diwali containing N LEDS, Howe
 
 ## References
 - [Number of ways of lighting K bulbs(Bytedance OA)](https://leetcode.com/company/bytedance/discuss/2579754/Number-of-ways-of-lighting-K-bulbs(Bytedance-OA))
+- [Diwali Lights](https://www.codingninjas.com/studio/problems/diwali-lights_2410478?leftPanelTab=0)
