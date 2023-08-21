@@ -18,7 +18,7 @@ Alex and Rome have bought a new LED light set for Diwali containing N LEDS, Howe
      3
      ```
    - Explanation
-      - We have to find only one light such that it lights up at some point. We can see that choosing any light will do. So, there are 3 ways
+      - We have to find only one light such that it lights up at some point. We can see that choosing any light will do. So, there are 3 ways.
 - Example 2
    - Input
      ```
@@ -62,7 +62,17 @@ Alex and Rome have bought a new LED light set for Diwali containing N LEDS, Howe
          - Light 2 and Light 4
 - Example 4
    - Input
+     ```
+     N = 2
+     K = 1
+     1 5
+     10 12
+     ```
    - Output
+     ```
+     2
+     ```
    - Explanation
-
+      - We have to find only one light such that it lights up at some point. We can see that choosing any light will do. So, there are 2 ways.
+        
 ## Solution
