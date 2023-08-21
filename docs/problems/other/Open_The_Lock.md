@@ -123,3 +123,4 @@ Given a target representing the value of the wheels that will unlock the lock, r
 ## References
 - [Bytedance OA Software Engineer for Global Payment System](https://leetcode.com/company/bytedance/discuss/2552030/Bytedance-OA-Software-Engineer-for-Global-Payment-System)
 - [Leetcode - 752. Open the Lock](https://leetcode.com/problems/open-the-lock/description/)
+- [Youtube - Open the Lock - Leetcode 752 - Python](https://www.youtube.com/watch?v=Pzg3bCDY87w&ab_channel=NeetCode)
