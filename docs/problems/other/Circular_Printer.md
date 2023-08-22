@@ -69,6 +69,29 @@ int: the minimum number of seconds needed to print*s*
 - Solution 1
   **Java**
   ```java
+  public static long getTime(String s) {
+      int ptr = 0;
+      int cost = 0;
+      for(Character c : s.toCharArray()){
+          int dest = c-'A';
+          int cw = ptr > dest ? (dest+26-ptr) : dest-ptr;
+          int acw = ptr < dest ? (ptr+26-dest) : ptr-dest;
+          cost+= Math.min(cw, acw);
+          ptr = dest;
+      }
+      return cost;
+  }
   ```
-  
 
+  **Python**
+  ```python
+  def solution(s:str):
+      steps = 0
+	   for pre,nxt in zip('A'+s,s):
+		    delta = abs(ord(nxt)-ord(pre))
+		    steps += min(delta,26-delta)
+	   return steps
+  ```
+
+## References
+- [Thomson Reuters | OA | Circular Printer](https://leetcode.com/discuss/interview-question/1263982/thomson-reuters-oa-circular-printer)
