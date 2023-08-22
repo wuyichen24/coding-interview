@@ -80,3 +80,6 @@ Complete the *starsAndBars function in the editor below.
       return input.replaceAll("^[" + trimChar + "]+|[" + trimChar + "]+$", "");
   }
   ```
+
+## References
+- [Amazon-SDE3 | assesment](https://leetcode.com/discuss/interview-question/1225268/amazon-sde3-assesment)
