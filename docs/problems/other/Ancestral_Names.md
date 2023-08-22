@@ -55,3 +55,59 @@ Complete the function *sortRoman* in the editor below.
       - Sort first by *givenName* then, if *givenName* is not unique, by the value of the Roman numeral. In decimal, the list if sorted *['Louis 8', 'Louis 9']*.
 
 ## Solutions
+- Solution 1
+  ```java
+  public static String[] sortRoman(String[] names) {
+      Arrays.sort(names, (s1, s2) -> {
+          // split the strings up into name,roman
+          String[] arr1 = s1.split(" ");
+          String[] arr2 = s2.split(" ");
+
+          // grab the numerical values of the romans
+          int val1 = romanToInt(arr1[1]);
+          int val2 = romanToInt(arr2[1]);
+
+          // if the names are equal, compare the numerals
+          if (arr1[0].equals(arr2[0])) {
+              //if first one is greater than, push it back
+              if (val1 > val2) {
+                  return 1;
+              }
+              // if first one is less than, stay same
+              else {
+                  return -1;
+              }
+          } else { //if not same, just compare the names
+              return arr1[0].compareTo(arr2[0]);
+          }
+      });
+      return names;
+  }
+
+  public static int romanToInt(String roman) {
+      int total = 0;
+
+      // create hashmap to store the roman numerals
+      HashMap<Character, Integer> romans = new HashMap<>();
+      romans.put('I', 1);
+      romans.put('V', 5);
+      romans.put('X', 10);
+      romans.put('L', 50);
+      romans.put('C', 100);
+      romans.put('D', 500);
+      romans.put('M', 1000);
+
+      for (int i = 0; i < roman.length(); i++) {
+          char c = roman.charAt(i);
+          // check to see if next roman is greater. if next roman is greater, you need to subtract
+          if (i + 1 < roman.length() && romans.get(c) < romans.get(roman.charAt(i + 1))) {
+              int add = romans.get(roman.charAt(i + 1)) - romans.get(c);
+              total += add;
+              i++;                  // skip over next one since already calculated
+          } else {
+              total += romans.get(c); // if less than, just add in order
+          }
+      }
+      return total;
+  }
+  ```
