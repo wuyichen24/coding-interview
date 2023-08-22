@@ -54,3 +54,29 @@ Complete the *starsAndBars function in the editor below.
       - The substring from *index = 1* to *index = 3* is '*|*'. There is no consecutiive pair of bars in this string.
 
 ## Solutions
+- Solution 1: String manipulation
+   - Idea:
+      - Get substring of the original string based on the start index and the end index. For each substring:
+         - Remove all the prefix and suffix '*'.
+         - Replace all the bar | by empty string.
+         - Count the length of the final string.
+       
+  ```java
+  public static List<Integer> starsAndBars(String strToEvaluate, List<Integer> startIndex, List<Integer> endIndex) {
+      List<Integer> result = new ArrayList<>();
+
+      for (int i = 0; i < startIndex.size(); i++) {
+          String subStr = strToEvaluate.substring(startIndex.get(i) -1, endIndex.get(i));
+          subStr = trimByCharacter(subStr, '*');                 // remove all the prefix and suffix *
+          String newStr = subStr.replaceAll("\\|", ""); // replace all the bar | by empty string
+          result.add(newStr.length());                                   // count the length of the final string
+      }
+
+      return result;
+  }
+
+  public static String trimByCharacter(String input, char trimChar) {
+      // Use regular expression to remove the specified character at the beginning and end of the string
+      return input.replaceAll("^[" + trimChar + "]+|[" + trimChar + "]+$", "");
+  }
+  ```
