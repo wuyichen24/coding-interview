@@ -168,3 +168,4 @@
 | [Multi Dimensional Selection*](docs/problems/other/Multi_Dimensional_Selection.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Diwali Lights*](docs/problems/other/Diwali_Lights.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Open the Lock*](docs/problems/other/Open_The_Lock.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Prefix Scores*](docs/problems/other/Prefix_Scores.md) | ByteDance | Online Assessment (HackerRank) | 
