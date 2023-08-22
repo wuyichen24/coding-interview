@@ -107,3 +107,8 @@ Complete the function *maxInversions* in the editor below.
       return count;
   }
   ``` 
+
+## References
+- [Count Inversions of size three in a given array](https://www.geeksforgeeks.org/count-inversions-of-size-three-in-a-give-array/)
+- [Find Size 3 Inversions in a list](https://leetcode.com/discuss/interview-question/777188/find-size-3-inversions-in-a-list)
+- [1395. Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/description/)
