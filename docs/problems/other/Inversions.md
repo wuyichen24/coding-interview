@@ -59,14 +59,16 @@ Complete the function *maxInversions* in the editor below.
         
 ## Solutions
 - Solution 1: Brute force
+   - Time complexity
+      - *O(n<sup>3</sup>)*
   ```java
   public long maxInversions(int arr[]) {
       long count = 0;
          
-      for(int i = 0; i< arr[].length - 2; i++) {
-          for(int j = i + 1; j < arr[].length-1; j++) {
+      for(int i = 0; i< arr.length - 2; i++) {
+          for(int j = i + 1; j < arr.length-1; j++) {
               if(arr[i] > arr[j]) {
-                  for(int k = j + 1; k < arr[].length; k++) {
+                  for(int k = j + 1; k < arr.length; k++) {
                       if(arr[j] > arr[k])
                           count++;
                   }
@@ -75,4 +77,33 @@ Complete the function *maxInversions* in the editor below.
       }
       return count;
   }
-  ```     
+  ```
+- Solution 2: Optimized brute force
+   - Idea:
+      - We consider every element arr[i] as middle element of inversion.
+         - Find all the numbers greater than a[i] whose index is less than i.
+         - Find all the numbers which are smaller than a[i] and index is more than i.
+      - Calculate the total number of combination by multiplying number of elements greater than a[i] to the number of elements smaller than a[i].
+  ```java
+  public long maxInversions2(int arr[]) {
+      long count = 0;
+
+      for (int i = 0 ; i < arr.length-1; i++) {
+          // count all smaller elements on right of arr[i]
+          int small=0;
+          for (int j = i+1; j < arr.length; j++)
+              if (arr[i] > arr[j])
+                  small++;
+
+          // count all greater elements on left of arr[i]
+          int great = 0;
+          for (int j = i-1; j >= 0; j--)
+              if (arr[i] < arr[j])
+                  great++;
+
+          // calculate the number of all the combinations
+          count += great*small;
+      }
+      return count;
+  }
+  ``` 
