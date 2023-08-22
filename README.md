@@ -170,3 +170,6 @@
 | [Open the Lock*](docs/problems/other/Open_The_Lock.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Prefix Scores*](docs/problems/other/Prefix_Scores.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Circular Printer*](docs/problems/other/Circular_Printer.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Stars and Bars](docs/problems/other/Stars_And_Bars.md) | ByteDance | Online Assessment (HackerRank) | 
+
+`*` means the page still needs to be added more details.
