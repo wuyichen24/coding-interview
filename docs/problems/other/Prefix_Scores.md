@@ -61,3 +61,27 @@ Complete the function *getPrefixScores* in the editor below.
          - For *i = 2*, the prefix array is *[1, 2]*. After applying the operations it becomes *[3, 5]*, thus its score is 8.
          - For *i = 3*, the prefix array is *[1, 2, 1]*. After applying the operations it becomes *[3, 5, 6]*, thus its score is 14.
       - Hence the answer is [2, 8, 14].
+
+## Solutions
+- Solution 1
+  ```java
+  public static List<Integer> getPrefixScores(List<Integer> arr){
+      List<Integer> arr1 = new ArrayList<Integer>();
+      int n = arr.size();
+      int max = arr.get(0);
+      int m = 0;
+      for(int i = 0 ; i < n ;i++){
+          if(max < arr.get(i)){
+              max = arr.get(i);
+          }
+          m = max;
+          int sum = 0;
+          for(int j = 0;j <= i; j++){
+              m = arr.get(j) + m;
+              sum = sum + m;
+          }
+          arr1.add(sum);
+      }
+      return arr1;
+  }
+  ```
