@@ -5,6 +5,20 @@ A subsequence is create by deleting zero or more elements from a list while main
 
 Determine the number of inversions within a given array.
 
+### Function Description
+Complete the function *maxInversions* in the editor below.
+
+*maxinversions* has the following parameter(s):
+
+*int prices[n]*: an array of integers
+
+### Return
+*long*: a long integer denoting the number of inversions in the array.
+
+### Constraints
+- 1 <= n <= 5000
+- 1 <= arr[i] <= 10<sup>6</sup>, where 0 <= i < n
+
 ## Examples
 
 ## Solutions
