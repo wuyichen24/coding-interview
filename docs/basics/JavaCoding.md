@@ -62,6 +62,7 @@ This page is to document some coding standard operations.
   ```java
   Character.isDigit(string.charAt(index));
   Character.isLetter(string.charAt(index));
+  Character.isAlphabetic(string.charAt(index));
   ```
   > NOTE: Letter doesn't contain '+' and '-'
   ```java
