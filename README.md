@@ -176,6 +176,6 @@
 | [Shared Interest*](docs/problems/other/Shared_Interest.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Tree Decrements](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
 | [LC394 Decode String](docs/problems/string/Decode_String.md) x 3 | ByteDance | Onsite |
-| [LC53](docs/problems/array/Maximum_Subarray.md) x 2 | ByteDance | Onsite |
+| [LC53 Maximum Subarray](docs/problems/array/Maximum_Subarray.md) x 2 | ByteDance | Onsite |
 
 `*` means the page still needs to be added more details.
