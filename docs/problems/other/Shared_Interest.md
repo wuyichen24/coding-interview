@@ -57,3 +57,27 @@ Complete the function *maxShared* in the editor below.
 - *1 <= friends_weight[i] <= friends_edges*
 - *friends_from[i] != friends_to[i]*
 - Each pair of friends can be connected by zero or more interests.
+
+## Examples
+- Example 1
+   - Input
+     ```
+     friends_nodes = 4
+     friends_edges = 5
+     friends_from   = [1,1,2,2,2]
+     friends_to     = [2,2,3,3,4]
+     friends_weight = [1,2,1,3,3]
+     ```
+   - Output
+     ```
+     6
+     ```
+   - Explanation
+      - Each pair of *friends_nodes = 4* friends is connected by the following interests:
+         - Pair *(1,2)* shares *2* interests (interest *1* and *2*)
+         - Pair *(1,3)* shares *1* interest (interest *1*)
+         - Pair *(1,4)* shares *0* interests
+         - Pair *(2,3)* shares *2* interests (interest *1* and *3*)
+         - Pair *(2,4)* shares *1* interest (interest *3*)
+         - Pair *(3,4)* shares *1* interest (interest *3*)
+      - The pairs connected by the maximal number of interest are *(1,2)* and (2,3). Their respective products are *1 x 2 = 2* and *2 x 3 = 6*. The result is the largest of these values which is 6
