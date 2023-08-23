@@ -81,3 +81,38 @@ Complete the function *maxShared* in the editor below.
          - Pair *(2,4)* shares *1* interest (interest *3*)
          - Pair *(3,4)* shares *1* interest (interest *3*)
       - The pairs connected by the maximal number of interest are *(1,2)* and (2,3). Their respective products are *1 x 2 = 2* and *2 x 3 = 6*. The result is the largest of these values which is 6
+
+## Solutions
+- Solution 1
+  ```
+  public static int maxShared(int friendsNodes, int friendsEdges, int[] friendsFrom, int[] friendsTo, int[] friendsWeight) {
+      // create a 2D array to store the number of shared interests for each pair of friends
+      int[][] shared = new int[friendsNodes + 1][friendsNodes + 1];
+
+      // iterate through each friendship
+      for (int i = 0; i< friendsEdges; i++) {
+          shared[friendsFrom[i]][friendsTo[i]] += friendsWeight[i];
+          shared[friendsTo[i]][friendsFrom[i]] += friendsWeight[i];
+      }
+
+      // initialize variables to track the maximum number of shared interests and the resulting node pairs
+      int maxShared = 0;
+      int maxFrom = 0;
+      int maxTo = 0;
+
+      // iterate through each pair of friends
+      for (int i = 1; i <= friendsNodes; i++) {
+          for (int j = i + 1; j <= friendsNodes; j++) {
+              // check if the current pair of friends has more shared interests than the current maximum
+              if (shared[i][j] > maxShared) {
+                  maxShared = shared[i][j];
+                  maxFrom = i;
+                  maxTo = j;
+              }
+          }
+      }
+
+      // multiply the friends_nodes of the resulting node pair and return the maximal product
+      return maxFrom * maxTo;
+  }
+  ```
