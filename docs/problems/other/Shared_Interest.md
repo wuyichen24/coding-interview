@@ -50,10 +50,10 @@ Complete the function *maxShared* in the editor below.
 - int: maximal integer product of all node pairs sharing the most interests.
 
 ### Constraints
-- 2 <= friends_nodes <= 100
-- 1 <= friends_edges < min(200, <sup>(friends_nodes x (friends_nodes - 1))</sup>/<sub>2</sub>)
-- 1 <= friends_weight[i] <= 100
-- 1 <= friends_from[i], friends_to[i] <= friend_nodes
-- 1 <= friends_weight[i] <= friends_edges
-- friends_from[i] != friends_to[i]
+- *2 <= friends_nodes <= 100*
+- *1 <= friends_edges < min(200, <sup>(friends_nodes x (friends_nodes - 1))</sup>/<sub>2</sub>)*
+- *1 <= friends_weight[i] <= 100*
+- *1 <= friends_from[i], friends_to[i] <= friend_nodes*
+- *1 <= friends_weight[i] <= friends_edges*
+- *friends_from[i] != friends_to[i]*
 - Each pair of friends can be connected by zero or more interests.
