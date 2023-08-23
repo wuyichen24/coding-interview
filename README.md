@@ -181,5 +181,6 @@
 | [LC1249 Minimum Remove to Make Valid Parentheses](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md) x 2 | ByteDance | Onsite |
 | [LC200 Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) x 2 | ByteDance | Onsite |
 | [LC1507 Reformat Date](docs/problems/string/Reformat_Date.md) | ByteDance | |
+| [LC696 Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md)
 
 `*` means the page still needs to be added more details.
