@@ -265,7 +265,7 @@ This page is to document some coding standard operations.
   | `copyOfRange(array, i, j)` | Get the sub-array [i, j-1]. |
   | `fill(array, value)` | Fill all the elements in the array by that value. |
 
-- `Arrays.sort`
+- `Arrays.sort` (`String[] arr`)
   ```java
   Arrays.sort(arr, (a, b)->a.length() - b.length());
   Arrays.sort(arr, (a, b)->{ return a.length() - b.length(); });
@@ -279,9 +279,9 @@ This page is to document some coding standard operations.
   | `min()` | Get the minimum element in the collection. |
   | `reverse()` | Reverse the order of the elements (Use this function to get the descending order). |
 
-- `Collections.sort`
+- `Collections.sort` (`List<int[]> list`)
   ```java
-  Collections.sort(stack, (a, b) -> {
+  Collections.sort(list, (a, b) -> {
       int cmp = Integer.compare(a[0], b[0]);
       if (cmp != 0) {
           return cmp;
