@@ -82,6 +82,8 @@ Complete the function *maxShared* in the editor below.
          - Pair *(3,4)* shares *1* interest (interest *3*)
       - The pairs connected by the maximal number of interest are *(1,2)* and (2,3). Their respective products are *1 x 2 = 2* and *2 x 3 = 6*. The result is the largest of these values which is 6
 
+     <img width="240" alt="Screenshot 2023-08-22 at 7 29 34 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/ce26762f-14be-4d30-bd7d-7ddfb0e988d7">
+
 ## Solutions
 - Solution 1
   ```
