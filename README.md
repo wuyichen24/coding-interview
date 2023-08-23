@@ -175,5 +175,7 @@
 | [Ancestral Names*](docs/problems/other/Ancestral_Names.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Shared Interest*](docs/problems/other/Shared_Interest.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Tree Decrements](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
+| [LC394 Decode String](https://leetcode.com/problems/decode-string/) x 3 | ByteDance | Onsite |
+
 
 `*` means the page still needs to be added more details.
