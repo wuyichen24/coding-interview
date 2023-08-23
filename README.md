@@ -177,5 +177,6 @@
 | [Tree Decrements](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
 | [LC394 Decode String](docs/problems/string/Decode_String.md) x 3 | ByteDance | Onsite |
 | [LC53 Maximum Subarray](docs/problems/array/Maximum_Subarray.md) x 2 | ByteDance | Onsite |
+| [LC743 Network Delay Time](docs/problems/graph/Network_Delay_Time.md) | ByteDance | Onsite |
 
 `*` means the page still needs to be added more details.
