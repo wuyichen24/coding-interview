@@ -118,3 +118,6 @@ Complete the function *maxShared* in the editor below.
       return maxFrom * maxTo;
   }
   ```
+
+## References
+- [Given a graph of friends who have different interests](https://www.chegg.com/homework-help/questions-and-answers/given-graph-friends-different-interests-determine-groups-friends-interests-common-use-litt-q54963777)
