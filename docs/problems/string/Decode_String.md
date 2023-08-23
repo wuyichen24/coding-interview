@@ -35,7 +35,7 @@ public String decodeString(String s) {
 ```
 
 - Solution 2: Stack
-```
+```java
 public class Solution {
     public String decodeString(String s) {
         String res = "";
