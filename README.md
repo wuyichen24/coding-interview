@@ -173,5 +173,6 @@
 | [Stars and Bars](docs/problems/other/Stars_And_Bars.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Inversions](docs/problems/other/Inversions.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Ancestral Names*](docs/problems/other/Ancestral_Names.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Shared Interest*](docs/problems/other/Shared_Interest.md) | ByteDance | Online Assessment (HackerRank) | 
 
 `*` means the page still needs to be added more details.
