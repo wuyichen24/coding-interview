@@ -184,5 +184,6 @@
 | [LC696 Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | ByteDance | |
 | [LC799 Champagne Tower](docs/problems/other/Champagne_Tower.md) | ByteDance | |
 | [LC1444 Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | ByteDance | |
+| [LC1048 Longest String Chain](docs/problems/array/Longest_String_Chain.md) | ByteDance | |
 
 `*` means the page still needs to be added more details.
