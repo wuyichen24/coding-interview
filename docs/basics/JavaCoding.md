@@ -264,8 +264,14 @@ This page is to document some coding standard operations.
   | `sort(array, Collections.reverseOrder())` | Sort the elements in descending order. |
   | `copyOfRange(array, i, j)` | Get the sub-array [i, j-1]. |
   | `fill(array, value)` | Fill all the elements in the array by that value. |
+
+- `Arrays.sort`
+  ```java
+  Arrays.sort(arr, (a, b)->a.length() - b.length());
+  Arrays.sort(arr, (a, b)->{ return a.length() - b.length(); });
+  ```
   
-### Collection
+### Collections
   | Function | Description |
   | ---- | ---- |
   | `sort()` | Sort the elements in the collection (Default is ascending order). |
@@ -273,6 +279,16 @@ This page is to document some coding standard operations.
   | `min()` | Get the minimum element in the collection. |
   | `reverse()` | Reverse the order of the elements (Use this function to get the descending order). |
 
+- `Collections.sort`
+  ```java
+  Collections.sort(stack, (a, b) -> {
+      int cmp = Integer.compare(a[0], b[0]);
+      if (cmp != 0) {
+          return cmp;
+      }
+      return Integer.compare(a[1], b[1]);
+  });
+  ```
 ---
 
 ## Type Conversions
