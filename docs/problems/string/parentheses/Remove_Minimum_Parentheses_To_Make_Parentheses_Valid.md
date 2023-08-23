@@ -16,7 +16,7 @@
         
       // Remove extra ) at the beginning
       for (int i = 0; i < s.length(); i++) {
-			    String current = s.substring(i, i+1);
+          String current = s.substring(i, i+1);
             
           if (current.equals(")")) {
               if (openParenthesesCount == 0) {   // If the current is ) and there is no open parenthese
@@ -31,7 +31,7 @@
           } else {
               sb.append(current);
           }
-		  }
+      }
         
       // Remove extra ( at the end
       if (openParenthesesCount > 0) {
