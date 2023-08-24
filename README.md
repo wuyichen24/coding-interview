@@ -42,6 +42,7 @@
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
 - [**Backtraking**](docs/solution-patterns/Backtracking.md)
+- [**Breadth-First Search**](docs/solution-patterns/Breadth_First_Search.md)
 - [**Depth-First Search (DFS)**](docs/solution-patterns/Depth_First_Search.md)
 - [**Union Find**](docs/solution-patterns/Union_Find.md)
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
