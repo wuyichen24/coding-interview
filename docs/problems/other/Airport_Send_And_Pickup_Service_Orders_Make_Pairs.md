@@ -48,3 +48,12 @@ single_orders=[
     'p_order4' 
 ]
 ```
+
+## Function
+```java
+public class Solution {
+    public static void main(String args[]) throws Exception {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    }
+}
+```
