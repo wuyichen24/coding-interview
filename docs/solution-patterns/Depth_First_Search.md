@@ -12,16 +12,30 @@
 ## Pseudocode
 - Recursive implementation
   ```
-  func DFS(v) {
-      mark v as visited
-      for adj from all the adjacents of v do {
-          if adj is not visited then {
-              DFS(G, w)
+  func DFS(node) {
+      mark node as visited
+      for adj from all the adjacents of node {
+          if adj is not visited {
+              DFS(adj)
           }
       }
   }
   ```
 - Non recursive implementation
+  ```
+  func DFS(node) {
+      create stack
+      stack.push(node)
+      while stack is not empty {
+          v = stack.pop()
+          if v is not visited {
+              for adj from all the adjacents of v {
+                  stack.push(adj) 
+              }
+          }
+      }
+  }
+  ```
 
 ## Applications
 ### 2D array
