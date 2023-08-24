@@ -10,24 +10,6 @@
 - The idea of Depth-first search can be applied to other data structures or problems.
 
 ## Applications
-### Binary tree
-  ```
-  void traverseBreadthFirstSearch(TreeNode root) {
-      Queue queue;
-      queue.enqueue(root);
-      while(queue.isEmpty() == false) {
-          TreeNode node = queue.dequeue();
-          visit(node);
-          if (node.left != null) { 
-              queue.enqueue(node.left);
-          }
-          if (node.right != null) {
-              queue.enqueue(node.right);
-          }
-      }
-  }
-  ```
-
 ### 2D array
 - Introduction
    - 2D array can be traversed by depth-first search starting from any cell.
@@ -38,7 +20,7 @@
 
   // row and col is the row and column of the starting position
   // RN is the number of rows, CN is the number of columns
-  public int traverseBreadthFirstSearch(int[][] grid, int row, int col, int RN, int CN) {
+  public int traverseDepthFirstSearch(int[][] grid, int row, int col, int RN, int CN) {
       Stack stack;
       Set   visitedSet;                                        // The set for recording all the visited cells
 
