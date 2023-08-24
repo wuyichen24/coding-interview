@@ -1,10 +1,5 @@
 # Depth-First Search
 
-- [**Concept**](#concept)
-- [**Applications**](#applications)
-   - [Binary tree](#binary-tree)
-   - [2D array](#2d-array)
-
 ## Concept
 - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
 - The algorithm starts at the root node and explores as far as possible along each branch before backtracking.
@@ -40,9 +35,17 @@
 ## Complexity
 - Time complexity: O(V + E)
 - Space complexity: O(V)
-- Notes
+- Notes:
    - V is the number of vertices and E the number of edges.
    - Weighted graphs and unweighted graphs have the same complexity (Weights having no direct impact on the complexity.).
+
+## When to use
+- Pathfinding
+   - Solving maze with only one path.
+   - May not find the shortest path between nodes (For finding shortest path, use BFS).
+- Topological sorting
+- Cycle detection
+- Finding connected components
 
 ## Applications
 ### 2D array
