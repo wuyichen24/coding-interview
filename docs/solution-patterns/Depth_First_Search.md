@@ -9,6 +9,20 @@
 - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
 - The idea of Depth-first search can be applied to other data structures or problems.
 
+## Pseudocode
+- Recursive implementation
+  ```
+  func DFS(v) {
+      mark v as visited
+      for adj from all the adjacents of v do {
+          if adj is not visited then {
+              DFS(G, w)
+          }
+      }
+  }
+  ```
+- Non recursive implementation
+
 ## Applications
 ### 2D array
 - Introduction
