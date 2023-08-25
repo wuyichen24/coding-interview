@@ -9,9 +9,9 @@
 ## Pseudocode
 - Recursive implementation
   ```
-  func DFS(node) {
+  func DFS(root) {
       mark node as visited
-      for adj from all the adjacents of node {
+      for adj from all the adjacents of root {
           if adj is not visited {
               DFS(adj)
           }
@@ -20,9 +20,9 @@
   ```
 - Non recursive implementation
   ```
-  func DFS(node) {
+  func DFS(root) {
       create stack
-      stack.push(node)
+      stack.push(root)
       while stack is not empty {
           v = stack.pop()
           if v is not visited {
