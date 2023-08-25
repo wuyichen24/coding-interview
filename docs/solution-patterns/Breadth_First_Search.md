@@ -22,3 +22,10 @@ func BFS(node) {
     }
 }
 ```
+
+## Complexity
+- Time complexity: O(V + E)
+- Space complexity: O(V)
+- Notes:
+   - V is the number of vertices and E the number of edges.
+   - Weighted graphs and unweighted graphs have the same complexity (Weights having no direct impact on the complexity).
