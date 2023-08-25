@@ -29,3 +29,8 @@ func BFS(node) {
 - Notes:
    - V is the number of vertices and E the number of edges.
    - Weighted graphs and unweighted graphs have the same complexity (Weights having no direct impact on the complexity).
+
+## When to use
+- Pathfinding
+   - Find the shortest path between nodes
+- Enumeration
