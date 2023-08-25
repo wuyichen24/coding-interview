@@ -7,3 +7,18 @@
 ![Animated_BFS](https://github.com/wuyichen24/coding-interview/assets/8989447/011f31a9-5dcc-4a3e-bdaf-633dc901ae64)
 
 ## Pseudocode
+```
+func BFS(node) {
+    create queue
+    mark node as visited
+    queue.add(root) {
+        v = queue.poll()
+        for adj from all the adjacents of v {
+            if adj is not visited {
+                mark adj as visited
+                queue.add(adj)
+            }
+        }
+    }
+}
+```
