@@ -32,5 +32,6 @@ func BFS(node) {
 
 ## When to use
 - Pathfinding
-   - Find the shortest path between nodes
-- Enumeration
+   - Find the shortest path between nodes.
+- Enumeration (find all the possible solutions).
+- Serialization/Deserialization of a binary tree vs serialization in sorted order, allows the tree to be re-constructed in an efficient manner.
