@@ -33,6 +33,10 @@ func BFS(node) {
 
 ## Code example
 ### Graph
+- `edges`: A collection of unordered lists used to represent a finite graph.
+    - `edges[a, b]` = a is the source node and b is the destination node.
+- `n`: The number of node.
+- `root`: The root node.
 ```java
 public static void bfs(int[][] edges, int n, int root) {
     // Build the graph
