@@ -41,7 +41,7 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
       - Check each character in the string from left to right:
          - If the current char is a `[`, solve the subproblem and get the subresult from `[` `]`.
          - If the current char is a `]`, it means the subproblem has been finished, return the subresult to upper caller.
-         - If the current char is a letter, continue accumulate the subresult.
+         - If the current char is a letter, continue accumulating the subresult.
          - If the current char is a number, calculate the count.
    - Time complexity
       - *O(n)*
@@ -66,7 +66,7 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
                   count = 0;                    
               } else if (c == ']') {                  // if current char is a ], return the subresult to upper caller
                   return sb.toString();
-              } else if (Character.isAlphabetic(c)) { // if current char is a letter, continue accumulate the subresult
+              } else if (Character.isAlphabetic(c)) { // if current char is a letter, continue accumulating the subresult
                   sb.append(c);
               } else {                                // if current char is a number, calculate the count
                   count = count * 10 + c - '0';
@@ -79,41 +79,51 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
   ```
 
 - Solution 2: Stack
-```java
-public class Solution {
-    public String decodeString(String s) {
-        String res = "";
-        Stack<Integer> countStack = new Stack<>();
-        Stack<String> resStack = new Stack<>();
-        int idx = 0;
-        while (idx < s.length()) {
-            if (Character.isDigit(s.charAt(idx))) {
-                int count = 0;
-                while (Character.isDigit(s.charAt(idx))) {
-                    count = 10 * count + (s.charAt(idx) - '0');
-                    idx++;
-                }
-                countStack.push(count);
-            }
-            else if (s.charAt(idx) == '[') {
-                resStack.push(res);
-                res = "";
-                idx++;
-            }
-            else if (s.charAt(idx) == ']') {
-                StringBuilder temp = new StringBuilder (resStack.pop());
-                int repeatTimes = countStack.pop();
-                for (int i = 0; i < repeatTimes; i++) {
-                    temp.append(res);
-                }
-                res = temp.toString();
-                idx++;
-            }
-            else {
-                res += s.charAt(idx++);
-            }
-        }
-        return res;
-    }
-}
-```
+   - Idea
+      - Create 2 stacks
+         - One is for the substring inside of `[]`.
+         - Another is for the count.
+      - Check each character in the string from left to right:
+         - If current char is a number, calculate the count until current char is not a number.
+         - If current char is a `[`, push current result into the stack and reset the result.
+         - If current char is a `]`,
+            - Pull subresult from the string stack and the count from the integer stack.
+            - Based on the count, repeat the subresult.
+            - Set the result.
+         - If current char is a letter, continue accumulating the subresult.
+  ```java
+  class Solution {
+      public String decodeString(String s) {
+          String result = "";
+          Stack<Integer> countStack = new Stack<>(); // integer stack stores the count
+          Stack<String>  resStack = new Stack<>();   // string stack stores subresult
+          int i = 0;
+          while (i < s.length()) {
+              char c = s.charAt(i);
+              if (Character.isDigit(c)) {            // if current char is a number, calculate the count until current char is not a number
+                  int count = 0;
+                  while (Character.isDigit(s.charAt(i))) {
+                      count = 10 * count + (s.charAt(i) - '0');
+                      i++;
+                  }
+                  countStack.push(count);
+              } else if (c == '[') {                 // if current char is a [, push current result into the stack and reset the result
+                  resStack.push(result);
+                  result = "";
+                  i++;
+              } else if (c == ']') {                 // if current char is a ], build the subresult
+                  StringBuilder temp = new StringBuilder (resStack.pop());
+                  int repeatTimes = countStack.pop();
+                  for (int j = 0; j < repeatTimes; j++) {
+                      temp.append(result);
+                  }
+                  result = temp.toString();
+                  i++;
+              } else {                               // if current char is a letter, continue accumulating subresult
+                  result += s.charAt(i++);
+              }
+          }
+          return result;
+      }
+  }
+  ```
