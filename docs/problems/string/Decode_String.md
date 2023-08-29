@@ -10,11 +10,31 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
 - Example 1
    - Input
      ```
-     s = "3[a]2[bc]"
+     3[a]2[bc]
      ```
    - Output
      ```
+     aaabcbc
      ```
+- Example 2
+   - Input
+     ```
+     3[a2[c]]
+     ```
+   - Output
+     ```
+     accaccacc
+     ```
+- Example 3
+   - Input
+     ```
+     2[abc]3[cd]ef
+     ```
+   - Output
+     ```
+     abcabccdcdcdef
+     ```
+
 ## Solutions
 - Solution 1: Recusion
 ```java
