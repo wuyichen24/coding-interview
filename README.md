@@ -30,6 +30,7 @@
 - [**Queue**](docs/data-structure/queue/Queue.md)
 - [**Stack**](docs/data-structure/stack/Stack.md)
 - [**Binary Tree**](docs/data-structure/tree/Binary_Tree.md)
+- [**Graph**](docs/data-structure/graph/Graph.md)
 - [**Heap**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
 
