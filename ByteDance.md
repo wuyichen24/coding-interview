@@ -24,8 +24,8 @@
 
 | LC | Problem | # occs. in 1p3a | # occs. in LC |
 |----|----|----|----|
-| 394  | [Decode String](docs/problems/string/Decode_String.md) | 3 | 7 (6m.) |
-| 53   | [Maximum Subarray](docs/problems/array/Maximum_Subarray.md) | 2 | 3 (6m.) |
+| [394](https://leetcode.com/problems/decode-string/) | [Decode String](docs/problems/string/Decode_String.md) | 3 | 7 (6m.) |
+| [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](docs/problems/array/Maximum_Subarray.md) | 2 | 3 (6m.) |
 | 743  | [Network Delay Time](docs/problems/graph/Network_Delay_Time.md) | 2 | |
 | 1249 | [Minimum Remove to Make Valid Parentheses](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md) | 2 | |
 | 200  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | |
