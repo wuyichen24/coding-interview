@@ -63,9 +63,11 @@ public void bfs(int[][] edges, int n, int root) {
 
     while (!queue.isEmpty()) {
         int curNode = queue.poll();
+
+        System.out.println(curNode);
+
         for (int nextNode : map.getOrDefault(curNode, new ArrayList<>())) {
             if (!visited[nextNode]) {
-                System.out.println(nextNode);
                 visited[nextNode] = true;
                 queue.add(nextNode);
             }
@@ -74,3 +76,40 @@ public void bfs(int[][] edges, int n, int root) {
 }
 ```  
 ### 2D array
+```java
+public class BFS2DArray {
+    static int[] dx = {-1, 1, 0, 0}; // Directional changes in x-coordinate
+    static int[] dy = {0, 0, -1, 1}; // Directional changes in y-coordinate
+
+    static void bfs(int[][] grid, int startX, int startY) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        Queue<int[]> queue = new LinkedList<>();
+        boolean[][] visited = new boolean[rows][cols];
+
+        visited[startX][startY] = true;
+        queue.offer(new int[]{startX, startY});
+
+        while (!queue.isEmpty()) {
+            int[] current = queue.poll();
+            int x = current[0];
+            int y = current[1];
+
+            System.out.println("Visiting cell: (" + x + ", " + y + ")");
+
+            // Explore neighbors
+            for (int k = 0; k < 4; k++) {
+                int newX = x + dx[k];
+                int newY = y + dy[k];
+
+                if (newX >= 0 && newX < rows && newY >= 0 && newY < cols
+                        && !visited[newX][newY]) {
+                    queue.offer(new int[]{newX, newY});
+                    visited[newX][newY] = true;
+                }
+            }
+        }
+    }
+}
+```
