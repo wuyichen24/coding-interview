@@ -11,7 +11,8 @@
 func BFS(node) {
     create queue
     mark node as visited
-    queue.add(root) {
+    queue.add(root)
+    when queue is not empty {
         v = queue.poll()
         for adj from all the adjacents of v {
             if adj is not visited {
