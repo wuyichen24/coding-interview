@@ -52,12 +52,7 @@
 
 ## Code example
 ### Graph
-- Notes
-   - `edges`: A collection of unordered lists used to represent a finite graph.
-      - `edges[a, b]` = a is the source node and b is the destination node.
-   - `n`: The number of node.
-   - `root`: The root node.
-- Recursive implementation  
+- **Recursive implementation**  
   ```java
   public void dfsByRecursion(int[][] edges, int n, int root){
       // Build the graph
@@ -86,7 +81,7 @@
       }
   }
   ```
-- Stack implementation
+- **Stack implementation**
   ```java
   public void dfsByStack(int[][] edges, int n, int root){
       // Build the graph
@@ -119,7 +114,7 @@
   ```
 
 ### 2D array
-- Recursive implementation 
+- **Recursive implementation**
   ```java
   public class DFS2DArray {
       static int[] dx = {-1, 1, 0, 0}; // Directional changes in x-coordinate
@@ -157,6 +152,43 @@
       }
   }
   ```
-- Stack implementation
+- **Stack implementation**
   ```java
+  public class DFS2DArray {
+      static int[] dx = {-1, 1, 0, 0}; // Directional changes in x-coordinate
+      static int[] dy = {0, 0, -1, 1}; // Directional changes in y-coordinate
+
+      static void dfsByStack(int[][] grid, int startX, int startY) {
+          int rows = grid.length;
+          int cols = grid[0].length;
+
+          Stack<int[]> stack = new Stack<>();
+          boolean[][] visited = new boolean[rows][cols];
+
+          stack.push(new int[]{startX, startY});
+
+          while (!stack.isEmpty()) {
+              int[] current = stack.pop();
+              int x = current[0];
+              int y = current[1];
+
+              if (x < 0 || x >= rows || y < 0 || y >= cols || visited[x][y]) {
+                  continue;
+              }
+
+              // Process the current cell here
+              System.out.println("Visiting cell: (" + x + ", " + y + ")");
+
+              visited[x][y] = true;
+
+              // Explore neighbors
+              for (int k = 0; k < 4; k++) {
+                  int newX = x + dx[k];
+                  int newY = y + dy[k];
+
+                  stack.push(new int[]{newX, newY});
+              }
+          }
+      }
+  }
   ```
