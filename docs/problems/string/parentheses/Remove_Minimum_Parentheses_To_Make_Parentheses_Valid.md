@@ -44,7 +44,7 @@
 - Solution 1: Stack
    - Idea
       - Use stack to store indexes of any invalid parentheses.
-      - 2 passes
+      - 2 passes:
          - Find all the any invalid parentheses and store their indexes in a stack.
          - Build the result and don't include any char whose index is in the stack.
    - Steps
@@ -89,12 +89,31 @@
   ```
 
 - Solution 2: Two pass + StringBuilder
+   - Idea
+      - Use a counter to count how many open parenthese.
+      - 2 passes
+         - Remove extra ) at the beginning
+         - Remove Remove extra ( at the end
+   - Steps
+      - 1st pass: Check each character from left to right:
+         - If the current char is `)`:
+            - If the open parens count is 0, so this `)` is invalid, ignore it.
+            - If the open parens count > 0, so this `)` is valid, add it to the result and reduce the open parens count by 1.
+         - If the current char is `(`:
+            - Add it to the result and increase the open parens count by 1.
+         - If the current char is a letter:
+            - Add it to the result.
+      - 2nd pass: If the the open parens count > 0, it means that there are some extra ( at the end. Remove them.
+         - while the open parens count > 0
+            - Remove the last occurrence `(` (use Java `StringBuilder.lastIndexOf` function).
+            - Reduce the open parens count by 1.
+         
   ```java
   public String removeMinParenthesesToMakeValid(String s) {
       StringBuilder sb = new StringBuilder();
       int openParenthesesCount = 0;
         
-      // Remove extra ) at the beginning
+      // remove extra ) at the beginning
       for (int i = 0; i < s.length(); i++) {
           String current = s.substring(i, i+1);
             
@@ -113,7 +132,7 @@
           }
       }
         
-      // Remove extra ( at the end
+      // remove extra ( at the end
       if (openParenthesesCount > 0) {
           while (openParenthesesCount > 0) {
               int index = sb.lastIndexOf("(");
