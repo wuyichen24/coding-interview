@@ -56,7 +56,7 @@
 - `n`: The number of node.
 - `root`: The root node.
 ```java
-public static void dfsByRecursion(int[][] edges, int n, int root){
+public void dfsByRecursion(int[][] edges, int n, int root){
     // Build the graph
     // key is the "from" node, value is the list of "to" nodes
     Map<Integer, List<Integer>> map = new HashMap<>();
@@ -74,7 +74,7 @@ public static void dfsByRecursion(int[][] edges, int n, int root){
     recursion(root, map, visited);
 }
 
-public static void recursion(int node, Map<Integer, List<Integer>> map, boolean visited[]) {
+public void recursion(int node, Map<Integer, List<Integer>> map, boolean visited[]) {
     for (int nextNode : map.getOrDefault(node, new ArrayList<>())) {
         if (!visited[nextNode]) {
             System.out.println(nextNode);
