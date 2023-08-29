@@ -26,7 +26,7 @@
       }
   }
   ```
-- Non recursive implementation
+- Stack implementation
   ```
   func DFS(root) {
       create stack
@@ -51,38 +51,41 @@
 
 ## Code example
 ### Graph
-- `edges`: A collection of unordered lists used to represent a finite graph.
-    - `edges[a, b]` = a is the source node and b is the destination node.
-- `n`: The number of node.
-- `root`: The root node.
-```java
-public void dfsByRecursion(int[][] edges, int n, int root){
-    // Build the graph
-    // key is the "from" node, value is the list of "to" nodes
-    Map<Integer, List<Integer>> map = new HashMap<>();
-    for (int i = 0; i < edges.length; i++) {
-        int from = edges[i][0];
-        int to   = edges[i][1];
+- Notes
+   - `edges`: A collection of unordered lists used to represent a finite graph.
+      - `edges[a, b]` = a is the source node and b is the destination node.
+   - `n`: The number of node.
+   - `root`: The root node.
+- Recursive implementation  
+  ```java
+  public void dfsByRecursion(int[][] edges, int n, int root){
+      // Build the graph
+      // key is the "from" node, value is the list of "to" nodes
+      Map<Integer, List<Integer>> map = new HashMap<>();
+      for (int i = 0; i < edges.length; i++) {
+          int from = edges[i][0];
+          int to   = edges[i][1];
 
-        map.putIfAbsent(from, new ArrayList<>());
-        map.get(from).add(to);
-    }
+          map.putIfAbsent(from, new ArrayList<>());
+          map.get(from).add(to);
+      }
 
-    boolean visited[] = new boolean[n];
-    visited[root] = true;
+      boolean visited[] = new boolean[n];
+      visited[root] = true;
 
-    recursion(root, map, visited);
-}
+      recursion(root, map, visited);
+  }
 
-public void recursion(int node, Map<Integer, List<Integer>> map, boolean visited[]) {
-    for (int nextNode : map.getOrDefault(node, new ArrayList<>())) {
-        if (!visited[nextNode]) {
-            System.out.println(nextNode);
-            recursion(nextNode, map, visited);
-        }
-    }
-}
-```
+  public void recursion(int node, Map<Integer, List<Integer>> map, boolean visited[]) {
+      for (int nextNode : map.getOrDefault(node, new ArrayList<>())) {
+          if (!visited[nextNode]) {
+              System.out.println(nextNode);
+              recursion(nextNode, map, visited);
+          }
+      }
+  }
+  ```
+- Stack implementation
 
 ### 2D array
 - Introduction
