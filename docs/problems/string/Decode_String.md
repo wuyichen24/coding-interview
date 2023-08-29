@@ -92,7 +92,7 @@ The encoding rule is: `k[encoded_string]`, where the `encoded_string` inside the
             - Set the result.
          - If current char is a letter, continue accumulating the subresult.
    - Time complexity
-      - *O(n<sup>n</sup>)*
+      - *O(n<sup>2</sup>)* (2-level nested while loop)
   ```java
   class Solution {
       public String decodeString(String s) {
