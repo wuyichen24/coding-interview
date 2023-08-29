@@ -87,6 +87,36 @@
   }
   ```
 - Stack implementation
+  ```java
+  public void dfsByStack(int[][] edges, int n, int root){
+      // Build the graph
+      // key is the "from" node, value is the list of "to" nodes
+      Map<Integer, List<Integer>> map = new HashMap<>();
+      for (int i = 0; i < edges.length; i++) {
+          int from = edges[i][0];
+          int to   = edges[i][1];
+
+          map.putIfAbsent(from, new ArrayList<>());
+          map.get(from).add(to);
+      }
+
+      Stack<Integer> stack = new Stack<>();
+      boolean visited[] = new boolean[n];
+
+      stack.push(root);
+
+      while (!stack.isEmpty()) {
+          int curNode = stack.pop();
+          if (!visited[curNode]) {
+              System.out.println(curNode);
+              visited[curNode] = true;
+              for (int nextNode : map.getOrDefault(curNode, new ArrayList<>())) {
+                  stack.push(nextNode);
+              }
+          }
+      }
+  }
+  ```
 
 ### 2D array
 - Introduction
