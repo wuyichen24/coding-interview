@@ -44,7 +44,7 @@ func BFS(node) {
 - `n`: The number of node.
 - `root`: The root node.
 ```java
-public static void bfs(int[][] edges, int n, int root) {
+public void bfs(int[][] edges, int n, int root) {
     // Build the graph
     // key is the "from" node, value is the list of "to" nodes
     Map<Integer, List<Integer>> map = new HashMap<>();
