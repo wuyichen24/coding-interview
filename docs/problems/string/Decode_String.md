@@ -43,6 +43,8 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
          - If the current char is a `]`, it means the subproblem has been finished, return the subresult to upper caller.
          - If the current char is a letter, continue accumulate the subresult.
          - If the current char is a number, calculate the count.
+   - Time complexity
+      - *O(n)*
   ```java
   class Solution {
       int i = 0;
