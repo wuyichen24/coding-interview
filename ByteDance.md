@@ -22,7 +22,7 @@
 | [Tree Decrements**](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Airport send and pickup service orders make pairs**](docs/problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md) | ByteDance | Online Assessment (HackerRank) | 
 
-| LC | Problem | # occurrences in 1p3a | # occurrences in LC |
+| LC | Problem | # occs. in 1p3a | # occs. in LC |
 |----|----|----|----|
 | 394  | [Decode String](docs/problems/string/Decode_String.md) | 3 | |
 | 53   | [Maximum Subarray](docs/problems/array/Maximum_Subarray.md) | 2 | |
@@ -34,3 +34,6 @@
 | 799  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
 | 1048 | [Longest String Chain](docs/problems/array/Longest_String_Chain.md) | | |
+
+`# occs.` = number of occurrences
+`1p3a` = 1 point 3 acres
