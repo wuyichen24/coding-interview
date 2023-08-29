@@ -119,38 +119,40 @@
   ```
 
 ### 2D array
-- Introduction
-   - 2D array can be traversed by depth-first search starting from any cell.
-   - Use serial numbers to identify different cells.
-  ```
-  int[] rowChange = {-1, 0, 1, 0};                             // The row    change for going up, left, down, and right
-  int[] colChange = {0, -1, 0, 1};                             // The column change for going up, left, down, and right
+- Recursive implementation 
+  ```java
+  public class DFS2DArray {
+      static int[] dx = {-1, 1, 0, 0}; // Directional changes in x-coordinate
+      static int[] dy = {0, 0, -1, 1}; // Directional changes in y-coordinate
 
-  // row and col is the row and column of the starting position
-  // RN is the number of rows, CN is the number of columns
-  public int traverseDepthFirstSearch(int[][] grid, int row, int col, int RN, int CN) {
-      Stack stack;
-      Set   visitedSet;                                        // The set for recording all the visited cells
+      static void dfsByRecursion(int[][] grid, int startX, int startY) {
+          int rows = grid.length;
+          int cols = grid[0].length;
+          boolean[][] visited = new boolean[rows][cols];
 
-      stack.push(row * CN + col);                              // Push the current cell to the stack (Use serial number to identify this cell)
-      visitedSet.add(row * CN + col);                          // Add the current cell to the visitedSet (Use serial number to identify this cell)
+          recursion(grid, startX, startY, visited);
+      }
 
-      while (stack.isEmpty() == false) {
-          int serialNumber = stack.pop();
-        
-          int currentRow = serialNumber / CN;                  // Recover the row from the serial number
-          int currentCol = serialNumber % CN;                  // Recover the column from the serial number
-        
-          for (int k = 0; k < 4; ++k) {                        // For current cell, there are 4 directions can go: up, left, down, right
-              int nextRow = currentRow + rowChange[k],         // Get the row of the next cell to go
-              int nextCol = currentCol + colChange[k];         // Get the column of the next cell to go
-            
-              if (!visitedSet.contains(nextRow * CN + nextCol) // Check the next cell has been visited or not
-                  && 0 <= nextRow && nextRow < RN              // Check the next cell is in the grid or not (0 <= currentRow < RN, 0 <= currentCol < CN)
-                  && 0 <= nextCol && nextCol < CN) {
-                  stack.push(nextRow * CN + nextCol);          // Push the next cell into stack
-                  visitedSet.add(nextRow * CN + nextCol);      // Push the next cell into visitedSet
-              }
+      static void recursion(int[][] grid, int x, int y, boolean[][] visited) {
+          int rows = grid.length;
+          int cols = grid[0].length;
+
+          // Base case: Out of bounds or already visited
+          if (x < 0 || x >= rows || y < 0 || y >= cols || visited[x][y]) {
+              return;
+          }
+
+          // Process the current cell here
+          System.out.println("Visiting cell: (" + x + ", " + y + ")");
+
+          visited[x][y] = true;
+
+          // Explore neighbors
+          for (int k = 0; k < 4; k++) {
+              int newX = x + dx[k];
+              int newY = y + dy[k];
+
+              recursion(grid, newX, newY, visited);
           }
       }
   }
