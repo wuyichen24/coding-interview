@@ -37,35 +37,44 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
 
 ## Solutions
 - Solution 1: Recusion
-```java
-int i = 0;
-public String decodeString(String s) {
-    StringBuilder sb = new StringBuilder();
-    int count = 0;
-    String tmp_string = "";
+   - Idea
+      - Check each character in the string from left to right:
+         - If the current char is a `[`, solve the subproblem and get the subresult from `[` `]`.
+         - If the current char is a `]`, it means the subproblem has been finished, return the subresult to upper caller.
+         - If the current char is a letter, continue accumulate the subresult.
+         - If the current char is a number, calculate the count.
+  ```java
+  class Solution {
+      int i = 0;
+
+      public String decodeString(String s) {
+          StringBuilder sb = new StringBuilder();
+          int count = 0;
+          String subResult = "";
     
-    while (i < s.length()) {
-        char c = s.charAt(i);
-        i++;
+          while (i < s.length()) {
+              char c = s.charAt(i);
+              i++;
         
-        if (c == '[') {
-            tmp_string = decodeString(s); // do subproblem
-            for (int j = 0; j < count; j++) {
-                sb.append(tmp_string);
-            }
-            count = 0; // reset counter
-        } else if (c == ']') { // subproblem complete
-            break;
-        } else if (Character.isAlphabetic(c)) {
-            sb.append(c);
-        } else {
-            count = count * 10 + c - '0';
-        }
-    }
+              if (c == '[') {
+                  subResult = decodeString(s);  // do subproblem
+                  for (int j = 0; j < count; j++) {
+                      sb.append(subResult);
+                  }
+                  count = 0;                    
+              } else if (c == ']') {            // subproblem complete
+                  return sb.toString();
+              } else if (Character.isAlphabetic(c)) {
+                  sb.append(c);
+              } else {                          // calculate the counter
+                  count = count * 10 + c - '0';
+              }
+          }
     
-    return sb.toString();
-}
-```
+          return sb.toString();
+      }
+  }
+  ```
 
 - Solution 2: Stack
 ```java
