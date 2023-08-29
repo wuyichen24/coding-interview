@@ -87,5 +87,5 @@ We will send a signal from a given node `k`. **Return the minimum time it takes 
           return N == 0 ? res : -1;   
       }
   }
-```
-- Solution 2
+  ```
+
