@@ -6,6 +6,12 @@
 
 ![Animated_BFS](https://github.com/wuyichen24/coding-interview/assets/8989447/011f31a9-5dcc-4a3e-bdaf-633dc901ae64)
 
+## When to use
+- Pathfinding
+   - Find the shortest path between nodes.
+- Enumeration (find all the possible solutions).
+- Serialization/Deserialization of a binary tree vs serialization in sorted order, allows the tree to be re-constructed in an efficient manner.
+
 ## Pseudocode
 ```
 func BFS(node) {
@@ -25,8 +31,8 @@ func BFS(node) {
 ```
 
 ## Complexity
-- Time complexity: O(V + E)
-- Space complexity: O(V)
+- Time complexity: *O(V + E)*
+- Space complexity: *O(V)*
 - Notes:
    - V is the number of vertices and E the number of edges.
    - Weighted graphs and unweighted graphs have the same complexity (Weights having no direct impact on the complexity).
@@ -45,13 +51,8 @@ public static void bfs(int[][] edges, int n, int root) {
     for (int i = 0; i < edges.length; i++) {
         int from = edges[i][0];
         int to   = edges[i][1];
-        if (map.get(from) == null) {
-            List<Integer> nextNodes = new ArrayList<>();
-            nextNodes.add(to);
-            map.put(from, nextNodes);
-        } else {
-            map.get(from).add(to);
-        }
+        map.putIfAbsent(from, new ArrayList<>());
+        map.get(from).add(to);
     }
 
     Queue<Integer> queue = new LinkedList<>();
@@ -73,9 +74,3 @@ public static void bfs(int[][] edges, int n, int root) {
 }
 ```  
 ### 2D array
-
-## When to use
-- Pathfinding
-   - Find the shortest path between nodes.
-- Enumeration (find all the possible solutions).
-- Serialization/Deserialization of a binary tree vs serialization in sorted order, allows the tree to be re-constructed in an efficient manner.
