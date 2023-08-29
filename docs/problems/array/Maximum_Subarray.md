@@ -3,6 +3,9 @@
 ## Alias
 - Leetcode (53): [Decode String](https://leetcode.com/problems/decode-string/)
 
+## Problem
+Given an integer array `nums`, find the subarray with the largest sum, and return its sum.
+
 ## Examples
 - Example 1
    - Input
