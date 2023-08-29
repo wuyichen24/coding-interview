@@ -7,8 +7,88 @@
 - Remove the minimum number of parentheses so that the resulting parentheses string is valid.
 - Return the valid parentheses string.
 
+## Examples
+- Example 1
+   - Input
+     ```
+     lee(t(c)o)de)
+     ```
+   - Output
+     ```
+     lee(t(c)o)de
+     ```
+   - Explanation
+      - "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+- Example 2
+   - Input
+     ```
+     a)b(c)d
+     ```
+   - Output
+     ```
+     ab(c)d
+     ```
+   - Explanation
+- Example 3
+   - Input
+     ```
+     ))((
+     ```
+   - Output
+     ```
+     ```
+   - Explanation
+      - An empty string is also valid.
+
 ## Solutions
-- Solution 1: Two pass + StringBuilder
+- Solution 1: Stack
+   - Idea
+      - Use stack to store indexes of any invalid parentheses.
+      - 2 passes
+         - Find all the any invalid parentheses and store their indexes in a stack.
+         - Build the result and don't include any char whose index is in the stack.
+   - Steps
+      - Create a stack to store the index of any invalid `(` or `)`.
+      - Check each character from left to right:
+          - If it is a letter, continue.
+          - If it is a `(`, push the index to the stack.
+          - If it is a `)`:
+             - If stack has a corresponding `(`, so the current char is valid, remove `(` from stack.
+             - If not, so the current char is invalid, add it to stack.
+      - Covert the stack to a set.
+      - Check each character from left to right:
+          - If the index of the current character is not in the stack, add to the result.
+          - Otherwise ignore it.
+               
+  ```java
+  class Solution {
+      public String minRemoveToMakeValid(String s) {
+          Stack<Integer> stack = new Stack<>();
+          for(int i=0;i<s.length();i++) {
+              char ch = s.charAt(i);
+              if(Character.isAlphabetic(ch))
+                  continue;
+              if(ch == '(')
+                  stack.push(i);
+              else {
+                  if(!stack.isEmpty() && s.charAt(stack.peek()) == '(')
+                      stack.pop();
+                  else stack.push(i);
+              }
+          }
+        
+          StringBuilder result = new StringBuilder();
+          HashSet<Integer> set = new HashSet<>(stack);
+          for(int i=0;i<s.length();i++)
+              if(!set.contains(i))               // if the index of the current character is not in the stack, add to the result.
+                  result.append(s.charAt(i));
+        
+          return result.toString();
+      }
+  }
+  ```
+
+- Solution 2: Two pass + StringBuilder
   ```java
   public String removeMinParenthesesToMakeValid(String s) {
       StringBuilder sb = new StringBuilder();
@@ -46,33 +126,4 @@
   }
   ```
 
-- Solution 2: Stack
-```java
-class Solution {
-    public String minRemoveToMakeValid(String s) {
-        Stack<Integer> stack = new Stack<>();
-        for(int i=0;i<s.length();i++) {
-            char ch = s.charAt(i);
-            if(Character.isAlphabetic(ch))
-                continue;
-            if(ch == '(')
-                stack.push(i);
-            else {
-                if(!stack.isEmpty() && s.charAt(stack.peek()) == '(')
-                    stack.pop();
-                else stack.push(i);
-            }
-        }
-        
-        // if(stack.size() == 0) return "";
-        
-        StringBuilder result = new StringBuilder();
-        HashSet<Integer> set = new HashSet<>(stack);
-        for(int i=0;i<s.length();i++)
-            if(!set.contains(i))
-                result.append(s.charAt(i));
-        
-        return result.toString();
-    }
-}
-```
+
