@@ -6,6 +6,14 @@
 
 ![Depth-First-Search](https://github.com/wuyichen24/coding-interview/assets/8989447/01d7a646-92a7-4d6e-86e8-af0ee456bcc8)
 
+## When to use
+- Pathfinding
+   - Solving maze with only one path.
+   - May not find the shortest path between nodes (For finding shortest path, use BFS).
+- Topological sorting
+- Cycle detection
+- Finding connected components
+
 ## Pseudocode
 - Recursive implementation
   ```
@@ -41,15 +49,41 @@
    - V is the number of vertices and E the number of edges.
    - Weighted graphs and unweighted graphs have the same complexity (Weights having no direct impact on the complexity).
 
-## When to use
-- Pathfinding
-   - Solving maze with only one path.
-   - May not find the shortest path between nodes (For finding shortest path, use BFS).
-- Topological sorting
-- Cycle detection
-- Finding connected components
+## Code example
+### Graph
+- `edges`: A collection of unordered lists used to represent a finite graph.
+    - `edges[a, b]` = a is the source node and b is the destination node.
+- `n`: The number of node.
+- `root`: The root node.
+```java
+public static void dfsByRecursion(int[][] edges, int n, int root){
+    // Build the graph
+    // key is the "from" node, value is the list of "to" nodes
+    Map<Integer, List<Integer>> map = new HashMap<>();
+    for (int i = 0; i < edges.length; i++) {
+        int from = edges[i][0];
+        int to   = edges[i][1];
 
-## Applications
+        map.putIfAbsent(from, new ArrayList<>());
+        map.get(from).add(to);
+    }
+
+    boolean visited[] = new boolean[n];
+    visited[root] = true;
+
+    recursion(root, map, visited);
+}
+
+public static void recursion(int node, Map<Integer, List<Integer>> map, boolean visited[]) {
+    for (int nextNode : map.getOrDefault(node, new ArrayList<>())) {
+        if (!visited[nextNode]) {
+            System.out.println(nextNode);
+            recursion(nextNode, map, visited);
+        }
+    }
+}
+```
+
 ### 2D array
 - Introduction
    - 2D array can be traversed by depth-first search starting from any cell.
