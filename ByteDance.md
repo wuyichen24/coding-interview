@@ -35,5 +35,8 @@
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
 | 1048 | [Longest String Chain](docs/problems/array/Longest_String_Chain.md) | | |
 
-`# occs.` = number of occurrences
-`1p3a` = 1 point 3 acres
+Notes:
+- `# occs.` = number of occurrences
+- `1p3a` = 1 point 3 acres
+- `6m.` = 6 months
+- `1y.` = 1 year
