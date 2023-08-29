@@ -28,7 +28,7 @@
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](docs/problems/array/Maximum_Subarray.md) | 2 | 3 (6m.) |
 | [743](https://leetcode.com/problems/network-delay-time/)  | [Network Delay Time](docs/problems/graph/Network_Delay_Time.md) | 2 | 2 (1y.) |
 | [1249](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Minimum Remove to Make Valid Parentheses](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md) | 2 | 5 (6m.) |
-| 200  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | |
+| [200](https://leetcode.com/problems/number-of-islands/)  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | 4 (6m.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 799  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | |
