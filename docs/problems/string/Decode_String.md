@@ -91,6 +91,8 @@ The encoding rule is: `k[encoded_string]`, where the `encoded_string` inside the
             - Based on the count, repeat the subresult.
             - Set the result.
          - If current char is a letter, continue accumulating the subresult.
+   - Time complexity
+      - *O(n<sup>n</sup>)*
   ```java
   class Solution {
       public String decodeString(String s) {
