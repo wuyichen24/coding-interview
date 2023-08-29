@@ -58,17 +58,17 @@ The encoding rule is: `k[encoded_string]`, where the encoded_string inside the s
               char c = s.charAt(i);
               i++;
         
-              if (c == '[') {
-                  subResult = decodeString(s);  // do subproblem
+              if (c == '[') {                         // if current char is a [, solve the subproblem
+                  subResult = decodeString(s);  
                   for (int j = 0; j < count; j++) {
                       sb.append(subResult);
                   }
                   count = 0;                    
-              } else if (c == ']') {            // subproblem complete
+              } else if (c == ']') {                  // if current char is a ], return the subresult to upper caller
                   return sb.toString();
-              } else if (Character.isAlphabetic(c)) {
+              } else if (Character.isAlphabetic(c)) { // if current char is a letter, continue accumulate the subresult
                   sb.append(c);
-              } else {                          // calculate the counter
+              } else {                                // if current char is a number, calculate the count
                   count = count * 10 + c - '0';
               }
           }
