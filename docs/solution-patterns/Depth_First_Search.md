@@ -34,6 +34,7 @@
       while stack is not empty {
           v = stack.pop()
           if v is not visited {
+              mark node as visited
               for adj from all the adjacents of v {
                   stack.push(adj) 
               }
