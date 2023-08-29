@@ -1,5 +1,13 @@
 # Breadth-First Search
 
+- [**Concept**](#concept)
+- [**When to use**](#when-to-use)
+- [**Pseudocode**](#pseudocode)
+- [**Complexity**](#complexity)
+- [**Code example**](#code-example)
+   - [Graph](#graph)
+   - [2D array](#2d-array)
+
 ## Concept
 - Breadth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
 - The algorithm starts at the root node and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
