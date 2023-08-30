@@ -41,7 +41,7 @@
       - An empty string is also valid.
 
 ## Solutions
-- Solution 1: Stack
+- **Solution 1: Stack**
    - Idea
       - Use stack to store indexes of any invalid parentheses.
       - 2 passes:
@@ -88,7 +88,7 @@
   }
   ```
 
-- Solution 2: Two pass + StringBuilder
+- **Solution 2: Two pass + StringBuilder**
    - Idea
       - Use a counter to count how many open parenthese.
       - 2 passes
