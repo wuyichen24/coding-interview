@@ -29,9 +29,9 @@
 | [743](https://leetcode.com/problems/network-delay-time/)  | [Network Delay Time](docs/problems/graph/Network_Delay_Time.md) | 2 | 2 (1y.) |
 | [1249](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Minimum Remove to Make Valid Parentheses](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md) | 2 | 5 (6m.) |
 | [200](https://leetcode.com/problems/number-of-islands/)  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | 4 (6m.) |
+| 799  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
-| 799  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
 | 1048 | [Longest String Chain](docs/problems/array/Longest_String_Chain.md) | | |
 
