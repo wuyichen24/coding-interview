@@ -36,7 +36,7 @@ The encoding rule is: `k[encoded_string]`, where the `encoded_string` inside the
      ```
 
 ## Solutions
-- Solution 1: Recusion
+- **Solution 1: Recusion**
    - Idea
       - Check each character in the string from left to right:
          - If the current char is a `[`, solve the subproblem and get the subresult from `[` `]`.
@@ -78,7 +78,7 @@ The encoding rule is: `k[encoded_string]`, where the `encoded_string` inside the
   }
   ```
 
-- Solution 2: Stack
+- **Solution 2: Stack**
    - Idea
       - Create 2 stacks
          - One is for the substring inside of `[]`.
