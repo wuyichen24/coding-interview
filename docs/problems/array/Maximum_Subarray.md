@@ -21,7 +21,7 @@ Given an integer array `nums`, find the subarray with the largest sum, and retur
    - Explanation
 
 ## Solutions
-- Solution 1: Kadane's Algorithm
+- **Solution 1: Kadane's Algorithm**
    - Idea:
       - Traverse array from left to right:
          - Calculate the current sum.
@@ -49,7 +49,7 @@ Given an integer array `nums`, find the subarray with the largest sum, and retur
   }
   ```
 
-- Solution 2: My solution
+- **Solution 2: My solution**
   ```java
   class Solution {
       public int maxSubArray(int[] nums) {
