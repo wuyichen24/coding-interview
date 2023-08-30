@@ -34,6 +34,10 @@
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md) | 1 | 6 (6m.) |
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](docs/problems/intervals/Merge_Intervals.md) | 1 | 5 (6m.), 3 (1y.) | 
 | [253](https://leetcode.com/problems/meeting-rooms-ii/) | [Meeting Rooms II](docs/problems/intervals/Meeting_Rooms_II.md) | | 6 (6m.) |
+| [78](https://leetcode.com/problems/subsets/) | [Subsets](https://github.com/wuyichen24/coding-interview/blob/master/docs/problems/combinations/Subsets.md) | 1 | 2 (6m.), 2 (2y.) |
+| [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](docs/problems/combinations/Subsets_II.md) | | 2 (2y.) | 
+| [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/combinations/Combination_Sum.md) | 2 (1y.), 5 (2y.) |
+| [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](docs/problems/combinations/Combination_Sum_II.md) | | 2 (1y.), 2 (2y.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
@@ -44,5 +48,6 @@
 - `1p3a` = 1 point 3 acres
 - `6m.` = 6 months
 - `1y.` = 1 year
+- `2y.` = 2 year
 - `*` means the solution has been provided and verified. But still need to add more details to explain the idea.
 - `**` means the question was captured but no solution provided.
