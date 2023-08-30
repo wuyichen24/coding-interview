@@ -40,3 +40,5 @@
 - `1p3a` = 1 point 3 acres
 - `6m.` = 6 months
 - `1y.` = 1 year
+- `*` means the solution has been provided and verified. But still need to add more details to explain the idea.
+- `**` means the question was captured but no solution provided.
