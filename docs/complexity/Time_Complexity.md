@@ -96,6 +96,10 @@
         }
       - Time complexity: 2<sup>n</sup>
       - Comment: This case cannot be applied to master theorem.
-        
+
+## Time complexity of Java built-in functions
+- `Arrays.sort()`: *O(nlogn)*
+- `Collections.sort`: *O(nlogn)*
+    
 ## References
 - https://yourbasic.org/algorithms/time-complexity-recursive-functions/
