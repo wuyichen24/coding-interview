@@ -41,7 +41,7 @@ We will send a signal from a given node `k`. **Return the minimum time it takes 
      ```
 
 ## Solutions
-- Solution 1: BFS with priority queue
+- **Solution 1: BFS with priority queue**
    - Idea
       - Use priority queue instead of queue for a standard BFS.
    - Steps
