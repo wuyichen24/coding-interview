@@ -36,7 +36,7 @@
 | [253](https://leetcode.com/problems/meeting-rooms-ii/) | [Meeting Rooms II](docs/problems/intervals/Meeting_Rooms_II.md) | | 6 (6m.) |
 | [78](https://leetcode.com/problems/subsets/) | [Subsets](https://github.com/wuyichen24/coding-interview/blob/master/docs/problems/combinations/Subsets.md) | 1 | 2 (6m.), 2 (2y.) |
 | [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](docs/problems/combinations/Subsets_II.md) | | 2 (2y.) | 
-| [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/combinations/Combination_Sum.md) | 2 (1y.), 5 (2y.) |
+| [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/combinations/Combination_Sum.md) | | 2 (1y.), 5 (2y.) |
 | [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](docs/problems/combinations/Combination_Sum_II.md) | | 2 (1y.), 2 (2y.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
