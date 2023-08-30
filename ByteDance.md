@@ -31,6 +31,7 @@
 | [200](https://leetcode.com/problems/number-of-islands/)  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | 4 (6m.) |
 | [799](https://leetcode.com/problems/champagne-tower/)  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | 6 (6m.) |
 | [1029](https://leetcode.com/problems/two-city-scheduling/) | [Two City Scheduling](docs/problems/other/Two_City_Scheduling.md) | 1 | 5 (6m.) |
+| [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md) | 1 | 6 (6m.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
