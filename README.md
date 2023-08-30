@@ -108,6 +108,7 @@
    - [Merge Intervals](docs/problems/intervals/Merge_Intervals.md)
    - [Meeting Rooms](docs/problems/intervals/Meeting_Rooms.md)
    - [Meeting Rooms II](docs/problems/intervals/Meeting_Rooms_II.md)
+   - [Non-overlapping Intervals](docs/problems/intervals/Non_Overlapping_Intervals.md)
    - [Intersect 2 Interval Lists](docs/problems/intervals/Intersect_2_Interval_Lists.md)
    - [Merge K Interval Lists And Find Gaps](docs/problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md)
 - **Longest X sequence/substring**
