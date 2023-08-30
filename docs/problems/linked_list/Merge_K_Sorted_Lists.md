@@ -33,7 +33,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
         ```
 
 ## Solutions
-- Solution 1: Priority queue
+- **Solution 1: Priority queue**
    - Idea
       - Define a priority queue (pq) of head nodes, let the pq always return the smallest head node.
    - Steps
