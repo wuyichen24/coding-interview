@@ -271,6 +271,7 @@ This page is to document some coding standard operations.
   Arrays.sort(arr, (a, b)->a.length() - b.length());
   Arrays.sort(arr, (a, b)->{ return a.length() - b.length(); });
   ```
+- Time complexity: *O(nlogn)*
   
 ### Collections
   | Function | Description |
