@@ -13,7 +13,7 @@ Then, some champagne is poured into the first glass at the top.  When the topmos
 Now after pouring some non-negative integer cups of champagne, **return how full the `jth` glass in the `ith` row is** (both `i` and `j` are 0-indexed.)
 
 ## Solutions
-- Solution 1
+- **Solution 1**
    - Pattern
       - The Champagne Tower is a [Pascal's Triangle](https://mathworld.wolfram.com/PascalsTriangle.html) (PT)
       - Each row has 1 more glass than the previous row.
