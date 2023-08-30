@@ -40,7 +40,9 @@
       - Take the first interval and compare its end with the next intervals starts.
          - If there is an overlapping, update the end to be the max end of the 2 overlapping intervals.
          - If there is no overlapping, add the next interval to the result list.
-
+   - Time complexity
+      - *O(nlog(n))*
+         - Sorting takes *O(nlog(n))* and merging intervals takes *O(n)*.
   ```java
   public int[][] merge(int[][] intervals) {
       if (intervals.length <= 1)
