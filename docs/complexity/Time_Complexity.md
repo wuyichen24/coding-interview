@@ -4,6 +4,7 @@
 - [Order of time complexity](#order-of-time-complexity)
 - [General rules](#general-rules)
 - [Master theorem](#master-theorem)
+- [Time complexity of Java built-in functions](#time-complexity-of-java-built-in-functions)
 - [References](#references)
 
 ## Big O Notation
