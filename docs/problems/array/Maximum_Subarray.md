@@ -1,7 +1,7 @@
 # Maximum Subarray
 
 ## Alias
-- Leetcode (53): [Decode String](https://leetcode.com/problems/decode-string/)
+- Leetcode (53): [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 ## Problem
 Given an integer array `nums`, find the subarray with the largest sum, and return its sum.
