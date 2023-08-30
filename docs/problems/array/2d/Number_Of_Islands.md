@@ -39,7 +39,7 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
      ```
 
 ## Solutions
-- Solution 1: DFS
+- **Solution 1: DFS**
    - Idea
       - Use DFS to count number of islands.
    - Steps
