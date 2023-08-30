@@ -135,7 +135,15 @@
       - [Generate All Combinations of Parentheses](docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
       - [Get All Word Combinations for Constructing String](docs/problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
       - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
+      - Subset
+         - [Subsets (inputs are unique)](docs/problems/combinations/Subsets.md)
+         - [Subsets II (inputs may contain duplicates)](docs/problems/combinations/Subsets_II.md)
+      - Combination sum
+         - [Combination Sum (element can be reused)](docs/problems/combinations/Combination_Sum.md)
+         - [Combination Sum II (element can only be used once)](docs/problems/combinations/Combination_Sum%20II.md)
    - Permutations
+      - [Permutations (inputs are unique)](docs/problems/permutations/Permutations.md)
+      - [Permutations II (inputs may contain duplicates)](docs/problems/permutations/Permutations_II.md)
 - **Grouping**
    - [Get Number of Groups in Undirected Graph](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
    - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
