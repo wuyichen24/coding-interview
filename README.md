@@ -106,9 +106,9 @@
    - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
 - **Interval**
    - [Merge Intervals](docs/problems/intervals/Merge_Intervals.md)
+   - [Meeting Rooms](docs/problems/intervals/Meeting_Rooms.md)
    - [Intersect 2 Interval Lists](docs/problems/array/Intersect_2_Interval_Lists.md)
    - [Merge K Interval Lists And Find Gaps](docs/problems/array/Merge_K_Interval_Lists_And_Find_Gaps.md)
-   - LeetCode-252 Meeting Rooms
    - LeetCode-253 Meeting Rooms II
 - **Longest X sequence/substring**
    - LeetCode-1143 Longest Common Subsequence
