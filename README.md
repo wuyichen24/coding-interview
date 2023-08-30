@@ -105,7 +105,7 @@
    - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
 - **Interval**
-   - [Merge Intervals](docs/problems/array/Merge_Intervals.md)
+   - [Merge Intervals](docs/problems/intervals/Merge_Intervals.md)
    - [Intersect 2 Interval Lists](docs/problems/array/Intersect_2_Interval_Lists.md)
    - [Merge K Interval Lists And Find Gaps](docs/problems/array/Merge_K_Interval_Lists_And_Find_Gaps.md)
    - LeetCode-252 Meeting Rooms
