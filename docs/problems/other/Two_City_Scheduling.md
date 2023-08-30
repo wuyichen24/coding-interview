@@ -26,7 +26,7 @@ Return the minimum cost to send n persons to city A and n persons to city B
       - The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
     
 ## Solutions
-- Solution 1
+- **Solution 1**
    - Idea
       - Send all the people to city `a` and calculate the cost.
       - Calculate the refund if send all the people to city `b`.
