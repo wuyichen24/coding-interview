@@ -42,6 +42,7 @@
 | [79](https://leetcode.com/problems/word-search/) | [Word Search](docs/problems/array/2d/Word_Search.md) | 1 | 5 (6m.), 4 (2y.) |
 | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Traverse Binary Tree Level Order](docs/problems/tree/Traverse_Binary_Tree_Level_Order.md) | 1 | 2 (6m.) |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Get Maximum Path Sum from Binary Tree](docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md) | 1 | 2 (6m.), 6 (2y.) |
+| [199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Get Right Side View of Binary Tree](docs/problems/tree/Get_Right_Side_View_Of_Binary_Tree.md) | 1 | 4 (2y.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
