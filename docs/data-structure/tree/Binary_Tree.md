@@ -148,6 +148,7 @@ TreeNode {
    - Check one tree
       - [Is Symmetric Binary Tree](../../../docs/problems/tree/Is_Symmetric_Binary_Tree.md)
       - [Is Binary Search Tree](../../../docs/problems/tree/Is_Binary_Search_Tree.md)
+      - [Is Balanced Binary Tree](../../../docs/problems/tree/Is_Balanced_Binary_Tree.md)
    - Compare two trees
       - [Is Same Binary Trees](../../../docs/problems/tree/Is_Same_Binary_Trees.md)
       - [Is Mirror Binary Trees](../../../docs/problems/tree/Is_Mirror_Binary_Trees.md)
@@ -159,6 +160,8 @@ TreeNode {
    - [Get Longest Path Length from Binary Tree](../../../docs/problems/tree/Get_Longest_Path_Length_From_Binary_Tree.md)
    - [Get Maximum Path Sum from Binary Tree](../../../docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md)
    - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../../docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
+- Side view
+   - [Get Right Side View of Binary Tree](../../../docs/problems/tree/Get_Right_Side_View_Of_Binary_Tree.md)
 - Get metrics
    - [Get Height from Binary Tree](../../../docs/problems/tree/Get_Height_From_Binary_Tree.md)
 - Traverse
