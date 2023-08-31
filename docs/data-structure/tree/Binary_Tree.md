@@ -167,6 +167,9 @@ TreeNode {
 - Traverse
    - [Traverse Binary Tree Level Order](../../../docs/problems/tree/Traverse_Binary_Tree_Level_Order.md)
    - [Traverse Binary Tree Vertically](../../../docs/problems/tree/Traverse_Binary_Tree_Vertically.md)
+- Other
+   - [Get Range Sum of Binary Search Tree](../../../docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md)
+   - [Get Lowest Common Ancestor from Binary Tree](../../../docs/problems/tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
