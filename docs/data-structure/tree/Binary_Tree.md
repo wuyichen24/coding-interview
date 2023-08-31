@@ -149,7 +149,7 @@ TreeNode {
 ### Binary tree
 - Check characteristics
    - Check one tree
-      - [Is Symmetric Binary Tree](../../../docs/problems/tree/Is_Symmetric_Binary_Tree.md)
+      - [Is Symmetric Binary Tree](../../problems/tree/Is_Symmetric_Binary_Tree.md)
       - [Is Binary Search Tree](../../../docs/problems/tree/Is_Binary_Search_Tree.md)
       - [Is Balanced Binary Tree](../../../docs/problems/tree/Is_Balanced_Binary_Tree.md)
    - Compare two trees
