@@ -39,6 +39,7 @@
 | [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/combinations/Combination_Sum.md) | | 2 (1y.), 5 (2y.) |
 | [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](docs/problems/combinations/Combination_Sum_II.md) | | 2 (1y.), 2 (2y.) |
 | [46](https://leetcode.com/problems/permutations/) | [Permutations](docs/problems/permutations/Permutations.md) | | 2 (6m.) |
+| [79](https://leetcode.com/problems/word-search/) | [Word Search](docs/problems/array/2d/Word_Search.md) | 1 | 5 (6m.), 4 (2y.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
