@@ -154,6 +154,7 @@ TreeNode {
       - [Is Sub Binary Trees](../../../docs/problems/tree/Is_Sub_Binary_Trees.md)
 - Manipulation
    - [Invert Binary Tree](../../../docs/problems/tree/Invert_Binary_Tree.md)
+   - [Serialize and Deserialize Binary Tree](../../../docs/problems/tree/Serialize_And_Deserialize_Binary_Tree.md)
 - Path
    - [Get Longest Path Length from Binary Tree](../../../docs/problems/tree/Get_Longest_Path_Length_From_Binary_Tree.md)
    - [Get Maximum Path Sum from Binary Tree](../../../docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md)
