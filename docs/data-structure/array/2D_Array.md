@@ -17,8 +17,8 @@
   }
   ```
 ### Search
-- BFS: See [here](../solution-patterns/Breadth_First_Search.md#2d-array)
-- DFS: See [here](../solution-patterns/Depth_First_Search.md#2d-array)
+- BFS: See [here](../../solution-patterns/Breadth_First_Search.md#2d-array)
+- DFS: See [here](../../solution-patterns/Depth_First_Search.md#2d-array)
 
 ## Strategies
 
