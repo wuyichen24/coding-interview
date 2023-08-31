@@ -160,6 +160,9 @@ TreeNode {
    - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../../docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
 - Get metrics
    - [Get Height from Binary Tree](../../../docs/problems/tree/Get_Height_From_Binary_Tree.md)
+- Traverse
+   - [Traverse Binary Tree Level Order](../../../docs/problems/tree/Traverse_Binary_Tree_Level_Order.md)
+   - [Traverse Binary Tree Vertically](../../../docs/problems/tree/Traverse_Binary_Tree_Vertically.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
