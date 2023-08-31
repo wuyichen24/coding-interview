@@ -156,6 +156,11 @@
 - **Detect Cycle**
    - [Detect Cycle in Undirected Graph](docs/problems/graph/Detect_Cycle_In_Undirected_Graph.md)
    - LeetCode-1041 Robot Bounded In Circle
+- **Calculator**
+   - 224. Basic Calculator
+   - 227. Basic Calculator II
+   - [Basic Calculator III](docs/problems/calculators/Basic_Calculator_III.md)
+   - 770. Basic Calculator IV
 - **Math**
    - [Implement Pow(x,n)](docs/problems/math/Implement_Pow_X_N.md)
    - [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md)
