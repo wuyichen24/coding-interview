@@ -150,39 +150,39 @@ TreeNode {
 - Check characteristics
    - Check one tree
       - [Is Symmetric Binary Tree](../../problems/tree/Is_Symmetric_Binary_Tree.md)
-      - [Is Binary Search Tree](../../../docs/problems/tree/Is_Binary_Search_Tree.md)
-      - [Is Balanced Binary Tree](../../../docs/problems/tree/Is_Balanced_Binary_Tree.md)
+      - [Is Binary Search Tree](../../problems/tree/Is_Binary_Search_Tree.md)
+      - [Is Balanced Binary Tree](../../problems/tree/Is_Balanced_Binary_Tree.md)
    - Compare two trees
-      - [Is Same Binary Trees](../../../docs/problems/tree/Is_Same_Binary_Trees.md)
-      - [Is Mirror Binary Trees](../../../docs/problems/tree/Is_Mirror_Binary_Trees.md)
-      - [Is Sub Binary Trees](../../../docs/problems/tree/Is_Sub_Binary_Trees.md)
+      - [Is Same Binary Trees](../../problems/tree/Is_Same_Binary_Trees.md)
+      - [Is Mirror Binary Trees](../../problems/tree/Is_Mirror_Binary_Trees.md)
+      - [Is Sub Binary Trees](../../problems/tree/Is_Sub_Binary_Trees.md)
 - Manipulation
-   - [Invert Binary Tree](../../../docs/problems/tree/Invert_Binary_Tree.md)
-   - [Serialize and Deserialize Binary Tree](../../../docs/problems/tree/Serialize_And_Deserialize_Binary_Tree.md)
+   - [Invert Binary Tree](../../problems/tree/Invert_Binary_Tree.md)
+   - [Serialize and Deserialize Binary Tree](../../problems/tree/Serialize_And_Deserialize_Binary_Tree.md)
 - Path
-   - [Get Longest Path Length from Binary Tree](../../../docs/problems/tree/Get_Longest_Path_Length_From_Binary_Tree.md)
-   - [Get Maximum Path Sum from Binary Tree](../../../docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md)
-   - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../../docs/problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
+   - [Get Longest Path Length from Binary Tree](../../problems/tree/Get_Longest_Path_Length_From_Binary_Tree.md)
+   - [Get Maximum Path Sum from Binary Tree](../../problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md)
+   - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
 - Get nodes
-   - [Get All Distance K Nodes from Target Node in Binary Tree](../../../docs/problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md#get-all-distance-k-nodes-from-target-node-in-binary-tree)
+   - [Get All Distance K Nodes from Target Node in Binary Tree](../../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md#get-all-distance-k-nodes-from-target-node-in-binary-tree)
 - Side view
-   - [Get Right Side View of Binary Tree](../../../docs/problems/tree/Get_Right_Side_View_Of_Binary_Tree.md)
+   - [Get Right Side View of Binary Tree](../../problems/tree/Get_Right_Side_View_Of_Binary_Tree.md)
 - Get metrics
-   - [Get Height from Binary Tree](../../../docs/problems/tree/Get_Height_From_Binary_Tree.md)
+   - [Get Height from Binary Tree](../../problems/tree/Get_Height_From_Binary_Tree.md)
 - Traverse
-   - [Traverse Binary Tree Level Order](../../../docs/problems/tree/Traverse_Binary_Tree_Level_Order.md)
-   - [Traverse Binary Tree Vertically](../../../docs/problems/tree/Traverse_Binary_Tree_Vertically.md)
+   - [Traverse Binary Tree Level Order](../../problems/tree/Traverse_Binary_Tree_Level_Order.md)
+   - [Traverse Binary Tree Vertically](../../problems/tree/Traverse_Binary_Tree_Vertically.md)
 - Other
-   - [Get Lowest Common Ancestor from Binary Tree](../../../docs/problems/tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md)
-   - [Get Num of Univalue Subtrees from Binary Tree](../../../docs/problems/tree/Get_Num_Of_Univalue_Subtrees_From_Binary_Tree.md)
+   - [Get Lowest Common Ancestor from Binary Tree](../../problems/tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md)
+   - [Get Num of Univalue Subtrees from Binary Tree](../../problems/tree/Get_Num_Of_Univalue_Subtrees_From_Binary_Tree.md)
 
 ### Binary search tree
 - Get
-   - [Get Range Sum of Binary Search Tree](../../../docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md)
-   - [Get Closest Value to Target from Binary Search Tree](docs/problems/tree/Get_Closest_Value_To_Target_From_Binary_Search_Tree.md)
+   - [Get Range Sum of Binary Search Tree](../../problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md)
+   - [Get Closest Value to Target from Binary Search Tree](../../docs/problems/tree/Get_Closest_Value_To_Target_From_Binary_Search_Tree.md)
 - Manipulation
-   - [Balance Binary Search Tree](../../../docs/problems/tree/Balance_Binary_Search_Tree.md)
-   - [Convert Binary Search Tree to Sorted Doubly Linked List](../../../docs/problems/tree/Convert_Binary_Search_Tree_To_Sorted_Doubly_Linked_List.md)
+   - [Balance Binary Search Tree](../../problems/tree/Balance_Binary_Search_Tree.md)
+   - [Convert Binary Search Tree to Sorted Doubly Linked List](../../problems/tree/Convert_Binary_Search_Tree_To_Sorted_Doubly_Linked_List.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
