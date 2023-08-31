@@ -11,6 +11,8 @@
       - [Breadth-first search (BFS)](#breadth-first-search-bfs)
 - [**Strategies**](#strategies)
 - [**Common Topics**](#common-topics)
+   - [Binary tree](#binary-tree-1)
+   - [Binary search tree](#binary-search-tree)
 
 ## Concept
 ### Rules
