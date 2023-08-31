@@ -2,6 +2,9 @@
 
 - [**Basic operations**](#basic-operations)
    - [Traverse](#traverse)
+   - [Search](#search)
+      - [BFS](../../solution-patterns/Breadth_First_Search.md#2d-array)
+      - [DFS](../../solution-patterns/Depth_First_Search.md#2d-array)
 - [**Strategies**](#strategies)
 
 ## Basic operations
