@@ -39,7 +39,7 @@ Return `true` if and only if it is **bipartite**.
       - We can partition the nodes into two sets: `{0, 2}` and `{1, 3}`.
 
 ## Solutions
-- Solution 1: DFS
+**- Solution 1: DFS**
    - Idea
       - Use two colors to color the graph and see if there are any adjacent nodes having the same color.
          - `0`: Didn't color yet.
@@ -76,7 +76,7 @@ Return `true` if and only if it is **bipartite**.
   }
   ```
 
-- Solution 2: BFS
+**- Solution 2: BFS**
    - Idea
        - Similar to solution 1.
 
