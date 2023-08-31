@@ -1,7 +1,7 @@
 # Get Right Side View of Binary Tree
 
 ## Alias
-- Leetcode (226): [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- Leetcode (199): [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 ## Problem
 - Get the right side view of a binary tree.
