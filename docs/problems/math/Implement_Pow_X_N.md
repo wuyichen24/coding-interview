@@ -1,7 +1,7 @@
 # Implement Pow(x,n)
 
 ## Alias
-- Leetcode (50): [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- Leetcode (50): [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 
 ## Problem
 - Implement pow(x, n), which calculates x<sup>n</sup>.
