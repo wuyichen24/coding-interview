@@ -45,6 +45,7 @@
 | [199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Get Right Side View of Binary Tree](docs/problems/tree/Get_Right_Side_View_Of_Binary_Tree.md) | 1 | 4 (2y.) |
 | [772](https://leetcode.com/problems/basic-calculator-iii/) | [Basic Calculator III](docs/problems/calculators/Basic_Calculator_III.md) | 1 | 5 (6m.) |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite](docs/problems/graph/Is_Graph_Bipartite.md) | 2 | 2 (6m.), 3 (2y.) |
+| [1293](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [Shortest Path in a Grid with Obstacles Elimination](docs/problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md) | 1 | 7 (6m.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
