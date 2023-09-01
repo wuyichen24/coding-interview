@@ -14,7 +14,57 @@
    - For each account, remove duplicated emails to keep each email unique.
 
 ## Solutions
-- Solution 1: Brute force
+- **Solution 1: Union find**
+   - Idea
+       - To group these emails, each group need to have a or `parent`.
+       - At the beginning, set each email as its own representative.
+       - Emails in each account naturally belong to a same group, and should be joined by assigning to the same parent (let's use the parent of first email in that list);
+  ```java
+  class Solution {
+      public List<List<String>> accountsMerge(List<List<String>> acts) {
+          Map<String, String> owner           = new HashMap<>();
+          Map<String, String> parents         = new HashMap<>();
+          Map<String, TreeSet<String>> unions = new HashMap<>();
+
+          for (List<String> a : acts) {
+              for (int i = 1; i < a.size(); i++) {
+                  parents.put(a.get(i), a.get(i));      // At the beginning, set each email as its own parent.
+                  owner.put(a.get(i), a.get(0));
+              }
+          }
+
+          for (List<String> a : acts) {
+              String p = find(a.get(1), parents);
+              for (int i = 2; i < a.size(); i++)
+                  parents.put(find(a.get(i), parents), p);
+          }
+
+          for(List<String> a : acts) {
+              String p = find(a.get(1), parents);
+              if (!unions.containsKey(p)) unions.put(p, new TreeSet<>());
+              for (int i = 1; i < a.size(); i++)
+                  unions.get(p).add(a.get(i));
+          }
+
+          List<List<String>> res = new ArrayList<>();
+          for (String p : unions.keySet()) {
+              List<String> emails = new ArrayList(unions.get(p));
+              emails.add(0, owner.get(p));
+              res.add(emails);
+          }
+          return res;
+      }
+
+      // find parent
+      private String find(String s, Map<String, String> p) {
+          return p.get(s) == s ? s : find(p.get(s), p);
+      }
+  }
+  ```
+
+- **Solution 2: BFS**
+- **Solution 3: DFS**
+- **Solution 4: Brute force**
    - Step 1: Check every 2 account combinations by 2 brute force pointers
       - If 2 accounts have same emails
          - Merge the 1st account's emails to the 2nd account.
