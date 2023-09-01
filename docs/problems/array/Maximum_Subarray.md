@@ -9,16 +9,37 @@ Given an integer array `nums`, find the subarray with the largest sum, and retur
 ## Examples
 - Example 1
    - Input
+     ```
+     [-2,1,-3,4,-1,2,1,-5,4]
+     ```
    - Output
+     ```
+     6
+     ```
    - Explanation
+      - The subarray `[4,-1,2,1]` has the largest sum `6`.
 - Example 2
    - Input
+     ```
+     [1]
+     ```
    - Output
+     ```
+     1
+     ```
    - Explanation
+      - The subarray `[1]` has the largest sum `1`.
 - Example 3
    - Input
+     ```
+     [5,4,-1,7,8]
+     ```
    - Output
+     ```
+     23
+     ```
    - Explanation
+      - The subarray `[5,4,-1,7,8]` has the largest sum `23`.
 
 ## Solutions
 - **Solution 1: Kadane's Algorithm**
