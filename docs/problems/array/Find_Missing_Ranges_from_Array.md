@@ -12,7 +12,7 @@
    - Output: `"0,1,3,5,6,8-12,14-19,21-99"`
 
 ## Solutions
-- Solution 1
+- Solution 1: My solution in the interview.
    - Find all missing numbers.
    - Generate the output string based on the requirement.
   ```java
@@ -46,5 +46,31 @@
           if (nums[i] == target) return true;
       }
       return false;
+  }
+  ```
+
+- Solution 2: Leedcode solution
+   - Idea: Use each number in range as a seperator of missing ranges.
+
+  ```java
+  public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
+      List<List<Integer>> ranges = new ArrayList<>();
+      int start = lower;
+        
+      for (int num: nums) {
+          if (num > upper) {
+              break;
+          }
+          if (num > start) {
+              ranges.add(Arrays.asList(start, num - 1));
+          }
+          start = num + 1;
+      }
+        
+      if (start <= upper) {
+          ranges.add(Arrays.asList(start, upper));   
+      }
+        
+      return ranges;
   }
   ```
