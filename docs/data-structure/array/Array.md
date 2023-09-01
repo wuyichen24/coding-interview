@@ -25,4 +25,6 @@ void reverse(int[] nums, int i, int j) {
 - The problem is related to calculate the sum of sub-array, consider to use prefix sum array.
 
 ## Common topics
-- Interval
+- Sub-array
+- Array math
+   - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
