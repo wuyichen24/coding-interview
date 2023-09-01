@@ -56,10 +56,12 @@ Given a string `s` containing only digits, **return the number of ways to decode
       - `"06"` cannot be mapped to `"F"` because of the leading zero (`"6"` is different from `"06"`).
 
 ## Solutions
-- Solution 1:
+- **Solution 1: Recursion**
    - Idea: Use recursion to solve 2 sub-problems:
       - Decode next 1 char
       - Decode next 2 chars (next 2 chars is less then "27")
+   - Time complexity
+      - *O(2<sup>n</sup>)*
     
   ```java
   public int numDecodings(String s) {
@@ -80,8 +82,31 @@ Given a string `s` containing only digits, **return the number of ways to decode
       // if the next 1st char is 1 or the next 2 chars is less than 27,
       // decode next 2 chars
       if(i < s.length()-1 && (s.charAt(i)=='1' || s.charAt(i) == '2' && s.charAt(i+1) < '7')) {
-			    result += numDecodings(i+2,s);
+          result += numDecodings(i+2,s);
       }
       return result;
+  }
+  ```
+- **Solution 2**: Dynamic programming
+   - Idea
+      - Decode from right to left.
+      - Use an array to store number of ways when decoding at each char.
+   - Time complexity
+      - *O(n)*
+    
+  ```java
+  public int numDecodings(String s) {
+      int n = s.length();
+      int[] dp = new int[n+1];
+      dp[n] = 1;
+      for(int i = n-1; i >= 0; i--) {
+          if(s.charAt(i)!='0') {
+              dp[i]=dp[i+1];          // decode next 1 char
+              if(i < n-1 && (s.charAt(i) == '1' || s.charAt(i) == '2' && s.charAt(i+1) < '7')) {
+	          dp[i]+=dp[i+2];     // decode next 2 chars
+              }
+          }
+      }
+      return dp[0];  
   }
   ```
