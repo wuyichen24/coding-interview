@@ -25,6 +25,26 @@ void reverse(int[] nums, int i, int j) {
 - The problem is related to calculate the sum of sub-array, consider to use prefix sum array.
 
 ## Common topics
-- Sub-array
+- Subarray (a contiguous non-empty sequence)
+   - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
+   - [Maximum Subarray](../../problems/array/Maximum_Subarray.md)
+- Find missing
+   - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
+   - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
 - Array math
    - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
+   - [Calculate Dot Product of 2 Arrays](../../problems/array/Calculate_Dot_Product_Of_2_Arrays.md)
+   - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
+- Frequency
+   - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
+   - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
+- Manipulation
+   - Merge
+      - [Merge 2 Sorted Arrays](../../problems/array/Merge_2_Sorted_Arrays.md)
+   - Split
+      - [Optimizing Box Weights](../../problems/array/Optimizing_Box_Weights.md)
+   - Remove
+      - [Remove All Occurrences of Value from Array](problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
+      - [Remove Duplicates from Sorted Array](problems/array/Remove_Duplicates_From_Sorted_Array.md)
+- Other
+   
