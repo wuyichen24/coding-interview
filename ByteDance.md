@@ -49,6 +49,7 @@
 | [815](https://leetcode.com/problems/bus-routes/) | [Bus Routes](docs/problems/graph/Bus_Routes.md) | 1 | 5 (6m.) |
 | [91](https://leetcode.com/problems/decode-ways/) | [Decode Ways](docs/problems/string/Decode_Ways.md) | 1 | 2 (1y.) |
 | [238](https://leetcode.com/problems/product-of-array-except-self/) | [Product of Array Except Self](docs/problems/array/Product_Of_Array_Except_Self.md) | 1 | 2 (1y.) |
+| [721](https://leetcode.com/problems/accounts-merge/) | [Accounts Merge](docs/problems/other/Accounts_Merge.md) | 1 | 2 (1y.) |
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
