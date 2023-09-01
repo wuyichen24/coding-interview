@@ -13,8 +13,9 @@
 
 ## Solutions
 - Solution 1: My solution in the interview.
-   - Find all missing numbers.
-   - Generate the output string based on the requirement.
+   - Idea
+      - Find all missing numbers.
+      - Generate the output string based on the requirement.
   ```java
   public String getMissingNumber(int[] nums) {
       StringBuilder sb = new StringBuilder();
@@ -50,7 +51,8 @@
   ```
 
 - Solution 2: Leedcode solution
-   - Idea: Use each number in range as a seperator of missing ranges.
+   - Idea
+      - Use each number in range as a seperator of missing ranges.
 
   ```java
   public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
