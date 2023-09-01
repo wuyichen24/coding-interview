@@ -87,7 +87,7 @@ Given a string `s` containing only digits, **return the number of ways to decode
       return result;
   }
   ```
-- **Solution 2**: Dynamic programming
+- **Solution 2: Dynamic programming**
    - Idea
       - Decode from right to left.
       - Use an array to store number of ways when decoding at each char.
