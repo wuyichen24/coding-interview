@@ -52,7 +52,7 @@
 | 1507 | [Reformat Date](docs/problems/string/Reformat_Date.md) | | |
 | 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
-| 1048 | [Longest String Chain](docs/problems/array/Longest_String_Chain.md) | | |
+| 1048 | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | |
 
 **Notes:**
 - `# occs.` = number of occurrences
