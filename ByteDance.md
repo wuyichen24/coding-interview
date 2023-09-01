@@ -16,7 +16,7 @@
 | [Prefix Scores*](docs/problems/other/Prefix_Scores.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Circular Printer*](docs/problems/other/Circular_Printer.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Stars and Bars](docs/problems/other/Stars_And_Bars.md) | ByteDance | Online Assessment (HackerRank) | 
-| [Inversions](docs/problems/other/Inversions.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Inversions](docs/problems/array/Inversions.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Ancestral Names*](docs/problems/other/Ancestral_Names.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Shared Interest*](docs/problems/other/Shared_Interest.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Tree Decrements**](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
