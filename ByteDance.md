@@ -52,9 +52,9 @@
 | [721](https://leetcode.com/problems/accounts-merge/) | [Accounts Merge](docs/problems/other/Accounts_Merge.md) | 1 | 2 (1y.) |
 | [696](https://leetcode.com/problems/count-binary-substrings/) | [Count Binary Substrings](problems/string/Count_Binary_Substrings.md) | | 22 (2y.) |
 | [1507](https://leetcode.com/problems/reformat-date/) | [Reformat Date](docs/problems/string/Reformat_Date.md) | | 15 (2y.) |
-| 696  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | |
+| [696](https://leetcode.com/problems/count-binary-substrings/)  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | 22 (2y.) |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
-| 1048 | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | |
+| [1048](https://leetcode.com/problems/longest-string-chain/) | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | 29 (2y.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
