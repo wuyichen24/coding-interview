@@ -20,11 +20,19 @@
          - [Can Characters of String Form Palindrome](../../problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
 - Substring
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
-- Calculator
-   - 224 Basic Calculator
-   - 227 Basic Calculator II
-   - [Basic Calculator III](problems/calculators/Basic_Calculator_III.md)
-   - 770 Basic Calculator IV
+- Math
+   - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
+   - Calculator
+      - 224 Basic Calculator
+      - 227 Basic Calculator II
+      - [Basic Calculator III](../../problems/calculators/Basic_Calculator_III.md)
+      - 770 Basic Calculator IV
+- Decoding
+   - [Decode String](../../problems/string/Decode_String.md)
+   - [Decode Ways](../../problems/string/Decode_Ways.md)
 - Other
    - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
+   - Input is a string array
+      - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
+      - [Longest String Chain](../../string/Longest_String_Chain.md)
       
