@@ -14,6 +14,35 @@ Convert the date string to the format `YYYY-MM-DD`, where:
 - `MM` denotes the 2 digit month.
 - `DD` denotes the 2 digit day.
 
+## Examples
+- Example 1
+   - Input
+     ```
+     "20th Oct 2052"
+     ```
+   - Output
+     ```
+     "2052-10-20"
+     ```
+- Example 2
+   - Input
+     ```
+     "6th Jun 1933"
+     ```
+   - Output
+     ```
+     "1933-06-06"
+     ```
+- Example 3
+   - Input
+     ```
+     "26th May 1960"
+     ```
+   - Output
+     ```
+     "1960-05-26"
+     ```
+
 ## Solutions
 - Solution 1
   ```java
