@@ -1,12 +1,21 @@
 # String
 
-## Common topics
-- Check characteristics
-   - Symmetric
-      - Parentheses
-      - Palindrome
-
 ## Strategies
 - **Parentheses**
    - Consider to use a counter to count how many open parentheses when iterating through a string.
    - For symmetric problems (like parentheses and palindrome), consider to use a stack.
+
+## Common topics
+- Check characteristics
+   - Symmetric
+      - Parentheses
+         - [Is Valid Parentheses](../../problems/string/parentheses/Is_Valid_Parentheses.md)
+         - [Generate All Combinations of Parentheses](../../problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
+         - [Remove Minimum Parentheses to Make Parentheses Valid](../../problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
+         - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../../problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
+      - Palindrome
+         - [Is Palindrome String](../../problems/string/palindrome/Is_Palindrome_String.md)
+         - [Is Palindrome String by Removing One Char](../../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
+         - [Is Palindrome String by Only Considering Alphanumeric Characters](../../problems/string/palindrome/Is_Palindrome_String_By_Only_Considering_Alphanumeric_Characters.md)
+         - [Can Characters of String Form Palindrome](../../problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
+      
