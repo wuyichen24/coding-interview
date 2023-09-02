@@ -159,7 +159,7 @@
 - **Calculator**
    - 224 Basic Calculator
    - 227 Basic Calculator II
-   - [Basic Calculator III](docs/problems/calculators/Basic_Calculator_III.md)
+   - [Basic Calculator III](docs/problems/string/calculators/Basic_Calculator_III.md)
    - 770 Basic Calculator IV
 - **Math**
    - [Implement Pow(x,n)](docs/problems/math/Implement_Pow_X_N.md)
