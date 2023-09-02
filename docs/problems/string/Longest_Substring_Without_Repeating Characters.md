@@ -65,3 +65,6 @@
       return max;
   }
   ```
+- Solution 2: My solution
+  ```java
+  ```
