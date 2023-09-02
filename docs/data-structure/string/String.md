@@ -20,6 +20,7 @@
          - [Can Characters of String Form Palindrome](../../problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
 - Substring
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
+   - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
 - Math
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - Calculator
