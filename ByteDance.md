@@ -55,6 +55,7 @@
 | [696](https://leetcode.com/problems/count-binary-substrings/)  | [Count Binary Substrings](docs/problems/string/Count_Binary_Substrings.md) | | 22 (2y.) |
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
 | [1048](https://leetcode.com/problems/longest-string-chain/) | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | 29 (2y.) |
+| [5](https://leetcode.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](docs/problems/string/Longest_Palindromic_Substring.md) | 8 (6m.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
