@@ -4,7 +4,7 @@
 - Leetcode (249): [Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/)
 
 ## Problem
-- Given an array of strings strings, group all strings that belong to the same shifting sequence.
+- Given an array of strings, group all strings that belong to the same shifting sequence.
 - Shifting a string is to shift each letter to its successive letter correspondingly.
    - "abc" can be shifted to be "bcd".
    - "ac" can be shifted to be "bd".
