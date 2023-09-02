@@ -37,6 +37,11 @@ Substrings that occur multiple times are counted the number of times they occur.
 ## Solutions
 - Solution 1: Easy rolling
    - Idea
+      - Count the number of 1 or 0 grouped consecutively.
+         - For example "0110001111" will be `[1, 2, 3, 4]`
+      - For any possible substrings with 1 and 0 grouped consecutively, the number of valid substring will be the minimum number of 0 and 1.
+         - For example "0001111", will be `min(3, 4) = 3`, `(`"01", "0011", "000111"`)
+   - Explanation
       - Since the 0's and 1's have to be grouped consecutively, we only have to be concerned with the most recent two groups (curr, prev) at any time as we iterate through the input string (s). Since each addition to our answer (ans) must therefore be centered on the "edge" between the two groups, we should be able to count multiple increases to ans at the same time.
       - For example, if we find a group that is "0001111", then we know that we've found multiple answer counts centered on the "01". Each additional extra character on both sides will be an extra answer, which means that "0011" and "000111" are also answers. In other words, the number that we should add to ans is equal to min(zeros, ones), or 3 in this example.
       - So we can now iterate through s, keeping track of the curr and prev groups, and when we find the end of a group, we can calculate our addition to ans and then swap the two variables while resetting curr to 1.
