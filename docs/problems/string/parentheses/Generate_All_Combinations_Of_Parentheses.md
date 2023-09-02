@@ -28,7 +28,7 @@
      ```
 
 ## Solution
-- Solution 1: Backtracking
+- **Solution 1: Backtracking**
    - Idea
       - Only add '(' and ')' that we know will guarantee us a solution (instead of adding 1 too many close). Once we add a '(' we will then discard it and try a ')' which can only close a valid '('. Each of these steps are recursively called.
   ```java
@@ -52,7 +52,7 @@
   }
   ```
 
-- Solution 1: Divide and conquer
+- **Solution 2: Divide and conquer**
    - A problem(n) can be separated as (+ is string concatenation)
       - `(` + problem(n-1) + `)`
       - problem(1)+problem(n-1), problem(2)+problem(n-2), problem(3)+problem(n-3), ...., problem(n-1)+problem(1)
