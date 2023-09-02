@@ -18,4 +18,10 @@
          - [Is Palindrome String by Removing One Char](../../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
          - [Is Palindrome String by Only Considering Alphanumeric Characters](../../problems/string/palindrome/Is_Palindrome_String_By_Only_Considering_Alphanumeric_Characters.md)
          - [Can Characters of String Form Palindrome](../../problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
+- Substring
+   - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
+- Calculator
+   - [Basic Calculator III](problems/calculators/Basic_Calculator_III.md)
+- Other
+   - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
       
