@@ -21,7 +21,10 @@
 - Substring
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
 - Calculator
+   - 224 Basic Calculator
+   - 227 Basic Calculator II
    - [Basic Calculator III](problems/calculators/Basic_Calculator_III.md)
+   - 770 Basic Calculator IV
 - Other
    - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
       
