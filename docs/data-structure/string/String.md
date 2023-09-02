@@ -31,7 +31,9 @@
    - [Decode String](../../problems/string/Decode_String.md)
    - [Decode Ways](../../problems/string/Decode_Ways.md)
 - Other
-   - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
+   - Case in real life
+      - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
+      - [Reformat Date](../../problems/string/Reformat_Date.md)
    - Input is a string array
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
       - [Longest String Chain](../../string/Longest_String_Chain.md)
