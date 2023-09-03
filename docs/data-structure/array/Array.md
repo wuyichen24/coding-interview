@@ -40,7 +40,7 @@ void reverse(int[] nums, int i, int j) {
    - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
 - Inversion
    - [Inversions](../../problems/array/Inversions.md)
-   - 1395. Count Number of Teams
+   - 1395 Count Number of Teams
 - Manipulation
    - Merge
       - [Merge 2 Sorted Arrays](../../problems/array/Merge_2_Sorted_Arrays.md)
