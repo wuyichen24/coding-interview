@@ -41,6 +41,16 @@ void reverse(int[] nums, int i, int j) {
 - Inversion
    - [Inversions](../../problems/array/Inversions.md)
    - 1395 Count Number of Teams
+- Combinations
+   - Subset
+      - [Subsets (inputs are unique)](../../docs/problems/combinations/Subsets.md)
+      - [Subsets II (inputs may contain duplicates)](../../docs/problems/combinations/Subsets_II.md)
+   - Combination sum
+      - [Combination Sum (element can be reused)](../../docs/problems/combinations/Combination_Sum.md)
+      - [Combination Sum II (element can only be used once)](../../docs/problems/combinations/Combination_Sum_II.md)
+   - Permutations
+      - [Permutations (inputs are unique)](../../docs/problems/permutations/Permutations.md)
+      - [Permutations II (inputs may contain duplicates)](../../docs/problems/permutations/Permutations_II.md)
 - Manipulation
    - Merge
       - [Merge 2 Sorted Arrays](../../problems/array/Merge_2_Sorted_Arrays.md)
