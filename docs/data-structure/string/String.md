@@ -56,4 +56,5 @@
    - Input is a string array
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
       - [Longest String Chain](../../string/Longest_String_Chain.md)
+   - [Stars and Bars](problems/string/Stars_And_Bars.md)
       
