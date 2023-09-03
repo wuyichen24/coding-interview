@@ -17,7 +17,7 @@
 | [Circular Printer*](docs/problems/other/Circular_Printer.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Stars and Bars](docs/problems/other/Stars_And_Bars.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Inversions](docs/problems/array/Inversions.md) | ByteDance | Online Assessment (HackerRank) | 
-| [Ancestral Names*](docs/problems/other/Ancestral_Names.md) | ByteDance | Online Assessment (HackerRank) | 
+| [Ancestral Names*](docs/problems/string/Ancestral_Names.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Shared Interest*](docs/problems/other/Shared_Interest.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Tree Decrements**](docs/problems/tree/Tree_Decrements.md) | ByteDance | Online Assessment (HackerRank) | 
 | [Airport send and pickup service orders make pairs**](docs/problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md) | ByteDance | Online Assessment (HackerRank) | 
