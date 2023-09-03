@@ -29,6 +29,9 @@
       - 227 Basic Calculator II
       - [Basic Calculator III](../../problems/calculators/Basic_Calculator_III.md)
       - 770 Basic Calculator IV
+- Combinations
+   - [Get All Word Combinations for Constructing String](../../problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
+   - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
 - Decoding
    - [Decode String](../../problems/string/Decode_String.md)
    - [Decode Ways](../../problems/string/Decode_Ways.md)
