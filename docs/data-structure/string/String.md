@@ -18,6 +18,10 @@
          - [Is Palindrome String by Removing One Char](../../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
          - [Is Palindrome String by Only Considering Alphanumeric Characters](../../problems/string/palindrome/Is_Palindrome_String_By_Only_Considering_Alphanumeric_Characters.md)
          - [Can Characters of String Form Palindrome](../../problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
+         - 131 Palindrome Partitioning
+         - 132 Palindrome Partitioning II
+         - 1278 Palindrome Partitioning III
+         - 1745 Palindrome Partitioning IV
 - Substring
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
    - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
