@@ -6,6 +6,7 @@
       - [BFS](../../solution-patterns/Breadth_First_Search.md#2d-array)
       - [DFS](../../solution-patterns/Depth_First_Search.md#2d-array)
 - [**Strategies**](#strategies)
+- [**Common Topics**](#common-topics)
 
 ## Basic operations
 ### Traverse
