@@ -32,9 +32,16 @@
 - Combinations
    - [Get All Word Combinations for Constructing String](../../problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
-- Decoding
-   - [Decode String](../../problems/string/Decode_String.md)
-   - [Decode Ways](../../problems/string/Decode_Ways.md)
+- Conversion (Decoding and encoding)
+   - Decoding
+      - [Decode String](../../problems/string/Decode_String.md)
+      - [Decode Ways](../../problems/string/Decode_Ways.md)
+   - Roman numerals
+      - [Ancestral Names](../../problems/other/Ancestral_Names.md)
+      - 12 Integer to Roman
+      - 13 Roman to Integer
+   - Other
+      - [Convert Integer to English Words](docs/problems/string/Convert_Integer_To_English_Words.md)
 - Other
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
