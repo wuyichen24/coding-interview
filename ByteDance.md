@@ -57,6 +57,7 @@
 | [1048](https://leetcode.com/problems/longest-string-chain/) | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | 29 (2y.) |
 | [5](https://leetcode.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](docs/problems/string/Longest_Palindromic_Substring.md) | | 8 (6m.) |
 | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](docs/problems/string/Longest_Substring_Without_Repeating_Characters.md) | | 9 (6m.), 2 (2y.) | 
+| [42](https://leetcode.com/problems/trapping-rain-water/) | [Trap Rain Water](docs/problems/other/Trap_Rain_Water.md) | | 2 (6.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
