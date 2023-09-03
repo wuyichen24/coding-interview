@@ -41,7 +41,7 @@ void reverse(int[] nums, int i, int j) {
 - Inversion
    - [Inversions](../../problems/array/Inversions.md)
    - 1395 Count Number of Teams
-- Combinations
+- Combinations and permutations
    - Subset
       - [Subsets (inputs are unique)](../../docs/problems/combinations/Subsets.md)
       - [Subsets II (inputs may contain duplicates)](../../docs/problems/combinations/Subsets_II.md)
