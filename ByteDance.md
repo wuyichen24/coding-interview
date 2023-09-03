@@ -56,6 +56,7 @@
 | 1444 | [Number of Ways of Cutting a Pizza](docs/problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md) | | |
 | [1048](https://leetcode.com/problems/longest-string-chain/) | [Longest String Chain](docs/problems/string/Longest_String_Chain.md) | | 29 (2y.) |
 | [5](https://leetcode.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](docs/problems/string/Longest_Palindromic_Substring.md) | | 8 (6m.) |
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](docs/problems/string/Longest_Substring_Without_Repeating_Characters.md) | | 9 (6m.), 2 (2y.) | 
 
 **Notes:**
 - `# occs.` = number of occurrences
