@@ -35,7 +35,7 @@ Return `true` if you can reach the **last index**, or `false` otherwise.
      ```
 
 ## Solutions
-- Solution 1: Jump backwards
+- **Solution 1: Jump backwards**
    - Idea
       - Jump backwards from the last index
       - Keep track of the smallest index that can "jump" to the last index.
@@ -50,7 +50,7 @@ Return `true` if you can reach the **last index**, or `false` otherwise.
       return last<=0;
   }
   ```
-- Solution 2: Backtracking
+- **Solution 2: Backtracking**
 
   ```java
   class Solution {
