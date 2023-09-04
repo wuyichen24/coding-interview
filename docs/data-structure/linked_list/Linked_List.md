@@ -243,6 +243,8 @@ void removeKthNode(ListNode head, int k) {
       - [Remove Duplicates from Sorted List](../../../docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - [Remove Node without Accessing Previous Node](../../../docs/problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
       - [Remove Nodes by Value](../../../docs/problems/linked_list/Remove_Nodes_From_List_By_Value.md)
+   - Rotate
+      - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
 
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
