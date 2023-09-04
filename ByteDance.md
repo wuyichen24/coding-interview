@@ -34,11 +34,11 @@
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md) | 1 | 6 (6m.) |
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](docs/problems/intervals/Merge_Intervals.md) | 1 | 5 (6m.), 3 (1y.) | 
 | [253](https://leetcode.com/problems/meeting-rooms-ii/) | [Meeting Rooms II](docs/problems/intervals/Meeting_Rooms_II.md) | | 6 (6m.) |
-| [78](https://leetcode.com/problems/subsets/) | [Subsets](https://github.com/wuyichen24/coding-interview/blob/master/docs/problems/combinations/Subsets.md) | 2 | 2 (6m.), 2 (2y.) |
-| [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](docs/problems/combinations/Subsets_II.md) | | 2 (2y.) | 
-| [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/combinations/Combination_Sum.md) | | 2 (1y.), 5 (2y.) |
-| [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](docs/problems/combinations/Combination_Sum_II.md) | | 2 (1y.), 2 (2y.) |
-| [46](https://leetcode.com/problems/permutations/) | [Permutations](docs/problems/permutations/Permutations.md) | | 2 (6m.) |
+| [78](https://leetcode.com/problems/subsets/) | [Subsets](docs/problems/array/combinations/Subsets.md) | 2 | 2 (6m.), 2 (2y.) |
+| [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](docs/problems/array/combinations/Subsets_II.md) | | 2 (2y.) | 
+| [39](https://leetcode.com/problems/combination-sum/) | [Combination Sum](docs/problems/array/combinations/Combination_Sum.md) | | 2 (1y.), 5 (2y.) |
+| [40](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](docs/problems/array/combinations/Combination_Sum_II.md) | | 2 (1y.), 2 (2y.) |
+| [46](https://leetcode.com/problems/permutations/) | [Permutations](docs/problems/array/permutations/Permutations.md) | | 2 (6m.) |
 | [79](https://leetcode.com/problems/word-search/) | [Word Search](docs/problems/array/2d/Word_Search.md) | 1 | 5 (6m.), 4 (2y.) |
 | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Traverse Binary Tree Level Order](docs/problems/tree/Traverse_Binary_Tree_Level_Order.md) | 2 | 2 (6m.) |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Get Maximum Path Sum from Binary Tree](docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md) | 1 | 2 (6m.), 6 (2y.) |
