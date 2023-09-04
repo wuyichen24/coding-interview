@@ -83,18 +83,6 @@
       - LeetCode-21 Merge 2 sorted lists
       - [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md)
       - [Merge 2 Sorted Arrays](docs/problems/array/Merge_2_Sorted_Arrays.md)
-- **Symmetry**
-   - **Parentheses**
-      - [Is Valid Parentheses](docs/problems/string/parentheses/Is_Valid_Parentheses.md)
-      - [Generate All Combinations of Parentheses](docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
-      - [Remove Minimum Parentheses to Make Parentheses Valid](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
-      - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
-   - **Palindrome**
-      - [Is Palindrome String](docs/problems/string/palindrome/Is_Palindrome_String.md)
-      - [Is Palindrome String by Removing One Char](docs/problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
-      - [Is Palindrome String by Only Considering Alphanumeric Characters](docs/problems/string/palindrome/Is_Palindrome_String_By_Only_Considering_Alphanumeric_Characters.md)
-      - [Can Characters of String Form Palindrome](docs/problems/string/palindrome/Can_Characters_Of_String_Form_Palindrome.md)
-      - [Is Palindrome List](docs/problems/linked_list/Is_Palindrome_List.md)
 - [**Random**](docs/problem_patterns/Random.md)
    - **Candidate with same weight**
       - [Generate Random Index of Target Number](docs/problems/array/Generate_Random_Index_Of_Target_Number.md)
@@ -132,38 +120,14 @@
       - LeetCode-2 Add Two Numbers
 - **Combinations and Permutations**
    - **Combinations**
-      - [Get All Word Combinations for Constructing String](docs/problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
-      - [Get All Operator Combinations to Make Expression Match Target Number](docs/problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
       - [Hack The Bank](docs/problems/other/Hack_The_Bank.md)
       - [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md)
       - 131. Palindrome Partitioning
-      - Parentheses
-         - [Generate All Combinations of Parentheses](docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
-         - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
-      - Subset
-         - [Subsets (inputs are unique)](docs/problems/combinations/Subsets.md)
-         - [Subsets II (inputs may contain duplicates)](docs/problems/combinations/Subsets_II.md)
-      - Combination sum
-         - [Combination Sum (element can be reused)](docs/problems/combinations/Combination_Sum.md)
-         - [Combination Sum II (element can only be used once)](docs/problems/combinations/Combination_Sum_II.md)
-   - **Permutations**
-      - [Permutations (inputs are unique)](docs/problems/permutations/Permutations.md)
-      - [Permutations II (inputs may contain duplicates)](docs/problems/permutations/Permutations_II.md)
-- **Grouping**
-   - [Get Number of Groups in Undirected Graph](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
-   - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
-   - [Group Shifted Strings](docs/problems/string/Group_Shifted_Strings.md)
-- **Detect Cycle**
-   - [Detect Cycle in Undirected Graph](docs/problems/graph/Detect_Cycle_In_Undirected_Graph.md)
-   - LeetCode-1041 Robot Bounded In Circle
-- **Calculator**
-   - 224 Basic Calculator
-   - 227 Basic Calculator II
-   - [Basic Calculator III](docs/problems/string/calculators/Basic_Calculator_III.md)
-   - 770 Basic Calculator IV
 - **Math**
    - [Implement Pow(x,n)](docs/problems/math/Implement_Pow_X_N.md)
    - [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md)
+- **Others**
+   - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
 
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
