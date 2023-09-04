@@ -43,7 +43,7 @@
 | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Traverse Binary Tree Level Order](docs/problems/tree/Traverse_Binary_Tree_Level_Order.md) | 2 | 2 (6m.) |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Get Maximum Path Sum from Binary Tree](docs/problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md) | 1 | 2 (6m.), 6 (2y.) |
 | [199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Get Right Side View of Binary Tree](docs/problems/tree/Get_Right_Side_View_Of_Binary_Tree.md) | 1 | 4 (2y.) |
-| [772](https://leetcode.com/problems/basic-calculator-iii/) | [Basic Calculator III](docs/problems/string/calculators/Basic_Calculator_III.md) | 1 | 5 (6m.) |
+| [772](https://leetcode.com/problems/basic-calculator-iii/) | [Basic Calculator III](docs/problems/string/calculators/Basic_Calculator_III.md) | 2 | 5 (6m.) |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite](docs/problems/graph/Is_Graph_Bipartite.md) | 2 | 2 (6m.), 3 (2y.) |
 | [1293](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [Shortest Path in a Grid with Obstacles Elimination](docs/problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md) | 1 | 7 (6m.) |
 | [815](https://leetcode.com/problems/bus-routes/) | [Bus Routes](docs/problems/graph/Bus_Routes.md) | 1 | 5 (6m.) |
