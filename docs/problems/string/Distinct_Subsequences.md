@@ -27,6 +27,9 @@ Given two strings `s` and `t`, return the number of distinct subsequences of `s`
 - Solution 1: Dynamic programming
    - Idea
       - Initialize a 2D array `dp` of size `M × N` where M represents the length of string S while `N` represents the length of string `T`.
+
+     ![img8](https://github.com/wuyichen24/coding-interview/assets/8989447/8395a509-d4e8-4320-a448-3dd8d9c4cbc5)
+
    - Steps
       - Initialize a 2D array `dp` of size `M × N`.
       - Initialize the base cases:
@@ -35,7 +38,9 @@ Given two strings `s` and `t`, return the number of distinct subsequences of `s`
       - For each cell in the `dp`
          - Move to the next character in the S: `dp[i][j] = dp[i+1][j]`
          - If the characters matched, we add the result of the next recursion call `dp[i][j] += dp[i + 1][j + 1]`.
-       
+
+     ![img10](https://github.com/wuyichen24/coding-interview/assets/8989447/7daff745-69c8-4b9b-bd78-85f44a561ab4)
+
   ```java
   public int numDistinct(String s, String t) {
       int M = s.length();
