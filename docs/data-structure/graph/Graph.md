@@ -3,6 +3,10 @@
 ## Types
 
 ## Common algorithms
+- BFS
+- DFS
+- Dijkstra's algorithm
+- Kahn's algorithm
 
 ## Best practice
 - **Build the graph before executing any algorithm**
