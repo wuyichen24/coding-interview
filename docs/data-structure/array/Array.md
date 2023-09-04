@@ -57,8 +57,8 @@ void reverse(int[] nums, int i, int j) {
    - Split
       - [Optimizing Box Weights](../../problems/array/Optimizing_Box_Weights.md)
    - Remove
-      - [Remove All Occurrences of Value from Array](problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
-      - [Remove Duplicates from Sorted Array](problems/array/Remove_Duplicates_From_Sorted_Array.md)
+      - [Remove All Occurrences of Value from Array](../../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
+      - [Remove Duplicates from Sorted Array](../../problems/array/Remove_Duplicates_From_Sorted_Array.md)
 - Jump game
    - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
    - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
