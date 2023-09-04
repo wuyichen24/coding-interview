@@ -59,5 +59,7 @@ void reverse(int[] nums, int i, int j) {
    - Remove
       - [Remove All Occurrences of Value from Array](problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
       - [Remove Duplicates from Sorted Array](problems/array/Remove_Duplicates_From_Sorted_Array.md)
+- Jump game
+   - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
 - Other
    
