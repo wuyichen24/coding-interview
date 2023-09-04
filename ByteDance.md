@@ -59,6 +59,7 @@
 | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](docs/problems/string/Longest_Substring_Without_Repeating_Characters.md) | | 9 (6m.), 2 (2y.) | 
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trap Rain Water](docs/problems/other/Trap_Rain_Water.md) | | 2 (6.) |
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Traversal](docs/problems/array/2d/Spiral_Traversal.md) | | 5 (6.) |
+| [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](docs/problems/graph/Course_Schedule_II.md) | | 8 (6m.), 3 (1y.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
