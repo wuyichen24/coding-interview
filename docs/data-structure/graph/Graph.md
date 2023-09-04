@@ -42,4 +42,22 @@
             /* Continue */
         }
         ````
-     
+
+## Common Topics
+- Dedirected graph
+   - Path
+      - [Bus Routes](../../problems/graph/Bus_Routes.md)
+      - [Shortest Time to Office](../../problems/graph/Shortest_Time_To_Office.md)
+   - Topological sorting order (`edge[a,b]` mean `a` must happen before `b`)
+      - [Course Schedule II](../../problems/graph/Course_Schedule_II.md)
+   - Broadcast (all node get the signal)
+      - [Network Delay Time](../../problems/graph/Network_Delay_Time.md)
+- Undirected graph
+   - Cycle detection
+      - [Detect Cycle in Undirected Graph](../../problems/graph/Detect_Cycle_In_Undirected_Graph.md)
+   - Number of groups
+      - [Get Number of Groups in Undirected Graph](../../problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md)
+   - Bipartite
+      - [Is Graph Bipartite](../../problems/graph/Is_Graph_Bipartite.md)
+- Other
+   - [Shared Interest](problems/graph/Shared_Interest.md)
