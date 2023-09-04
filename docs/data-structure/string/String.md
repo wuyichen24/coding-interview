@@ -29,7 +29,7 @@
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
 - Math
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
-   - Calculator
+   - Basic calculator
       - 224 Basic Calculator
       - 227 Basic Calculator II
       - [Basic Calculator III](../../problems/calculators/Basic_Calculator_III.md)
