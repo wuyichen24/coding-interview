@@ -13,6 +13,7 @@
          - [Generate All Combinations of Parentheses](../../problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
          - [Remove Minimum Parentheses to Make Parentheses Valid](../../problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
          - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../../problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
+         - [Score of Parentheses](../../problems/string/parentheses/Score_Of_Parentheses.md)
       - Palindrome
          - [Is Palindrome String](../../problems/string/palindrome/Is_Palindrome_String.md)
          - [Is Palindrome String by Removing One Char](../../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
@@ -48,7 +49,7 @@
       - 12 Integer to Roman
       - 13 Roman to Integer
    - Other
-      - [Convert Integer to English Words](docs/problems/string/Convert_Integer_To_English_Words.md)
+      - [Convert Integer to English Words](../../problems/string/Convert_Integer_To_English_Words.md)
 - Other
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
@@ -56,5 +57,5 @@
    - Input is a string array
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
       - [Longest String Chain](../../string/Longest_String_Chain.md)
-   - [Stars and Bars](problems/string/Stars_And_Bars.md)
+   - [Stars and Bars](../../problems/string/Stars_And_Bars.md)
       
