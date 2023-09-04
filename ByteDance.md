@@ -60,6 +60,7 @@
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trap Rain Water](docs/problems/other/Trap_Rain_Water.md) | | 2 (6.) |
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Traversal](docs/problems/array/2d/Spiral_Traversal.md) | | 5 (6.) |
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](docs/problems/graph/Course_Schedule_II.md) | | 8 (6m.), 3 (1y.) |
+| [856](https://leetcode.com/problems/score-of-parentheses/) | [Score of Parentheses](docs/problems/string/parentheses/Score_Of_Parentheses.md) | | 5 (6m.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
