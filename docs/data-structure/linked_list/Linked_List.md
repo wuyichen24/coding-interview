@@ -234,7 +234,12 @@ void removeKthNode(ListNode head, int k) {
    - Check one list
       - [Is Palindrome List](../../../docs/problems/linked_list/Is_Palindrome_List.md)
    - Compare two lists
+- Access
+   - [Get Middle Node from List](../../problems/linked_list/Get_Middle_Node_From_List.md)
+   - [Get Random Node from List](../../problems/linked_list/Get_Random_Node_From_List.md)
 - Manipulation
+   - Insert
+      - [Add Node to Sorted Circular List](../../problems/linked_list/Add_Node_To_Sorted_Circular_List.md)
    - Merge
       - [Merge_K_Sorted_Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
    - Reverse
