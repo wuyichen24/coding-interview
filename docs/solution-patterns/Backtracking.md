@@ -70,6 +70,8 @@
 - Permutations
    - [Permutations (inputs are unique)](../../docs/problems/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../../docs/problems/permutations/Permutations_II.md)
+- Other
+   - [N-Queens](../../docs/problems/array/2d/N_Queens.md)
 
 ## Strategies
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
