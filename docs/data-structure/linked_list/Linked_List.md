@@ -235,6 +235,8 @@ void removeKthNode(ListNode head, int k) {
       - [Is Palindrome List](../../../docs/problems/linked_list/Is_Palindrome_List.md)
    - Compare two lists
 - Manipulation
+   - Merge
+      - [Merge_K_Sorted_Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
    - Reverse
       - [Reverse List](../../../docs/problems/linked_list/Reverse_List.md)
       - [Reverse Sub-list](../../../docs/problems/linked_list/Reverse_Sub_List.md)
