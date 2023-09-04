@@ -32,7 +32,7 @@
    - Basic calculator
       - 224 Basic Calculator
       - 227 Basic Calculator II
-      - [Basic Calculator III](../../problems/calculators/Basic_Calculator_III.md)
+      - [Basic Calculator III](../../problems/string/calculators/Basic_Calculator_III.md)
       - 770 Basic Calculator IV
 - Combinations
    - [Get All Word Combinations for Constructing String](../../problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
