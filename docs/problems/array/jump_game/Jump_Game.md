@@ -19,7 +19,7 @@ Return `true` if you can reach the **last index**, or `false` otherwise.
      true
      ```
    - Explanation
-      - Jump 1 step from index 0 to 1, then 3 steps to the last index.
+      - Jump 1 step from index 0 to 1, jump 2 from index 1 to last.
 - Example 2
    - Input
      ```
@@ -30,9 +30,7 @@ Return `true` if you can reach the **last index**, or `false` otherwise.
      false
      ```
    - Explanation
-     ```
-     You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
-     ```
+      - You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
 
 ## Solutions
 - **Solution 1: Jump backwards**
