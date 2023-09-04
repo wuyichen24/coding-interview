@@ -46,7 +46,7 @@
 | [772](https://leetcode.com/problems/basic-calculator-iii/) | [Basic Calculator III](docs/problems/string/calculators/Basic_Calculator_III.md) | 2 | 5 (6m.) |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite](docs/problems/graph/Is_Graph_Bipartite.md) | 2 | 2 (6m.), 3 (2y.) |
 | [1293](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [Shortest Path in a Grid with Obstacles Elimination](docs/problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md) | 1 | 7 (6m.) |
-| [815](https://leetcode.com/problems/bus-routes/) | [Bus Routes](docs/problems/graph/Bus_Routes.md) | 1 | 5 (6m.) |
+| [815](https://leetcode.com/problems/bus-routes/) | [Bus Routes](docs/problems/graph/Bus_Routes.md) | 2 | 5 (6m.) |
 | [91](https://leetcode.com/problems/decode-ways/) | [Decode Ways](docs/problems/string/Decode_Ways.md) | 1 | 2 (1y.) |
 | [238](https://leetcode.com/problems/product-of-array-except-self/) | [Product of Array Except Self](docs/problems/array/Product_Of_Array_Except_Self.md) | 1 | 2 (1y.) |
 | [721](https://leetcode.com/problems/accounts-merge/) | [Accounts Merge](docs/problems/other/Accounts_Merge.md) | 1 | 2 (1y.) |
