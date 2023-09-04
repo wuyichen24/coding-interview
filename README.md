@@ -49,7 +49,7 @@
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
 - [Sliding Window]()
 - [Divide and Conquer]()
-- [Dynamic Programming]()
+- [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
 - [Greedy]()
 - [Recursion]()
 
