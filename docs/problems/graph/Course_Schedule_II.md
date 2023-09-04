@@ -37,7 +37,7 @@ There are a total of `numCourses` courses you have to take, labeled from `0` to 
       - So one correct course order is `[0,1,2,3]`. Another correct ordering is `[0,2,1,3]`.
     
 ## Solutions
-- Solution 1: Using node indegree
+- Solution 1: Using node indegree (Kahn's algorithm)
    - Idea
       - We first process all the nodes/course with 0 in-degree implying no prerequisite courses.
       - If we remove all these courses from the graph, along with their outgoing edges, we can find out the courses/nodes that should be processed next. These would again be the nodes with 0 in-degree.
@@ -97,3 +97,4 @@ There are a total of `numCourses` courses you have to take, labeled from `0` to 
       return new int[0];
   }
   ```
+- Solution 2: DFS
