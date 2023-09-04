@@ -61,5 +61,6 @@ void reverse(int[] nums, int i, int j) {
       - [Remove Duplicates from Sorted Array](problems/array/Remove_Duplicates_From_Sorted_Array.md)
 - Jump game
    - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
+   - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
 - Other
    
