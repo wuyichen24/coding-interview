@@ -56,3 +56,4 @@
    - [Spiral Traversal](../../problems/array/2d/Spiral_Traversal.md)
 - Other
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
+   - [N-Queens](../../problems/array/2d/N_Queens.md)
