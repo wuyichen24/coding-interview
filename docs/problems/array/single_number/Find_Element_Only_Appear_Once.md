@@ -35,4 +35,17 @@ You must implement a solution with a linear runtime complexity and use only cons
          - `a ⊕ 0 = a`
       - If we take XOR of two same bits, it will return 0
          - `a ⊕ a = 0`
-      - a⊕b⊕a=(a⊕a)⊕b=0⊕b=ba 
+      - `a ⊕ b ⊕ a= (a ⊕ a) ⊕ b = 0 ⊕ b = b`
+   - Complexity
+      - Time complexity: *O(n)*
+      - Space complexity: *O(1)*
+
+  ```java
+  public int singleNumber(int[] nums) {
+      int a = 0;
+      for (int i : nums) {
+          a ^= i;
+      }
+      return a;
+  }
+  ```
