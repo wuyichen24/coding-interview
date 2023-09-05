@@ -54,7 +54,7 @@
 - [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
 - [Greedy]()
 - [Recursion]()
-- [Quickselect]
+- [Quickselect]()
 - Other algorithms
    - Kahn's algorithm
    - Sweepline algorithm
