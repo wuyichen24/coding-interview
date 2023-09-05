@@ -6,7 +6,12 @@
       - The recursive relationship can be defined either in top-down (from n to 0) or bottom-up (from 0 to n).
    - Examples
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the relationship is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
-      - For [House Robber](../problems/array/house_robber/House_Robber.md), the relationship is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i - 1) )` (top-down).
+      - For [House Robber](../problems/array/house_robber/House_Robber.md), the relationship is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
+- Check we calculate the same subproblem twice.
+   - Example
+      - If the recursive relationship is `problem(i) = problem(i-1) + problem(i-2)`
+      - When the `i = 10`, we calculate `problem(9)` and `problem(8)`. When the `i = 9`, we calculate `problem(8)` and `problem(7)`.
+      - You can see that we calculate `problem(8)` twice.
 
 ## Problems
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
