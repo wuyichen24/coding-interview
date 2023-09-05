@@ -1,4 +1,4 @@
-# Remove K Digits
+# Remove K Digits to Make Smallest Integer
 
 ## Alias
 - Leetcode (402): [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)
