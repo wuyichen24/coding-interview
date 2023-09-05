@@ -1,4 +1,4 @@
-# Find Element Only Appear Once.md
+# Find Element Only Appear Once
 
 ## Alias
 - Leetcode (136): [Single Number](https://leetcode.com/problems/single-number/)
