@@ -30,6 +30,8 @@ Given an integer array `nums` and an integer `k`, return the `kth` largest eleme
 
 ## Solutions
 - **Solution 1: Sorting**
+   - Complexity
+      - Time complexity: *O(nlogn)* (based on sorting algorithm)
   ```java
   public int findKthLargest(int[] nums, int k) {
       Arrays.sort(nums);
@@ -38,6 +40,8 @@ Given an integer array `nums` and an integer `k`, return the `kth` largest eleme
   ```
 
 - **Solution 2: Priority queue**
+   - Complexity
+      - Time complexity: *O(nlogk)*
   ```java
   public int findKthLargest(int[] nums, int k) {
       PriorityQueue<Integer> queue = new PriorityQueue<>();
@@ -66,4 +70,46 @@ Given an integer array `nums` and an integer `k`, return the `kth` largest eleme
          - `mid` is the section with elements equal to the pivot.
          - `right` is the section with elements greater than the pivot.
       - For finding `kth` largest rather than smallest, swap what `left` and `right` represent - `left` will be the section with elements greater than the pivot and `right` will be the section with elements less than the pivot.
-      - 
+   - Complexity
+      - Time complexity: O(n)
+  ```java
+  class Solution {
+      public int findKthLargest(int[] nums, int k) {
+          List<Integer> list = new ArrayList<>();
+          for (int num: nums) {
+              list.add(num);
+          }
+        
+          return quickSelect(list, k);
+      }
+    
+      public int quickSelect(List<Integer> nums, int k) {
+          int pivotIndex = new Random().nextInt(nums.size());
+          int pivot = nums.get(pivotIndex);
+        
+          List<Integer> left = new ArrayList<>();
+          List<Integer> mid = new ArrayList<>();
+          List<Integer> right = new ArrayList<>();
+        
+          for (int num: nums) {
+              if (num > pivot) {
+                  left.add(num);
+              } else if (num < pivot) {
+                  right.add(num);
+              } else {
+                  mid.add(num);
+              }
+          }
+        
+          if (k <= left.size()) {
+              return quickSelect(left, k);
+          }
+        
+          if (left.size() + mid.size() < k) {
+              return quickSelect(right, k - left.size() - mid.size());
+          }
+        
+          return pivot;
+      }
+  }
+  ```
