@@ -50,6 +50,7 @@
 - [Sliding Window]()
 - [Divide and Conquer]()
 - [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
+- [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
 - [Greedy]()
 - [Recursion]()
 
