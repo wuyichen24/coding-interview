@@ -69,3 +69,5 @@ Given an integer array `nums` representing the amount of money of each house, re
       }
   }
   ```
+
+- Solution 2: 
