@@ -38,6 +38,9 @@ void reverse(int[] nums, int i, int j) {
 - Frequency
    - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
+   - Single number
+      - [Find Element Only Appear Once](../../problems/array/single_number/Find_Element_Only_Appear_Once.md)
+      - [Find Element Only Appear Once II](../../problems/array/single_number/Find_Element_Only_Appear_Once_II.md)
 - Inversion
    - [Inversions](../../problems/array/Inversions.md)
    - 1395 Count Number of Teams
