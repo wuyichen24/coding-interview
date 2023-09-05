@@ -73,5 +73,7 @@ void reverse(int[] nums, int i, int j) {
    - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
    - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
    - [Jump Game IV](../../problems/array/jump_game/Jump_Game_IV.md)
+- House Robber
+   - [House Robber](../../problems/array/house_robber/House_Robber.md)
 - Other
    
