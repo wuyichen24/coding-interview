@@ -56,6 +56,9 @@
       - 13 Roman to Integer
    - Other
       - [Convert Integer to English Words](../../problems/string/Convert_Integer_To_English_Words.md)
+- Manipulation
+   - Remove
+      - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
 - Other
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
