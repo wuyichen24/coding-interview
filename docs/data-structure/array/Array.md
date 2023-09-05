@@ -28,12 +28,14 @@ void reverse(int[] nums, int i, int j) {
 - Subarray (a contiguous non-empty sequence)
    - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
+   - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
 - Find missing
    - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
    - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
 - Array math
    - Product
       - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
+      - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
       - [Calculate Dot Product of 2 Arrays](../../problems/array/Calculate_Dot_Product_Of_2_Arrays.md)
    - Sum
       - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
