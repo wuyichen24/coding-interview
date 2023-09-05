@@ -126,6 +126,7 @@
 - **Math**
    - [Implement Pow(x,n)](docs/problems/math/Implement_Pow_X_N.md)
    - [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md)
+   - [Nth Digit](docs/problems/math/Nth_Digit.md)
 - **Others**
    - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
 
