@@ -33,6 +33,8 @@ void reverse(int[] nums, int i, int j) {
 - Find missing
    - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
    - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
+- Access
+   - [Kth Largest Element in an Array](problems/array/Kth_Largest_Element_In_Array.md)
 - Array math
    - Product
       - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
