@@ -45,7 +45,7 @@
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
 - Sorting in custom order
    - [Ancestral Names](../../problems/other/Ancestral_Names.md)
-   - [Get Lexicographically Increasing Order from Words](../../problems/string/Get_Lexicographically_Increasing_Order_From_Words.md)
+   - [Get Lexicographically Increasing Order from Words (Alien Dictionary)](../../problems/string/Get_Lexicographically_Increasing_Order_From_Words.md)
 - Conversion (Decoding and encoding)
    - Decoding
       - [Decode String](../../problems/string/Decode_String.md)
