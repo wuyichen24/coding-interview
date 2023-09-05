@@ -1,4 +1,4 @@
-# Find Element Only Appear Once II.md
+# Find Element Only Appear Once II
 
 ## Alias
 - Leetcode (137): [Single Number II](https://leetcode.com/problems/single-number-ii/)
