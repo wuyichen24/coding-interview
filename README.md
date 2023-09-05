@@ -47,12 +47,21 @@
 - [**Depth-First Search (DFS)**](docs/solution-patterns/Depth_First_Search.md)
 - [**Union Find**](docs/solution-patterns/Union_Find.md)
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
+- [Sorting]()
 - [Sliding Window]()
 - [Divide and Conquer]()
 - [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
 - [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
 - [Greedy]()
 - [Recursion]()
+- [Quickselect]
+- Other algorithms
+   - Kahn's algorithm
+   - Sweepline algorithm
+   - Kadane's Algorithm
+   - Easy rolling
+   - Bidirectional search
+   - Counting sort
 
 ## Problem Patterns
 - **Top K and Kth**
