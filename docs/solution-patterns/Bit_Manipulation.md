@@ -1,4 +1,4 @@
-# Bit manipulation
+# Bit Manipulation
 
 ## Problems
 - Single number
