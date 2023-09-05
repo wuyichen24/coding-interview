@@ -28,6 +28,7 @@ void reverse(int[] nums, int i, int j) {
 - Subarray (a contiguous non-empty sequence)
    - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
+   - [Minimum Size Subarray Sum](../../problems/array/Minimum_Size_Subarray_Sum.md)
    - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
 - Find missing
    - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
