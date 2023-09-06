@@ -4,9 +4,22 @@
 - Use 2-element integers array to represent the start time and the end time.
    - `[start, end]`
 
+## Common operations
+- Determine if there's an overlap between two intervals
+   - Given 2 intervals `[S1, E1]` and `[S2, E2]` (`S1 < S2`), the condition for having overlapping is:
+      - `E1 > S2`
+    
+     ![Intervals_Check_Overlapping drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/08ca2643-c947-483b-af44-01d963c35e4b)
+
+- Finding the overlap
+   - Given 2 intervals `[S1, E1]` and `[S2, E2]`, the formula for calculating the overlapping range is:
+      - `Given 2 intervals `[max(S1, S2), min(E1, E2)].`
+
 ## Strategies
-- Consider to sort intervals by either start time or end time.
-- Consider to split intervals into an array of start time and an array of end time. Sort them repectively.
+- Preprocessing
+   - Consider to sort intervals by either start time or end time.
+   - Consider to split intervals into an array of start time and an array of end time. Sort them repectively.
+- After sorting the inverals, go through sorted intervals.
 
 ## Problem
 - Meeting Rooms
