@@ -68,6 +68,15 @@
 - Meeting Rooms
    - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
    - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
+ - Subset
+   - [Subsets (inputs are unique)](../problems/array/combinations/Subsets.md)
+   - [Subsets II (inputs may contain duplicates)](../problems/array/combinations/Subsets_II.md)
+- Combination sum
+   - [Combination Sum (element can be reused)](../problems/array/combinations/Combination_Sum.md)
+   - [Combination Sum II (element can only be used once)](../problems/array/combinations/Combination_Sum_II.md)
+- Permutations
+   - [Permutations (inputs are unique)](../problems/array/permutations/Permutations.md)
+   - [Permutations II (inputs may contain duplicates)](../problems/array/permutations/Permutations_II.md)
   
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
