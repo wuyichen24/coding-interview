@@ -1,5 +1,9 @@
 # Array
 
+## Concepts
+- **Subarray**
+   - A subarray is a contiguous non-empty sequence of elements within an array.
+
 ## Basic operations
 ### Manipulation
 #### Swap 2 elements
