@@ -37,15 +37,35 @@
    - [First Bad Version](../problems/other/First_Bad_Version.md)
    - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
 
-## ByteDance Online assessment
-- [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
-- [Circular Printer](../problems/other/Circular_Printer.md)
-- [Diwali Lights](../problems/other/Diwali_Lights.md)
-- [Dust Control](../problems/other/Dust_Control.md)
-- [Gift Cards](../problems/other/Gift_Cards.md)
-
 ## Uncategorized problems (other)
 - [Accounts Merge](../problems/other/Accounts_Merge.md)
 - [Champagne Tower](../problems/other/Champagne_Tower.md)
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
 - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md)
+
+## ByteDance Online assessment
+- [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
+- [Ancestral Names*](../problems/string/Ancestral_Names.md)
+- [Circular Printer](../problems/other/Circular_Printer.md)
+- [Diwali Lights](../problems/other/Diwali_Lights.md)
+- [Dust Control](../problems/other/Dust_Control.md)
+- [Eating Candies](../problems/array/Eating_Candies.md)
+- [Exchange Cups](../problems/sort/Exchange_Cups.md)
+- [Gift Cards](../problems/other/Gift_Cards.md)
+- [Hack The Bank](../problems/other/Hack_The_Bank.md)
+- [Inversions](../problems/array/Inversions.md)
+- [Multi Dimensional Selection*](../problems/other/Multi_Dimensional_Selection.md)
+- [Open the Lock*](../problems/other/Open_The_Lock.md)
+- [Prefix Scores*](../problems/other/Prefix_Scores.md)
+- [Processing Tasks](../problems/other/Processing_Tasks.md)
+- [Shared Interest*](../problems/other/Shared_Interest.md)
+- [Shortest Time to Office](../problems/graph/Shortest_Time_To_Office.md)
+- [Stars and Bars](../problems/other/Stars_And_Bars.md)
+- [Tom and Jerry: Jerry's Birthday](../problems/other/Jerrys_Birthday.md)
+- [Tree Decrements**](../problems/tree/Tree_Decrements.md)
+
+**Notes**
+- `*` means the solution has been provided and verified. But still need to add more details to explain the idea.
+- `**` means the question was captured but no solution provided.
+
+
