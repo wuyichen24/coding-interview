@@ -5,13 +5,13 @@
    - `[start, end]`
 
 ## Common operations
-- Determine if there's an overlap between two intervals
+- **Determine if there's an overlap between two intervals**
    - Given 2 intervals `[S1, E1]` and `[S2, E2]` (`S1 < S2`), the condition for having overlapping is:
       - `E1 > S2`
     
      ![Intervals_Check_Overlapping drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/08ca2643-c947-483b-af44-01d963c35e4b)
 
-- Finding the overlap
+- **Finding the overlap**
    - Given 2 intervals `[S1, E1]` and `[S2, E2]`, the formula for calculating the overlapping range is:
       - `Given 2 intervals `[max(S1, S2), min(E1, E2)].`
 
