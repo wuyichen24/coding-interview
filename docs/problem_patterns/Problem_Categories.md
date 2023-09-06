@@ -42,6 +42,10 @@
 - [Champagne Tower](../problems/other/Champagne_Tower.md)
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
 - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md)
+- [Predict the Winner](../problems/other/Predict_Winner.md)
+- [Task Scheduler](../problems/other/Task_Scheduler.md)
+- [Trap Rain Water](../problems/other/Trap_Rain_Water.md)
+- [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
 
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
