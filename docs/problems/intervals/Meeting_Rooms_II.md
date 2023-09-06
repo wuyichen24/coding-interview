@@ -27,7 +27,7 @@ Given an array of meeting time intervals `intervals` where `intervals[i] = [star
      ```
 
 ## Solutions
-- **Solution 1: Sorting**
+- **Solution 1: Sort intervals**
    - Idea
       - Sort the starts and ends of intervals respectively and compare starts with ends.
    - Steps
