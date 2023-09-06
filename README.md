@@ -105,11 +105,6 @@
       - LeetCode-989 Add to Array-Form of Integer 
    - In Linked List
       - LeetCode-2 Add Two Numbers
-- **Combinations and Permutations**
-   - **Combinations**
-      - [Hack The Bank](docs/problems/other/Hack_The_Bank.md)
-      - [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md)
-      - 131. Palindrome Partitioning
 - **Others**
    - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
 
