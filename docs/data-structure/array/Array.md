@@ -26,7 +26,7 @@ void reverse(int[] nums, int i, int j) {
 ```
 
 ## Strategies
-- The problem is related to calculate the sum of sub-array, consider to use prefix sum array.
+- The problem is related to calculate the sum of subarray, consider to use prefix sum array.
 
 ## Common topics
 - Subarray (a contiguous non-empty sequence)
