@@ -1,6 +1,8 @@
 # String
 
 ## Concept
+- **Substring**
+   - A substring is a contiguous non-empty sequence of characters within a string.
 - **Subsequence**
    - A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
 
