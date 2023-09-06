@@ -11,6 +11,11 @@
 ## Concepts
 - **Subarray**
    - A subarray is a contiguous non-empty sequence of elements within an array.
+- **Subset**
+   - A subset of an array is a selection of elements (possibly none) of the array.
+   - Subset is also known as "power set".
+- **Permutation**
+   - A specific arrangement or ordering of the elements of a set.
 
 ## Basic operations
 ### Manipulation
