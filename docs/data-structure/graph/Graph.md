@@ -2,6 +2,7 @@
 
 - [**Types**](#types)
 - [**Common algorithms**](#common-algorithms)
+- [**Strateties**](#strateties)
 - [**Common Topics**](#common-topics)
 
 ## Types
@@ -31,7 +32,7 @@
 - Dijkstra's algorithm
 - Kahn's algorithm
 
-## Best practice
+## Strateties
 - **Build the graph before executing any algorithm**
    - Reason
       - Before we running any algorithm, it would be better to build the graph by map or any key-value pairs structures.
