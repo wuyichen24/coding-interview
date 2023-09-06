@@ -5,12 +5,20 @@
 - [**Common Topics**](#common-topics)
 
 ## Types
-- Directed graph
+- **Directed graph**
    - A graph that is made up of a set of vertices connected by directed edges
  
      <img width="243" alt="Screenshot 2023-09-06 at 12 18 50 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/afd99d5d-3936-4804-970e-91ed748e8b1e">
   
-- Undirected graph
+- **Undirected graph**
+   - A graph that is made up of a set of vertices connected by undirected edges
+
+     <img width="351" alt="Screenshot 2023-09-06 at 12 21 54 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/141966e6-a66e-4e27-a2c1-93dc56540fd7">
+
+- **Weighted graph**
+   - A graph in which a number (the weight) is assigned to each edge.
+
+     <img width="426" alt="Screenshot 2023-09-06 at 12 24 34 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/e985f57d-e91d-47df-866f-f713472e4fd9">
 
 ## Common algorithms
 - BFS
