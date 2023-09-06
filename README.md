@@ -48,7 +48,7 @@
 - [**Union Find**](docs/solution-patterns/Union_Find.md)
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
 - [Sorting]()
-- [Sliding Window]()
+- [**Sliding Window**](docs/solution-patterns/Sliding_Window.md)
 - [Divide and Conquer]()
 - [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
 - [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
