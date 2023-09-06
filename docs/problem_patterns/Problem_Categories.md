@@ -31,6 +31,8 @@
    - **Candidate with different weights**
       - [Generate Random Index with Weight](../problems/array/Generate_Random_Index_With_Weight.md)
 - **Combinations** (not under data structure)
-   - [Hack The Bank](docs/problems/other/Hack_The_Bank.md)
-   - [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md)
+   - [Hack The Bank](../problems/other/Hack_The_Bank.md)
+   - [Tom and Jerry: Jerry's Birthday](../problems/other/Jerrys_Birthday.md)
      
+## Uncategorized problems (other)
+- [Accounts Merge](../problems/other/Accounts_Merge.md)
