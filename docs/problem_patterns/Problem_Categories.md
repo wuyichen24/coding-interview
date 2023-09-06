@@ -49,18 +49,23 @@
 
 ## Problem series
 - Jump game
-   - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
-   - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
-   - [Jump Game IV](../../problems/array/jump_game/Jump_Game_IV.md)
+   - [Jump Game](../problems/array/jump_game/Jump_Game.md)
+   - [Jump Game II](../problems/array/jump_game/Jump_Game_II.md)
+   - [Jump Game IV](../problems/array/jump_game/Jump_Game_IV.md)
 - House Robber
-   - [House Robber](../../problems/array/house_robber/House_Robber.md)
-   - [House Robber II](../../problems/array/house_robber/House_Robber_II.md)
+   - [House Robber](../problems/array/house_robber/House_Robber.md)
+   - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
 - Basic calculator
    - 224 Basic Calculator
    - 227 Basic Calculator II
-   - [Basic Calculator III](../../problems/string/calculators/Basic_Calculator_III.md)
+   - [Basic Calculator III](../problems/string/calculators/Basic_Calculator_III.md)
    - 770 Basic Calculator IV
-
+- Palindrome Partitioning
+   - 131 Palindrome Partitioning
+   - 132 Palindrome Partitioning II
+   - 1278 Palindrome Partitioning III
+   - 1745 Palindrome Partitioning IV
+  
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
 - [Ancestral Names*](../problems/string/Ancestral_Names.md)
