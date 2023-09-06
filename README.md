@@ -64,7 +64,12 @@
    - Counting sort
 
 ## Problem Patterns
+### New
 - [**Problem Categories**](docs/problem_patterns/Problem_Categories.md)
+- [**Random**](docs/problem_patterns/Random.md)
+
+
+### Need to remove
 - **Top K and Kth**
    - Top K
       - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
