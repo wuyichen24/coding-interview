@@ -8,7 +8,7 @@
 - Directed graph
    - A graph that is made up of a set of vertices connected by directed edges
  
-  <img width="243" alt="Screenshot 2023-09-06 at 12 18 50 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/afd99d5d-3936-4804-970e-91ed748e8b1e">
+     <img width="243" alt="Screenshot 2023-09-06 at 12 18 50 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/afd99d5d-3936-4804-970e-91ed748e8b1e">
   
 - Undirected graph
 
