@@ -27,8 +27,8 @@
      <img width="423" alt="Screenshot 2023-09-06 at 12 31 09 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/2cb6f697-9fd7-4947-86e5-a75c18d1bf1e">
 
 ## Common algorithms
-- BFS
-- DFS
+- [Breadth-First Search (BFS)](../../solution-patterns/Breadth_First_Search.md)
+- [Depth-First Search (DFS)](../../solution-patterns/Depth_First_Search.md)
 - Dijkstra's algorithm
 - Kahn's algorithm
 
