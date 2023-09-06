@@ -70,6 +70,10 @@
             /* Continue */
         }
         ````
+- **For recording the nodes you have been visited, consider use `HashSet` to store the name of the visited nodes**.
+  ```java
+  Set<Integer> visited = new HashSet();
+  ```
 
 ## Common Topics
 - Dedirected graph
