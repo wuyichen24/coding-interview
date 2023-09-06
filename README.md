@@ -67,7 +67,7 @@
 ### New
 - [**Problem Categories**](docs/problem_patterns/Problem_Categories.md)
 - [**Random**](docs/problem_patterns/Random.md)
-
+- [**Interval**](docs/problem_patterns/Interval.md)
 
 ### Need to remove
 - **Top K and Kth**
