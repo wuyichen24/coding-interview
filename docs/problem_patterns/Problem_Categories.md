@@ -65,6 +65,9 @@
    - 132 Palindrome Partitioning II
    - 1278 Palindrome Partitioning III
    - 1745 Palindrome Partitioning IV
+- Meeting Rooms
+   - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
+   - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
   
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
