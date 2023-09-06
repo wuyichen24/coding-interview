@@ -10,3 +10,17 @@
 - [Binary tree](../data-structure/tree/Binary_Tree.md#binary-tree-1)
 - [Binary search tree](../data-structure/tree/Binary_Tree.md#binary-search-tree)
 - [Graph](../data-structure/graph/Graph.md#common-topics)
+
+## Other problem categories
+- **Math**
+   - [Implement Pow(x,n)](../problems/math/Implement_Pow_X_N.md)
+   - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
+   - [Nth Digit](../problems/math/Nth_Digit.md)
+- **Intevals**
+   - Meeting Rooms
+      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
+      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
+   - [Merge Intervals](../problems/intervals/Merge_Intervals.md)
+   - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md)
+   - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md)
+   - [Merge K Interval Lists And Find Gaps](../problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md)
