@@ -18,3 +18,10 @@
 - For getting random candidate with same weight, consider using [Reservoir Sampling]()
 - For getting random candidate with different weight, consider using [Prefix Sum Array]()
 - You can also consider converting the problem into another type of random problem and use corresponding solution pattern.
+
+## Problem
+- **Candidate with same weight**
+   - [Generate Random Index of Target Number](../problems/array/Generate_Random_Index_Of_Target_Number.md)
+   - [Get Random Node from List](../problems/linked_list/Get_Random_Node_From_List.md)
+- **Candidate with different weights**
+   - [Generate Random Index with Weight](../problems/array/Generate_Random_Index_With_Weight.md)
