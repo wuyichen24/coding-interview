@@ -1,5 +1,9 @@
 # Graph
 
+- [**Types**](#types)
+- [**Common algorithms**](#common-algorithms)
+- [**Common Topics**](#common-topics)
+
 ## Types
 
 ## Common algorithms
