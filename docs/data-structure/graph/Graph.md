@@ -20,6 +20,11 @@
 
      <img width="426" alt="Screenshot 2023-09-06 at 12 24 34 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/e985f57d-e91d-47df-866f-f713472e4fd9">
 
+- **Bipartite graph**
+   - a graph whose vertices can be divided into two disjoint and independent sets *U* and *V*, that is, every edge connects a vertex in *U* to one in *V*.
+
+     <img width="423" alt="Screenshot 2023-09-06 at 12 31 09 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/2cb6f697-9fd7-4947-86e5-a75c18d1bf1e">
+
 ## Common algorithms
 - BFS
 - DFS
