@@ -242,7 +242,7 @@ void removeKthNode(ListNode head, int k) {
    - Insert
       - [Add Node to Sorted Circular List](../../problems/linked_list/Add_Node_To_Sorted_Circular_List.md)
    - Merge
-      - [Merge_K_Sorted_Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
+      - [Merge K Sorted Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
    - Reverse
       - [Reverse List](../../../docs/problems/linked_list/Reverse_List.md)
       - [Reverse Sub-list](../../../docs/problems/linked_list/Reverse_Sub_List.md)
