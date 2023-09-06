@@ -24,3 +24,9 @@
    - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md)
    - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md)
    - [Merge K Interval Lists And Find Gaps](../problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md)
+- **Random**
+   - **Candidate with same weight**
+      - [Generate Random Index of Target Number](../problems/array/Generate_Random_Index_Of_Target_Number.md)
+      - [Get Random Node from List](../problems/linked_list/Get_Random_Node_From_List.md)
+   - **Candidate with different weights**
+      - [Generate Random Index with Weight](../problems/array/Generate_Random_Index_With_Weight.md)
