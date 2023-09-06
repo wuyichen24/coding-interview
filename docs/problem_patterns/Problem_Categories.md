@@ -33,7 +33,19 @@
 - **Combinations** (not under data structure)
    - [Hack The Bank](../problems/other/Hack_The_Bank.md)
    - [Tom and Jerry: Jerry's Birthday](../problems/other/Jerrys_Birthday.md)
-     
+- **Binary search**
+   - [First Bad Version](../problems/other/First_Bad_Version.md)
+   - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
+
+## ByteDance Online assessment
+- [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
+- [Circular Printer](../problems/other/Circular_Printer.md)
+- [Diwali Lights](../problems/other/Diwali_Lights.md)
+- [Dust Control](../problems/other/Dust_Control.md)
+- [Gift Cards](../problems/other/Gift_Cards.md)
+
 ## Uncategorized problems (other)
 - [Accounts Merge](../problems/other/Accounts_Merge.md)
-- [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
+- [Champagne Tower](../problems/other/Champagne_Tower.md)
+- [Climbing Stairs](../problems/other/Climbing_Stairs.md)
+- [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md)
