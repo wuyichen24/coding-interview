@@ -1,5 +1,13 @@
 # Interval
 
+## Concept
+- Use 2-element integers array to represent the start time and the end time.
+   - `[start, end]`
+
+## Strategies
+- Consider to sort intervals by either start time or end time.
+- Consider to split intervals into an array of start time and an array of end time. Sort them repectively.
+
 ## Problem
 - Meeting Rooms
    - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
