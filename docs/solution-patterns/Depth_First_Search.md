@@ -13,6 +13,7 @@
    - [2D array](#2d-array)
       - Recursive implementation
       - Stack implementation
+- [**Strategies**](#strategies)
 
 ## Concept
 - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
@@ -205,4 +206,10 @@
           }
       }
   }
+  ```
+
+## Strategies
+- For recording the nodes you have been visited, consider use `HashSet` to store the name of the visited nodes.
+  ```java
+  Set<Integer> visited = new HashSet();
   ```
