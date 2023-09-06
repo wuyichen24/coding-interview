@@ -15,6 +15,8 @@
    - Given 2 intervals `[S1, E1]` and `[S2, E2]`, the formula for calculating the overlapping range is:
       - `Given 2 intervals `[max(S1, S2), min(E1, E2)].`
 
+     ![Interval_Calculate_Overlapping drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/e83eec45-4a1b-425f-9a99-f18c2153603c)
+
 ## Strategies
 - Preprocessing
    - Consider to sort intervals by either start time or end time.
