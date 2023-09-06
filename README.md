@@ -81,8 +81,6 @@
       - LeetCode-796 Rotate String
    - **Merge**
       - LeetCode-21 Merge 2 sorted lists
-      - [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md)
-      - [Merge 2 Sorted Arrays](docs/problems/array/Merge_2_Sorted_Arrays.md)
 - **Frequency**
    - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
