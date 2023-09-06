@@ -1,5 +1,13 @@
 # Array
 
+- [**Concepts**](#concepts)
+- [**Basic operations**](#basic-operations)
+   - [Manipulation](#manipulation)
+      - [Swap 2 elements](#swap-2-elements)
+      - [Reverse sub-array](#reverse-sub-array)
+- [**Strategies**](#strategies)
+- [**Common topics**](#common-topics)
+
 ## Concepts
 - **Subarray**
    - A subarray is a contiguous non-empty sequence of elements within an array.
