@@ -7,6 +7,7 @@
 - [**Code example**](#code-example)
    - [Graph](#graph)
    - [2D array](#2d-array)
+- [**Strategies**](#strategies)
 
 ## Concept
 - Breadth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures.
@@ -117,3 +118,9 @@ public class BFS2DArray {
     }
 }
 ```
+
+## Strategies
+- For recording the nodes you have been visited, consider use `HashSet` to store the name of the visited nodes.
+  ```java
+  Set<Integer> visited = new HashSet();
+  ```
