@@ -64,7 +64,7 @@
    - Counting sort
 
 ## Problem Patterns
-- [**Problem Categories**](docs/basics/ProblemCategories.md)
+- [**Problem Categories**](docs/problem_patterns/Problem_Categories.md)
 - **Top K and Kth**
    - Top K
       - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
