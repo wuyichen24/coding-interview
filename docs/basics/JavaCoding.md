@@ -13,7 +13,7 @@ This page is to document some coding standard operations.
    - [Stack](#stack)
    - [Queue](#queue)
    - [PriorityQueue](#priorityqueue)
-   - |Set](#set)
+   - [Set](#set)
    - [TreeMap](#treemap)
 - [Util](#util)
    - [Arrays](#arrays)
