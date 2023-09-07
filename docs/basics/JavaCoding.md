@@ -13,6 +13,7 @@ This page is to document some coding standard operations.
    - [Stack](#stack)
    - [Queue](#queue)
    - [PriorityQueue](#priorityqueue)
+   - |Set](#set)
    - [TreeMap](#treemap)
 - [Util](#util)
    - [Arrays](#arrays)
@@ -240,6 +241,17 @@ This page is to document some coding standard operations.
 
 - **No `empty()` function for priority queue**
    - Use `peek()` to check the priority queue is empty or not.
+
+### Set
+- **Initialize a set**
+  ```java
+  Set<String> set = new HashSet<>();
+  ```
+- **Common functions for priority queue**
+  | Functions | Description |
+  | ---- | ---- |
+  | `add` | Add one element. |
+  | `contains` | Check the element is existing in the set or not. |
 
 ### TreeMap
 - Concept
