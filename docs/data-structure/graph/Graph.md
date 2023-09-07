@@ -92,4 +92,4 @@
    - *Bipartite*
       - [Is Graph Bipartite](../../problems/graph/Is_Graph_Bipartite.md)
 - **Other**
-   - [Shared Interest](**/**/problems/graph/Shared_Interest.md)
+   - [Shared Interest](../../problems/graph/Shared_Interest.md)
