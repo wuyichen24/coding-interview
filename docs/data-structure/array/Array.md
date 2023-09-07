@@ -42,56 +42,56 @@ void reverse(int[] nums, int i, int j) {
 - The problem is related to calculate the sum of subarray, consider to use prefix sum array.
 
 ## Common topics
-- Subarray (a contiguous non-empty sequence)
+- **Subarray (a contiguous non-empty sequence)**
    - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
    - [Minimum Size Subarray Sum](../../problems/array/Minimum_Size_Subarray_Sum.md)
    - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
-- Find missing
+- **Find missing**
    - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
    - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
-- Access
+- **Access**
    - [Kth Largest Element in an Array](problems/array/Kth_Largest_Element_In_Array.md)
-- Array math
-   - Product
+- **Array math**
+   - *Product*
       - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
       - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
       - [Calculate Dot Product of 2 Arrays](../../problems/array/Calculate_Dot_Product_Of_2_Arrays.md)
-   - Sum
+   - *Sum*
       - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
-- Frequency
+- **Frequency**
    - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
    - Single number
       - [Find Element Only Appear Once](../../problems/array/single_number/Find_Element_Only_Appear_Once.md)
       - [Find Element Only Appear Once II](../../problems/array/single_number/Find_Element_Only_Appear_Once_II.md)
-- Inversion
+- **Inversion**
    - [Inversions](../../problems/array/Inversions.md)
    - 1395 Count Number of Teams
-- Combinations and permutations
-   - Combinations
+- **Combinations and permutations**
+   - *Combinations*
       - [Subsets (inputs are unique)](../../problems/array/combinations/Subsets.md)
       - [Subsets II (inputs may contain duplicates)](../../problems/array/combinations/Subsets_II.md)
-   - Combination sum
+   - *Combination sum*
       - [Combination Sum (element can be reused)](../../problems/array/combinations/Combination_Sum.md)
       - [Combination Sum II (element can only be used once)](../../problems/array/combinations/Combination_Sum_II.md)
-   - Permutations
+   - *Permutations*
       - [Permutations (inputs are unique)](../../problems/array/permutations/Permutations.md)
       - [Permutations II (inputs may contain duplicates)](../../problems/array/permutations/Permutations_II.md)
-- Manipulation
-   - Merge
+- **Manipulation**
+   - *Merge*
       - [Merge 2 Sorted Arrays](../../problems/array/Merge_2_Sorted_Arrays.md)
-   - Split
+   - *Split*
       - [Optimizing Box Weights](../../problems/array/Optimizing_Box_Weights.md)
-   - Remove
+   - *Remove*
       - [Remove All Occurrences of Value from Array](../../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
       - [Remove Duplicates from Sorted Array](../../problems/array/Remove_Duplicates_From_Sorted_Array.md)
-- Jump game
+- **Jump game**
    - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
    - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
    - [Jump Game IV](../../problems/array/jump_game/Jump_Game_IV.md)
-- House Robber
+- **House Robber**
    - [House Robber](../../problems/array/house_robber/House_Robber.md)
    - [House Robber II](../../problems/array/house_robber/House_Robber_II.md)
-- Other
+- **Other**
    
