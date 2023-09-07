@@ -170,8 +170,24 @@ This page is to document some coding standard operations.
   | `get` | Get the value by key. |
   | `getOrDefault(key, defaultValue)` | Get the value by key. If key is not in the map, return the default the value. |
   | `put` | Add or update the key-value pair into map. |
+  | `putIfAbsent(key, value)` | Only add the value if the key doesn't exist in the map. |
   | `keySet` | Get all the keys. |
   | `values` | Get all the values. |
+
+- **Traverse**
+   - Solution 1:
+     ```java
+     for(Map.Entry<String, String> entry : map.entrySet()) {
+         System.out.println(entry.getKey() + " " + entry.getValue());
+     }
+     ```
+   - Solution 2:
+     ```java
+     for(String key : map.keySet()) {
+         System.out.println(key + " " + map.get(key));
+     }
+     ```
+
 - **Convert all the values into a list**
   ```java
   Map<Integer, String> map = new HashMap<>();
