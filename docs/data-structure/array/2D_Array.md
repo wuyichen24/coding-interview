@@ -45,15 +45,15 @@
      - [Word Search](../../problems/array/2d/Word_Search.md)
 
 ## Common topics
-- Path
+- **Path**
    - [Shortest Path in a Grid with Obstacles Elimination](../../problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md)
-- Search
+- **Search**
    - [Word Search](../../problems/array/2d/Word_Search.md)
-- Traversal
+- **Traversal**
    - [Spiral Traversal](../../problems/array/2d/Spiral_Traversal.md)
-- Other
-   - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
-   - [N-Queens](../../problems/array/2d/N_Queens.md)
-- Island
+- **Island**
    - [Number of Islands](../../problems/array/2d/Number_Of_Islands.md)
    - [Get Size of Largest Island](../../problems/array/2d/Get_Size_Of_Largest_Island.md)
+- **Other**
+   - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
+   - [N-Queens](../../problems/array/2d/N_Queens.md)
