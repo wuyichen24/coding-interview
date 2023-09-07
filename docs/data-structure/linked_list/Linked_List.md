@@ -230,28 +230,28 @@ void removeKthNode(ListNode head, int k) {
 - If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of the target node.
 
 ## Common Topics
-- Check characteristics
+- **Check characteristics**
    - Check one list
       - [Is Palindrome List](../../../docs/problems/linked_list/Is_Palindrome_List.md)
    - Compare two lists
-- Access
+- **Access**
    - [Get Middle Node from List](../../problems/linked_list/Get_Middle_Node_From_List.md)
    - [Get Random Node from List](../../problems/linked_list/Get_Random_Node_From_List.md)
    - [Get Intersection of 2 Linked Lists](../../problems/linked_list/Get_Intersection_Of_2_Linked_Lists.md)
-- Manipulation
-   - Insert
+- **Manipulation**
+   - *Insert*
       - [Add Node to Sorted Circular List](../../problems/linked_list/Add_Node_To_Sorted_Circular_List.md)
-   - Merge
+   - *Merge*
       - [Merge K Sorted Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
-   - Reverse
+   - *Reverse*
       - [Reverse List](../../../docs/problems/linked_list/Reverse_List.md)
       - [Reverse Sub-list](../../../docs/problems/linked_list/Reverse_Sub_List.md)
-   - Remove
+   - *Remove*
       - [Remove Duplicates from List](../../../docs/problems/linked_list/Remove_Duplicates_From_List.md)
       - [Remove Duplicates from Sorted List](../../../docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - [Remove Node without Accessing Previous Node](../../../docs/problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
       - [Remove Nodes by Value](../../../docs/problems/linked_list/Remove_Nodes_From_List_By_Value.md)
-   - Rotate
+   - *Rotate*
       - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
 
 ## References
