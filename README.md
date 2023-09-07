@@ -33,6 +33,7 @@
 - [**Graph**](docs/data-structure/graph/Graph.md)
 - [**Heap**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
+- Monotonic Stack/Deque
 
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
@@ -45,19 +46,20 @@
 - [**Backtraking**](docs/solution-patterns/Backtracking.md)
 - [**Breadth-First Search (BFS)**](docs/solution-patterns/Breadth_First_Search.md)
 - [**Depth-First Search (DFS)**](docs/solution-patterns/Depth_First_Search.md)
-- [**Union Find**](docs/solution-patterns/Union_Find.md)
+- [**Union Find (Disjoint Set)**](docs/solution-patterns/Union_Find.md)
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
 - [Sorting]()
 - [**Sliding Window**](docs/solution-patterns/Sliding_Window.md)
 - [Divide and Conquer]()
 - [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
 - [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
+   - Bitmask
 - [Greedy]()
 - [Recursion]()
 - [Quickselect]()
 - Other algorithms
    - Kahn's algorithm (for topological sorting)
-   - Sweepline algorithm
+   - Sweep line algorithm
    - Kadane's algorithm
    - Dijkstra's algorithm
    - Easy rolling
@@ -72,6 +74,7 @@
 - [**Interval**](docs/problem_patterns/Interval.md)
 - Topological sorting
 - Minimum spanning tree
+- Knapsack
 
 ### Need to remove
 - **Top K and Kth**
