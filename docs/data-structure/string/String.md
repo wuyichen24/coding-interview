@@ -16,7 +16,7 @@
    - For symmetric problems (like parentheses and palindrome), consider to use a stack.
 
 ## Common topics
-- Check characteristics
+- **Check characteristics**
    - Symmetric
       - Parentheses
          - [Is Valid Parentheses](../../problems/string/parentheses/Is_Valid_Parentheses.md)
@@ -34,28 +34,28 @@
          - 132 Palindrome Partitioning II
          - 1278 Palindrome Partitioning III
          - 1745 Palindrome Partitioning IV
-- Substring
+- **Substring**
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
    - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
    - [Longest Substring of Repeating Character by Replacement](../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
-- 2 strings comparison
+- **2 strings comparison**
    - Subsequences
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
-- Math
+- **Math**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - Basic calculator
       - 224 Basic Calculator
       - 227 Basic Calculator II
       - [Basic Calculator III](../../problems/string/calculators/Basic_Calculator_III.md)
       - 770 Basic Calculator IV
-- Combinations
+- **Combinations**
    - [Get All Word Combinations for Constructing String](../../problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
-- Sorting in custom order
+- **Sorting in custom order**
    - [Ancestral Names](../../problems/other/Ancestral_Names.md)
    - [Get Lexicographically Increasing Order from Words (Alien Dictionary)](../../problems/string/Get_Lexicographically_Increasing_Order_From_Words.md)
-- Conversion (Decoding and encoding)
+- **Conversion (Decoding and encoding)**
    - Decoding
       - [Decode String](../../problems/string/Decode_String.md)
       - [Decode Ways](../../problems/string/Decode_Ways.md)
@@ -65,10 +65,10 @@
       - 13 Roman to Integer
    - Other
       - [Convert Integer to English Words](../../problems/string/Convert_Integer_To_English_Words.md)
-- Manipulation
+- **Manipulation**
    - Remove
       - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
-- Other
+- **Other**
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
       - [Reformat Date](../../problems/string/Reformat_Date.md)
