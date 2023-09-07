@@ -45,6 +45,8 @@
      - [Word Search](../../problems/array/2d/Word_Search.md)
 
 ## Common topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 - **Path**
    - [Shortest Path in a Grid with Obstacles Elimination](../../problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md)
 - **Search**
@@ -57,3 +59,5 @@
 - **Other**
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
    - [N-Queens](../../problems/array/2d/N_Queens.md)
+
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
