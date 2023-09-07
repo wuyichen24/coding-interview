@@ -39,10 +39,9 @@
    - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
    - [Longest Substring of Repeating Character by Replacement](../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
-- Subsequence
-   - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
 - 2 strings comparison
-   - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
+   - Subsequences
+      - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
 - Math
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - Basic calculator
