@@ -76,6 +76,8 @@
   ```
 
 ## Common Topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 - **Dedirected graph**
    - *Path*
       - [Bus Routes](../../problems/graph/Bus_Routes.md)
@@ -93,3 +95,5 @@
       - [Is Graph Bipartite](../../problems/graph/Is_Graph_Bipartite.md)
 - **Other**
    - [Shared Interest](../../problems/graph/Shared_Interest.md)
+
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
