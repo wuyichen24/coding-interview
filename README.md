@@ -56,18 +56,22 @@
 - [Recursion]()
 - [Quickselect]()
 - Other algorithms
-   - Kahn's algorithm
+   - Kahn's algorithm (for topological sorting)
    - Sweepline algorithm
-   - Kadane's Algorithm
+   - Kadane's algorithm
+   - Dijkstra's algorithm
    - Easy rolling
    - Bidirectional search
    - Counting sort
+   - Kruskal's algorithm (for minimum spanning tree)
 
 ## Problem Patterns
 ### New
 - [**Problem Categories**](docs/problem_patterns/Problem_Categories.md)
 - [**Random**](docs/problem_patterns/Random.md)
 - [**Interval**](docs/problem_patterns/Interval.md)
+- Topological sorting
+- Minimum spanning tree
 
 ### Need to remove
 - **Top K and Kth**
