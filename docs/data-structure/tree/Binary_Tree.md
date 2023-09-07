@@ -146,6 +146,8 @@ TreeNode {
 - Consider using a recursive function for most binary tree problems.
 
 ## Common Topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 ### Binary tree
 - **Check characteristics**
    - *Check one tree*
@@ -184,6 +186,8 @@ TreeNode {
 - **Manipulation**
    - [Balance Binary Search Tree](../../problems/tree/Balance_Binary_Search_Tree.md)
    - [Convert Binary Search Tree to Sorted Doubly Linked List](../../problems/tree/Convert_Binary_Search_Tree_To_Sorted_Doubly_Linked_List.md)
+
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Binary_search_tree
