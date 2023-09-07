@@ -187,7 +187,16 @@ This page is to document some coding standard operations.
          System.out.println(key + " " + map.get(key));
      }
      ```
-
+- **Build 1:n relationship**
+  ```java
+  Map<Integer, List<Integer>> map = new HashMap<>();
+    for (int i = 0; i < edges.length; i++) {
+        /* get key and value */
+    
+        map.putIfAbsent(key, new ArrayList<>());
+        map.get(key).add(value);
+    }
+  ```
 - **Convert all the values into a list**
   ```java
   Map<Integer, String> map = new HashMap<>();
