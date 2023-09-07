@@ -42,6 +42,8 @@ void reverse(int[] nums, int i, int j) {
 - The problem is related to calculate the sum of subarray, consider to use prefix sum array.
 
 ## Common topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 - **Subarray (a contiguous non-empty sequence)**
    - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
@@ -95,3 +97,4 @@ void reverse(int[] nums, int i, int j) {
    - [House Robber II](../../problems/array/house_robber/House_Robber_II.md)
 - **Other**
    
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
