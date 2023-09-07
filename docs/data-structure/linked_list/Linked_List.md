@@ -230,6 +230,8 @@ void removeKthNode(ListNode head, int k) {
 - If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of the target node.
 
 ## Common Topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 - **Check characteristics**
    - Check one list
       - [Is Palindrome List](../../../docs/problems/linked_list/Is_Palindrome_List.md)
@@ -253,6 +255,8 @@ void removeKthNode(ListNode head, int k) {
       - [Remove Nodes by Value](../../../docs/problems/linked_list/Remove_Nodes_From_List_By_Value.md)
    - *Rotate*
       - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
+
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
 
 ## References
 - https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
