@@ -45,9 +45,6 @@
      - [Word Search](../../problems/array/2d/Word_Search.md)
 
 ## Common topics
-- Island
-   - [Number of Islands](../../problems/array/2d/Number_Of_Islands.md)
-   - [Get Size of Largest Island](../../problems/array/2d/Get_Size_Of_Largest_Island.md)
 - Path
    - [Shortest Path in a Grid with Obstacles Elimination](../../problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md)
 - Search
@@ -57,3 +54,6 @@
 - Other
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
    - [N-Queens](../../problems/array/2d/N_Queens.md)
+- Island
+   - [Number of Islands](../../problems/array/2d/Number_Of_Islands.md)
+   - [Get Size of Largest Island](../../problems/array/2d/Get_Size_Of_Largest_Island.md)
