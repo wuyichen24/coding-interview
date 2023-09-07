@@ -16,6 +16,8 @@
    - For symmetric problems (like parentheses and palindrome), consider to use a stack.
 
 ## Common topics
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
+
 - **Check characteristics**
    - Symmetric
       - Parentheses
@@ -77,3 +79,4 @@
       - [Longest String Chain](../../string/Longest_String_Chain.md)
    - [Stars and Bars](../../problems/string/Stars_And_Bars.md)
       
+[back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
