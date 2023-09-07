@@ -17,6 +17,7 @@ This page is to document some coding standard operations.
 - [Util](#util)
    - [Arrays](#arrays)
    - [Collections](#collections)
+   - [Math](#math)
 - [Type Conversions](#type-conversions)
 - [Arithmetic Operations](#arithmetic-operations)
    - [Division](#division)
@@ -291,6 +292,13 @@ This page is to document some coding standard operations.
       return Integer.compare(a[1], b[1]);
   });
   ```
+
+### Math
+  | Function | Description |
+  |----|----|
+  | `max()` | Get the max value among 2 values. |
+  | `min()` | Get the min value among 2 values. |
+  
 ---
 
 ## Type Conversions
