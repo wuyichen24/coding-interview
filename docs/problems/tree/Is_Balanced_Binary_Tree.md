@@ -10,10 +10,13 @@
 
 ## Solutions
 - Solution 1: Top-down recursion
-   - Get the height of the binary tree.
-   - When getting the height:
-      - Use -1 as a signal to indicate the sub-tree is not balanced.
-      - Return the height if both of the left sub-tree and the right sub-tree are balanced.
+   - Idea:
+      - Get the height of the binary tree.
+      - When getting the height:
+         - Use -1 as a signal to indicate the sub-tree is not balanced.
+         - Return the height if both of the left sub-tree and the right sub-tree are balanced.
+   - Complexity
+      - Time complexity: *O(n)* (Each node in the tree is visited exactly once).
   ```java
   public boolean isBalanced(TreeNode root) {
       int height = getHeight (root);
