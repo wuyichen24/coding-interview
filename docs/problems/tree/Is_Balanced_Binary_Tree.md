@@ -9,7 +9,7 @@
 - Return true if the binary tree is balanced.
 
 ## Solutions
-- Solution 1
+- Solution 1: Top-down recursion
    - Get the height of the binary tree.
    - When getting the height:
       - Use -1 as a signal to indicate the sub-tree is not balanced.
