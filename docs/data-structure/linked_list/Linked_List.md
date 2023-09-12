@@ -234,7 +234,8 @@ void removeKthNode(ListNode head, int k) {
 
 - **Check characteristics**
    - Check one list
-      - [Is Palindrome List](../../../docs/problems/linked_list/Is_Palindrome_List.md)
+      - [Is Palindrome List](../../problems/linked_list/Is_Palindrome_List.md)
+      - [Does Linked List Have Cycle](../../problems/linked_list/Does_Linked_List_Have_Cycle.md)
    - Compare two lists
 - **Access**
    - [Get Middle Node from List](../../problems/linked_list/Get_Middle_Node_From_List.md)
