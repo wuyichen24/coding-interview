@@ -69,6 +69,7 @@
    - Bidirectional search
    - Counting sort
    - Kruskal's algorithm (for minimum spanning tree)
+   - Kadane's Algorithm
 
 ## Problem Patterns
 ### New
