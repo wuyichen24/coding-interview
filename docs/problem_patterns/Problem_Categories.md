@@ -13,8 +13,10 @@
 
 ## Other problem categories
 - **Math**
+   - Division
+      - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
+      - [Pairs of 2 Songs Divisible By 60](../problems/math/Pairs_Of_2_Songs_Divisible_By_60.md)
    - [Implement Pow(x,n)](../problems/math/Implement_Pow_X_N.md)
-   - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
    - [Nth Digit](../problems/math/Nth_Digit.md)
 - **Intevals**
    - Meeting Rooms
