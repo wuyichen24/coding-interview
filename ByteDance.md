@@ -61,6 +61,8 @@
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](docs/problems/graph/Course_Schedule_II.md) | | 8 (6m.), 3 (1y.) |
 | [856](https://leetcode.com/problems/score-of-parentheses/) | [Score of Parentheses](docs/problems/string/parentheses/Score_Of_Parentheses.md) | | 5 (6m.) |
 | [115](https://leetcode.com/problems/distinct-subsequences/) | [Distinct Subsequences](docs/problems/string/Distinct_Subsequences.md) | 2 | |
+| [110](https://leetcode.com/problems/balanced-binary-tree/) | [Is Balanced Binary Tree](docs/problems/tree/Is_Balanced_Binary_Tree.md) | 1 | |
+| [1010](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [Pairs of 2 Songs Divisible By 60](docs/problems/math/Pairs_Of_2_Songs_Divisible_By_60.md) | 1 | 2 (1y.) |
 
 **Notes:**
 - `# occs.` = number of occurrences
