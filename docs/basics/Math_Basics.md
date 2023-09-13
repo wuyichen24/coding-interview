@@ -16,3 +16,4 @@
 - **Distributive**
    - `(a + b) % n = [(a % n) + (b % n)] % n` (This is applied to problem [Pairs of 2 Songs Divisible By 60](../problems/math/Pairs_Of_2_Songs_Divisible_By_60.md))
    - `ab % n = [(a % n)(b % n)] % n`
+- More law, see [Modulo operation - Properties](https://en.wikipedia.org/wiki/Modulo#Properties_(identities))
