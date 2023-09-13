@@ -7,7 +7,7 @@
       - If `x >= y`, the final result will be the remainder of `x / y`.
       - If `x < y`, the final result will be `x` directly.
    - Calculation without division
-      - If `x >= y`, continue on `x = x - y` until `x < y`.
+      - If `x >= y`, continue on `x = x - y` until `x < y`. (This is applied to problem [Divide Two Integers](../problems/math/Divide_Two_Integers.md))
       - If `x < y`, the final result will be `x` directly.
 
 ### Operation law
