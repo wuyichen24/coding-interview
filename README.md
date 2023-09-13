@@ -19,6 +19,8 @@
 
 ## Basics
 - [**Java Coding**](docs/basics/JavaCoding.md)
+- [**Math Basics**](docs/basics/Math_Basics.md)
+   - [Modulo operation](docs/basics/Math_Basics.md#modulo-operation)
 - [**Problems And Solutions Quick Table**](docs/basics/Problems_And_Solutions_Quick_Table.md)
 
 ## Complexity
