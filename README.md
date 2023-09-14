@@ -16,6 +16,7 @@
 - [**Grokking the Coding Interview: Patterns for Coding Questions**](https://www.designgurus.io/course/grokking-the-coding-interview)
 - [**Tech Interview Handbook: Coding interview preparation**](https://www.techinterviewhandbook.org/coding-interview-prep/)
 - [**InterviewBit**](https://www.interviewbit.com/)
+- [**labuladong 的算法笔记**](https://labuladong.github.io/algo/)
 
 ## Basics
 - [**Java Coding**](docs/basics/JavaCoding.md)
