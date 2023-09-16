@@ -38,6 +38,8 @@ Provide a rotated sorted array `nums`, return the index of the `target`. If inde
       - Find the pivot number (the smallest number) by binary search (variant).
       - Perform binary search on the left subarray of the pivot number and the right subarray of the pivot number.
 
+  ![o1](https://github.com/wuyichen24/coding-interview/assets/8989447/d422f286-0254-4b6c-834e-804c7c34c670)
+
   ```java
   class Solution {
       public int search(int[] nums, int target) {
