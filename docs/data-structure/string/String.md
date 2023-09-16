@@ -70,13 +70,13 @@
 - **Manipulation**
    - Remove
       - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
+- **Input is a string array**
+   - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
+   - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
 - **Other**
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
       - [Reformat Date](../../problems/string/Reformat_Date.md)
-   - Input is a string array
-      - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
-      - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
    - [Stars and Bars](../../problems/string/Stars_And_Bars.md)
       
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
