@@ -24,6 +24,9 @@ The functions `get` and `put` must each run in *O(1)* average time complexity.
       - Hashmap can quickly find a element, but no order.
       - Linked list can remember the order, but slow for finding an element.
       - **So we can use the combination of hashmap and linked list**
+      
+      ![LRU_Cache drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/66c3840e-642f-46e0-bd32-b743f41f3dac)
+  
    - `Node` class
      ```java
      class Node {
