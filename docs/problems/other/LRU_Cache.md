@@ -96,7 +96,7 @@ The functions `get` and `put` must each run in *O(1)* average time complexity.
      }
      ```
    - `LRUCache` class (helper functions)
-     ```
+     ```java
      class LRUCache {
          // update a key as most recent
          private void makeRecently(int key) {
