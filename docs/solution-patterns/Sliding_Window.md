@@ -5,7 +5,7 @@
 
   ![2019-10-14-sliding-window](https://github.com/wuyichen24/coding-interview/assets/8989447/c7dfdf14-da0d-4b45-980d-dfa4097c37a7)
 
-## Use cases
+## Problems can use this pattern
 - Linear data structure's substring and subarray problems.
 
 ## Benefit
