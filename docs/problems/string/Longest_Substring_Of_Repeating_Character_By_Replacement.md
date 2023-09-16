@@ -37,7 +37,7 @@ You are given a string `s` and an integer `k`. You can choose any character of t
       - There may exists other ways to achive this answer too.
     
 ## Solutions
-- Solution 1: Sliding Window
+- **Solution 1: Sliding Window**
   ```java
   class Solution {
       public int characterReplacement(String s, int k) {
