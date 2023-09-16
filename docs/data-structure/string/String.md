@@ -76,7 +76,7 @@
       - [Reformat Date](../../problems/string/Reformat_Date.md)
    - Input is a string array
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
-      - [Longest String Chain](../../string/Longest_String_Chain.md)
+      - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
    - [Stars and Bars](../../problems/string/Stars_And_Bars.md)
       
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
