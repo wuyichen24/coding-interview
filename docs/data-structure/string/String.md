@@ -16,6 +16,8 @@
 - **Parentheses**
    - Consider to use a counter to count how many open parentheses when iterating through a string.
    - For symmetric problems (like parentheses and palindrome), consider to use a stack.
+- **Group string array**
+   - Find a encoding logic, which 2 strings should be grouped together will have the same encoding value.
 
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
@@ -73,7 +75,7 @@
    - Remove
       - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
 - **Input is string array**
-   - Grouping string array
+   - *Grouping string array* (See strategies section)
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
       - [Group Anagrams](../../problems/string/Group_Anagrams.md)
    - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
