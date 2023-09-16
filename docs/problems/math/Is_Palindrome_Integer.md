@@ -41,7 +41,7 @@ You cannot convert integer to string.
       - Reads `01` from right to left. Therefore it is not a palindrome.
     
 ## Solutions
-- Solution 1: Revert number and compare
+- **Solution 1: Revert number and compare**
    - Idea
       - Revert the original number and compare the reverted number with the original number
       - Use `num % 10` to get the last digit.
