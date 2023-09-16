@@ -10,7 +10,11 @@
    - Open brackets must be closed in the correct order.
 
 ## Solutions
-- Solution 1: Stack
+- **Solution 1: Stack**
+   - Idea
+       - Check the each char from left to right
+           - If encounter a opened parenthese, push to stack.
+           - If encounter a closed parenthese, check the top of the stack is the corresponding opened parenthese or not 
   ```java
   public boolean isValid(String s) {
       if (s.isEmpty()) {
