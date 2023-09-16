@@ -16,12 +16,12 @@ The functions `get` and `put` must each run in *O(1)* average time complexity.
 
 ## Solutions
 - **Solution 1: Hashmap + Double linked list = LinkedHashMap**
-   - Requirements
+   - Understand requirements:
       - The elements in the cache must be stored in time-sequence. So we could know which element is the least recently used.
       - We must find the value of a key quickly.
       - We must be able to insert and delete in any position quickly.
-   - Select a data structure
-      - Hashmap can quickly find a element, but no order
-      - Linked list can remember the odrer, but slow for finding an element
+   - Select a data structure:
+      - Hashmap can quickly find a element, but no order.
+      - Linked list can remember the order, but slow for finding an element.
       - **So we can use the combination of hashmap and linked list = LinkedHashMap**
       
