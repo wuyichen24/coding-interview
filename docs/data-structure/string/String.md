@@ -9,6 +9,8 @@
    - A substring is a contiguous non-empty sequence of characters within a string.
 - **Subsequence**
    - A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+- **Anagrams**
+   - An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 ## Strategies
 - **Parentheses**
@@ -70,8 +72,10 @@
 - **Manipulation**
    - Remove
       - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
-- **Input is a string array**
-   - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
+- **Input is string array**
+   - Grouping string array
+      - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
+      - [Group Anagrams](../../problems/string/Group_Anagrams.md)
    - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
 - **Other**
    - Case in real life
