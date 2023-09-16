@@ -18,6 +18,7 @@
       - [Pairs of 2 Songs Divisible By 60](../problems/math/Pairs_Of_2_Songs_Divisible_By_60.md)
    - [Implement Pow(x,n)](../problems/math/Implement_Pow_X_N.md)
    - [Nth Digit](../problems/math/Nth_Digit.md)
+   - [Is Palinedrome Integer](../problems/math/Is_Palindrome_Integer.md)
 - **Intevals**
    - Meeting Rooms
       - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
