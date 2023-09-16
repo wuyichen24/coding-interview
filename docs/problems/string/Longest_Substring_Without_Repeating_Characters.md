@@ -42,12 +42,15 @@
       - Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ## Solutions
-- Solution 1
+- **Solution 1: Sliding window**
    - Idea
-       - Use a hashmap which stores the characters in string as keys and their positions as values.
-       - Keep two pointers which define the max substring.
-       - Move the right pointer to scan through the string, and meanwhile update the hashmap.
-       - If the right pointer's character is already in the hashmap, then move the left pointer to the right of the same character last found.
+      - Use a hashmap which stores the characters in string as keys and their index as values.
+      - Keep two pointers which define the max substring.
+      - Move the right pointer to scan through the string, and meanwhile update the hashmap.
+      - If any character occurs more than once, skip the characters immediately until there are no duplicate characters.
+         - If the right pointer's character is already in the hashmap, then move the left pointer to the next right position of the current right pointer.
+   - Complexity
+      - Time complexity: *O(n)*
 
   ```java
   public int lengthOfLongestSubstring(String s) {
@@ -57,7 +60,7 @@
       int max=0;
       for (int left=0, right=0; right < s.length(); ++right){       // Move right pointer to scan the string
           if (map.containsKey(s.charAt(right))){                    // If the right pointer's character is already in the hashmap, then move the left pointer to the right of the same character last found.
-              left = Math.max(left , map.get(s.charAt(right))+1);
+              left = Math.max(left , map.get(s.charAt(right))+1);   // 
           }
           map.put(s.charAt(right) , right);
           max = Math.max(max , right-left+1);
