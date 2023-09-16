@@ -37,3 +37,35 @@ An *Anagram* is a word or phrase formed by rearranging the letters of a differen
       return new ArrayList(ans.values());
   }
   ```
+- **Solution 2: Group by encoding value**
+   - Idea
+      - Two strings are anagrams if and only if their encoding values are equal.
+      - Encoding logic: The number of occurrences of each letter.
+  ```java
+  class Solution {
+      public List<List<String>> groupAnagrams(String[] strs) {
+          HashMap<String, List<String>> codeToGroup = new HashMap<>();
+          for (String s : strs) {
+               String code = encode(s);
+               codeToGroup.putIfAbsent(code, new LinkedList<>());
+               codeToGroup.get(code).add(s);
+          }
+
+          List<List<String>> res = new LinkedList<>();
+          for (List<String> group : codeToGroup.values()) {
+              res.add(group);
+          }
+
+          return res;
+      }
+
+      String encode(String s) {
+          char[] count = new char[26];
+          for (char c : s.toCharArray()) {
+              int delta = c - 'a';
+              count[delta]++;
+          }
+          return new String(count);
+      }
+  }
+  ```
