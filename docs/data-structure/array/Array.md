@@ -49,9 +49,11 @@ void reverse(int[] nums, int i, int j) {
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
    - [Minimum Size Subarray Sum](../../problems/array/Minimum_Size_Subarray_Sum.md)
    - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
-- **Find missing**
-   - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
-   - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
+- **Search**
+   - *Find missing*
+      - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
+      - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
+   - [Search in Rotated Sorted Array](../../problems/array/Search_In_Rotated_Sorted_Array.md)
 - **Access**
    - [Kth Largest Element in an Array](../../problems/array/Kth_Largest_Element_In_Array.md)
 - **Array math**
