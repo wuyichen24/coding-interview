@@ -88,7 +88,6 @@ The functions `get` and `put` must each run in *O(1)* average time complexity.
          private HashMap<Integer, Node> map;
          // Node(k1, v1) <-> Node(k2, v2)...
          private DoubleList cache;
-         // 最大容量
          private int cap;
  
          public LRUCache(int capacity) {
