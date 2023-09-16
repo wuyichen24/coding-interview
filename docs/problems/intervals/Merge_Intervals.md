@@ -32,7 +32,7 @@
    - Explanation
       - Intervals `[1,4]` and `[4,5]` are considered overlapping.
 ## Solutions
-- Solution 1: Sort intervals
+- **Solution 1: Sort intervals**
    - Idea
       - Sort the intervals by their starting points and compare 2 adjacent intervals.
    - Steps
