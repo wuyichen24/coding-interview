@@ -16,8 +16,10 @@
    - Groups: `[["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]`
 
 ## Solutions
-- Solution 1
-   - For each string, Calculate the relevant distance between each character and its previous character.
+- **Solution 1: Group by encoding value**
+   - Idea:
+      - Two strings can be shifted only if the relevant distance between 2 adjacent characters are same.
+      - Encoding logic: The sum of the relevant distance between 2 adjacent characters.
   ```java
   public List<List<String>> groupStrings(String[] strings) {
       Map<Long, List<String>> map = new HashMap<>();
