@@ -49,6 +49,7 @@
 - [Task Scheduler](../problems/other/Task_Scheduler.md)
 - [Trap Rain Water](../problems/other/Trap_Rain_Water.md)
 - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
+- [LRU Cache](../problems/other/LRU_Cache.md)
 
 ## Problem series
 - Jump game
