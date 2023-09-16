@@ -155,8 +155,9 @@ The functions `get` and `put` must each run in *O(1)* average time complexity.
          }
      }
      ```
-- **Solution 2: Use Java build-it data structure**
-
+- **Solution 2: Use Java built-it data structure**
+   - Idea
+      - Use Java built-in `LinkedHashMap`.
   ```java
   class LRUCache {
       int cap;
