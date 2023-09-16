@@ -40,6 +40,7 @@ void reverse(int[] nums, int i, int j) {
 
 ## Strategies
 - The problem is related to calculate the sum of subarray, consider to use prefix sum array.
+- If you see question has the word "sorted", consider using binary search.
 
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
