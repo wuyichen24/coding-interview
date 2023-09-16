@@ -15,7 +15,7 @@ Implement the `LRUCache` class:
 The functions `get` and `put` must each run in *O(1)* average time complexity.
 
 ## Solutions
-- **Solution 1: Hashmap + Double linked list
+- **Solution 1: Hashmap + Double linked list**
    - Understand requirements:
       - The elements in the cache must be stored in time-sequence. So we could know which element is the least recently used.
       - We must find the value of a key quickly.
