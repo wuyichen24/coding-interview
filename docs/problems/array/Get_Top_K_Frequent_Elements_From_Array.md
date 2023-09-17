@@ -7,7 +7,7 @@
 - Return the K most frequent elements from the input array.
 
 ## Solutions
-- **Solution 1: Hashmap + Priority queue**
+- **Solution 1: Hashmap (frequency counter) + Priority queue**
    - Idea
       - Use hashmap to counter the frequency of each element.
       - Use priority queue to keep K most frequent elements.
@@ -48,7 +48,11 @@
       }
   }
   ```
-- **Solution 2: Hashmap + Quickselect**
+- **Solution 2: Hashmap (frequency counter) + Quickselect**
+   - Complexity
+      - Time complexity
+         - O(N) in average
+         - O(N<sup>2</sup>) in worst case
   ```java
   class Solution {
       int[] unique;
