@@ -6,9 +6,10 @@
 ## Problem
 Given an array of integers `nums` and an integer `target`, **return indices of the two numbers such that they add up to target**.
 
-You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
-
-**Input array is not sort and you cannot sort the array**.
+Notes:
+- There is only one solution.
+- You may not use the same element twice.
+- Input array is not sorted and you cannot sort it.
 
 You can return the answer in any order.
 
