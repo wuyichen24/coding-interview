@@ -59,6 +59,7 @@
    - 1254 Number of Closed Islands
    - 1905 Count Sub Islands
    - 694 Number of Distinct Islands
+   - 695 Max Area of Island
 - **Other**
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
    - [N-Queens](../../problems/array/2d/N_Queens.md)
