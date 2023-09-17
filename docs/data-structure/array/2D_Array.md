@@ -54,8 +54,8 @@
 - **Traversal**
    - [Spiral Traversal](../../problems/array/2d/Spiral_Traversal.md)
 - **Island**
-   - [Number of Islands](../../problems/array/2d/Number_Of_Islands.md)
-   - [Get Size of Largest Island](../../problems/array/2d/Get_Size_Of_Largest_Island.md)
+   - [Number of Islands](../../problems/array/2d/island/Number_Of_Islands.md)
+   - [Get Size of Largest Island](../../problems/array/2d/island/Get_Size_Of_Largest_Island.md)
    - 1254 Number of Closed Islands
    - 1905 Count Sub Islands
    - 694 Number of Distinct Islands
