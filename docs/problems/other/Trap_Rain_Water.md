@@ -15,9 +15,10 @@
   ![rainwatertrap](https://user-images.githubusercontent.com/8989447/116346372-5a391700-a7a7-11eb-8490-628bb7247b80.png)
 
 ## Solutions
-- Solution 1: Brute force
-   - Use the basic relationship for calculating the water on each element.
-   - For each element, Water = Min(LeftMaxBar, RightMaxBar) - Height.
+- **Solution 1: Brute force**
+   - Idea
+      - Use the basic relationship for calculating the water on each element.
+      - For each element, Water = Min(LeftMaxBar, RightMaxBar) - Height.
 
   ![tw](https://user-images.githubusercontent.com/8989447/116347764-10056500-a7aa-11eb-95bb-5288f529382e.png)
 
