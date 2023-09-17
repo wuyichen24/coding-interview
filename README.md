@@ -80,21 +80,12 @@
 - [**Random**](docs/problem_patterns/Random.md)
 - [**Interval**](docs/problem_patterns/Interval.md)
 - [**Detect Cycle**](docs/problem_patterns/Detect_Cycle.md)
+- [**Top K and Kth**](docs/problem_patterns/Top_K_And_Kth.md)
 - Topological sorting
 - Minimum spanning tree
 - Knapsack
 
 ### Need to remove below
-- **Top K and Kth**
-   - Top K
-      - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
-      - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
-      - [Get Top K Closest Points to Origin](docs/problems/array/Get_Top_K_Closest_Points_To_Origin.md)
-   - Kth
-      - LeetCode-215 Kth Largest Element in an Array  
-      - LeetCode-703 Kth Largest Element in a Stream  
-      - LeetCode-230 Kth Smallest Element in a BST
-      - LeetCode-378 Kth Smallest Element in a Sorted Matrix
 - **Manipulation**
    - **Rotate**
       - [Rotate List Right](docs/problems/linked_list/Rotate_List_Right.md)
@@ -102,9 +93,6 @@
       - LeetCode-796 Rotate String
    - **Merge**
       - LeetCode-21 Merge 2 sorted lists
-- **Frequency**
-   - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
-   - [Get Top K Frequent Words from Array](docs/problems/array/Get_Top_K_Frequent_Words_From_Array.md)
 - **Longest X sequence/substring**
    - LeetCode-1143 Longest Common Subsequence
    - LeetCode-300 Longest Increasing Subsequence
