@@ -20,3 +20,15 @@ public static void monoStack(List<Integer> insertEntries) {
     }
 }
 ```
+
+## Strategies
+- Use monotonic stack to store the index of the element instead of value. so we could calculate the distance between the current element and the element at top of the stack.
+
+## Complexity
+- Time complexity: *O(n)*
+
+## Problems can use this pattern
+- [Trap Rain Water](../problems/other/Trap_Rain_Water.md)
+- 496 Next Greater Element I
+- 503 Next Greater Element II
+- 739 Daily Temperatures
