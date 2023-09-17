@@ -28,7 +28,7 @@
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](docs/problems/array/Maximum_Subarray.md) | 2 | 3 (6m.) |
 | [743](https://leetcode.com/problems/network-delay-time/)  | [Network Delay Time](docs/problems/graph/Network_Delay_Time.md) | 2 | 2 (1y.) |
 | [1249](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Minimum Remove to Make Valid Parentheses](docs/problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md) | 2 | 5 (6m.) |
-| [200](https://leetcode.com/problems/number-of-islands/)  | [Number of Islands](docs/problems/array/2d/Number_Of_Islands.md) | 2 | 4 (6m.) |
+| [200](https://leetcode.com/problems/number-of-islands/)  | [Number of Islands](docs/problems/array/2d/island/Number_Of_Islands.md) | 2 | 4 (6m.) |
 | [799](https://leetcode.com/problems/champagne-tower/)  | [Champagne Tower](docs/problems/other/Champagne_Tower.md) | | 6 (6m.) |
 | [1029](https://leetcode.com/problems/two-city-scheduling/) | [Two City Scheduling](docs/problems/other/Two_City_Scheduling.md) | 1 | 5 (6m.) |
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge k Sorted Lists](docs/problems/linked_list/Merge_K_Sorted_Lists.md) | 1 | 6 (6m.) |
