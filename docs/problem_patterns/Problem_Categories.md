@@ -19,6 +19,7 @@
    - [Implement Pow(x,n)](../problems/math/Implement_Pow_X_N.md)
    - [Nth Digit](../problems/math/Nth_Digit.md)
    - [Is Palinedrome Integer](../problems/math/Is_Palindrome_Integer.md)
+   - [Happy Number](../problems/math/Happy_Number.md)
 - **Intevals**
    - Meeting Rooms
       - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
