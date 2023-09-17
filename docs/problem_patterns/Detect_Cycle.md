@@ -1,4 +1,4 @@
-# Detech Cycle
+# Detect Cycle
 
 ## Strategies
 - Use hashset to remember which value has been seen
