@@ -8,7 +8,7 @@ Given an array of integers `nums` and an integer `target`, **return indices of t
 
 You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
 
-**You cannot sort the array**.
+**Input array is not sort and you cannot sort the array**.
 
 You can return the answer in any order.
 
