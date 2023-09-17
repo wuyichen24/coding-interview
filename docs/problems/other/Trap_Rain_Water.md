@@ -42,3 +42,31 @@
       return water;
   }
   ```
+- **Solution 2: Monotonic stack**
+   - Idea
+      - Use a monotonic stack (decreasing order) to track what is the next greater element.
+   - Steps
+      - While stack is not empty and current height > stack's top height (we cannot add current height to the monotonic stack, it should be decreasing, so we need to pop the stack):
+         - Pop the top element from stack.
+         - Calculate the distance between the current element and the element at top of stack, which is to be filled.
+         - Calculate the bounded height.
+         - Add resulting trapped water to answer
+  ```java
+  public int trap(int[] height) {
+      int ans = 0, current = 0;
+      Stack<Integer> stack = new Stack<>();
+      while (current < height.length) {
+          while (!stack.empty() && height[current] > height[stack.peek()]) {
+              int top = stack.peek();
+              stack.pop();
+              if (stack.empty())
+                  break;
+              int distance = current - stack.peek() - 1;                       // Calculate distance between current and element at top of stack, which is to be filled
+              int boundedHeight = Math.min(height[current], height[stack.peek()]) - height[top]; // Calculate the bounded height
+              ans += distance * boundedHeight;
+          }
+          stack.push(current++);
+      }
+      return ans;
+  }
+  ```
