@@ -56,6 +56,9 @@
 - **Island**
    - [Number of Islands](../../problems/array/2d/Number_Of_Islands.md)
    - [Get Size of Largest Island](../../problems/array/2d/Get_Size_Of_Largest_Island.md)
+   - 1254 Number of Closed Islands
+   - 1905 Count Sub Islands
+   - 694 Number of Distinct Islands
 - **Other**
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
    - [N-Queens](../../problems/array/2d/N_Queens.md)
