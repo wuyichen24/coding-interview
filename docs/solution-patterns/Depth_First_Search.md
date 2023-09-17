@@ -131,40 +131,19 @@
 ### 2D array
 - **Recursive implementation**
   ```java
-  public class DFS2DArray {
-      static int[] dx = {-1, 1, 0, 0}; // Directional changes in x-coordinate
-      static int[] dy = {0, 0, -1, 1}; // Directional changes in y-coordinate
-
-      static void dfsByRecursion(int[][] grid, int startX, int startY) {
-          int rows = grid.length;
-          int cols = grid[0].length;
-          boolean[][] visited = new boolean[rows][cols];
-
-          recursion(grid, startX, startY, visited);
+  public void dfs(int[][] grid, int i, int j, boolean[][] visited) {
+      int m = grid.length, n = grid[0].length;
+      if (i < 0 || j < 0 || i >= m || j >= n) {
+          return;
       }
-
-      static void recursion(int[][] grid, int x, int y, boolean[][] visited) {
-          int rows = grid.length;
-          int cols = grid[0].length;
-
-          // Base case: Out of bounds or already visited
-          if (x < 0 || x >= rows || y < 0 || y >= cols || visited[x][y]) {
-              return;
-          }
-
-          // Process the current cell here
-          System.out.println("Visiting cell: (" + x + ", " + y + ")");
-
-          visited[x][y] = true;
-
-          // Explore neighbors
-          for (int k = 0; k < 4; k++) {
-              int newX = x + dx[k];
-              int newY = y + dy[k];
-
-              recursion(grid, newX, newY, visited);
-          }
+      if (visited[i][j]) {
+          return;
       }
+      visited[i][j] = true;
+      dfs(grid, i - 1, j, visited);
+      dfs(grid, i + 1, j, visited);
+      dfs(grid, i, j - 1, visited);
+      dfs(grid, i, j + 1, visited);
   }
   ```
 - **Stack implementation**
