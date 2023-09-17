@@ -55,33 +55,35 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
             - Call the recursive function for next 4 direction elements (up, down, left right).
   ```java
   class Solution {
-      private int n;
-      private int m;
-
-      public int numIslands(char[][] grid) {
-          int count = 0;
-          n = grid.length;
-          if (n == 0) return 0;
-          m = grid[0].length;
-
-          for (int i = 0; i < n; i++) {
-              for (int j = 0; j < m; j++) {
+      int numIslands(char[][] grid) {
+          int res = 0;
+          int m = grid.length, n = grid[0].length;
+          for (int i = 0; i < m; i++) {
+              for (int j = 0; j < n; j++) {
                   if (grid[i][j] == '1') {
-                      DFSMarking(grid, i, j);
-                      ++count;
+                      res++;
+                      dfs(grid, i, j);
                   }
               }
-          }    
-          return count;
+          }
+          return res;
       }
 
-      private void DFSMarking(char[][] grid, int i, int j) {
-          if (i < 0 || j < 0 || i >= n || j >= m || grid[i][j] != '1') return;
-          grid[i][j] = '0';
-          DFSMarking(grid, i + 1, j);
-          DFSMarking(grid, i - 1, j);
-          DFSMarking(grid, i, j + 1);
-          DFSMarking(grid, i, j - 1);
+      void dfs(char[][] grid, int i, int j) {
+          int m = grid.length, n = grid[0].length;
+          if (i < 0 || j < 0 || i >= m || j >= n) {
+              return;
+          }
+          if (grid[i][j] == '0') {  // if it is already water
+              return;
+          }
+          
+          grid[i][j] = '0';   // change land to water
+
+          dfs(grid, i + 1, j);
+          dfs(grid, i, j + 1);
+          dfs(grid, i - 1, j);
+          dfs(grid, i, j - 1);
       }
   }
   ```
