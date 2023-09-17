@@ -94,6 +94,7 @@ void reverse(int[] nums, int i, int j) {
 - **nSum**
    - [Two Sum of Unsorted Array](../../problems/array/n_sum/Two_Sum_Of_Unsorted_Array.md)
    - [Two Sum of Sorted Array](../../problems/array/n_sum/Two_Sum_Of_Sorted_Array.md)
+   - [3 Sum to 0](../../problems/array/n_sum/3_Sum_To_0.md)
 - **Jump game**
    - [Jump Game](../../problems/array/jump_game/Jump_Game.md)
    - [Jump Game II](../../problems/array/jump_game/Jump_Game_II.md)
