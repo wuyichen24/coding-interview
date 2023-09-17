@@ -51,7 +51,7 @@ You can return the answer in any order.
       - Based on the sum of 2 pointers, move 2 pointers correspondingly.
    - Steps
       - Let the `lo` pointer points to the leftmost element, let the `hi` pointer points to the rightmost element.
-      - Compare the sum of 2 pointers with the target valueL
+      - Compare the sum of 2 pointers with the target value:
           - Sum < target
              - Move the `lo` pointer to next right element.
           - Sum > target
