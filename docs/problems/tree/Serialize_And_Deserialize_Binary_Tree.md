@@ -43,11 +43,11 @@
       while(!queue.isEmpty()) {
           TreeNode node = queue.poll();
             
-          if (node == null) {                            // Check the current node is null or not
+          if (node == null) {              // Check the current node is null or not
               sb.append("null" + ","); 
           } else {
               sb.append(node.val + ",");
-              queue.add(node.left);                      // Add left node and right node to the queue without checking null
+              queue.add(node.left);        // Add left node and right node to the queue without checking null
               queue.add(node.right);
           }
       }
