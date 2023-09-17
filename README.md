@@ -45,7 +45,7 @@
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
 - [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
 - [**Prefix Sum Array**](docs/solution-patterns/Prefix_Sum_Array.md)
-- [**Quickselect**](docs/solution-patterns/Quickselect.md)
+- [**Quickselect (Hoare's selection algorithm)**](docs/solution-patterns/Quickselect.md)
 - [**Reservoir Sampling**](docs/solution-patterns/Reservoir_Sampling.md)
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
