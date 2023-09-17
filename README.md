@@ -79,11 +79,12 @@
 - [**Problem Categories**](docs/problem_patterns/Problem_Categories.md)
 - [**Random**](docs/problem_patterns/Random.md)
 - [**Interval**](docs/problem_patterns/Interval.md)
+- [**Detech Cycle**](docs/problem_patterns/Detect_Cycle.md)
 - Topological sorting
 - Minimum spanning tree
 - Knapsack
 
-### Need to remove
+### Need to remove below
 - **Top K and Kth**
    - Top K
       - [Get Top K Frequent Elements from Array](problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
