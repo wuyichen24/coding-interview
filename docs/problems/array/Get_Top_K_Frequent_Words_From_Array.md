@@ -8,11 +8,16 @@
 - The result list be sorted by frequency from highest to lowest. If two words have the same frequency, then the word with the lower alphabetical order comes first.
 
 ## Solutions
-- Solution 1: Frequency counter + Custom class + Heap (Priority queue)
-   - Create a HashMap and count the frequency of each word.
-   - Create a priority queue and keep the size of K.
-   - Add all words from queue to list.
-   - Reverse the list (Make the most frequent word first).
+- **Solution 1: Hashmap (frequency counter) + Custom class + Priority queue**
+   - Idea
+      - Use hashmap to count the frequency of each word
+      - Use Custom class for sorting (sort by frequency and alphabetical order)
+      - Priority queue to keep top K frequent words
+   - Steps
+      - Create a HashMap and count the frequency of each word.
+      - Create a priority queue and keep the size of K.
+      - Add all words from queue to list.
+      - Reverse the list (Make the most frequent word first).
   ```java
   class Solution {
       public List<String> topKFrequent(String[] words, int k) {
