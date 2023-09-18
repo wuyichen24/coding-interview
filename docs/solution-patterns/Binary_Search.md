@@ -35,3 +35,4 @@
 ## Problems can use this pattern
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
 - [Search in Rotated Sorted Array](../problems/array/Search_In_Rotated_Sorted_Array.md)
+- [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
