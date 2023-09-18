@@ -32,3 +32,7 @@ public static void monoStack(List<Integer> insertEntries) {
 - 496 Next Greater Element I
 - 503 Next Greater Element II
 - 739 Daily Temperatures
+
+## References
+- [AlgoMonster | Monotonic Stack/Deque Intro](https://algo.monster/problems/mono_stack_intro)
+- [单调栈结构解决三道算法题](https://labuladong.github.io/algo/di-yi-zhan-da78c/shou-ba-sh-daeca/dan-diao-z-1bebe/)
