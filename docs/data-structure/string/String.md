@@ -66,7 +66,7 @@
       - [Decode String](../../problems/string/Decode_String.md)
       - [Decode Ways](../../problems/string/Decode_Ways.md)
    - Roman numerals
-      - [Ancestral Names](../../problems/other/Ancestral_Names.md)
+      - [Ancestral Names](../../problems/string/Ancestral_Names.md)
       - 12 Integer to Roman
       - 13 Roman to Integer
    - Other
