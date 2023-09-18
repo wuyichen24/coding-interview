@@ -65,5 +65,6 @@
 - **Other**
    - [Number of Ways of Cutting a Pizza](../../problems/array/2d/Number_Of_Ways_Of_Cutting_Pizza.md)
    - [N-Queens](../../problems/array/2d/N_Queens.md)
+   - [Maximal Square](../../problems/array/2d/Maximal_Square.md)
 
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
