@@ -39,7 +39,6 @@
 - [**Graph**](docs/data-structure/graph/Graph.md)
 - [**Heap**](docs/data-structure/tree/Heap.md)
 - [**Trie**](docs/data-structure/tree/Trie.md)
-- Monotonic Stack/Deque
 
 ## Solution Patterns
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
@@ -62,7 +61,7 @@
    - Bitmask
 - [Greedy]()
 - [Recursion]()
-- [Quickselect]()
+- [**Monotonic Stack**](docs/solution-patterns/Monotonic_Stack.md)
 - Other algorithms
    - Kahn's algorithm (for topological sorting)
    - Sweep line algorithm
