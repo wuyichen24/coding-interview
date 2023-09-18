@@ -35,7 +35,7 @@ Each solution contains a distinct board configuration of the n-queens' placement
      ```
 
 ## Solutions
-- Solution 1: Backtracking
+- **Solution 1: Backtracking**
    - Idea
       - Create a backtracking function to place a queen at each column per row.
     
