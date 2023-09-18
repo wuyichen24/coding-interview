@@ -52,7 +52,7 @@ Notes:
       - There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
 
 ## Solutions
-- Solution 1: 1 pass
+- **Solution 1: 1 pass**
    - Idea
       - Compare 2 adjacent prices, if increasing, just buy it (add the price difference to the total profit).
 
