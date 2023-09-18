@@ -102,6 +102,8 @@ void reverse(int[] nums, int i, int j) {
 - **House Robber**
    - [House Robber](../../problems/array/house_robber/House_Robber.md)
    - [House Robber II](../../problems/array/house_robber/House_Robber_II.md)
+- **Buy and sell stock**
+   - [Best Time to Buy and Sell Stock](problems/array/stock/Best_Time_To_Buy_And_Sell_Stock.md)
 - **Other**
    
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
