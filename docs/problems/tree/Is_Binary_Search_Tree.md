@@ -8,9 +8,10 @@
 - Return true if the binary tree is a binary search tree.
 
 ## Solutions
-- Solution 1: Use the rule - In a binary search tree, in-order traversal retrieves the keys in ascending sorted order.
-  - In-order traverse the binary tree and save the values in a list.
-  - Check the list is in ascending order.
+- **Solution 1: Use the rule - In a binary search tree, in-order traversal retrieves the keys in ascending sorted order**.
+   - Idea
+      - In-order traverse the binary tree and save the values in a list.
+      - Check the list is in ascending order.
   ```java
   class Solution {
       List<Integer> ascendingList;
@@ -39,7 +40,10 @@
       }
   }
   ```
-- Solution 2: Valid range.
+- **Solution 2: Valid range**
+   - Idea
+      - Use the concept of binary tree: left child should be less than the node, right child should be more than the node.
+      - When doing the recusion call on either left child and right child, use the value of the current node as upper boundary and lower boundary.  
   ```java
   public boolean isValidBST(TreeNode root) {
       return isValidBST(root, null, null);
@@ -48,7 +52,7 @@
   public boolean isValidBST(TreeNode root, Integer min, Integer max) {
       if (root == null) return true;
         
-     if ((min != null && root.val <= min) || (max != null && root.val >= max)) {
+      if ((min != null && root.val <= min) || (max != null && root.val >= max)) {
           return false;
       }
         
