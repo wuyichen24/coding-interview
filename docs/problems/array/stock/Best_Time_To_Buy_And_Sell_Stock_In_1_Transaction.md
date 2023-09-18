@@ -10,6 +10,9 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 
 **Return the maximum profit you can achieve from this transaction**. If you cannot achieve any profit, return 0.
 
+Notes:
+- Only allow a single transaction.
+
 ## Examples
 - Example 1
    - Input
@@ -37,7 +40,7 @@ You want to maximize your profit by choosing a single day to buy one stock and c
 ## Solutions
 - **Solution 1: 1 Pass**
    - Idea
-      - Use a variable `minPrice` to store the minimal price and use a variable `maxProfit` to store the maximized profit until the current price.
+      - Use a variable `minPrice` to store the minimum price and use a variable `maxProfit` to store the maximum profit until the current price.
 
   ```java
   public int maxProfit(int prices[]) {
