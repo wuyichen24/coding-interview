@@ -7,6 +7,7 @@
 - [Array](../data-structure/array/Array.md#common-topics)
 - [2D Array](../data-structure/array/2D_Array.md#common-topics)
 - [Linked List](../data-structure/linked_list/Linked_List.md#common-topics)
+- [Stack](../data-structure/stack/Stack.md#common-topics)
 - [Binary tree](../data-structure/tree/Binary_Tree.md#binary-tree-1)
 - [Binary search tree](../data-structure/tree/Binary_Tree.md#binary-search-tree)
 - [Graph](../data-structure/graph/Graph.md#common-topics)
