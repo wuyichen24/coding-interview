@@ -17,3 +17,4 @@
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
 - [House Robber](../problems/array/house_robber/House_Robber.md)
 - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
+- [Maximal Square](../problems/array/2d/Maximal_Square.md)
