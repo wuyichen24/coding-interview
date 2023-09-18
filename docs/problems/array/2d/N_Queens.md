@@ -1,7 +1,7 @@
 # N-Queens
 
 ## Alias
-- Leetcode (51): [Jump Game](https://leetcode.com/problems/jump-game/)
+- Leetcode (51): [51. N-Queens](https://leetcode.com/problems/n-queens/)
 
 ## Problem
 The **n-queens** puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other.
