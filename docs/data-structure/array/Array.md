@@ -103,7 +103,7 @@ void reverse(int[] nums, int i, int j) {
    - [House Robber](../../problems/array/house_robber/House_Robber.md)
    - [House Robber II](../../problems/array/house_robber/House_Robber_II.md)
 - **Buy and sell stock**
-   - [Best Time to Buy and Sell Stock](problems/array/stock/Best_Time_To_Buy_And_Sell_Stock.md)
+   - [Best Time to Buy and Sell Stock In 1 Transaction](problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
    - 122 Best Time to Buy and Sell Stock II
    - 123 Best Time to Buy and Sell Stock III
    - 188 Best Time to Buy and Sell Stock IV
