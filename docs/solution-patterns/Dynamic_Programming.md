@@ -5,12 +5,19 @@
 - Overlapping subproblems: The same subproblem is calculated more than once.
 
 ## Process
-- Classify a problem that can be solved by dynamic programming
+- **Step 1**: Classify a problem that can be solved by dynamic programming or not.
    - Based on [Problems can use this pattern](#problems-can-use-this-pattern)
-- Formulate the state transition equation (the relationship between the main problem and its subproblems)
-   - Key points
+- **Step 2**: Define the state.
+   - *State*
+      - A state can be defined as the set of parameters that can uniquely identify a certain position or standing in the given problem. This set of parameters should be as small as possible to reduce state space.
+   - *Examples*
+      - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the `i` is the state.
+      - For [Maximal Square](../problems/array/2d/Maximal_Square.md), the `i` and `j` is the state.
+- **Step 3**: Formulate the state transition equation.
+   - *State transition*
+      - The relationship between the main problem and its subproblems
       - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
-   - Examples
+   - *Examples*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
 
