@@ -37,11 +37,11 @@ One dynamic programming problem can be solved by multiple solutions:
       return fib(n - 1) + fib(n - 2);
   }
   ```
-- Recursion with memoization
+- Recursion with memoization (top-down)
   ```java
-  int fib(int N) {
-      int[] memo = new int[N + 1];                 // initialize the memo array as all 0
-      return dp(memo, N);                          // recursion with the memo array
+  int fib(int n) {
+      int[] memo = new int[n + 1];                 // initialize the memo array as all 0
+      return dp(memo, n);                          // recursion with the memo array
   }
 
   int dp(int[] memo, int n) {
@@ -52,7 +52,7 @@ One dynamic programming problem can be solved by multiple solutions:
       return memo[n];
   }
   ```
-- Dynamic programming
+- Dynamic programming (bottom-up)
   ```java
   public int fib(int n) {
       if (n <= 1) {
