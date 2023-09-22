@@ -1,20 +1,18 @@
 # Dynamic programming
 
 ## Problems can use this pattern
-- Find the maximum/minimum value
+- Find the maximum/minimum value.
+- Overlapping subproblems: The same subproblem is calculated more than once.
 
 ## Process
+- Classify a problem that can be solved by dynamic programming
+   - Based on [Problems can use this pattern](#problems-can-use-this-pattern)
 - Define the state transition equation (the relationship between the main problem and its subproblems)
    - Key points
       - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
    - Examples
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
-- Check we calculate the same subproblem twice.
-   - Example
-      - If the recursive relationship is `problem(i) = problem(i-1) + problem(i-2)`
-      - When the `i = 10`, we calculate `problem(9)` and `problem(8)`. When the `i = 9`, we calculate `problem(8)` and `problem(7)`.
-      - You can see that we calculate `problem(8)` twice.
 
 ## Template
 ```
