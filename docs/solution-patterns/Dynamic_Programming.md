@@ -20,6 +20,8 @@
    - *Examples*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
+- **Step 4**: Adding memoization or tabulation for the state.
+   - Use memoization or tabulation to store the results of subproblems, avoid the same subproblem being calculated multiple times.
 
 ## Template
 ```
@@ -79,3 +81,7 @@ One dynamic programming problem can be solved by multiple solutions:
 - [House Robber](../problems/array/house_robber/House_Robber.md)
 - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
 - [Maximal Square](../problems/array/2d/Maximal_Square.md)
+
+## References
+- [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
+- [labuladong 的算法笔记 | 动态规划解题套路框架](https://labuladong.github.io/algo/di-er-zhan-a01c6/dong-tai-g-a223e/dong-tai-g-1e688/)
