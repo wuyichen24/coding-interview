@@ -1,5 +1,8 @@
 # Dynamic programming
 
+## Problems can use this pattern
+- Find the maximum/minimum value
+
 ## Process
 - Find the recursive relationship between the main problem and their subproblems
    - Key points
