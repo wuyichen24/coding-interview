@@ -1,7 +1,7 @@
 # Depth-First Search
 
 - [**Concept**](#concept)
-- [**When to use**](#when-to-use)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
 - [**Pseudocode**](#pseudocode)
    - Recursive implementation
    - Stack implementation
@@ -21,7 +21,7 @@
 
 ![Depth-First-Search](https://github.com/wuyichen24/coding-interview/assets/8989447/01d7a646-92a7-4d6e-86e8-af0ee456bcc8)
 
-## When to use
+## Problems can use this pattern
 - Pathfinding
    - Solving maze with only one path.
    - May not find the shortest path between nodes (For finding shortest path, use BFS).
