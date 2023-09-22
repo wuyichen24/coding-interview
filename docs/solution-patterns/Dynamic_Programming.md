@@ -2,7 +2,9 @@
 
 ## Problems can use this pattern
 - Find the maximum/minimum value.
-- Overlapping subproblems: The same subproblem is calculated more than once.
+- Properties
+   - Overlapping subproblems: The same subproblem is calculated more than once.
+   - Optimal substructure: Subproblems are independent from each other.
 
 ## Process
 - **Step 1**: Classify a problem that can be solved by dynamic programming or not.
