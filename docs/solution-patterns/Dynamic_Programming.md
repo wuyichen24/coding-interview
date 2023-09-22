@@ -28,6 +28,12 @@ for i in all possible values in division1：
             dp[i][j][...] = max/min(choice1，choice2...)
 ```
 
+## Multiple solutions
+One dynamic programming problem can be solved by multiple solutions:
+- Recursion
+- Recursion with memoization
+- Dynamic programming
+
 ## Problems
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
 - [House Robber](../problems/array/house_robber/House_Robber.md)
