@@ -1,7 +1,7 @@
 # Breadth-First Search
 
 - [**Concept**](#concept)
-- [**When to use**](#when-to-use)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
 - [**Pseudocode**](#pseudocode)
 - [**Complexity**](#complexity)
 - [**Code example**](#code-example)
@@ -15,7 +15,7 @@
 
 ![Animated_BFS](https://github.com/wuyichen24/coding-interview/assets/8989447/011f31a9-5dcc-4a3e-bdaf-633dc901ae64)
 
-## When to use
+## Problems can use this pattern
 - Pathfinding
    - Find the shortest path between nodes.
 - Enumeration (find all the possible solutions).
