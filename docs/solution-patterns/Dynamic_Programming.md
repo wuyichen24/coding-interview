@@ -7,7 +7,7 @@
 ## Process
 - Classify a problem that can be solved by dynamic programming
    - Based on [Problems can use this pattern](#problems-can-use-this-pattern)
-- Define the state transition equation (the relationship between the main problem and its subproblems)
+- Formulate the state transition equation (the relationship between the main problem and its subproblems)
    - Key points
       - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
    - Examples
