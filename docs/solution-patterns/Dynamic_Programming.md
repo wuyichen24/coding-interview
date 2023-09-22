@@ -31,8 +31,43 @@ for i in all possible values in division1：
 ## Multiple solutions
 One dynamic programming problem can be solved by multiple solutions:
 - Recursion
+  ```java
+  int fib(int n) {
+      if (n == 1 || n == 2) return 1;
+      return fib(n - 1) + fib(n - 2);
+  }
+  ```
 - Recursion with memoization
+  ```java
+  int fib(int N) {
+      int[] memo = new int[N + 1];                 // initialize the memo array as all 0
+      return dp(memo, N);                          // recursion with the memo array
+  }
+
+  int dp(int[] memo, int n) {
+      // base case
+      if (n == 0 || n == 1) return n;
+      if (memo[n] != 0) return memo[n];            // if the value has been calculated, get the value directly from the memo array
+      memo[n] = dp(memo, n - 1) + dp(memo, n - 2);
+      return memo[n];
+  }
+  ```
 - Dynamic programming
+  ```java
+  public int fib(int n) {
+      if (n <= 1) {
+          return N;
+      }
+                  
+      int[] dp = new int[n + 1];
+      dp[1] = 1;
+      for (int i = 2; i <= n; i++) {
+          dp[i] = dp[i - 1] + dp[i - 2];
+      }
+    
+      return dp[n];
+  }
+  ```
 
 ## Problems
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
