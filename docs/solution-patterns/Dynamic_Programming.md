@@ -4,12 +4,12 @@
 - Find the maximum/minimum value
 
 ## Process
-- Find the recursive relationship between the main problem and their subproblems
+- Define the state transition equation (the relationship between the main problem and its subproblems)
    - Key points
-      - The recursive relationship can be defined either in top-down (from n to 0) or bottom-up (from 0 to n).
+      - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
    - Examples
-      - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the relationship is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
-      - For [House Robber](../problems/array/house_robber/House_Robber.md), the relationship is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
+      - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
+      - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
 - Check we calculate the same subproblem twice.
    - Example
       - If the recursive relationship is `problem(i) = problem(i-1) + problem(i-2)`
