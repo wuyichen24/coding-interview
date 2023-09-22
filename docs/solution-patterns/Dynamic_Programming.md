@@ -16,6 +16,18 @@
       - When the `i = 10`, we calculate `problem(9)` and `problem(8)`. When the `i = 9`, we calculate `problem(8)` and `problem(7)`.
       - You can see that we calculate `problem(8)` twice.
 
+## Template
+```
+// calculate the base case
+dp[0][0][...] = base case
+
+// calculate the state transition
+for i in all possible values in division1：
+    for j in all possible values in division2：
+        for ...
+            dp[i][j][...] = max/min(choice1，choice2...)
+```
+
 ## Problems
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
 - [House Robber](../problems/array/house_robber/House_Robber.md)
