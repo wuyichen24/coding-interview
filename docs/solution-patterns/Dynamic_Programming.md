@@ -32,6 +32,7 @@
    - *State transition*
       - The relationship between the main problem and its subproblems
       - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
+      - Assume I already know all the values in `dp[0 ... i-1]`, how to calculate the `dp[i]`.
    - *Examples*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
