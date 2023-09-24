@@ -35,4 +35,60 @@ You may assume that you have an infinite number of each kind of coin.
      ```
 
 ## Solutions
+- **Solution 1: Recursion**
+   - Idea
+      - Use the relationship
+        ```
+        for each coin in coins:
+            recursion(amount) = min(count, recursion(amount-coin) + 1)
+        ```
+  ```java
+  int coinChange(int[] coins, int amount) {
+      return dp(coins, amount)
+  }
+
+  int dp(int[] coins, int amount) {
+      // base case
+      if (amount == 0) return 0;
+      if (amount < 0) return -1;
+
+      int res = Integer.MAX_VALUE;
+      for (int coin : coins) {           
+          int subProblem = dp(coins, amount - coin);   // calculate the subproblem
+          if (subProblem == -1) continue;              // if no answer, ignore
+          res = Math.min(res, subProblem + 1);         // find the best answer among all the subproblems
+      }
+
+      return res == Integer.MAX_VALUE ? -1 : res;
+  }
+  ```
+
 - **Solution 1: Dynamic programming**
+   - Idea
+      - `dp[i]` is the fewest number of coins for the amount `i`.
+      - State transition equation
+        ```
+        for each coin in coins:
+            dp[i] = min(count, 1 + dp[i - coin])
+        ```
+
+  ```java
+  int coinChange(int[] coins, int amount) {
+      int[] dp = new int[amount + 1];
+      Arrays.fill(dp, amount + 1);           // fill initial value as amount + 1
+
+      // base case
+      dp[0] = 0;
+      for (int i = 0; i < dp.length; i++) {  // calculate each value in the dp array
+          for (int coin : coins) {
+              if (i - coin < 0) {
+                  continue;
+              }
+              dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
+          }
+      }
+      return (dp[amount] == amount + 1) ? -1 : dp[amount];
+  }
+  ```
+
+        ```
