@@ -44,7 +44,7 @@ Given an integer array nums, **return the length of the longest strictly increas
 ## Solutions
 - **Solution 1: Dynamic programming**
    - Idea
-      - `dp[i]` means the length of the longest increasing subsequence from `nums[0 ... i]`.
+      - `dp[i]` means the length of the longest increasing subsequence from `nums[0 ... i]` (the longest increasing subsequence ended by `nums[i]`).
       - Initialize each element in the `dp` array as `1`
          - The longest increasing subsequence should include the current element `nums[i]` itself.
       - The final result should be the maximum value amoung the `dp` array.
@@ -57,6 +57,30 @@ Given an integer array nums, **return the length of the longest strictly increas
                if (nums[i] > nums[j]):
                    dp[i] = max(dp[i], dp[j] + 1)
            ```
+   - Complexity
+      - Time complexity: *O(n<sup>2</sup>)*
 
   ```java
+  int lengthOfLIS(int[] nums) {
+      int[] dp = new int[nums.length];
+
+      // fill each element in the dp array as 1
+      Arrays.fill(dp, 1);         
+
+      // calculate the dp[i]: max(dp[j]) + 1
+      for (int i = 0; i < nums.length; i++) {
+          for (int j = 0; j < i; j++) {
+              if (nums[i] > nums[j]) 
+                  dp[i] = Math.max(dp[i], dp[j] + 1);
+
+          }
+      }
+
+      // get maximum value amoung the dp array.
+      int res = 0;
+      for (int i = 0; i < dp.length; i++) {
+          res = Math.max(res, dp[i]);
+      }
+      return res;
+  }
   ```
