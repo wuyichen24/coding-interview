@@ -19,7 +19,8 @@
    - *Choices*
       - The state can be changed by different choices.
    - *Example*
-      - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), you have 2 choices: climb either 1 or 2 steps.
+      - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), you have 2 choices at each state: climb either 1 or 2 steps.
+      - For [Coin Change](../problems/other/Coin_Change.md), you have multiple choices at each state: you can pick any coin from all possible coins.
 - **Step 3**: Formulate the state transition equation.
    - *State transition*
       - The relationship between the main problem and its subproblems
