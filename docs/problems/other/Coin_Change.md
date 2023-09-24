@@ -63,9 +63,11 @@ You may assume that you have an infinite number of each kind of coin.
   }
   ```
 
-- **Solution 1: Dynamic programming**
+- **Solution 2: Dynamic programming**
    - Idea
       - `dp[i]` is the fewest number of coins for the amount `i`.
+      - Initialize each element in the `dp` array as `amount + 1`.
+         - You cannot initialize the array as `Integer.MAX_VALUE`, it will cause overflow when calculating `dp[i - coin] + 1`.
       - State transition equation
         ```
         for each coin in coins:
