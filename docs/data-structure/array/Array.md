@@ -11,6 +11,8 @@
 ## Concepts
 - **Subarray**
    - A subarray is a contiguous non-empty sequence of elements within an array.
+- **Subsequence**
+   - A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 - **Subset**
    - A subset of an array is a selection of elements (possibly none) of the array.
    - Subset is also known as "power set".
