@@ -77,6 +77,25 @@ One dynamic programming problem can be solved by multiple solutions:
       return dp[n];
   }
   ```
+- Optimized dynamic programming (only use 2 variables rather than an array)
+  ```java
+  int fib(int n) {
+      if (n == 0 || n == 1) {
+        return n;
+      }
+  
+      // represent dp[i - 1] 和 dp[i - 2]
+      int dp_i_1 = 1, dp_i_2 = 0;
+      for (int i = 2; i <= n; i++) {
+          // dp[i] = dp[i - 1] + dp[i - 2];
+          int dp_i = dp_i_1 + dp_i_2;
+          // update
+          dp_i_2 = dp_i_1;
+          dp_i_1 = dp_i;
+      }
+      return dp_i_1;
+  }
+  ```
 
 ## Problems
 - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
