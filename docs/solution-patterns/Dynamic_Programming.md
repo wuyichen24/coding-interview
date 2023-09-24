@@ -16,6 +16,8 @@
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the parameter `i` is the state.
       - For [Maximal Square](../problems/array/2d/Maximal_Square.md), the parameters `i` and `j` is the state.
 - **Step 3**: Define the "Choices"
+   - *Choices*
+      - 
 - **Step 3**: Formulate the state transition equation.
    - *State transition*
       - The relationship between the main problem and its subproblems
