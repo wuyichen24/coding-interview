@@ -1,7 +1,7 @@
 # Coin Change
 
 ## Alias
-- Leetcode (875): [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- Leetcode (322): [Coin Change](https://leetcode.com/problems/coin-change/)
 
 ## Problem
 You are given an integer array `coins` representing coins of different denominations and an integer amount representing a total `amount` of money.
@@ -33,3 +33,6 @@ You may assume that you have an infinite number of each kind of coin.
      ```
      -1
      ```
+
+## Solutions
+- **Solution 1: Dynamic programming**
