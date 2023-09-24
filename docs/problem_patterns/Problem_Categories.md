@@ -53,6 +53,7 @@
 - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
 - [LRU Cache](../problems/other/LRU_Cache.md)
 - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
+- [Coin Change](../problems/other/Coin_Change.md)
 
 ## Problem series
 - Jump game
