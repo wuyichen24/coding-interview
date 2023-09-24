@@ -49,7 +49,7 @@ Given an integer array nums, **return the length of the longest strictly increas
          - The longest increasing subsequence should include the current element `nums[i]` itself.
       - The final result should be the maximum value amoung the `dp` array.
       - State transition equation
-         - For `dp[i]`, find all the numbers (nums[j]) which is less than `nums[i]` in the range of `nums[0 ... i-1]`.
+         - For `dp[i]`, find all the numbers which is less than `nums[i]` in the range of `nums[0 ... i-1]`.
          - The `dp[i]` will be `max(dp[j]) + 1` (conditions: 1. `j` from `0` to `i-1` 2. `nums[j] < nums[i]`).
 
            ```
