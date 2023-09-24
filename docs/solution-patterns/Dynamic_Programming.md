@@ -1,5 +1,12 @@
 # Dynamic programming
 
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**Process**](#process)
+- [**Template**](#template)
+- [**Multiple solutions**](#template)
+- [**Problems**](#problems)
+- [**References**](#references)
+
 ## Problems can use this pattern
 - Find the maximum/minimum value.
 - Properties
@@ -21,14 +28,14 @@
    - *Example*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), you have 2 choices at each state: climb either 1 or 2 steps.
       - For [Coin Change](../problems/other/Coin_Change.md), you have multiple choices at each state: you can pick any coin from all possible coins.
-- **Step 3**: Formulate the state transition equation.
+- **Step 4**: Formulate the state transition equation.
    - *State transition*
       - The relationship between the main problem and its subproblems
       - The relationship can be defined either top-down (from n to 0) or bottom-up (from 0 to n).
    - *Examples*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the equation is `problem(i) = problem(i-1) + problem(i-2)` (top-down).
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
-- **Step 4**: Adding memoization or tabulation for the state.
+- **Step 5**: Adding memoization or tabulation for the state.
    - Use memoization or tabulation to store the results of subproblems, avoid the same subproblem being calculated multiple times.
 
 ## Template
