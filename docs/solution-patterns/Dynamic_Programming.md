@@ -108,6 +108,7 @@ One dynamic programming problem can be solved by multiple solutions:
 - [House Robber](../problems/array/house_robber/House_Robber.md)
 - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
 - [Maximal Square](../problems/array/2d/Maximal_Square.md)
+- [Coin Change](../problems/other/Coin_Change.md)
 
 ## References
 - [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
