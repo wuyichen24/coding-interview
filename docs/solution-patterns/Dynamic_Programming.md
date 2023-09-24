@@ -9,12 +9,13 @@
 ## Process
 - **Step 1**: Classify a problem that can be solved by dynamic programming or not.
    - Based on [Problems can use this pattern](#problems-can-use-this-pattern)
-- **Step 2**: Define the state.
+- **Step 2**: Define the "State".
    - *State*
       - A state can be defined as the set of parameters that can uniquely identify a certain position or standing in the given problem. This set of parameters should be as small as possible to reduce state space.
    - *Examples*
       - For [Climbing Stairs](../problems/other/Climbing_Stairs.md), the parameter `i` is the state.
       - For [Maximal Square](../problems/array/2d/Maximal_Square.md), the parameters `i` and `j` is the state.
+- **Step 3**: Define the "Choices"
 - **Step 3**: Formulate the state transition equation.
    - *State transition*
       - The relationship between the main problem and its subproblems
