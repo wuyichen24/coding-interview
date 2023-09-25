@@ -91,3 +91,36 @@ Given an integer array nums, **return the length of the longest strictly increas
          - You can only put a card with a lower value onto a card with a higher value (只能把点数小的牌压到点数比它大的牌上).
          - If the current card has a higher value and there is no pile that can be placed, create a new pile and put this card into it (如果当前牌点数较大，没有可以放置的堆，则新建一个堆).
          - If there are multiple piles for the current card, select the leftmost pile to place (如果当前牌有多个堆可供选择，则选择最左边的那一堆放置).
+      - The top of each pile is a sorted array, you can do binary search on it.
+      - The number of piles is the final answer.
+
+        ![poker4](https://github.com/wuyichen24/coding-interview/assets/8989447/8b385f74-6a1a-421c-9215-c9c1666a43d2)
+
+  ```java
+  int lengthOfLIS(int[] nums) {
+      int[] top = new int[nums.length];
+
+      int piles = 0;                           // number of piles
+  
+      for (int i = 0; i < nums.length; i++) {
+          int poker = nums[i];                 // the current poker card needs to be put
+
+          int left = 0, right = piles;         // find the pile for the current card
+          while (left < right) {
+              int mid = (left + right) / 2;
+              if (top[mid] > poker) {
+                  right = mid;
+              } else if (top[mid] < poker) {
+                  left = mid + 1;
+              } else {
+                  right = mid;
+              }
+          }
+        
+          if (left == piles) piles++;          // if there is no pile for the current card, create a new pile
+          top[left] = poker;                   // put the card into the pile
+      }
+      
+      return piles;                            // number of piles is the final answer
+ }
+  ```
