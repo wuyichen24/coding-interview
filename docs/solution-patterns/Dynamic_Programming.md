@@ -114,12 +114,14 @@ One dynamic programming problem can be solved by multiple solutions:
   ```
 
 ## Problems
-- [Climbing Stairs](../problems/other/Climbing_Stairs.md)
-- [House Robber](../problems/array/house_robber/House_Robber.md)
-- [House Robber II](../problems/array/house_robber/House_Robber_II.md)
-- [Maximal Square](../problems/array/2d/Maximal_Square.md)
-- [Coin Change](../problems/other/Coin_Change.md)
-- [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
+- *1-D `dp` array*
+   - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
+   - [House Robber](../problems/array/house_robber/House_Robber.md)
+   - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
+   - [Coin Change](../problems/other/Coin_Change.md)
+   - [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
+- *2-D `dp` array*
+   - [Maximal Square](../problems/array/2d/Maximal_Square.md)
 
 ## References
 - [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
