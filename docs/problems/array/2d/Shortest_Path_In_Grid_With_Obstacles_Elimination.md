@@ -42,7 +42,7 @@ Return the minimum number of **steps** to walk from the upper left corner `(0, 0
 ## Solutions
 - **Solution 1: BFS**
    - Idea:
-      - Add K into the node information, so we know the current node, what is the x, the y and the k (how many k has been used).
+      - Add `K` (the number of obstacles can be eliminated) into the node information, so we know the current node, what is the x, the y and the k (how many k has been used).
     
   ```java
   class Solution {
