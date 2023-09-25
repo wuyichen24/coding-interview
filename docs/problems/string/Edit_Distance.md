@@ -85,10 +85,10 @@ You have the following three operations permitted on a word:
 
 - **Solution 2: Dynamic programming**
    - Idea
-      - `dp[i][j]` is the edit distance between s1[0 ... i-1] and s2[0 ... j-1]
+      - `dp[i][j]` is the edit distance between `s1[0 ... i-1]` and `s2[0 ... j-1]`.
       - Base cases:
-         - Initialize `dp[i][0]` as `i`
-         - Initialize `dp[0][j]` as `j`
+         - Initialize `dp[i][0]` as `i`.
+         - Initialize `dp[0][j]` as `j`.
       - State transition equation
         ```
         if s1[i] == s2[j]:
