@@ -125,7 +125,23 @@ One dynamic programming problem can be solved by multiple solutions:
 ### The length of dp array
 ### The traversal direction of dp array
 - **1-D `dp` array**
+   - bottom-up
+     
+     ![1d_dp_traversal drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/413e6eee-6b7b-462a-888b-1db9b0b4c1b9)
+
 - **2-D `dp` array**
+   - Up-left to bottom-right
+     ```
+     for (int i = 1; i < m; i++) {
+         for (int j = 1; j < n; j++) {
+             dp[i][j] = calculate (dp[i-1][j-1] , dp[i-1][j], dp[i][j-1])
+         }
+     }
+     ```
+     
+     ![2d_dp_traversal drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/be31bb86-1ce8-42ad-90b7-ff21590d72d7)
+   
+   - Bottom-left to up-right
 
 ## Problems
 - *1-D `dp` array*
