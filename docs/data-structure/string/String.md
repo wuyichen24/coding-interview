@@ -48,7 +48,7 @@
 - **2 strings comparison**
    - Subsequences
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
-   - [Edit_Distance](../../problems/string/Edit_Distance.md)
+   - [Edit Distance](../../problems/string/Edit_Distance.md)
 - **Math**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - Basic calculator
