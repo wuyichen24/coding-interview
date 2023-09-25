@@ -122,6 +122,7 @@ One dynamic programming problem can be solved by multiple solutions:
    - [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
 - *2-D `dp` array*
    - [Maximal Square](../problems/array/2d/Maximal_Square.md)
+   - [Edit Distance](../problems/string/Edit_Distance.md)
 
 ## References
 - [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
