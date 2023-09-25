@@ -122,5 +122,5 @@ Given an integer array nums, **return the length of the longest strictly increas
       }
       
       return piles;                            // number of piles is the final answer
- }
+  }
   ```
