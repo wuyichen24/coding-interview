@@ -29,40 +29,32 @@ Given a string `s`, return the longest palindromic substring in `s`.
      ```
 
 ## Solutions
-- Solution 1
+- **Solution 1: 2 pointers**
    - Idea
       - Check each char from left to right and extend palindromic substring at each char
       - Consider both odd length substring and even length substring
 
-```java
-class Solution {
-    private int leftEnd;   // record the index of the left end of substring
-    private int maxLen;    // record the max length of substring
+  ```java
+  class Solution {
+      public String longestPalindrome(String s) {
+          String res = "";
+          for (int i = 0; i < s.length(); i++) {
+              String s1 = palindrome(s, i, i);        // consider odd length: s[i] is the center of the palindrome substring
+              String s2 = palindrome(s, i, i + 1);    // consider even length: s[i] and s[i+1] are the center of the palindrome substring
 
-    public String longestPalindrome(String s) {
-        int len = s.length();
-	      if (len < 2)
-		        return s;
-	
-        for (int i = 0; i < len-1; i++) {
-     	      extendPalindrome(s, i, i);   // assume odd length, try to extend Palindrome as possible
-     	      extendPalindrome(s, i, i+1); // assume even length.
-        }
-        return s.substring(leftEnd, leftEnd + maxLen);
-    }
+              res = res.length() > s1.length() ? res : s1;
+              res = res.length() > s2.length() ? res : s2;
+          }
+          return res;
+      }
 
-    private void extendPalindrome(String s, int j, int k) {
-        // if 2 ends of substring can extend, continue extending
-	      while (j >= 0 && k < s.length() && s.charAt(j) == s.charAt(k)) {
-		        j--;
-		        k++;
-	      }
+      String palindrome(String s, int l, int r) {
+          while (l >= 0 && r < s.length() && s.charAt(l) == s.charAt(r)) {  // extend 2 pointers to each end
+              l--;
+              r++;
+          }
 
-        // if the current substring is longer than the max length, update the max length and index of left end
-	      if (maxLen < k - j - 1) {
-		        leftEnd = j + 1;
-            maxLen = k - j - 1;
-	      }
-    }
-}
-```
+          return s.substring(l + 1, r);
+      }
+  }
+  ```
