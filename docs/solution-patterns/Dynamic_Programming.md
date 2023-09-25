@@ -38,6 +38,7 @@
       - For [House Robber](../problems/array/house_robber/House_Robber.md), the equation is `problem(i) = Math.max( problem(i-2)+currentValue , problem(i-1) )` (top-down).
 - **Step 5**: Adding memoization or tabulation for the state.
    - Use memoization or tabulation to store the results of subproblems, avoid the same subproblem being calculated multiple times.
+      - For tabulation, define the meaning of the `dp` array (what is the meaning of `dp[i]`).
 
 ## Template
 ```
