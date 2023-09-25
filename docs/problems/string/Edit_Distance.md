@@ -54,6 +54,8 @@ You have the following three operations permitted on a word:
       - For `s1[i]` and `s2[j]`
          - If `s1[i] = s2[j]`, no operation is needed, move `i` and `j` to the next char respectively.
          - If `s1[i] != s2[j]`, enumerate 3 possible choices, get the minimum operations from 3 choices.
+   - Complexity
+      - Time complexity: *O(3<sup>M</sup>)* (M is the max length between `word1` and `word2`)
   ```java
   class Solution {
       public int minDistance(String word1, String word2) {
@@ -77,6 +79,57 @@ You have the following three operations permitted on a word:
 
       int min(int i1, int i2, int i3) {
           return Math.min(i1, Math.min(i2, i3));
+      }
+  }
+  ```
+
+- **Solution 2: Dynamic programming**
+   - Idea
+      - `dp[i][j]` is the edit distance between s1[0 ... i-1] and s2[0 ... j-1]
+      - Base cases:
+         - Initialize `dp[i][0]` as `i`
+         - Initialize `dp[0][j]` as `j`
+      - State transition equation
+        ```
+        if s1[i] == s2[j]:
+            dp[i][j] = dp[i-1][j-1]
+        else
+            dp[i][j] = min (
+               dp[i-1][j],
+               dp[i][j-1],
+               dp[i-1][j-1]
+            )
+        ```
+  ```java
+  class Solution {
+      public int minDistance(String s1, String s2) {
+          int m = s1.length(), n = s2.length();
+          int[][] dp = new int[m + 1][n + 1];
+  
+          // base case
+          for (int i = 1; i <= m; i++)
+              dp[i][0] = i;
+          for (int j = 1; j <= n; j++)
+              dp[0][j] = j;
+
+          // bottom-up calculation
+          for (int i = 1; i <= m; i++)
+              for (int j = 1; j <= n; j++)
+                  if (s1.charAt(i - 1) == s2.charAt(j - 1))
+                      dp[i][j] = dp[i - 1][j - 1];
+                  else
+                      dp[i][j] = min(
+                        dp[i - 1][j] + 1,
+                        dp[i][j - 1] + 1,
+                        dp[i - 1][j - 1] + 1
+                      );
+
+          // final result will be the i=m and j=n
+          return dp[m][n];
+      }
+
+      int min(int a, int b, int c) {
+          return Math.min(a, Math.min(b, c));
       }
   }
   ```
