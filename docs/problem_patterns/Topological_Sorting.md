@@ -17,9 +17,11 @@
    - Until there is no node.
 - **Pseudo code**
   ```
+  // collections
   L ← Empty list that will contain the sorted elements
   S ← Set of all nodes with no incoming edge
 
+  // build topological ordering
   while S is not empty do:
       remove a node n from S
       add n to L
@@ -27,4 +29,10 @@
           remove edge e from the graph
           if m has no other incoming edges then:
               insert m into S
+
+  // return the nodes in the topogical ordering
+  if graph has edges then:
+      return error   (graph has at least one cycle)
+  else:
+      return L   (a topologically sorted order)
   ```
