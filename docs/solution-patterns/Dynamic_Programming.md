@@ -10,8 +10,16 @@
 ## Problems can use this pattern
 - Find the maximum/minimum value.
 - Properties
-   - Overlapping subproblems: The same subproblem is calculated more than once.
-   - Optimal substructure: Subproblems are independent from each other.
+   - *Overlapping subproblems*: The same subproblem is calculated more than once.
+      - How to judge the main problem has overlapping subproblems?
+         - Draw recursion tree.
+           
+           ![1](https://github.com/wuyichen24/coding-interview/assets/8989447/df20ad96-cb1b-4417-93b2-a1b79e419833)
+
+         - Analyze the recursion relationship.
+            - Example 1: recursion(i) = recursion(i-1) + recursion(i-2)
+            - Example 2: recursion(i, j) = min(recursion(i-1,j) , recursion(i,j-1) , recursion(i-1, i-1))
+   - *Optimal substructure*: Subproblems are independent from each other.
 
 ## Process
 - **Step 1**: Classify a problem that can be solved by dynamic programming or not.
