@@ -34,5 +34,58 @@
   if graph has edges then:
       return error   (graph has at least one cycle)
   else:
-      return L   (a topologically sorted order)
+      return L       (a topologically sorted order)
+  ```
+- **Java**
+  ```java
+  public int[] kahnAlgorithm(int numOfNodes, int[][] edges) {
+      Map<Integer, List<Integer>> graphMap = new HashMap<>();
+      int[] inDegreeArray    = new int[numOfNodes];
+      int[] topologicalOrder = new int[numOfNodes];
+
+      // Build the graph by map and record in-degree of each node
+      for (int i = 0; i < edges.length; i++) {
+          int from = edges[i][0];
+          int to   = edges[i][1];
+          graphMap.putIfAbsent(from, new ArrayList<>());
+          graphMap.get(from).add(to);
+
+          // Record in-degree of each vertex
+          inDegreeArray[to] += 1;
+      }
+
+      // Add all vertices with 0 in-degree to the queue
+      Queue<Integer> queue = new LinkedList<Integer>();
+      for (int i = 0; i < numOfNodes; i++) {
+          if (inDegreeArray[i] == 0) {
+              queue.add(i);
+          }
+      }
+
+      int i = 0;
+      // Process until the queue becomes empty
+      while (!queue.isEmpty()) {
+          int node = queue.remove();
+          topologicalOrder[i++] = node;
+
+          // Reduce the in-degree of each neighbor by 1
+          if (graphMap.containsKey(node)) {
+              for (Integer neighbor : graphMap.get(node)) {
+                  inDegreeArray[neighbor]--;
+
+                  // If in-degree of a neighbor becomes 0, add it to the Q
+                  if (inDegreeArray[neighbor] == 0) {
+                      queue.add(neighbor);
+                  }
+              }
+          }
+      }
+
+      // Check to see if topological sort is possible or not.
+      if (i == numOfNodes) {
+          return topologicalOrder;
+      } else {
+          return new int[0];
+      }
+  }
   ```
