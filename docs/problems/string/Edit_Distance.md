@@ -95,9 +95,9 @@ You have the following three operations permitted on a word:
             dp[i][j] = dp[i-1][j-1]
         else
             dp[i][j] = min (
-               dp[i-1][j],
-               dp[i][j-1],
-               dp[i-1][j-1]
+               dp[i][j-1],    // delete
+               dp[i-1][j],    // insert
+               dp[i-1][j-1]   // replace
             )
         ```
   ```java
@@ -119,9 +119,9 @@ You have the following three operations permitted on a word:
                       dp[i][j] = dp[i - 1][j - 1];
                   else
                       dp[i][j] = min(
-                        dp[i - 1][j] + 1,
-                        dp[i][j - 1] + 1,
-                        dp[i - 1][j - 1] + 1
+                        dp[i - 1][j] + 1,     // delete
+                        dp[i][j - 1] + 1,     // insert
+                        dp[i - 1][j - 1] + 1  // replace
                       );
 
           // final result will be the i=m and j=n
