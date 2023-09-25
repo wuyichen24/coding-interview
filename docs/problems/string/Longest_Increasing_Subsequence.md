@@ -86,3 +86,8 @@ Given an integer array nums, **return the length of the longest strictly increas
   ```
 
 - **Solution 2: Binary search**
+   - Idea
+      - Consider each number is a poker card and separate poker cards into multiple piles:
+         - You can only put a card with a lower value onto a card with a higher value (只能把点数小的牌压到点数比它大的牌上).
+         - If the current card has a higher value and there is no pile that can be placed, create a new pile and put this card into it (如果当前牌点数较大，没有可以放置的堆，则新建一个堆).
+         - If there are multiple piles for the current card, select the leftmost pile to place (如果当前牌有多个堆可供选择，则选择最左边的那一堆放置).
