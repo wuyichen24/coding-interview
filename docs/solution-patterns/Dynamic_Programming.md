@@ -121,6 +121,12 @@ One dynamic programming problem can be solved by multiple solutions:
   }
   ```
 
+## Implementation details
+### The length of dp array
+### The traversal direction of dp array
+- **1-D `dp` array**
+- **2-D `dp` array**
+
 ## Problems
 - *1-D `dp` array*
    - [Climbing Stairs](../problems/other/Climbing_Stairs.md)
