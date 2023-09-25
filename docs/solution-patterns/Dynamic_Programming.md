@@ -4,6 +4,10 @@
 - [**Process**](#process)
 - [**Template**](#template)
 - [**Multiple solutions**](#template)
+- [**Multiple solutions**](#multiple-solutions)
+- [**Implementation details**](#implementation-details)
+   - [The length of dp array](#the-length-of-dp-array)
+   - [The traversal direction of dp array](#the-traversal-direction-of-dp-array)
 - [**Problems**](#problems)
 - [**References**](#references)
 
