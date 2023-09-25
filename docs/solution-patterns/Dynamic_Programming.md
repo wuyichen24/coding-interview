@@ -123,6 +123,13 @@ One dynamic programming problem can be solved by multiple solutions:
 
 ## Implementation details
 ### The length of dp array
+- **1-D `dp` array**
+   - `new int[n]` (common)
+   - `new int[n+1]` (for handling the base case properly, sometime you need to add extra one element)
+- **2-D `dp` array**
+   - `new int[m][n]` (common)
+   - `new int[m+1][n+1]` (for handling the base case properly, sometime you need to add extra space)
+  
 ### The traversal direction of dp array
 - **1-D `dp` array**
    - bottom-up
