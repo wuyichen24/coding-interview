@@ -44,7 +44,7 @@ You have the following three operations permitted on a word:
       - `exection -> execution` (insert 'u')
 
 ## Solutions
-- Solution 1: Recursion
+- **Solution 1: Recursion**
    - Idea
       - Use 2 pointers `i` and `j` to point `s1` and `s2` respectively.
       - Compare each char from right to left.
@@ -65,12 +65,12 @@ You have the following three operations permitted on a word:
           if (j == -1) return i+1;
 
           if (s1.charAt(i) == s2.charAt(j)) {
-              return recursion(s1, s2, i-1, j-1);
+              return recursion(s1, s2, i-1, j-1);   // do nothing
           } else {
               return min(
-                  recursion(s1, s2, i, j-1)+1,
-                  recursion(s1, s2, i-1, j)+1,
-                  recursion(s1, s2, i-1, j-1)+1
+                  recursion(s1, s2, i, j-1)+1,      // insert
+                  recursion(s1, s2, i-1, j)+1,      // delete
+                  recursion(s1, s2, i-1, j-1)+1     // replace
               );
           }
       }
