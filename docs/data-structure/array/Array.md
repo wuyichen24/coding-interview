@@ -54,6 +54,7 @@ void reverse(int[] nums, int i, int j) {
    - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
 - **Sequence**
    - [Longest Consecutive Sequence](../../problems/array/Longest_Consecutive_Sequence.md)
+   - [Longest Increasing Subsequence](../../problems/string/Longest_Increasing_Subsequence.md)
 - **Search**
    - *Find missing*
       - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
