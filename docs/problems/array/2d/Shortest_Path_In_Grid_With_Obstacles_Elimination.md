@@ -40,7 +40,7 @@ Return the minimum number of **steps** to walk from the upper left corner `(0, 0
      ![short2-grid](https://github.com/wuyichen24/coding-interview/assets/8989447/e9476b02-5482-4f1e-b144-e3da50374476)
 
 ## Solutions
-- Solution 1: BFS
+- **Solution 1: BFS**
    - Idea:
       - Add K into the node information, so we know the current node, what is the x, the y and the k (how many k has been used).
     
