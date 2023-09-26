@@ -50,7 +50,7 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
    - Idea
        - Use index `i` to record the start index for matching the next word.
    - Complexity
-       - Time complexity: *O(2<sup>N<sup> * MN)* (M is the size of dictionary, N is the length of string)
+       - Time complexity: *O(2<sup>N<sup> * MN)* (M is the size of dictionary `wordDict`, N is the length of string `s`)
   ```
   class Solution {
       List<String> wordDict;
@@ -84,4 +84,4 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
       }
   }
   ```
-- **Solution 1: Dynamic programming**
+- **Solution 1: Recursion with memoization**
