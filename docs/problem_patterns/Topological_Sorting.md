@@ -162,6 +162,8 @@
   }
   ```
 
+## Problems
+
 ## References
 - [labuladong 的算法笔记 | 环检测及拓扑排序算法](https://labuladong.github.io/algo/di-yi-zhan-da78c/shou-ba-sh-03a72/huan-jian--e36de/)
 - [AlgoMonster | Topological Sort Introduction](https://algo.monster/problems/topo_intro)
