@@ -49,7 +49,7 @@ A region is captured by flipping all 'O's into 'X's in that surrounded region.
         ![Surrounded_Region_2 drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/c8d46af8-2c88-4a84-aef5-e05dc4c15195)
 
       - Traverse all the board and flip:
-         - All the `'0' cells to `'X'`.
+         - All the `'0'` cells to `'X'`.
          - All the `'E'` cells back to `'0'`.
 
         ![Surrounded_Region_3 drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/3de2960e-e977-4f35-b47c-890353b853ab)
