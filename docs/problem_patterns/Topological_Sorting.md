@@ -1,5 +1,14 @@
 # Topological Sorting
 
+- [**Concepts**](#concepts)
+- [**Examples**](#examples)
+- [**Characters**](#characters)
+- [**Solutions**](#solutions)
+   - [Kahn's algorithm](#kahns-algorithm)
+   - [DFS](#dfs)
+- [**Problems**](#problems)
+- [**References**](#references)
+
 ## Concepts
 - A topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
 
@@ -9,7 +18,7 @@
 ## Characters
 - If a directed graph has an cycle, it can **NOT** be topologically sorted.
 
-## Algorithm
+## Solutions
 ### Kahn's algorithm
 - **Idea**
    - *Algorithm*
