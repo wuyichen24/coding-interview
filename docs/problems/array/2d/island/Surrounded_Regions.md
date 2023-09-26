@@ -41,10 +41,18 @@ A region is captured by flipping all 'O's into 'X's in that surrounded region.
 - **Solution 1: DFS**
    - Idea
       - Check all the border cells.
+        
+        ![Surrounded_Region drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/a0b52fb9-ee93-4d4f-80f3-45f4c83b1c6b)
+
       - Use DFS to change all the `'0'` cells which connect to border `'0'` cell to a special character, like `'E'` (So they will not be flipped).
+
+        ![Surrounded_Region_2 drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/c8d46af8-2c88-4a84-aef5-e05dc4c15195)
+
       - Traverse all the board and flip:
          - All the `'0' cells to `'X'`.
          - All the `'E'` cells back to `'0'`.
+
+        ![Surrounded_Region_3 drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/3de2960e-e977-4f35-b47c-890353b853ab)
 
   ```java
   public class Solution {
