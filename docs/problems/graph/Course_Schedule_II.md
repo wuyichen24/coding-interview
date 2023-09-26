@@ -105,3 +105,62 @@ There are a total of `numCourses` courses you have to take, labeled from `0` to 
         ![2 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/79aeb2b8-ac2d-4607-bcd4-39b80027ef86)
 
         ![3 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/4243299f-a5a0-454d-8730-46639feadf2d)
+
+  ```java
+  class Solution {
+      List<Integer> postorder = new ArrayList<>();
+
+      boolean hasCycle = false;
+      boolean[] visited, onPath;
+
+      public int[] findOrder(int numCourses, int[][] prerequisites) {
+          Map<Integer, List<Integer>> adjList = new HashMap<Integer, List<Integer>>();
+          // Create the adjacency list representation of the graph
+          for (int i = 0; i < prerequisites.length; i++) {
+              int dest = prerequisites[i][0];
+              int src = prerequisites[i][1];
+              List<Integer> lst = adjList.getOrDefault(src, new ArrayList<Integer>());
+              lst.add(dest);
+              adjList.put(src, lst);
+          }
+
+          visited = new boolean[numCourses];
+          onPath  = new boolean[numCourses];
+
+          // Post-order traversal
+          for (int i = 0; i < numCourses; i++) {
+              traverse(adjList, i);
+          }
+
+          if (hasCycle) {
+              return new int[]{};
+          }
+          // Reverse the order of post-order traversal
+          Collections.reverse(postorder);
+          int[] res = new int[numCourses];
+          for (int i = 0; i < numCourses; i++) {
+              res[i] = postorder.get(i);
+          }
+          return res;
+      }
+
+      void traverse(Map<Integer, List<Integer>> adjList, int s) {
+          if (onPath[s]) {
+              hasCycle = true;
+          }
+          if (visited[s] || hasCycle) {
+              return;
+          }
+          onPath[s] = true;
+          visited[s] = true;
+          List<Integer> adjNodes = adjList.get(s);
+          if (adjNodes != null) {
+              for (Integer t : adjList.get(s)) {
+                  traverse(adjList, t);    // recursion
+              }
+          }
+          postorder.add(s);                // post-order operation: add node to the list
+          onPath[s] = false;
+      }
+  }
+  ```
