@@ -93,6 +93,10 @@
 - **Idea**
    - The reversed ordering of post-order DFS traversal is the topological ordering.
       - Consider binary tree, if we process post-order traversal, after all the child nodes have been visited, the root node will be visited.
+        
+        ![2 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/ae709df2-a448-4047-934e-239c2f667f91)
+        ![3 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/073ae58e-1439-41b5-acdc-c1cea896a028)
+
 - **Java**
   ```java
   class Solution {
