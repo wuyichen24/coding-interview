@@ -23,7 +23,7 @@
    - Consider to split intervals into an array of start time and an array of end time. Sort them repectively.
 - After sorting the inverals, go through sorted intervals.
 
-## Problem
+## Problems
 - Meeting Rooms
    - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
    - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
