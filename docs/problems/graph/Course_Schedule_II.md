@@ -102,10 +102,6 @@ There are a total of `numCourses` courses you have to take, labeled from `0` to 
       - The reversed order of post-order DFS traversal is the topological ordering.
       - Consider binary tree, if we process post-order traversal, after all the child nodes have been visited, the root node will be visited.
 
-        ![2 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/79aeb2b8-ac2d-4607-bcd4-39b80027ef86)
-
-        ![3 (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/4243299f-a5a0-454d-8730-46639feadf2d)
-
   ```java
   class Solution {
       List<Integer> postorder = new ArrayList<>();
