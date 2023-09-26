@@ -12,9 +12,13 @@
 ## Algorithm
 ### Kahn's algorithm
 - **Idea**
-   - Find all the "start nodes" which have no incoming edges, insert them into a set S.
-   - Remove all the outcoming edges of the node in the set S there will be some new nodes which have no incoming edges, insert them into the set S.
-   - Until there is no node.
+   - *Algorithm*
+      - Find all the "start nodes" which have no incoming edges, insert them into a set S.
+      - Remove all the outcoming edges of the node in the set S there will be some new nodes which have no incoming edges, insert them into the set S.
+      - Until there is no node.
+   - *Difference with BFS*
+      - Kahn's algorithm only pushes nodes with 0 in-degree into the queue.
+      - BFS pushes all the neighboring nodes into the queue.
 - **Pseudo code**
   ```
   // collections
@@ -157,3 +161,7 @@
       }
   }
   ```
+
+## References
+- [labuladong 的算法笔记 | 环检测及拓扑排序算法](https://labuladong.github.io/algo/di-yi-zhan-da78c/shou-ba-sh-03a72/huan-jian--e36de/)
+- []()
