@@ -63,7 +63,7 @@
 - [Recursion]()
 - [**Monotonic Stack**](docs/solution-patterns/Monotonic_Stack.md)
 - Other algorithms
-   - Kahn's algorithm (for topological sorting)
+   - [Kahn's algorithm](docs/problem_patterns/Topological_Sorting.md#kahns-algorithm)
    - Sweep line algorithm
    - Kadane's algorithm
    - Dijkstra's algorithm
@@ -80,7 +80,7 @@
 - [**Interval**](docs/problem_patterns/Interval.md)
 - [**Detect Cycle**](docs/problem_patterns/Detect_Cycle.md)
 - [**Top K and Kth**](docs/problem_patterns/Top_K_And_Kth.md)
-- Topological sorting
+- [**Topological sorting**](docs/problem_patterns/Topological_Sorting.md)
 - Minimum spanning tree
 - Knapsack
 
