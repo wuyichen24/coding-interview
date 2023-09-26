@@ -91,25 +91,65 @@
   ```
 ### DFS
 - **Idea**
-- **Pseudo code**
-  ```
-  L ← Empty list that will contain the sorted nodes
-  while exists nodes without a permanent mark do:
-      select an unmarked node n
-      visit(n)
+   - The reversed ordering of post-order DFS traversal is the topological ordering.
+      - Consider binary tree, if we process post-order traversal, after all the child nodes have been visited, the root node will be visited.
+- **Java**
+  ```java
+  class Solution {
+      List<Integer> postorder = new ArrayList<>();
 
-  function visit(node n):
-      if n has a permanent mark then
-          return
-      if n has a temporary mark then
-          stop   (graph has at least one cycle)
+      boolean hasCycle = false;
+      boolean[] visited, onPath;
 
-      mark n with a temporary mark
+      public int[] getTopologicalOrdering(int numCourses, int[][] edges) {
+          Map<Integer, List<Integer>> graphMap = new HashMap<>();
 
-      for each node m with an edge from n to m do
-          visit(m)
+          // Build the graph by map and record in-degree of each node
+          for (int i = 0; i < edges.length; i++) {
+              int from = edges[i][0];
+              int to   = edges[i][1];
+              graphMap.putIfAbsent(from, new ArrayList<>());
+              graphMap.get(from).add(to);
+          }
 
-      remove temporary mark from n
-      mark n with a permanent mark
-      add n to head of L
+          visited = new boolean[numCourses];
+          onPath  = new boolean[numCourses];
+
+          // Post-order traversal
+          for (int i = 0; i < numCourses; i++) {
+              postOrder(graphMap, i);
+          }
+
+          if (hasCycle) {
+              return new int[]{};
+          }
+        
+          // Reverse the order of post-order traversal
+          Collections.reverse(postorder);
+        
+          int[] result = new int[numCourses];
+          for (int i = 0; i < numCourses; i++) {
+              result[i] = postorder.get(i);
+          }
+          return result;
+      }
+
+      void postOrder(Map<Integer, List<Integer>> graphMap, int s) {
+          if (onPath[s]) {
+              hasCycle = true;
+          }
+          if (visited[s] || hasCycle) {
+              return;
+          }
+          onPath[s] = true;
+          visited[s] = true;
+          List<Integer> adjNodes = graphMap.get(s);
+          if (adjNodes != null)
+              for (Integer t : graphMap.get(s)) {
+                  postOrder(graphMap, t);    // recursion
+              }
+          postorder.add(s);                  // post-order operation: add node to the list
+          onPath[s] = false;
+      }
+  }
   ```
