@@ -57,11 +57,24 @@ TreeNode {
 ## Basic operations
 ### Traverse
 #### Depth-first search (DFS)
+- **Template for pre-order, in-order and post-order traversal**
+  ```java
+  void traverse(TreeNode root) {
+      if (root == null) {
+          return;
+      }
+      // pre-order operation
+      traverse(root.left)
+      // in-order operation
+      traverse(root.right)
+      // post-order operation
+  }
+  ```
 - **Pre-order**
    - Order: Root, left, right.
    - Features:
       - This traverse can be used in top-down approach.
-  ```
+  ```java
   void traversePreOrder(TreeNode node) {
       if (node == null) return;
       visit(node);
@@ -73,7 +86,7 @@ TreeNode {
    - Order: Left, root, right.
    - Features:
       - In a binary search tree, in-order traversal retrieves the keys in ascending sorted order.
-  ```
+  ```java
   void traverseInOrder(TreeNode node) {
       if (node == null) return;
       traverseInOrder(node.left);
@@ -85,7 +98,7 @@ TreeNode {
    - Order: Right, root, left.
    - Features:
       - In a binary search tree, reverse in-order traversal retrieves the keys in descending sorted order.
-  ```
+  ```java
   void traverseReverseInOrder(TreeNode node) {
       if (node == null) return;
       traverseReverseInOrder(node.right);
@@ -97,7 +110,7 @@ TreeNode {
    - Order: Left, right, root.
    - Features:
       - This traverse can be used in bottom-up approach.
-  ```
+  ```java
   void traversePostOrder(TreeNode node) {
       if (node == null) return;
       traversePostOrder(node.left);
@@ -106,7 +119,7 @@ TreeNode {
   }
   ```
 - **Pre-order (iterative solution)**
-  ```
+  ```java
   void traversePreOrder(TreeNode root) {
       Stack stack;
       stack.push(root);
