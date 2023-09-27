@@ -2,9 +2,9 @@
 
 - [**Concepts**](#concepts)
 - [**Algorithm**](#algorithm)
+- [**Strategies**](#strategies)
 - [**Complexity**](#complexity)
 - [**Problems can use this pattern**](#problems-can-use-this-pattern)
-- [**Strategies**](#strategies)
 - [**References**](#references)
 
 ## Concepts
@@ -79,10 +79,10 @@
    - Reason: The time complexity of backtracking is the worst.
 - When using backtracking, identify:
    - 4 key points
-      - What is the candidate?
-      - What are the choices for each candidate?
-      - What are constraints?
-      - What is the goal (determines if have found the required solution and we must backtrack)?
+      - What is the **candidate**?
+      - What are the **choices** for each candidate?
+      - What are **constraints**?
+      - What is the **goal** (determines if have found the required solution and we must backtrack)?
    - Example
      | Problem | Element | Choices |
      |---|---|---|
