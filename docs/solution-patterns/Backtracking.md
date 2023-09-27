@@ -45,6 +45,22 @@
   }
   ```
 
+## Strategies
+- For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
+   - Reason: The time complexity of backtracking is the worst.
+- When using backtracking, identify:
+   - 4 key points
+      - What is the **candidate**?
+      - What are the **choices** for each candidate?
+      - What are **constraints**?
+      - What is the **goal** (determines if have found the required solution and we must backtrack)?
+   - Example
+     | Problem | Element | Choices |
+     |---|---|---|
+     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep the current character<li>Remove the current character</ul> |
+     | Generate All Combinations of Parentheses | Each character | <ul><li>Add `(`<li>Add `)`</ul> |
+     | Get All Operator Combinations to Make Expression Match Target Number | Each gap between each 2 digits | <ul><li>No operator<li>`+` operator<li>`-` operator<li>`x` operator</ul> |
+
 ## Complexity
 - Time complexity
    - The number of choices is C, so the time complexity is O(C<sup>n</sup>)
@@ -73,22 +89,6 @@
    - [Word Break](../../docs/problems/string/Word_Break.md)
 - Other
    - [N-Queens](../../docs/problems/array/2d/N_Queens.md)
-
-## Strategies
-- For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
-   - Reason: The time complexity of backtracking is the worst.
-- When using backtracking, identify:
-   - 4 key points
-      - What is the **candidate**?
-      - What are the **choices** for each candidate?
-      - What are **constraints**?
-      - What is the **goal** (determines if have found the required solution and we must backtrack)?
-   - Example
-     | Problem | Element | Choices |
-     |---|---|---|
-     | Get All Possible Strings by Removing Minimum Number of Invalid Parentheses | Each character | <ul><li>Keep the current character<li>Remove the current character</ul> |
-     | Generate All Combinations of Parentheses | Each character | <ul><li>Add `(`<li>Add `)`</ul> |
-     | Get All Operator Combinations to Make Expression Match Target Number | Each gap between each 2 digits | <ul><li>No operator<li>`+` operator<li>`-` operator<li>`x` operator</ul>
 
 ## References
 - https://en.wikipedia.org/wiki/Backtracking
