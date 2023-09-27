@@ -86,7 +86,7 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
   ```
 - **Solution 2: Recursion with memoization**
    - Idea
-      - Use the recursion relationship:
+      - Use the recurrence relation:
         ```
         function dp(s, wordDict) {
             for (word in wordDict) {
