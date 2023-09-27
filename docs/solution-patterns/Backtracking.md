@@ -70,6 +70,7 @@
 - Permutations
    - [Permutations (inputs are unique)](../../docs/problems/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../../docs/problems/permutations/Permutations_II.md)
+   - [Word Break](../../docs/problems/string/Word_Break.md)
 - Other
    - [N-Queens](../../docs/problems/array/2d/N_Queens.md)
 
