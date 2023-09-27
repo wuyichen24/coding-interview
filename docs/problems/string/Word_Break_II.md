@@ -43,6 +43,7 @@ Given a string `s` and a dictionary of strings `wordDict`, add spaces in `s` to 
 ## Solutions
 - **Solution 2: Recursion with memoization**
    - Idea
+      - Based on [Word Break](Word_Break.md) - Solution 2: Recursion with memoization
       - Use the recurrence relation:
         ```
         function dp(s, wordDict) {
