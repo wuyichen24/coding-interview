@@ -51,9 +51,9 @@
 - When using backtracking, identify:
    - 4 key points
       - What is the **candidate**?
-      - What are the **choices** for each candidate?
-      - What are **constraints**?
-      - What is the **goal** (determines if have found the required solution and we must backtrack)?
+      - What are the **choices** for each candidate? - Choose the potential candidate
+      - What are **constraints**? - Define a constraint that must be satisfied by the chosen candidate
+      - What is the **goal**? - Determines if have found the required solution and we must backtrack
    - Example
      | Problem | Element | Choices |
      |---|---|---|
