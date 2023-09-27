@@ -161,6 +161,7 @@ One dynamic programming problem can be solved by multiple solutions:
    - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
    - [Coin Change](../problems/other/Coin_Change.md)
    - [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
+   - [Word Break](../problems/string/Word_Break.md)
 - *2-D `dp` array*
    - [Maximal Square](../problems/array/2d/Maximal_Square.md)
    - [Edit Distance](../problems/string/Edit_Distance.md)
