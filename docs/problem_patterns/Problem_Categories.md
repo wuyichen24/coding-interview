@@ -69,7 +69,7 @@
    - [Basic Calculator III](../problems/string/calculators/Basic_Calculator_III.md)
    - 770 Basic Calculator IV
 - Palindrome Partitioning
-   - 131 Palindrome Partitioning
+   - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - 132 Palindrome Partitioning II
    - 1278 Palindrome Partitioning III
    - 1745 Palindrome Partitioning IV
