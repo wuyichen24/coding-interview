@@ -1,4 +1,4 @@
-# Get Maximum Path Sum from Binary Tree
+# Get Maximum Sum Weight of Path from Binary Tree
 
 ## Alias
 - Leetcode (124): [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
@@ -9,7 +9,7 @@
 - A path may or may not pass through the root.
 
 ## Solutions
-- Solution 1: Recursion
+- **Solution 1: Recursion**
    - Use a parameter outside the function to record the maxinum path sum.
    - Max gain
       - Max gain of the current node is the maximum sum of the left path or right path from the current node.
