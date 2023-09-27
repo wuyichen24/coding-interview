@@ -100,7 +100,8 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
          - `-1` means uncalculated
          - `0` means `false`
          - `1` means `true`
-
+   - Complexity
+      - Time complexity: *O(MNK)* (M is the size of dictionary `wordDict`, N is the length of string `s`, K is the average length of words in dictionary `wordDict`)
   ```java
   class Solution {
       int[] memo;
