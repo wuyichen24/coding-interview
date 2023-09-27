@@ -73,7 +73,7 @@
    - [Get All Operator Combinations to Make Expression Match Target Number](../../docs/problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - [Hack The Bank](../../docs/problems/other/Hack_The_Bank.md)
    - [Tom and Jerry: Jerry's Birthday](../../docs/problems/other/Jerrys_Birthday.md)
-   - 131 Palindrome Partitioning
+   - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - Parentheses
       - [Generate All Combinations of Parentheses](../../docs/problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
       - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../../docs/problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
@@ -86,9 +86,9 @@
 - Permutations
    - [Permutations (inputs are unique)](../../docs/problems/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../../docs/problems/permutations/Permutations_II.md)
-   - [Word Break](../../docs/problems/string/Word_Break.md)
+   - [Word Break](../problems/string/Word_Break.md)
 - Other
-   - [N-Queens](../../docs/problems/array/2d/N_Queens.md)
+   - [N-Queens](../problems/array/2d/N_Queens.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Backtracking
