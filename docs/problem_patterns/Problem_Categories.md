@@ -88,7 +88,8 @@
 - Course Schedule
    - [Course Schedule II](../problems/graph/Course_Schedule_II.md)
 - Word Break
-   - [Word Break II](../problems/string/Get_All_Word_Combinations_For_Constructing_String.md)
+   - [Word Break](../problems/string/Word_Break.md)
+   - [Word Break II](../problems/string/Word_Break_II.md)
 - Valid Palindrome
    - [Valid Palindrome II](../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
 
