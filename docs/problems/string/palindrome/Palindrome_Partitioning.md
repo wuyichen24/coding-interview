@@ -22,9 +22,9 @@ Given a string `s`, partition `s` such that every substring of the partition is 
    - Idea
       - If the substring which starts at index `start` is the palindrome, continue on the string after the substring.
       - Clarify the key point: 
-         - Choose: Choose the potential candidate. Here, our potential candidates are all substrings that could be generated from the given string.
-         - Constraint: Define a constraint that must be satisfied by the chosen candidate. In this case, the constraint is that the string must be a palindrome.
-         - Goal: We must define the goal that determines if have found the required solution and we must backtrack. Here, our goal is achieved if we have reached the end of the string.
+         - *Choose*: Choose the potential candidate. Here, our potential candidates are all substrings that could be generated from the given string.
+         - *Constraint*: Define a constraint that must be satisfied by the chosen candidate. In this case, the constraint is that the string must be a palindrome.
+         - *Goal*: We must define the goal that determines if have found the required solution and we must backtrack. Here, our goal is achieved if we have reached the end of the string.
 
 
   ```java
