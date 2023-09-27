@@ -42,8 +42,7 @@ Given a string `s`, partition `s` such that every substring of the partition is 
               res.add(new ArrayList<String>(track));
           }
           for (int i = start; i < s.length(); i++) {
-              if (!isPalindrome(s, start, i)) {         // if the current substring is not palindrome, ignore
-                  // s[start..i] 不是回文串，不能分割
+              if (!isPalindrome(s, start, i)) {         // if the current substring is not palindrome, no partition
                   continue;
               }
 
