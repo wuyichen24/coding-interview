@@ -156,9 +156,12 @@ TreeNode {
   ![Screen Shot 2021-04-20 at 11 36 26 PM](https://user-images.githubusercontent.com/8989447/115501908-4a628580-a231-11eb-8042-a151014242bf.png)
 
 ## Strategies
-- Consider using a recursive function for most binary tree problems.
+- **Consider using a recursive function for most binary tree problems**.
    - The recursion function can be viewed as the pointer traversing on the binary tree.
    - The recursive order on binary tree will not be changed. Pre-order, in-order and post-order are 3 different timing in the recursive order.
+- **Breakthrough points**
+   - Consider what kind of operations need to be finished at the current node.
+   - Consider the timing for finishing those operations at the current node: Pre-order, in-order or post-order.
 
 ## Common Topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
