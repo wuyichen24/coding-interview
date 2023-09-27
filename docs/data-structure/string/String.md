@@ -77,6 +77,8 @@
       - [Remove K Digits to Make Smallest Integer](../../problems/string/Remove_K_Digits_To_Make_Smallest_Integer.md)
    - Rearrange
       - [Reorganize String for Two Adjacent Characters Are Not Same](../../problems/string/Reorganize_String_For_Two_Adjacent_Characters_Are_Not_Same.md)
+   - Split
+      - [Word Break](../../problems/string/Word_Break.md)
 - **Input is string array**
    - *Grouping string array* (See strategies section)
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
