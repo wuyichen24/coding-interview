@@ -37,10 +37,10 @@
       } 
       
       if (ele is valid) {
-          candidate.add(ele)
+          candidate.add(ele)           // make a choice in pre-order position
           backtracking(ele.choice1, candidate, otherParams)
           backtracking(ele.choice2, candidate, otherParams)
-          candidate.remove(ele)
+          candidate.remove(ele)        // undo the choice in post-order position
       }
   }
   ```
