@@ -1,4 +1,4 @@
-# Get Longest Path Length from Binary Tree
+# Get Length of Longest Path from Binary Tree
 
 ## Alias
 - Leetcode (543): [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
