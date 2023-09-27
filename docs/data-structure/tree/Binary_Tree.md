@@ -143,8 +143,8 @@ TreeNode {
   ![Screen Shot 2021-04-20 at 11 36 26 PM](https://user-images.githubusercontent.com/8989447/115501908-4a628580-a231-11eb-8042-a151014242bf.png)
 
 ## Strategies
-- The recursion function can be viewed as the pointer traversing on the binary tree.
 - Consider using a recursive function for most binary tree problems.
+   - The recursion function can be viewed as the pointer traversing on the binary tree.
 
 ## Common Topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
