@@ -1,4 +1,4 @@
-# Get Maximum Sum Weight of Path from Binary Tree
+# Get Maximum Sum Weight  of Path from Binary Tree
 
 ## Alias
 - Leetcode (124): [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
