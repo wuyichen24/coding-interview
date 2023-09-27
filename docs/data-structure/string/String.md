@@ -18,6 +18,20 @@
    - For symmetric problems (like parentheses and palindrome), consider to use a stack.
 - **Group string array**
    - Find a encoding logic, which 2 strings should be grouped together will have the same encoding value.
+- **Palindrome**
+   - For checking a substring is a palindrome or not, use the following function:
+     ```java
+     boolean isPalindrome(String s, int lo, int hi) {
+         while (lo < hi) {
+             if (s.charAt(lo) != s.charAt(hi)) {
+                 return false;
+             }
+             lo++;
+             hi--;
+         }
+         return true;
+     }
+     ```
 
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
