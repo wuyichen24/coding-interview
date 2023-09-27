@@ -143,3 +143,33 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
       }
   }
   ```
+- **Solution 3: Dynamic programming**
+   - Idea
+      - `dp[i]` means s[i ... len] can be segmented into the words in the dictionary.
+      - State transition equation
+        ```
+        dp[i] = any ( s[i-word.length + 1, i] == word && dp[i-word.length] )
+        ```
+
+  ```java
+  public boolean wordBreak(String s, List<String> wordDict) {
+      boolean[] dp = new boolean[s.length()];
+      for (int i = 0; i < s.length(); i++) {
+          for (String word: wordDict) {
+              // Handle out of bounds case
+              if (i < word.length() - 1) {
+                  continue;
+              }
+                
+              if (i == word.length() - 1 || dp[i - word.length()]) {
+                  if (s.substring(i - word.length() + 1, i + 1).equals(word)) {
+                      dp[i] = true;   
+                      break;
+                  }
+              }
+          }
+      }
+        
+      return dp[s.length() - 1];
+  }
+  ```
