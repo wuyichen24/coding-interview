@@ -78,10 +78,11 @@
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
    - Reason: The time complexity of backtracking is the worst.
 - When using backtracking, identify:
-   - 3 key points
-      - What is the element?
-      - What are the choices for each element?
+   - 4 key points
+      - What is the candidate?
+      - What are the choices for each candidate?
       - What are constraints?
+      - What is the goal (determines if have found the required solution and we must backtrack)?
    - Example
      | Problem | Element | Choices |
      |---|---|---|
