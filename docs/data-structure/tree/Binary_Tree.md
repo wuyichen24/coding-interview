@@ -158,6 +158,7 @@ TreeNode {
 ## Strategies
 - Consider using a recursive function for most binary tree problems.
    - The recursion function can be viewed as the pointer traversing on the binary tree.
+   - The recursive order on binary tree will not be changed. Pre-order, in-order and post-order are 3 different timing in the recursive order.
 
 ## Common Topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
