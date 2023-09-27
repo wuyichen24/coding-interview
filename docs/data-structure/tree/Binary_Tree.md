@@ -183,8 +183,8 @@ TreeNode {
    - Root-to-leaf Paths
       - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
    - Node-to-node Paths
-      - [Get Longest Path Length from Binary Tree](../../problems/tree/Get_Longest_Path_Length_From_Binary_Tree.md)
-      - [Get Maximum Path Sum from Binary Tree](../../problems/tree/Get_Maximum_Path_Sum_From_Binary_Tree.md)
+      - [Get Length of Longest Path from Binary Tree](../../problems/tree/Get_Length_Of_Longest_Path_From_Binary_Tree.md)
+      - [Get Maximum Weight Sum of Path from Binary Tree](../../problems/tree/Get_Maximum_Weight_Sum_Of_Path_From_Binary_Tree)
       - [Get Path Between 2 Nodes](../../problems/tree/Get_Path_Between_2_Nodes.md)
 - **Get nodes**
    - [Get All Distance K Nodes from Target Node in Binary Tree](../../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md#get-all-distance-k-nodes-from-target-node-in-binary-tree)
