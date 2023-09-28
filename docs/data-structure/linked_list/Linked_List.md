@@ -228,6 +228,19 @@ void removeKthNode(ListNode head, int k) {
 ## Strategies
 - If an operation is against the direction of a linked list, consider using a recursive function.
 - If an operation is to manipulate (add or remove) a certain node, consider getting the previous node of the target node.
+- If you need to create a new linked list in the code, consider to create a new dummy head node first.
+   - Purpose
+      - It will simplify the code, you don't need to consider the real head node of the new linked list is null or not.
+   - Code example
+     ```
+     public ListNode doSomething(){
+         ListNode dummy = new ListNode(-1);     // create a new dummy head node
+
+         /* add some nodes into the new list */
+
+         return dummy.next;                     // the next node of the dummy head node is the real head of new linked list
+     }
+     ```
 
 ## Common Topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
