@@ -48,7 +48,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
   ```java
   ListNode mergeKLists(ListNode[] lists) {
       if (lists.length == 0) return null;
-    // 虚拟头结点
+  
       ListNode dummy = new ListNode(-1);     // create a new dummy head node
       ListNode p = dummy;
 
