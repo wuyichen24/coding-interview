@@ -44,11 +44,12 @@ void buildPrefixSumArray(int[] nums) {
 
 ## Problems
 - Calculat the sum of a range/subarray of an array
-   - [Get Equilibrium Index from Array](../../docs/problems/array/Get_Equilibrium_Index_From_Array.md)
-   - [Count Sub-array Sum Equals K](../../docs/problems/array/Count_Sub_Array_Sum_Equals_K.md)
-   - [Check Sub-array Sum Is Multiple of K](../../docs/problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
+   - [Get Equilibrium Index from Array](../problems/array/Get_Equilibrium_Index_From_Array.md)
+   - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
+   - [Check Sub-array Sum Is Multiple of K](../problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
+   - [Get All Paths Whose Weight Sum Equal to Target Value](../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
 - Get a random candidate with different weight
-   - [Generate Random Index with Weight](../../docs/problems/array/Generate_Random_Index_With_Weight.md)
+   - [Generate Random Index with Weight](../problems/array/Generate_Random_Index_With_Weight.md)
 
 ## References
 - https://en.wikipedia.org/wiki/Prefix_sum
