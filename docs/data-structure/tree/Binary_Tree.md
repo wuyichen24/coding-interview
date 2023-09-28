@@ -181,13 +181,14 @@ TreeNode {
    - [Serialize and Deserialize Binary Tree](../../problems/tree/Serialize_And_Deserialize_Binary_Tree.md)
 - **Path**
    - Root-to-leaf Paths
-      - [Is Weight Sum of Root-to-leaf Path Equal to Target Value](../../problems/tree/Is_Weight_Sum_Of_Root_To_Leaf_Path_Equal_To_Target_Value.md) (Path Sum)
-      - [Get All Root-to-leaf Paths Whose Weight Sum Equal to Target Value](../../problems/tree/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (Path Sum II)
-      - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../problems/tree/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
+      - [Is Weight Sum of Root-to-leaf Path Equal to Target Value](../../problems/tree/path/Is_Weight_Sum_Of_Root_To_Leaf_Path_Equal_To_Target_Value.md) (Path Sum)
+      - [Get All Root-to-leaf Paths Whose Weight Sum Equal to Target Value](../../problems/tree/path/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (Path Sum II)
+      - [Get All Paths Whose Weight Sum Equal to Target Value](../../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (Path Sum III)
+      - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../problems/tree/path/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
    - Node-to-node Paths
-      - [Get Length of Longest Path from Binary Tree](../../problems/tree/Get_Length_Of_Longest_Path_From_Binary_Tree.md)
-      - [Get Maximum Weight Sum of Path from Binary Tree](../../problems/tree/Get_Maximum_Weight_Sum_Of_Path_From_Binary_Tree)
-      - [Get Path Between 2 Nodes](../../problems/tree/Get_Path_Between_2_Nodes.md)
+      - [Get Length of Longest Path from Binary Tree](../../problems/tree/path/Get_Length_Of_Longest_Path_From_Binary_Tree.md)
+      - [Get Maximum Weight Sum of Path from Binary Tree](../../problems/tree/path/Get_Maximum_Weight_Sum_Of_Path_From_Binary_Tree)
+      - [Get Path Between 2 Nodes](../../problems/tree/path/Get_Path_Between_2_Nodes.md)
 - **Get nodes**
    - [Get All Distance K Nodes from Target Node in Binary Tree](../../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md#get-all-distance-k-nodes-from-target-node-in-binary-tree)
 - **Side view**
