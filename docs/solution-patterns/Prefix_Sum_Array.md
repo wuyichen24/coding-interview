@@ -3,9 +3,10 @@
 - [**Concepts**](#concepts)
 - [**Benefit**](#benefit)
 - [**Construction**](#construction)
-- [**Conclusions**](#conclusions)
+- [**How to use**](#how-to-use)
 - [**Complexity**](#complexity)
 - [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**Problems**](#problems)
 - [**References**](#references)
 
 ## Concepts
@@ -28,7 +29,7 @@ void buildPrefixSumArray(int[] nums) {
 }
 ```
 
-## Conclusions
+## How to use
 - The sum of range [i, j] of the input array: prefixSum[j] - prefixSum[i-1]
 
 ## Complexity
@@ -38,11 +39,15 @@ void buildPrefixSumArray(int[] nums) {
    - O(n)
 
 ## Problems can use this pattern
-- Sum of sub-array problems
+- Calculat the sum of a range/subarray of an array.
+- Get a random candidate with different weight.
+
+## Problems
+- Calculat the sum of a range/subarray of an array
    - [Get Equilibrium Index from Array](../../docs/problems/array/Get_Equilibrium_Index_From_Array.md)
    - [Count Sub-array Sum Equals K](../../docs/problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Check Sub-array Sum Is Multiple of K](../../docs/problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
-- Random candidate with different weight problems
+- Get a random candidate with different weight
    - [Generate Random Index with Weight](../../docs/problems/array/Generate_Random_Index_With_Weight.md)
 
 ## References
