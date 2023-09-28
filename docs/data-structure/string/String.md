@@ -92,8 +92,8 @@
    - Rearrange
       - [Reorganize String for Two Adjacent Characters Are Not Same](../../problems/string/Reorganize_String_For_Two_Adjacent_Characters_Are_Not_Same.md)
    - Split
-      - [Word Break](../../problems/string/Word_Break.md)
-      - [Word Break II](../../problems/string/Word_Break_II.md)
+      - [Word Break](../../problems/string/Word_Break.md) (Return boolean - Check the string can be broken by words or not)
+      - [Word Break II](../../problems/string/Word_Break_II.md) (Return list - Get all the possible word breaking combinations)
       - [Palindrome Partitioning](../../problems/string/palindrome/Palindrome_Partitioning.md)
 - **Input is string array**
    - *Grouping string array* (See strategies section)
