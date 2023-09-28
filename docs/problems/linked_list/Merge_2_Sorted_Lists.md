@@ -55,6 +55,6 @@ Return the head of the merged linked list.
           p.next = p2;
       }
 
-      return dummy.next;   // the next node of the dummy head node is the read head of new linked list
+      return dummy.next;   // the next node of the dummy head node is the real head of new linked list
   }
   ```
