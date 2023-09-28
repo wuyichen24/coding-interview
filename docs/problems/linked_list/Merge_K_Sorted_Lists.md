@@ -46,49 +46,29 @@ Merge all the linked-lists into one sorted linked-list and return it.
          - Add the next node of the `ListNode` to the priority queue. 
 
   ```java
-  /**
-   * Definition for singly-linked list.
-   * public class ListNode {
-   *     int val;
-   *     ListNode next;
-   *     ListNode() {}
-   *     ListNode(int val) { this.val = val; }
-   *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-   * }
-   */
-  class Solution {
-      public ListNode mergeKLists(ListNode[] lists) {
-          if (lists.length==0) return null;
-        
-          PriorityQueue<ListNode> queue= new PriorityQueue<ListNode>(lists.length,new Comparator<ListNode>(){
-              @Override
-              public int compare(ListNode o1,ListNode o2){
-                  if (o1.val<o2.val)
-                      return -1;
-                  else if (o1.val==o2.val)
-                      return 0;
-                  else 
-                      return 1;
-              }
-          });
-        
-          ListNode head = new ListNode(0);
-          ListNode tail=head;
+  ListNode mergeKLists(ListNode[] lists) {
+      if (lists.length == 0) return null;
+    // 虚拟头结点
+      ListNode dummy = new ListNode(-1);     // create a new dummy head node
+      ListNode p = dummy;
 
-          // add k nodes to priority queue
-          for (ListNode node:lists)
-              if (node!=null)
-                  queue.add(node);
+      PriorityQueue<ListNode> pq =           // create a new priority queue
+          new PriorityQueue<>(lists.length,
+          (a, b)->(a.val - b.val));
 
-          // poll the smallest node from priority queue 
-          while (!queue.isEmpty()){
-              tail.next=queue.poll();  // add the node to the final list
-              tail=tail.next;
-            
-              if (tail.next!=null)
-                  queue.add(tail.next);// add the next node of the node to priority queue
-          }
-          return head.next;
+      for (ListNode head : lists) {          // push k head nodes into priority queue
+          if (head != null)
+              pq.add(head);
       }
+
+      while (!pq.isEmpty()) {
+          ListNode node = pq.poll();         // always get the smallest head node from priority queue
+          p.next = node;
+          if (node.next != null) {           // after merging, add the next node into priority queue
+              pq.add(node.next);
+          }
+          p = p.next;
+      }
+      return dummy.next;
   }
   ```
