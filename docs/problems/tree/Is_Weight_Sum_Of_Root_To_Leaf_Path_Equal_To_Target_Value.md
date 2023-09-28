@@ -40,5 +40,25 @@ Given the `root` of a binary tree and an integer `targetSum`, **return `true` if
      ![pathsum2](https://github.com/wuyichen24/coding-interview/assets/8989447/ccfdef76-4761-4dbd-ab11-3ed458db0a48)
 
 ## Solutions
-- Solution 1
-   - 
+- **Solution 1: Recursion**
+   - Idea
+      - When traversing down to leave node, update the `targetSum` by `targetSum - root.value`.
+      - When reaching the leaf node, check the `targetSum` is `0` or not.
+
+  ```java
+  public boolean hasPathSum(TreeNode root, int targetSum) {
+      if (root == null) {
+          return false;
+      }
+
+      // if this is leaf node, check the final targetSum is 0 or not
+      if (root.left == null && root.right == null) {
+          return targetSum - root.val == 0;
+      }
+
+      boolean leftResult  = hasPathSum(root.left, targetSum - root.val);
+      boolean rightResult = hasPathSum(root.right, targetSum - root.val);
+
+      return leftResult || rightResult;
+  }
+  ```
