@@ -248,13 +248,13 @@ void removeKthNode(ListNode head, int k) {
       - [Merge 2 Sorted Lists](../../problems/linked_list/Merge_2_Sorted_Lists.md)
       - [Merge K Sorted Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
    - *Reverse*
-      - [Reverse List](../../../docs/problems/linked_list/Reverse_List.md)
-      - [Reverse Sub-list](../../../docs/problems/linked_list/Reverse_Sub_List.md)
+      - [Reverse List](../../problems/linked_list/Reverse_List.md)
+      - [Reverse Sub-list](../../problems/linked_list/Reverse_Sub_List.md)
    - *Remove*
-      - [Remove Duplicates from List](../../../docs/problems/linked_list/Remove_Duplicates_From_List.md)
-      - [Remove Duplicates from Sorted List](../../../docs/problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
-      - [Remove Node without Accessing Previous Node](../../../docs/problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
-      - [Remove Nodes by Value](../../../docs/problems/linked_list/Remove_Nodes_From_List_By_Value.md)
+      - [Remove Duplicates from List](../../problems/linked_list/Remove_Duplicates_From_List.md)
+      - [Remove Duplicates from Sorted List](../../problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
+      - [Remove Node without Accessing Previous Node](../../problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
+      - [Remove Nodes by Value](../../problems/linked_list/Remove_Nodes_From_List_By_Value.md)
    - *Rotate*
       - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
 
