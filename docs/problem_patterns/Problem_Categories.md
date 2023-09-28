@@ -92,6 +92,9 @@
    - [Word Break II](../problems/string/Word_Break_II.md)
 - Valid Palindrome
    - [Valid Palindrome II](../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
+- Path Sum
+   - [Path Sum](../problems/tree/Is_Weight_Sum_Of_Root_To_Leaf_Path_Equal_To_Target_Value.md)
+   - [Path Sum II](../problems/tree/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
 
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
