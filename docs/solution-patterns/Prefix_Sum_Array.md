@@ -45,7 +45,7 @@ void buildPrefixSumArray(int[] nums) {
 ## Problems
 - Calculat the sum of a range/subarray of an array
    - [Get Equilibrium Index from Array](../problems/array/Get_Equilibrium_Index_From_Array.md)
-   - [Count Sub-array Sum Equals K](../../problems/array/Count_Sub_Array_Sum_Equals_K.md)
+   - [Count Sub-array Sum Equals K](../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Check Sub-array Sum Is Multiple of K](../problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
    - [Get All Paths Whose Weight Sum Equal to Target Value](../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (apply prefix sum array to binary tree)
 - Get a random candidate with different weight
