@@ -49,4 +49,61 @@ Given a string `s` containing only digits, **return all possible valid IP addres
             - Value:
                - If length = 2, first digit cannot be 0.
                - If length = 3, value should be <= 255.
-         - Goal: we have reached the end of the string and the size of integers is 4.
+         - *Goal*: we have reached the end of the string and the size of integers is 4.
+
+  ```java
+  class Solution {
+      List<String> res = new LinkedList<>();
+      LinkedList<String> track = new LinkedList<>();
+
+      public List<String> restoreIpAddresses(String s) {
+          backtrack(s, 0);
+          return res;
+      }
+
+      void backtrack(String s, int start) {
+          if (start == s.length() && track.size() == 4) { // base case (goal)
+              res.add(String.join(".", track));           // save the path to the final result list
+          }
+
+          for (int i = start; i < s.length(); i++) {
+              if (!isValid(s, start, i)) {                // s[start..i] is not a valid IP integer               
+                continue;                          
+              }
+              if (track.size() >= 4) {                    // already have 4 IP integers
+                  break;
+              }
+
+              track.addLast(s.substring(start, i + 1));   // choose s[start..i] as a IP integer
+              backtrack(s, i + 1);
+              track.removeLast();                         // undo the choice                       
+          }
+      }
+
+      boolean isValid(String s, int start, int end) {
+          int length = end - start + 1;
+
+          if (length == 0 || length > 3) {                // if length is not 1 or 2 or 3, invalid
+              return false;
+          }
+
+          if (length == 1) {                              // if length is 1, always valid
+              return true;
+          }
+
+          if (s.charAt(start) == '0') {                   // if length is 2 or 3 and first char is 0, invalid
+              return false;
+          }
+
+          if (length <= 2) {
+              return true;
+          }
+
+          if (Integer.parseInt(s.substring(start, start + length)) > 255) { // if length is 3 and value is > 255, invalid
+              return false;
+          } else {
+              return true;
+          }
+      }
+  }
+  ```
