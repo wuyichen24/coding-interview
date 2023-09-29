@@ -32,3 +32,31 @@ Given the `head` of a linked list, **return the node where the cycle begins**. I
        - If any pointer goes `k - m` steps from the 1st met position, it will reach the cycle begin too.
        - So you can see there are 2 same `k - m` steps in 2 above operations, so the conclusion is "When fast and slow pointers 1st met, let any pointer start from the head again. When fast and slow pointers 2nd met, the position will be the begin of the cycle."
           
+
+  ```java
+  public ListNode detectCycle(ListNode head) {
+      ListNode fast, slow;
+      fast = slow = head;
+
+      // let fast and slow pointers meet 1st
+      while (fast != null && fast.next != null) {
+          fast = fast.next.next;
+          slow = slow.next;
+          if (fast == slow) break;
+      }
+
+      if (fast == null || fast.next == null) {
+          return null;
+      }
+
+      // let slow pointer point to head
+      slow = head;
+
+      // let fast and slow pointers meet 2nd (again), position will be cycle begine
+      while (slow != fast) {
+          fast = fast.next;
+          slow = slow.next;
+      }
+      return slow;
+  }
+  ```
