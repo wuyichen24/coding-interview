@@ -270,6 +270,7 @@ void removeKthNode(ListNode head, int k) {
       - [Remove Duplicates from Sorted List](../../problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
       - [Remove Node without Accessing Previous Node](../../problems/linked_list/Remove_Node_From_List_Without_Accessing_Previous_Node.md)
       - [Remove Nodes by Value](../../problems/linked_list/Remove_Nodes_From_List_By_Value.md)
+      - [Remove Nth Node From End of List](../../problems/linked_list/Remove_Nth_Node_From_End_Of_List.md)
    - *Rotate*
       - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
 
