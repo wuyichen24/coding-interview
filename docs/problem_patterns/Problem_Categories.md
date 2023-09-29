@@ -97,6 +97,9 @@
    - [Path Sum II](../problems/tree/path/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
    - [Path Sum III](../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
    - 666 Path Sum IV
+- Linked List Cycle
+   - [Linked List Cycle](../problems/linked_list/Does_Linked_List_Have_Cycle.md)
+   - [Linked List Cycle II](../problems/linked_list/Get_Node_Where_Cycle_Begins_In_List.md)
 
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
