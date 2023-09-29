@@ -260,6 +260,8 @@ void removeKthNode(ListNode head, int k) {
    - *Merge*
       - [Merge 2 Sorted Lists](../../problems/linked_list/Merge_2_Sorted_Lists.md)
       - [Merge K Sorted Lists.md](../../problems/linked_list/Merge_K_Sorted_Lists.md)
+   - *Partition*
+      - [Partition List](../../problems/linked_list/Partition_List.md)
    - *Reverse*
       - [Reverse List](../../problems/linked_list/Reverse_List.md)
       - [Reverse Sub-list](../../problems/linked_list/Reverse_Sub_List.md)
