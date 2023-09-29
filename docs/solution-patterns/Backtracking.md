@@ -11,9 +11,9 @@
 - Backtracking is to find all or some feasible solutions for constraint satisfaction problems (A set of objects whose state must satisfy a number of constraints or limitations).
 
 ## Algorithm
-- Basic idea
+- **Basic idea**
    - Incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
-- Search tree
+- **Search tree**
    - Structure
       - The root node is a empty candidate with 0 elements.
       - Each node is a candidates with partial elements 
@@ -29,18 +29,24 @@
          - If the current node is not a valid solution, the sub-tree from the current node can be ignored.
          - If the current node is a valid solution
             - Recurse on all the child nodes from the current node.
-- Code
+- **Code**
+   - *path*: The choices already made.
+   - *choices list* All the possible choices from the current situation.
+   - *goal*: Stop the recursion and must backtrack (reach a leaf of the search tree).
   ```
-  void backtracking(Element ele, List<Element> candidate, Object otherParams) {
-      if (ele is the last element) {
-          // wrap up the valid solutions we have
+  result = []
+  void backtracking(path, choices list) {       // Choice
+      if (path reaches to end) {                // Goal     
+          result.add(path)                      // add current path to the final result list
+          return
       } 
-      
-      if (ele is valid) {
-          candidate.add(ele)           // make a choice in pre-order position
-          backtracking(ele.choice1, candidate, otherParams)
-          backtracking(ele.choice2, candidate, otherParams)
-          candidate.remove(ele)        // undo the choice in post-order position
+
+      for (choice : choices list) {
+          if (choice is valid) {                // Constraints
+              path.add(choice)                  // make a choice in pre-order position
+              backtracking(path, choice list)
+              path.remove(choice)               // undo the choice in post-order position
+          }
       }
   }
   ```
@@ -49,11 +55,10 @@
 - For the problems of finding all possible solutions, consider other solution patterns first, if not possible, use backtracking.
    - Reason: The time complexity of backtracking is the worst.
 - When using backtracking, identify:
-   - 4 key points
-      - What is the **candidate**?
-      - What are the **choices** for each candidate? - Choose the potential candidate
-      - What are **constraints**? - Define a constraint that must be satisfied by the chosen candidate
-      - What is the **goal**? - Determines if have found the required solution and we must backtrack
+   - 3 key points
+      - What are the **choices**? - Choose the potential candidate.
+      - What are **constraints**? - Define a constraint that must be satisfied by the chosen candidate.
+      - What is the **goal**? - Determines if have found the required solution and we must backtrack (base case).
    - Example
      | Problem | Element | Choices |
      |---|---|---|
