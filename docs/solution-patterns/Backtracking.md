@@ -90,10 +90,11 @@
 - Permutations
    - [Permutations (inputs are unique)](../problems/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../problems/permutations/Permutations_II.md)
-   - [Word Break](../problems/string/Word_Break.md)
 - String splitting
    - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - [Restore IP Addresses](../problems/string/Restore_IP_Addresses.md)
+   - [Word Break](../problems/string/Word_Break.md)
+   - [Word Break II](../problems/string/Word_Break_II.md)
 - Other
    - [N-Queens](../problems/array/2d/N_Queens.md)
 
