@@ -9,7 +9,9 @@
 - If there are two middle nodes, return the second middle node.
 
 ## Solutions
-- Solution 1: Fast slow pointers
+- **Solution 1: Fast slow pointers**
+   - Idea
+      - Faster pointer moves 2 steps while slower pointer moves 1 step each time.
   ```java
   public ListNode middleNode(ListNode head) {
       if (head == null || head.next == null) {
