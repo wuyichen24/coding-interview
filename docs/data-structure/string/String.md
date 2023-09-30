@@ -46,7 +46,7 @@
 - **Palindrome**
    - Possible solutions for solving parentheses problems:
       - *Stack*
-      - *2 Pointers*
+      - *2 Pointers* ([Meet pointers](../../solution-patterns/2_Pointers.md#meet-pointers))
          - Template
            ```java
            boolean isPalindrome(String s, int lo, int hi) {
