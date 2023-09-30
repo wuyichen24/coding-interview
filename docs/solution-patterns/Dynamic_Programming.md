@@ -166,6 +166,7 @@ One dynamic programming problem can be solved by multiple solutions:
    - [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
    - [Word Break](../problems/string/Word_Break.md) (Return boolean - Check the string can be broken by words or not)
    - [Word Break II](../problems/string/Word_Break_II.md) (Return list - Get all the possible word breaking combinations)
+   - [Longest Valid Parentheses Substring](../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
 - *2-D `dp` array*
    - 2D array problem
        - [Maximal Square](../problems/array/2d/Maximal_Square.md)
