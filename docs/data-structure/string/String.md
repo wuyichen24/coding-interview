@@ -60,7 +60,13 @@
                return true;
            }
            ```
-
+   - Note
+      - Need to consider 2 possible cases: length of palindrome is even or odd.
+         - Example of even length palindrome: `abccba"
+         - Example of odd length palindrome: `abcxcba`
+         - Example problems for considering those 2 possible cases
+            - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
+     
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
 
