@@ -54,6 +54,9 @@
 
 ## Template
 ```
+// initialize dp array
+int[][] dp = new int[m][n]
+
 // calculate the base case
 dp[0][0][...] = base case
 
