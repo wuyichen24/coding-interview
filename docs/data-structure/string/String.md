@@ -36,7 +36,7 @@
            }
            ```
          - Notes
-            - Push the index of the current parenthese into the stack rather than pushing the actual parenthese into the stack.
+            - Push the index rather than pushing the actual parenthese into the stack.
       - *Counter*
          - Basic logic
             - Meet `(`, counter increased by 1;
