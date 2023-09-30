@@ -167,8 +167,10 @@ One dynamic programming problem can be solved by multiple solutions:
    - [Word Break](../problems/string/Word_Break.md) (Return boolean - Check the string can be broken by words or not)
    - [Word Break II](../problems/string/Word_Break_II.md) (Return list - Get all the possible word breaking combinations)
 - *2-D `dp` array*
-   - [Maximal Square](../problems/array/2d/Maximal_Square.md)
-   - [Edit Distance](../problems/string/Edit_Distance.md)
+   - 2D array problem
+       - [Maximal Square](../problems/array/2d/Maximal_Square.md)
+   - 2 strings comparison problem
+       - [Edit Distance](../problems/string/Edit_Distance.md)
 
 ## References
 - [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
