@@ -14,24 +14,52 @@
 
 ## Strategies
 - **Parentheses**
-   - Consider to use a counter to count how many open parentheses when iterating through a string.
-   - For symmetric problems (like parentheses and palindrome), consider to use a stack.
+   - Possible solutions for solving parentheses problems:
+      - *Stack*
+         - Basic logic
+            - Meet `(`, push the index into stack.
+            - Meet `)`, pop the index of the corresponding `(` from stack.
+         - Template
+           ```
+           Stack<Integer> stack = new Stack<>();
+           for (int i = 0; i < s.length(); i++) {
+               if (s.charAt(i) == '(') {               // meet (
+                   stack.push(i);
+               } else if (s.charAt(i) == ')') {        // meet )
+                   if (!stk.isEmpty()) {
+                       int leftIndex = stack.pop();
+                   } else {                            // if there is no corresponding (
+                   }
+               } else {                                // meet other characters except parenthese
+                   
+               }
+           }
+           ```
+         - Notes
+            - Push the index of the current parenthese into the stack rather than pushing the actual parenthese into the stack.
+      - *Counter*
+         - Basic logic
+            - Meet `(`, counter increased by 1;
+            - Meet `)`, counter decreased by 0;
 - **Group string array**
    - Find a encoding logic, which 2 strings should be grouped together will have the same encoding value.
 - **Palindrome**
-   - For checking a substring is a palindrome or not, use the following function:
-     ```java
-     boolean isPalindrome(String s, int lo, int hi) {
-         while (lo < hi) {
-             if (s.charAt(lo) != s.charAt(hi)) {
-                 return false;
-             }
-             lo++;
-             hi--;
-         }
-         return true;
-     }
-     ```
+   - Possible solutions for solving parentheses problems:
+      - *Stack*
+      - *2 Pointers*
+         - Template
+           ```java
+           boolean isPalindrome(String s, int lo, int hi) {
+               while (lo < hi) {
+                   if (s.charAt(lo) != s.charAt(hi)) {
+                       return false;
+                   }
+                   lo++;
+                   hi--;
+               }
+               return true;
+           }
+           ```
 
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
