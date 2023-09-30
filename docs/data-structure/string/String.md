@@ -44,6 +44,7 @@
          - [Remove Minimum Parentheses to Make Parentheses Valid](../../problems/string/parentheses/Remove_Minimum_Parentheses_To_Make_Parentheses_Valid.md)
          - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../../problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
          - [Score of Parentheses](../../problems/string/parentheses/Score_Of_Parentheses.md)
+         - [Longest Valid Parentheses Substring](../../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
       - Palindrome
          - [Is Palindrome String](../../problems/string/palindrome/Is_Palindrome_String.md)
          - [Is Palindrome String by Removing One Char](../../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
@@ -57,6 +58,7 @@
 - **Substring**
    - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
    - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
+   - [Longest Valid Parentheses Substring](../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
    - [Longest Substring of Repeating Character by Replacement](../../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
 - **2 strings comparison**
