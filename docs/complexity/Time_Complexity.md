@@ -84,6 +84,12 @@
       - Time complexity: 2<sup>n</sup>
       - Comment: This case cannot be applied to master theorem.
 
+## Strategies
+- Figure out exactly what the code is doing.
+- Figure out how many times each element has been visited.
+   - Examples
+      - For binary tree, even if the algorithm is complicated, but if each node is visited exactly once, so the time complexity is *O(n)*.
+
 ## Time complexity of Java built-in functions
 - `Arrays.sort()`: *O(nlogn)*
 - `Collections.sort`: *O(nlogn)*
