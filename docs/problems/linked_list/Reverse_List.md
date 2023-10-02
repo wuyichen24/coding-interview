@@ -4,8 +4,7 @@
 - Leetcode (206): [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 ## Problem
-- Reverse a linked list.
-- Return the head of the reversed linked list.
+Given the `head` of a singly linked list, **reverse the list, and return the reversed list**.
 
 ## Solutions
 - Solution 1: 3 pointers.
