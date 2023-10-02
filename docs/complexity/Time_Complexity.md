@@ -2,7 +2,11 @@
 
 - [Big O Notation](#big-o-notation)
 - [Order of time complexity](#order-of-time-complexity)
+- [Strategies](#strategies)
 - [Time complexity of Java built-in functions](#time-complexity-of-java-built-in-functions)
+- [Analyze complexity of recursion functions](#analyze-complexity-of-recursion-functions)
+   - [Easy analysis rules](#easy-analysis-rules)
+   - [Master theorem](#master-theorem)
 - [References](#references)
 
 ## Big O Notation
