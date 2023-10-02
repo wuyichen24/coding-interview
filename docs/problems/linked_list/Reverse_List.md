@@ -10,6 +10,9 @@ Given the `head` of a singly linked list, **reverse the list, and return the rev
 - **Solution 1: 3 pointers**
    - Idea
       - Let the middle pointer point (p2) to the previous one (p1).
+    
+        ![Reverse_List drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/5ba64fe8-89bd-481a-beeb-651ca5bebb3e)
+
   ```java
   public ListNode reverseList(ListNode head) {
       if (head == null || head.next == null) {
