@@ -2,7 +2,6 @@
 
 - [Big O Notation](#big-o-notation)
 - [Order of time complexity](#order-of-time-complexity)
-- [General rules](#general-rules)
 - [Master theorem](#master-theorem)
 - [Time complexity of Java built-in functions](#time-complexity-of-java-built-in-functions)
 - [References](#references)
@@ -23,26 +22,6 @@
 | O(n<sup>3</sup>) | Cubic time | <li>Some brute force solutions | 
 | O(2<sup>n</sup>) | Exponential time | <li>Some backtracking solution (subsets)<li>Recursion |
 | O(n!)| Factorial time | <li>Some backtracking solution (permutations) |
-  
-## General rules
-
-| Case | Time Complexity |
-|----|----|
-| Single statement | O(1) |
-| 1-level loop | O(n) |
-| 2-level nested loop | O(n<sup>2</sup>) |
-| k-level nested loop | O(n<sup>k</sup>) |
-
-### Example
-- Code
-  ```
-  for(i = 0; i < n; i++) {
-      for(j = 0; j < i; j++) {
-          x = x + 1;
-      }
-  }
-  ```
-- Time complexity: O(n<sup>2</sup>)
   
 ## Master theorem
 - Goal: Analyze the time complexity of a recursive function.
