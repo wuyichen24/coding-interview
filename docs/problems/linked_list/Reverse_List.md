@@ -39,6 +39,19 @@ Given the `head` of a singly linked list, **reverse the list, and return the rev
   ```
 
 - **Solution 2: Recursion**
+   - Explanation
+     - After `reverse(head.next)`
+       
+       ![3](https://github.com/wuyichen24/coding-interview/assets/8989447/d25d11fd-db50-4d53-a43d-2f996d725786)
+
+     - After `head.next.next = head`
+
+       ![4](https://github.com/wuyichen24/coding-interview/assets/8989447/29f2b446-c345-48c3-b3a0-9110c29a8f57)
+
+     - After `head.next = null;`
+    
+       ![5](https://github.com/wuyichen24/coding-interview/assets/8989447/5fb0490e-8da3-492e-a67c-40d1f38ebe6c)
+
   ```
   ListNode reverse(ListNode head) {
       if (head == null || head.next == null) {
