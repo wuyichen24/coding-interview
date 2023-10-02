@@ -50,6 +50,10 @@
      SC = depth of recursive stack + storage space allocated by algorithm
         = height of recursion tree + storage space allocated by algorithm
      ```
+   - How to estimate the number of nodes in the recursion tree
+      - Check how many nodes at each level.
+      - Use summation formulas to get the total number of nodes.
+
 ### Master theorem
 - Goal: Analyze the time complexity of a recursive function.
 - Formula: T(n) = aT(n/b) + n<sup>c</sup>
