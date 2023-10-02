@@ -4,9 +4,7 @@
 - Leetcode (92): [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 
 ## Problem
-- Reverse the nodes of the list from position left to position right.
-- Position is 0-based.
-- Return the head of the new linked list.
+Given the `head` of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position `left` to position `right`, and return the reversed list.
 
 ![rev2ex2](https://user-images.githubusercontent.com/8989447/114976266-e90e7100-9e42-11eb-9a58-ec12941a8167.jpeg)
 
