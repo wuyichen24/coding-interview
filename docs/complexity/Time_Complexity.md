@@ -7,8 +7,14 @@
 - [References](#references)
 
 ## Big O Notation
-- Concept: The upper bound of the algorithm
-- Notation: O
+- **Concept**: The upper bound of the algorithm
+- **Notation**: O
+- **Law**
+   - Keep only the items with the fastest growth rate, and the rest of the items can be omitted.
+      - The constant factors in multiplication and addition can both be disregarded.
+         - Example: *O(2n + 100) = O(n)*
+      - Items with a slow growth rate can also be disregarded.
+         - Example: *O(n<sup>3</sup> + 999 * n<sup>2</sup> + 999 * n) = O(n<sup>3</sup>)*
 
 ## Order of time complexity
 
