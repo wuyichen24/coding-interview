@@ -7,7 +7,9 @@
 Given the `head` of a singly linked list, **reverse the list, and return the reversed list**.
 
 ## Solutions
-- Solution 1: 3 pointers.
+- **Solution 1: 3 pointers**
+   - Idea
+      - Let the middle pointer point (p2) to the previous one (p1)
   ```java
   public ListNode reverseList(ListNode head) {
       if (head == null || head.next == null) {
