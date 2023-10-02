@@ -38,7 +38,19 @@
 - `Arrays.sort()`: *O(nlogn)*
 - `Collections.sort`: *O(nlogn)*
 
-## Master theorem
+## Analyze complexity of recursion functions
+### Easy analysis rules
+   - Time complexity
+     ```
+     TC = times of recursion function calls x time complexity of recursion function
+        = number of nodes in recursion tree x time complexity at each node
+     ```
+   - Space complexity
+     ```
+     SC = depth of recursive stack + storage space allocated by algorithm
+        = height of recursion tree + storage space allocated by algorithm
+     ```
+### Master theorem
 - Goal: Analyze the time complexity of a recursive function.
 - Formula: T(n) = aT(n/b) + n<sup>c</sup>
 - Notation:
