@@ -2,7 +2,6 @@
 
 - [Big O Notation](#big-o-notation)
 - [Order of time complexity](#order-of-time-complexity)
-- [Master theorem](#master-theorem)
 - [Time complexity of Java built-in functions](#time-complexity-of-java-built-in-functions)
 - [References](#references)
 
@@ -28,7 +27,17 @@
 | O(n<sup>3</sup>) | Cubic time | <li>Some brute force solutions | 
 | O(2<sup>n</sup>) | Exponential time | <li>Some backtracking solution (subsets) |
 | O(n!)| Factorial time | <li>Some backtracking solution (permutations) |
-  
+
+## Strategies
+- Figure out exactly what the code is doing.
+- Figure out how many times each element has been visited.
+   - Examples
+      - For binary tree, even if the algorithm is complicated, but if each node is visited exactly once, so the time complexity is *O(n)*.
+
+## Time complexity of Java built-in functions
+- `Arrays.sort()`: *O(nlogn)*
+- `Collections.sort`: *O(nlogn)*
+
 ## Master theorem
 - Goal: Analyze the time complexity of a recursive function.
 - Formula: T(n) = aT(n/b) + n<sup>c</sup>
@@ -84,15 +93,5 @@
       - Time complexity: 2<sup>n</sup>
       - Comment: This case cannot be applied to master theorem.
 
-## Strategies
-- Figure out exactly what the code is doing.
-- Figure out how many times each element has been visited.
-   - Examples
-      - For binary tree, even if the algorithm is complicated, but if each node is visited exactly once, so the time complexity is *O(n)*.
-
-## Time complexity of Java built-in functions
-- `Arrays.sort()`: *O(nlogn)*
-- `Collections.sort`: *O(nlogn)*
-    
 ## References
 - https://yourbasic.org/algorithms/time-complexity-recursive-functions/
