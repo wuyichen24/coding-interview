@@ -37,3 +37,17 @@ Given the `head` of a singly linked list, **reverse the list, and return the rev
       return p2;
   }
   ```
+
+- **Solution 2: Recursion**
+  ```
+  ListNode reverse(ListNode head) {
+      if (head == null || head.next == null) {
+          return head;
+      }
+      ListNode last = reverse(head.next);
+      head.next.next = head;
+      head.next = null;
+
+      return last;
+  }
+  ```
