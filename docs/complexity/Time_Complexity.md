@@ -20,7 +20,7 @@
 | O(n*log*n) | Linearithmic time | <li>**The default sorting function in all mainstream languages**<li>Quick sort<li>Merge sort<li>Heap sort<li>Divide and conquer with a linear time merge operation<br>(Divide is normally O(*log*n), and if merge is O(n) then the overall runtime is O(n*log*n)). |
 | O(n<sup>2</sup>) | Quadratic time | <li>2-level nested loop<li>Bubble sort<li>Insertion sort<li>Selection sort<li>Some brute force solutions |
 | O(n<sup>3</sup>) | Cubic time | <li>Some brute force solutions | 
-| O(2<sup>n</sup>) | Exponential time | <li>Some backtracking solution (subsets)<li>Recursion |
+| O(2<sup>n</sup>) | Exponential time | <li>Some backtracking solution (subsets) |
 | O(n!)| Factorial time | <li>Some backtracking solution (permutations) |
   
 ## Master theorem
