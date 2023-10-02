@@ -62,7 +62,7 @@
            ```
    - Note
       - Need to consider 2 possible cases: length of palindrome is even or odd.
-         - Example of even length palindrome: `abccba"
+         - Example of even length palindrome: `abccba`
          - Example of odd length palindrome: `abcxcba`
          - Example problems for considering those 2 possible cases
             - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
