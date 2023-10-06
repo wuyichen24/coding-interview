@@ -23,7 +23,7 @@ Note that you must do this in-place without making a copy of the array.
 - **Solution 1: Fast slow pointers**
    - Idea
       - Remove all the occurrences of `0`.
-         - Like [Remove All Occurrences of Value from Array](Remove_All_Occurrences_Of_Value_From_Array.md), Use one pointer (fast pointer) to traverse the whole array, and another pointer (slow) points to the end element of the unmatched sequence.
+         - Like [Remove All Occurrences of Value from Array](Remove_All_Occurrences_Of_Value_From_Array.md), use one pointer (fast pointer) to traverse the whole array, and another pointer (slow) points to the end element of the unmatched sequence.
       - Add `0` at the end of the array.
     
   ```java
