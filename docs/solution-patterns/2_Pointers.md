@@ -14,34 +14,35 @@
 
 ## Variations
 ### Fast slow pointers
-- Concepts
+- **Concepts**
    - One pointer moves fast and another pointer moves slow.
-- Variations
+- **Variations**
    - Variation 1: The fast pointer moves two steps while the slow pointer moves one step.
+      - [Get Middle Node from List](../problems/linked_list/Get_Middle_Node_From_List.md)
+      - [Palindrome Linked List](../problems/linked_list/Is_Palindrome_List.md)
    - Variation 2: One pointer traverses and another pointer marks the end of a meaningful sequence.
-- Problems can use this patterns
-   | Problem | Variation |
-   | ----- | -----|
-   | <ul><li>Find the middle element of a linked list</ul> | Variation 1 |
-   | <ul><li>[Remove Duplicates from Sorted Array](../problems/array/Remove_Duplicates_From_Sorted_Array.md)<li>[Remove All Occurrences of Value from Array](../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)</ul> | Variation 2 |
+      - [Remove Duplicates from Sorted Array](../problems/array/Remove_Duplicates_From_Sorted_Array.md)
+      - [Remove All Occurrences of Value from Array](../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
+      - [Move Zeroes to End of Array](../problems/array/Move_Zeroes_To_End_Of_Array.md)
 
 ### Brute force pointers
-- Concepts
+- **Concepts**
    - One pointer moves one step each time while another pointer points to the element next to the first pointer and move to the end.
 
 ### Meet pointers
-- Concepts
+- **Concepts**
    - Each pointer start from each end and they move toward each other.
 
 ### Neighbor pointers
-- Concepts
+- **Concepts**
    - 2 pointers next to each other and move in the same pace from one end to another.
 
 ### Constant distance pointer
-- Concepts
+- **Concepts**
    - 2 pointers keep a constant distance and move in the same pace from one end to another.
-- Problems can use this patterns
+- **Problems can use this patterns**
    - Get the Nth node from the tail of a linked list.
+   - [Remove Nth Node From End of List](../problems/linked_list/Remove_Nth_Node_From_End_Of_List.md)
 
 ## References
 - https://smootok.com/problem-solving-pattern-in-programming/
