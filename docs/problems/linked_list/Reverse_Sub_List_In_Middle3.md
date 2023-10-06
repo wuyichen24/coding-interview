@@ -1,4 +1,4 @@
-# Reverse Sub-list
+# Reverse Sub-list in Middle
 
 ## Alias
 - Leetcode (92): [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
