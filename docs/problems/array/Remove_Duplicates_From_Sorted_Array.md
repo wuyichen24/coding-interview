@@ -21,13 +21,13 @@
 
   ```java
   public int removeDuplicates(int[] nums) {
-      int end_index = 1;
-      for (int i = 0; i < nums.length - 1; i++) {
-          if (nums[i] != nums[i+1]) {
-              nums[end_index] = nums[i+1];
-              end_index++;
+      int slow = 1;
+      for (int fast = 0; fast < nums.length - 1; fast++) {
+          if (nums[fast] != nums[fast+1]) {
+              nums[slow] = nums[fast+1];
+              slow++;
           }
       }
-      return end_index;
+      return slow;
   }
   ```
