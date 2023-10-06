@@ -44,6 +44,9 @@
    - Get the Nth node from the tail of a linked list.
    - [Remove Nth Node From End of List](../problems/linked_list/Remove_Nth_Node_From_End_Of_List.md)
 
+### Sliding window
+- [Sliding window](Sliding_Window.md) is a type of 2 pointers
+
 ## References
 - https://smootok.com/problem-solving-pattern-in-programming/
 - https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
