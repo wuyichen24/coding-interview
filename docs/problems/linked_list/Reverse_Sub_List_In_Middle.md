@@ -26,7 +26,7 @@ Given the `head` of a singly linked list and two integers `left` and `right` whe
 - **Solution 1: Recursion**
    - Idea
       - Move forward to the start of the range.
-      - When reaching the start of the range, call the function for reversing first N nodes.
+      - When reaching the start of the range, call the [function](Reverse_First_N_Nodes_In_List.md) for reversing first N nodes.
   
   ```java
   class Solution {
