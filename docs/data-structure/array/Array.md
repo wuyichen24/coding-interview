@@ -92,6 +92,8 @@ void reverse(int[] nums, int i, int j) {
 - **Manipulation**
    - *Merge*
       - [Merge 2 Sorted Arrays](../../problems/array/Merge_2_Sorted_Arrays.md)
+   - *Move*
+      - [Move Zeroes to End of Array](../../problems/array/Move_Zeroes_To_End_Of_Array.md)
    - *Split*
       - [Optimizing Box Weights](../../problems/array/Optimizing_Box_Weights.md)
    - *Remove*
