@@ -56,6 +56,8 @@
       - Reverse all the nodes starting the slower pointer.
       - Compare the left pointer with the right pointer.
 
+  ![Is_Palindrome_List drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/0db39ead-de94-44ff-8700-1cafbf39aad7)
+
   ```java
   class Solution {
       public boolean isPalindrome(ListNode head) {
