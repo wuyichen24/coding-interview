@@ -66,6 +66,7 @@
          - Example of odd length palindrome: `abcxcba`
          - Example problems for considering those 2 possible cases
             - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
+            - [Is Palindrome List](../../problems/linked_list/Is_Palindrome_List.md)
      
 ## Common topics
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
