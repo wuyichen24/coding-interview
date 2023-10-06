@@ -1,4 +1,4 @@
-# Move Zero to End of Array
+# Move Zeroes to End of Array
 
 ## Alias
 - Leetcode (283): [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
