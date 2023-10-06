@@ -264,8 +264,9 @@ void removeKthNode(ListNode head, int k) {
    - *Partition*
       - [Partition List](../../problems/linked_list/Partition_List.md)
    - *Reverse*
-      - [Reverse List](../../problems/linked_list/Reverse_List.md)
-      - [Reverse Sub-list in Middle](../../problems/linked_list/Reverse_Sub_List_In_Middle.md)
+      - [Reverse List](../../problems/linked_list/Reverse_List.md) (Reverse whole list)
+      - [Reverse First N Nodes in List](../../problems/linked_list/Reverse_First_N_Nodes_In_List.md) (Reverse first N nodes)
+      - [Reverse Sub-list in Middle](../../problems/linked_list/Reverse_Sub_List_In_Middle.md) (Reverse middle nodes)
    - *Remove*
       - [Remove Duplicates from List](../../problems/linked_list/Remove_Duplicates_From_List.md)
       - [Remove Duplicates from Sorted List](../../problems/linked_list/Remove_Duplicates_From_Sorted_List.md)
