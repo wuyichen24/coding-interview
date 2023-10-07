@@ -31,7 +31,7 @@ Given a string `s`, return the longest palindromic substring in `s`.
 ## Solutions
 - **Solution 1: 2 pointers**
    - Idea
-      - Check each char from left to right and extend palindromic substring at each char
+      - Check each char from left to right and extend palindromic substring at each char (as the center as palindrome substring)
       - Consider both odd length substring and even length substring
 
   ```java
