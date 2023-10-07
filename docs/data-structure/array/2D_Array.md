@@ -55,6 +55,9 @@
    - [Spiral Traversal](../../problems/array/2d/Spiral_Traversal.md)
 - **Manipulation**
    - [Rotate 2D Array](../../problems/array/2d/Rotate_2D_Array.md)
+- **Calculation**
+   - *Sum*
+      - [Calculate Range Sum in 2D Array](../../problems/array/2d/array/Calculate_Range_Sum_In_2D_Array.md)
 - **Island**
    - [Number of Islands](../../problems/array/2d/island/Number_Of_Islands.md)
    - [Get Size of Largest Island](../../problems/array/2d/island/Get_Size_Of_Largest_Island.md)
