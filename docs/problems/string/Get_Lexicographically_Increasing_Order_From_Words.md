@@ -8,7 +8,7 @@
 - Get the lexicographically increasing order from the words for the new language.
 
 ## Solutions
-- **Solution 1: Breadth-first search**
+- **Solution 1: Kahn's algorithm**
    - Step 1: Find all relationships fragments from 2 adjacent words
       - The relationship is first non-match characters between 2 adjacent words.
       - Save the relationships into into adjacent list and indegree count list.
