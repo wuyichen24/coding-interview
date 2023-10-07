@@ -85,6 +85,7 @@
    - *Topological sorting order* (`edge[a,b]` mean `a` must happen before `b`)
       - [Course Schedule II](../../problems/graph/Course_Schedule_II.md)
       - [Find All Possible Recipes from Given Supplies](../../problems/graph/Find_All_Possible_Recipes_From_Given_Supplies.md)
+      - [Get Lexicographically Increasing Order from Words](../../problems/string/Get_Lexicographically_Increasing_Order_From_Words.md)
    - *Broadcast* (all node get the signal)
       - [Network Delay Time](../../problems/graph/Network_Delay_Time.md)
 - **Undirected graph**
