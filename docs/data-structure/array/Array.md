@@ -70,6 +70,7 @@ void reverse(int[] nums, int i, int j) {
       - [Calculate Dot Product of 2 Arrays](../../problems/array/Calculate_Dot_Product_Of_2_Arrays.md)
    - *Sum*
       - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
+      - [Calculate Range Sum in Array](../../problems/array/Calculate_Range_Sum_In_Array.md)
 - **Frequency**
    - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
    - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
