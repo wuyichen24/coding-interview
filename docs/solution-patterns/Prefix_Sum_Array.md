@@ -48,6 +48,7 @@ void buildPrefixSumArray(int[] nums) {
    - [Count Sub-array Sum Equals K](../problems/array/Count_Sub_Array_Sum_Equals_K.md)
    - [Check Sub-array Sum Is Multiple of K](../problems/array/Check_Sub_Array_Sum_Is_Multiple_Of_K.md)
    - [Calculate Range Sum in Array](../problems/array/Calculate_Range_Sum_In_Array.md)
+   - [Calculate Range Sum in 2D Array](../problems/array/2d/array/Calculate_Range_Sum_In_2D_Array.md) (apply prefix sum array to 2D array)
    - [Get All Paths Whose Weight Sum Equal to Target Value](../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (apply prefix sum array to binary tree)
 - Get a random candidate with different weight
    - [Generate Random Index with Weight](../problems/array/Generate_Random_Index_With_Weight.md)
