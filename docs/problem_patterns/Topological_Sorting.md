@@ -174,7 +174,8 @@
 ## Problems
 - [Course Schedule II](../problems/graph/Course_Schedule_II.md)
 - [Find All Possible Recipes from Given Supplies](../problems/graph/Find_All_Possible_Recipes_From_Given_Supplies.md)
-  
+- [Get Lexicographically Increasing Order from Words](../problems/string/Get_Lexicographically_Increasing_Order_From_Words.md)
+
 ## References
 - [labuladong 的算法笔记 | 环检测及拓扑排序算法](https://labuladong.github.io/algo/di-yi-zhan-da78c/shou-ba-sh-03a72/huan-jian--e36de/)
 - [AlgoMonster | Topological Sort Introduction](https://algo.monster/problems/topo_intro)
