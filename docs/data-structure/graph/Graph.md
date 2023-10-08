@@ -12,8 +12,18 @@
    - The degree of a vertex is the number of edges incident to (connected to) that vertex.
 - **Indegree**
    - The indegree of a vertex is the number of edges pointing into (arriving at) that vertex.
+   - Java code example
+     ```
+     Map<Integer, Integer> indegree;
+     int[] indegrees;
+     ```
 - **Outdegree**
    - The outdegree of a vertex is the number of edges originating from (starting at) that vertex.
+   - Java code example
+     ```
+     Map<Integer, Integer> outdegree;
+     int[] outdegrees;
+     ```
 
 ## Types
 - **Directed graph**
