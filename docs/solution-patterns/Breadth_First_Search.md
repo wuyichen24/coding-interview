@@ -22,23 +22,49 @@
 - Serialization/Deserialization of a binary tree vs serialization in sorted order, allows the tree to be re-constructed in an efficient manner.
 
 ## Pseudocode
-```
-func BFS(node) {
-    create queue
-    mark node as visited
-    queue.add(root)
-    when queue is not empty {
-        v = queue.poll()
-        for adj from all the adjacents of v {
-            if adj is not visited {
-                mark adj as visited
-                queue.add(adj)
-            }
-        }
-    }
-}
-```
+- **Wiki template**
+  ```
+  func BFS(node) {
+      create queue
+      mark node as visited
+      queue.add(root)
+      when queue is not empty {
+          v = queue.poll()
+          for adj from all the adjacents of v {
+              if adj is not visited {
+                  mark adj as visited
+                  queue.add(adj)
+              }
+          }
+      }
+  }
+  ```
+- **labuladong template**
+  ```
+  int BFS(Node start, Node target) {
+      Queue<Node> queue; 
+      Set<Node> visited; 
+    
+      queue.offer(start);
+      visited.add(start);
 
+      while (queue not empty) {
+          int size = queue.size();           // need to remember static size of queue
+          for (int i = 0; i < size; i++) {
+              Node cur = queue.poll();
+              if (cur is target)             // when reach target node
+                  return step;
+              for (Node x : cur.adj()) {     // add all adjacent nodes into queue
+                  if (x not in visited) {
+                      queue.offer(x);
+                      visited.add(x);
+                  }
+              }
+          }
+      }
+      
+  }
+  ```
 ## Complexity
 - Time complexity: *O(V + E)*
 - Space complexity: *O(V)*
