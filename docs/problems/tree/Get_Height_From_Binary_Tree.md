@@ -8,7 +8,7 @@
 - The height is the length of the path from the root node down to the farthest leaf node.
 
 ## Solutions
-- Solution 1
+- **Solution 1: DFS**
   ```java
   public int maxDepth(TreeNode root) {
       if (root == null) return 0;
