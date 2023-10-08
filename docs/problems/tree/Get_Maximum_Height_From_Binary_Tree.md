@@ -1,4 +1,4 @@
-# Get Height from Binary Tree
+# Get Maximum Height from Binary Tree
 
 ## Alias
 - Leetcode (104): [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
