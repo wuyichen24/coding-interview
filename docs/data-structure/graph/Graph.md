@@ -43,7 +43,8 @@
 
 - Java code examples
   ```
-  Map<Integer, List<Integer>> map;   // solution 1
+  Map<Integer, List<Integer>> graph;         // unweighted graph
+  Map<Integer, Map<Integer, Integer>> graph; // weighted graph
   List<Integer>[] graph;
   ```
 ### Adjacency matrix
