@@ -5,6 +5,16 @@
 - [**Strateties**](#strateties)
 - [**Common Topics**](#common-topics)
 
+## Terminologies
+- **Vertex**
+- **Edge**
+- **Degree**
+   - The degree of a vertex is the number of edges incident to (connected to) that vertex.
+- **Indegree**
+   - The indegree of a vertex is the number of edges pointing into (arriving at) that vertex.
+- **Outdegree**
+   - The outdegree of a vertex is the number of edges originating from (starting at) that vertex.
+
 ## Types
 - **Directed graph**
    - A graph that is made up of a set of vertices connected by directed edges
@@ -34,27 +44,27 @@
 
 ## Representation
 ### Adjacency list
-- Concepts
+- **Concepts**
    - Stores each vertex in the graph with the collection of its neighbouring vertices.
    - More common comparing to adjacency matrix.
-- Example
+- **Example**
   
   ![Adjacency_List drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/d2a788d2-7268-4f00-a33c-96b5a93c2ad1)
 
-- Java code examples
+- **Java code examples**
   ```
   Map<Integer, List<Integer>> graph;         // unweighted graph
   Map<Integer, Map<Integer, Integer>> graph; // weighted graph
   List<Integer>[] graph;
   ```
 ### Adjacency matrix
-- Concepts
+- **Concepts**
    - A matrix whose rows and columns are indexed by vertices and whose cells contain a Boolean value that indicates whether an edge is present between the vertices corresponding to the row and column of the cell.
-- Example
+- **Example**
 
   ![Adjacency_Matrix drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/db161e46-4b2d-40f0-bb0f-8a931dfefad1)
   
-- Java example
+- **Java example**
   ```
   boolean[][] matrix
   ```
