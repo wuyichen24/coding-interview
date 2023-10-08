@@ -36,6 +36,7 @@
 ### Adjacency list
 - Concepts
    - Stores each vertex in the graph with the collection of its neighbouring vertices.
+   - More common comparing to adjacency matrix.
 - Example
   
   ![Adjacency_List drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/d2a788d2-7268-4f00-a33c-96b5a93c2ad1)
