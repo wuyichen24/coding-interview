@@ -39,7 +39,7 @@
       }
   }
   ```
-- **labuladong template**
+- **[labuladong template](https://labuladong.github.io/algo/di-san-zha-24031/bao-li-sou-96f79/bfs-suan-f-463fd/)**
   ```
   int BFS(Node start, Node target) {
       Queue<Node> queue; 
@@ -62,7 +62,6 @@
               }
           }
       }
-      
   }
   ```
 ## Complexity
