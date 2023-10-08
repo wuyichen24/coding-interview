@@ -185,6 +185,8 @@ TreeNode {
       - [Get All Root-to-leaf Paths Whose Weight Sum Equal to Target Value](../../problems/tree/path/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (Path Sum II)
       - [Get All Paths Whose Weight Sum Equal to Target Value](../../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md) (Path Sum III)
       - [Get Sums of All Root-to-leaf Paths from Binary Tree](../../problems/tree/path/Get_Sums_Of_All_Root_To_Leaf_Paths_From_Binary_Tree.md)
+      - [Get Maximum Height from Binary Tree](../../problems/tree/Get_Maximum_Height_From_Binary_Tree.md) (The number of nodes on the longest path from the root node down to the farthest leaf node)
+      - [Get Minimum Height from Binary Tree](../../problems/tree/Get_Minimum_Height_From_Binary_Tree.md) (The number of nodes on the longest path from the root node down to the nearest leaf node)
    - Node-to-node Paths
       - [Get Length of Longest Path from Binary Tree](../../problems/tree/path/Get_Length_Of_Longest_Path_From_Binary_Tree.md)
       - [Get Maximum Weight Sum of Path from Binary Tree](../../problems/tree/path/Get_Maximum_Weight_Sum_Of_Path_From_Binary_Tree)
@@ -194,7 +196,9 @@ TreeNode {
 - **Side view**
    - [Get Right Side View of Binary Tree](../../problems/tree/Get_Right_Side_View_Of_Binary_Tree.md)
 - **Get metrics**
-   - [Get Height from Binary Tree](../../problems/tree/Get_Height_From_Binary_Tree.md)
+   - *Height*
+      - [Get Maximum Height from Binary Tree](../../problems/tree/Get_Maximum_Height_From_Binary_Tree.md)  (The number of nodes on the longest path from the root node down to the farthest leaf node)
+      - [Get Minimum Height from Binary Tree](../../problems/tree/Get_Minimum_Height_From_Binary_Tree.md) (The number of nodes on the longest path from the root node down to the nearest leaf node)
 - **Traverse**
    - [Traverse Binary Tree Level Order](../../problems/tree/Traverse_Binary_Tree_Level_Order.md)
    - [Traverse Binary Tree Vertically](../../problems/tree/Traverse_Binary_Tree_Vertically.md)
