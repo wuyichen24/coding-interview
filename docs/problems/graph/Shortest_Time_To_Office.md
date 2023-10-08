@@ -14,7 +14,7 @@ Output
 - The shortest time from work to home: Long
 
 ## Solutions
-- Solution 1: Dijkstra's algorithm
+- **Solution 1: Dijkstra's algorithm**
    - Algorithm
       - Initialize a distance array to store the minimum distances from the source node to all other nodes. Initialize the distance to the source node as 0 and distances to other nodes as infinity.
       - Create a priority queue (or min-heap) to store nodes with their corresponding distances.
