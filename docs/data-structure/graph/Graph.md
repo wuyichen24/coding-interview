@@ -32,10 +32,35 @@
 - Dijkstra's algorithm
 - Kahn's algorithm
 
+## Representation
+### Adjacency list
+- Concepts
+   - Stores each vertex in the graph with the collection of its neighbouring vertices.
+- Example
+  
+  ![Adjacency_List drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/d2a788d2-7268-4f00-a33c-96b5a93c2ad1)
+
+- Java code examples
+  ```
+  Map<Integer, List<Integer>> map;   // solution 1
+  List<Integer>[] graph;
+  ```
+### Adjacency matrix
+- Concepts
+   - A matrix whose rows and columns are indexed by vertices and whose cells contain a Boolean value that indicates whether an edge is present between the vertices corresponding to the row and column of the cell.
+- Example
+
+  ![Adjacency_Matrix drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/db161e46-4b2d-40f0-bb0f-8a931dfefad1)
+  
+- Java example
+  ```
+  boolean[][] matrix
+  ```
+
 ## Strateties
-- **Build the graph before executing any algorithm**
+- **Build the graph representation before executing any algorithm**
    - Reason
-      - Before we running any algorithm, it would be better to build the graph by map or any key-value pairs structures.
+      - Before we running any algorithm, it would be better to build the representation (commonly use adjacency list) by map or any key-value pairs structures.
    - Examples
       - Unweighted graph
         ```java
