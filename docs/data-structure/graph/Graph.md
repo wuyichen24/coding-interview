@@ -128,6 +128,7 @@
 - **Dedirected graph**
    - *Path*
       - [Bus Routes](../../problems/graph/Bus_Routes.md)
+      - [All Paths from Source to Target](../../problems/graph/All_Paths_From_Source_To_Target.md)
       - [Shortest Time to Office](../../problems/graph/Shortest_Time_To_Office.md)
    - *Topological sorting order* (`edge[a,b]` mean `a` must happen before `b`)
       - [Course Schedule II](../../problems/graph/Course_Schedule_II.md)
