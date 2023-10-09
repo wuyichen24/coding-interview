@@ -12,18 +12,27 @@
    - The degree of a vertex is the number of edges incident to (connected to) that vertex.
 - **Indegree**
    - The indegree of a vertex is the number of edges pointing into (arriving at) that vertex.
+   - If you don't know where is the starting position for BFS or DFS, you can start from the 0-indegree nodes.
    - Java code example
-     ```
-     Map<Integer, Integer> indegree;
-     int[] indegrees;
+     ```java
+     Map<Integer, Integer> indegree;    // key is the node id, value is the indegree
+     Set<Integer> nodes;                // store all the unique nodes
+     
+     for (int i = 0; i < edges.length; i++) {
+         indegree.put(edges[i][1], indegree.getOrDefault(edges[i][1], 0) + 1);
+         nodes.add(edges[i][0]);        
+         nodes.add(edges[i][0]);
+     }
+
+     // add indegree=0 nodes into the map
+     for (Integer node : nodes) {
+         if (indegree.get(node) == null) {
+             indegree.put(node, 0);
+         }
+     }
      ```
 - **Outdegree**
    - The outdegree of a vertex is the number of edges originating from (starting at) that vertex.
-   - Java code example
-     ```
-     Map<Integer, Integer> outdegree;
-     int[] outdegrees;
-     ```
 
 ## Types
 - **Directed graph**
@@ -120,6 +129,31 @@
 - **For recording the nodes you have been visited, consider use `HashSet` to store the name of the visited nodes**.
   ```java
   Set<Integer> visited = new HashSet<>();
+  ```
+- **If you don't know where is the starting position for BFS or DFS, you can start from the 0-indegree nodes**
+  ```java
+  Map<Integer, Integer> indegree;    // key is the node id, value is the indegree
+  Set<Integer> nodes;                // store all the unique nodes
+     
+  for (int i = 0; i < edges.length; i++) {
+      indegree.put(edges[i][1], indegree.getOrDefault(edges[i][1], 0) + 1);
+      nodes.add(edges[i][0]);        
+      nodes.add(edges[i][0]);
+  } 
+
+  // add indegree=0 nodes into the map
+  for (Integer node : nodes) {
+      if (indegree.get(node) == null) {
+          indegree.put(node, 0);
+      }
+  }
+
+  // start bfs or dfs from 0-indegree nodes
+  for (Integer node : indegree.keySet()) {
+      if (indegree.get(node) == 0) {
+           bfs(node) / dfs(node)
+      }
+  }
   ```
 
 ## Common Topics
