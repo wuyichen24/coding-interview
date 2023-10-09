@@ -119,36 +119,70 @@ Given a target representing the value of the wheels that will unlock the lock, *
   }
   ```
 - **Solution 2: Bidirectional search**
+   - Idea
+      - Start searching from both `0000` and the target.
+      - Create 2 queues `q1` and `q2` from bidirectional search, each time swap `q1` and `q2`.
   ```java
-  public int openLock(String[] deadends, String target) {
-      Set<String> begin = new HashSet<>();
-      Set<String> end = new HashSet<>();
-      Set<String> deads = new HashSet<>(Arrays.asList(deadends));
-      begin.add("0000");
-      end.add(target);
-      int level = 0;
-      while(!begin.isEmpty() && !end.isEmpty()) {
-          Set<String> temp = new HashSet<>();
-          for(String s : begin) {
-              if(end.contains(s)) return level;
-              if(deads.contains(s)) continue;
-              deads.add(s);
-              StringBuilder sb = new StringBuilder(s);
-              for(int i = 0; i < 4; i ++) {
-                  char c = sb.charAt(i);
-                  String s1 = sb.substring(0, i) + (c == '9' ? 0 : c - '0' + 1) + sb.substring(i + 1);
-                  String s2 = sb.substring(0, i) + (c == '0' ? 9 : c - '0' - 1) + sb.substring(i + 1);
-                  if(!deads.contains(s1))
-                      temp.add(s1);
-                  if(!deads.contains(s2))
-                      temp.add(s2);
+  class Solution {
+      public int openLock(String[] deadends, String target) {
+          Set<String> deads = new HashSet<>();
+          for (String s : deadends) deads.add(s);
+
+          Set<String> q1 = new HashSet<>();
+          Set<String> q2 = new HashSet<>();
+          Set<String> visited = new HashSet<>();
+    
+          int step = 0;
+          q1.add("0000");
+          q2.add(target);
+    
+          while (!q1.isEmpty() && !q2.isEmpty()) {
+              Set<String> temp = new HashSet<>();    // use temp to store the search results
+
+              for (String cur : q1) {
+                  if (deads.contains(cur))           // check current is deadends or not
+                      continue;
+                  if (q2.contains(cur))              // check current reaches target or not
+                      return step;
+            
+                  visited.add(cur);
+
+                  for (int j = 0; j < 4; j++) {     // try to turn each wheel up and down
+                      String up = plusOne(cur, j);
+                      if (!visited.contains(up))
+                          temp.add(up);
+                      String down = minusOne(cur, j);
+                      if (!visited.contains(down))
+                          temp.add(down);
+                  }
               }
+              step++;
+
+              q1 = q2;                              // swap q1 with q2, so next time is to search q2
+              q2 = temp;
           }
-          level ++;
-          begin = end;
-          end = temp;
+          return -1;
       }
-      return -1;
+
+      // turn s[j] one step up
+      String plusOne(String s, int j) {
+          char[] ch = s.toCharArray();
+          if (ch[j] == '9')
+              ch[j] = '0';
+          else
+              ch[j] += 1;
+          return new String(ch);
+      }
+    
+      // turn s[j] one step down
+      String minusOne(String s, int j) {
+          char[] ch = s.toCharArray();
+          if (ch[j] == '0')
+              ch[j] = '9';
+          else
+              ch[j] -= 1;
+          return new String(ch);
+      }
   }
   ```
 
