@@ -63,7 +63,7 @@ void reverse(int[] nums, int i, int j) {
    - [Search in Rotated Sorted Array](../../problems/array/Search_In_Rotated_Sorted_Array.md)
 - **Access**
    - [Kth Largest Element in an Array](../../problems/array/Kth_Largest_Element_In_Array.md)
-- **Array math**
+- **Math**
    - *Product*
       - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
       - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
