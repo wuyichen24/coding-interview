@@ -59,7 +59,7 @@
 - [Breadth-First Search (BFS)](../../solution-patterns/Breadth_First_Search.md)
 - [Depth-First Search (DFS)](../../solution-patterns/Depth_First_Search.md)
 - Dijkstra's algorithm
-- Kahn's algorithm
+- [Kahn's algorithm](../../problem_patterns/Topological_Sorting.md#kahns-algorithm)
 
 ## Representation
 ### Adjacency list
