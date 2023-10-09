@@ -66,7 +66,7 @@ Return `true` if Player 1 can win the game. If the scores of both players are eq
 - **Solution 2: Dynamic programming**
    - Idea
       - This problem is very similar to [Stone Game](), so use its function directly.
-      - `dp[i][j]`
+      - `dp[i][j]` meanings:
          - `dp[i][j].fir = x` means the highest score `x` the first hand player can get from `piles[i...j]`.
          - `dp[i][j].sec = y` means the highest score `y` the second hand player can get from `piles[i...j]`.
       - State transition equation
