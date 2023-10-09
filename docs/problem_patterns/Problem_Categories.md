@@ -54,6 +54,7 @@
 - [LRU Cache](../problems/other/LRU_Cache.md)
 - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
 - [Coin Change](../problems/other/Coin_Change.md)
+- [Open the Lock](../problems/other/Open_The_Lock.md)
 
 ## Problem series
 - Jump game
