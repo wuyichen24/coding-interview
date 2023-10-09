@@ -172,6 +172,8 @@ One dynamic programming problem can be solved by multiple solutions:
        - [Maximal Square](../problems/array/2d/Maximal_Square.md)
    - 2 strings comparison problem
        - [Edit Distance](../problems/string/Edit_Distance.md)
+   - Others
+       - [Predict the Winner](../problems/other/Predict_Winner.md)
 
 ## References
 - [GeeksforGeeks | Steps for how to solve a Dynamic Programming Problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)
