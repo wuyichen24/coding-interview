@@ -43,18 +43,20 @@
    - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
 
 ## Uncategorized problems (other)
-- [Accounts Merge](../problems/other/Accounts_Merge.md)
-- [Champagne Tower](../problems/other/Champagne_Tower.md)
-- [Climbing Stairs](../problems/other/Climbing_Stairs.md)
-- [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md)
-- [Predict the Winner](../problems/other/Predict_Winner.md)
-- [Task Scheduler](../problems/other/Task_Scheduler.md)
-- [Trap Rain Water](../problems/other/Trap_Rain_Water.md)
-- [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
-- [LRU Cache](../problems/other/LRU_Cache.md)
-- [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
-- [Coin Change](../problems/other/Coin_Change.md)
-- [Open the Lock](../problems/other/Open_The_Lock.md)
+- **Dynamic programming**
+   - [Climbing Stairs](../problems/other/Climbing_Stairs.md) (DP)
+   - [Predict the Winner](../problems/other/Predict_Winner.md) (DP)
+   - [Coin Change](../problems/other/Coin_Change.md) (DP)
+   - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
+- **Others**
+   - [Champagne Tower](../problems/other/Champagne_Tower.md)
+   - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md) (Stack)
+   - [Task Scheduler](../problems/other/Task_Scheduler.md) (Greedy)
+   - [Trap Rain Water](../problems/other/Trap_Rain_Water.md) (Monotonic stack)
+   - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
+   - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
+   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md) (Binary search)
+   - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
 
 ## Problem series
 - Jump game
