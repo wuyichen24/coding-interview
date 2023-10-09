@@ -13,6 +13,7 @@
 - **Indegree**
    - The indegree of a vertex is the number of edges pointing into (arriving at) that vertex.
    - If you don't know where is the starting position for BFS or DFS, you can start from the 0-indegree nodes.
+      - [Kahn's algorithm](../../problem_patterns/Topological_Sorting.md#kahns-algorithm) starts BFS from all the 0-indegree nodes.
    - Java code example
      ```java
      Map<Integer, Integer> indegree;    // key is the node id, value is the indegree
