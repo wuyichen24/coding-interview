@@ -94,8 +94,6 @@
       - LeetCode-21 Merge 2 sorted lists
 - **Longest X sequence/substring**
    - LeetCode-1143 Longest Common Subsequence
-   - LeetCode-300 Longest Increasing Subsequence
-   - LeetCode-5 Longest Palindromic Substring
    - LeetCode-298 Binary Tree Longest Consecutive Sequence
    - LeetCode-14 Longest Common Prefix
 - **String Prefix**
@@ -109,10 +107,6 @@
    - In Array
       - LeetCode-66 Plus One
       - LeetCode-989 Add to Array-Form of Integer 
-   - In Linked List
-      - LeetCode-2 Add Two Numbers
-- **Others**
-   - [Accounts Merge](docs/problems/other/Accounts_Merge.md)
 
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
