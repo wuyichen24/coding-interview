@@ -47,7 +47,6 @@
    - [Climbing Stairs](../problems/other/Climbing_Stairs.md) (DP)
    - [Predict the Winner](../problems/other/Predict_Winner.md) (DP)
    - [Coin Change](../problems/other/Coin_Change.md) (DP)
-   - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
 - **Others**
    - [Champagne Tower](../problems/other/Champagne_Tower.md)
    - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md) (Stack)
@@ -56,6 +55,7 @@
    - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
    - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
    - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md) (Binary search)
+   - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
 
 ## Problem series
