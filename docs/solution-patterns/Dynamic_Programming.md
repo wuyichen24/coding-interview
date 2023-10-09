@@ -164,6 +164,7 @@ One dynamic programming problem can be solved by multiple solutions:
    - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
    - [Coin Change](../problems/other/Coin_Change.md)
    - [Longest Increasing Subsequence](../problems/string/Longest_Increasing_Subsequence.md)
+   - [Russian Doll Envelopes](../problems/other/Russian_Doll_Envelopes.md) (Similar to Longest Increasing Subsequence)
    - [Word Break](../problems/string/Word_Break.md) (Return boolean - Check the string can be broken by words or not)
    - [Word Break II](../problems/string/Word_Break_II.md) (Return list - Get all the possible word breaking combinations)
    - [Longest Valid Parentheses Substring](../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
