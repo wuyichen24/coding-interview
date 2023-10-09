@@ -45,7 +45,7 @@ Given string num representing a non-negative integer `num`, and an integer `k`, 
       - Remove all the digits from the number and it is left with nothing which is `0`.
     
 ## Solutions
-- Solution 1: Greedy with Stack
+- **Solution 1: Greedy with Stack**
    - Idea
       - The **leftmost distinct** digits that determine the superior of the two numbers.
       - Rule:
