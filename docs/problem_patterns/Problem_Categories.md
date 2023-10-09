@@ -47,6 +47,7 @@
    - [Climbing Stairs](../problems/other/Climbing_Stairs.md) (DP)
    - [Predict the Winner](../problems/other/Predict_Winner.md) (DP)
    - [Coin Change](../problems/other/Coin_Change.md) (DP)
+   - [Russian Doll Envelopes](../problems/other/Russian_Doll_Envelopes.md) (DP)
 - **Others**
    - [Champagne Tower](../problems/other/Champagne_Tower.md)
    - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md) (Stack)
