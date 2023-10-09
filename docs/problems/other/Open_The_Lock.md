@@ -122,6 +122,9 @@ Given a target representing the value of the wheels that will unlock the lock, *
    - Idea
       - Start searching from both `0000` and the target.
       - Create 2 queues `q1` and `q2` from bidirectional search, each time swap `q1` and `q2`.
+    
+     <img width="722" alt="Screenshot 2023-10-08 at 9 15 57 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/39ba3867-a4c3-40ec-bf23-7c5159a856aa">
+
   ```java
   class Solution {
       public int openLock(String[] deadends, String target) {
