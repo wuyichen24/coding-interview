@@ -39,7 +39,7 @@ Return `true` if Player 1 can win the game. If the scores of both players are eq
       - Finally, player 1 has more score (234) than player 2 (12), so you need to return True representing player1 can win.
     
 ## Solutions
-- Solution 1: Recursion
+- **Solution 1: Recursion**
    - Idea
       - Create a recursive function to maximize the current score difference between the two players.
     
