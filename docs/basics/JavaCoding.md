@@ -146,6 +146,11 @@ This page is to document some coding standard operations.
      Collections.sort(list);
      Collections.reverse(list);
      ```
+- **Copying**
+   - **Deep copy a list**
+     ```java
+     List<Integer> list2 = new ArrayList<>(list1);
+     ```
 - **Common functions for list**
   | Function | Description |
   | ---- | ---- |
@@ -164,16 +169,6 @@ This page is to document some coding standard operations.
       }
   };
   ```
-- **Common functions for stack**
-  | Function | Description |
-  | ---- | ---- |
-  | `get` | Get the value by key. |
-  | `getOrDefault(key, defaultValue)` | Get the value by key. If key is not in the map, return the default the value. |
-  | `put` | Add or update the key-value pair into map. |
-  | `putIfAbsent(key, value)` | Only add the value if the key doesn't exist in the map. |
-  | `keySet` | Get all the keys. |
-  | `values` | Get all the values. |
-
 - **Traverse**
    - Solution 1:
      ```java
@@ -202,6 +197,15 @@ This page is to document some coding standard operations.
   Map<Integer, String> map = new HashMap<>();
   List<String> list = new ArrayList<>(map.values());
   ```
+- **Common functions for stack**
+  | Function | Description |
+  | ---- | ---- |
+  | `get` | Get the value by key. |
+  | `getOrDefault(key, defaultValue)` | Get the value by key. If key is not in the map, return the default the value. |
+  | `put` | Add or update the key-value pair into map. |
+  | `putIfAbsent(key, value)` | Only add the value if the key doesn't exist in the map. |
+  | `keySet` | Get all the keys. |
+  | `values` | Get all the values. |
 
 ### Stack
 - **Initialize a stack**
