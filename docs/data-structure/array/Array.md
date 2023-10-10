@@ -102,6 +102,8 @@ void reverse(int[] nums, int i, int j) {
       - [Remove Duplicates from Sorted Array](../../problems/array/Remove_Duplicates_From_Sorted_Array.md)
    - *Reverse*
       - [Reverse Char Array](../../problems/array/Reverse_Char_Array.md)
+   - *Rotate*
+      - 189 Rotate Array
 - **nSum**
    - [Two Sum of Unsorted Array](../../problems/array/n_sum/Two_Sum_Of_Unsorted_Array.md)
    - [Two Sum of Sorted Array](../../problems/array/n_sum/Two_Sum_Of_Sorted_Array.md)
