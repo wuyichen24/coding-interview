@@ -23,8 +23,8 @@
    - [Happy Number](../problems/math/Happy_Number.md)
 - **Intevals**
    - Meeting Rooms
-      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings.)
-      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
+      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings)
+      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (Get the minimum number of conference rooms required)
    - [Merge Intervals](../problems/intervals/Merge_Intervals.md)
    - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md)
    - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md)
