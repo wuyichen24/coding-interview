@@ -109,6 +109,9 @@
       - 227 Basic Calculator II
       - [Basic Calculator III](../../problems/string/calculators/Basic_Calculator_III.md)
       - 770 Basic Calculator IV
+   - Add
+      - 67 Add Binary
+      - 415 Add Strings
 - **Combinations**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
 - **Sorting in custom order**
