@@ -96,10 +96,12 @@
    - [Longest Valid Parentheses Substring](../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
    - [Longest Substring of Repeating Character by Replacement](../../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
-- **2 strings comparison**
+- **Strings comparison**
    - Subsequences
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
+      - 1143 Longest Common Subsequence
    - [Edit Distance](../../problems/string/Edit_Distance.md)
+   - 14 Longest Common Prefix
 - **Math**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
    - Basic calculator
@@ -139,6 +141,7 @@
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
       - [Group Anagrams](../../problems/string/Group_Anagrams.md)
    - [Longest String Chain](../../problems/string/Longest_String_Chain.md)
+   - 14 Longest Common Prefix
 - **Other**
    - Case in real life
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
