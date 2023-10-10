@@ -89,8 +89,8 @@
    - 1278 Palindrome Partitioning III
    - 1745 Palindrome Partitioning IV
 - Meeting Rooms
-   - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
-   - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
+   - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings)
+   - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (Get the minimum number of conference rooms required)
  - Subset
    - [Subsets (inputs are unique)](../problems/array/combinations/Subsets.md)
    - [Subsets II (inputs may contain duplicates)](../problems/array/combinations/Subsets_II.md)
