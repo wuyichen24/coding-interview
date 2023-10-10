@@ -21,17 +21,6 @@
    - [Nth Digit](../problems/math/Nth_Digit.md)
    - [Is Palinedrome Integer](../problems/math/Is_Palindrome_Integer.md)
    - [Happy Number](../problems/math/Happy_Number.md)
-- **Add**
-   - *String*
-      - 67 Add Binary
-      - 415 Add Strings
-   - *Array*
-      - 66 Plus One
-      - 989 Add to Array-Form of Integer
-   - *Linked list*
-      - 2 Add Two Numbers
-      - 445 Add Two Numbers II
-      - 369 Plus One Linked List
 - **Intevals**
    - Meeting Rooms
       - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
@@ -52,6 +41,17 @@
 - **Binary search**
    - [First Bad Version](../problems/other/First_Bad_Version.md)
    - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
+- **Add**
+   - *String*
+      - 67 Add Binary
+      - 415 Add Strings
+   - *Array*
+      - 66 Plus One
+      - 989 Add to Array-Form of Integer
+   - *Linked list*
+      - 2 Add Two Numbers
+      - 445 Add Two Numbers II
+      - 369 Plus One Linked List
 
 ## Uncategorized problems (other)
 - **Dynamic programming**
