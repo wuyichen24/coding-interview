@@ -132,6 +132,8 @@
       - [Word Break II](../../problems/string/Word_Break_II.md) (Return list - Get all the possible word breaking combinations)
       - [Palindrome Partitioning](../../problems/string/palindrome/Palindrome_Partitioning.md)
       - [Restore IP Addresses](../../problems/string/Restore_IP_Addresses.md)
+   - Rotate
+      - 796 Rotate String
 - **Input is string array**
    - *Grouping string array* (See strategies section)
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
