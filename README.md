@@ -86,9 +86,7 @@
 
 ### Need to remove below
 - **Longest X sequence/substring**
-   - LeetCode-1143 Longest Common Subsequence
    - LeetCode-298 Binary Tree Longest Consecutive Sequence
-   - LeetCode-14 Longest Common Prefix
 - **Integer Calculation** (Integers represents in other data structures and then calculation)
    - In String
       - LeetCode-415 Add Strings
