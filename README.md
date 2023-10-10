@@ -53,15 +53,15 @@
 - [**Depth-First Search (DFS)**](docs/solution-patterns/Depth_First_Search.md)
 - [**Union Find (Disjoint Set)**](docs/solution-patterns/Union_Find.md)
 - [**Binary Search**](docs/solution-patterns/Binary_Search.md)
-- [Sorting]()
 - [**Sliding Window**](docs/solution-patterns/Sliding_Window.md)
-- [Divide and Conquer]()
 - [**Dynamic Programming**](docs/solution-patterns/Dynamic_Programming.md)
 - [**Bit Manipulation**](docs/solution-patterns/Bit_Manipulation.md)
    - Bitmask
+- [**Monotonic Stack**](docs/solution-patterns/Monotonic_Stack.md)
+- [Divide and Conquer]()
+- [Sorting]()
 - [Greedy]()
 - [Recursion]()
-- [**Monotonic Stack**](docs/solution-patterns/Monotonic_Stack.md)
 - Other algorithms
    - [Kahn's algorithm](docs/problem_patterns/Topological_Sorting.md#kahns-algorithm)
    - Sweep line algorithm
