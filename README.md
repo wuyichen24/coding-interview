@@ -89,9 +89,6 @@
    - LeetCode-1143 Longest Common Subsequence
    - LeetCode-298 Binary Tree Longest Consecutive Sequence
    - LeetCode-14 Longest Common Prefix
-- **String Prefix**
-   - [Implement Trie](docs/problems/tree/Implement_Trie.md)
-   - [Implement Trie with Wildcard Seach](docs/problems/tree/Implement_Trie_With_Wildcard_Seach.md)
 - **Integer Calculation** (Integers represents in other data structures and then calculation)
    - In String
       - LeetCode-415 Add Strings
