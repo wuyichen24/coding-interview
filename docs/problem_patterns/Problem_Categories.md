@@ -23,7 +23,7 @@
    - [Happy Number](../problems/math/Happy_Number.md)
 - **Intevals**
    - Meeting Rooms
-      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md)
+      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings.)
       - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md)
    - [Merge Intervals](../problems/intervals/Merge_Intervals.md)
    - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md)
