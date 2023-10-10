@@ -85,13 +85,6 @@
 - Knapsack
 
 ### Need to remove below
-- **Manipulation**
-   - **Rotate**
-      - [Rotate List Right](docs/problems/linked_list/Rotate_List_Right.md)
-      - LeetCode-189 Rotate Array
-      - LeetCode-796 Rotate String
-   - **Merge**
-      - LeetCode-21 Merge 2 sorted lists
 - **Longest X sequence/substring**
    - LeetCode-1143 Longest Common Subsequence
    - LeetCode-298 Binary Tree Longest Consecutive Sequence
