@@ -259,6 +259,7 @@ void removeKthNode(ListNode head, int k) {
    - *Add*
       - 2 Add Two Numbers
       - 445 Add Two Numbers II
+      - 369 Plus One Linked List
 - **Manipulation**
    - *Insert*
       - [Add Node to Sorted Circular List](../../problems/linked_list/Add_Node_To_Sorted_Circular_List.md)
