@@ -70,3 +70,8 @@ int: the maximum number of teams that can be formed at one time
 - Solution 2: Backtracking
   ```
   ```
+
+## References
+- https://www.1point3acres.com/bbs/thread-1015023-1-1.html
+- https://leetcode.com/discuss/interview-question/1602092/amazon-oa-max-of-teams-with-skill-difference#:~:text=Explanation%20%3A%20Two%20teams%20can%20be,not%20exceeding%20K%20%3D%202%20value.
+- https://leetcode.com/discuss/interview-question/1594880/amazon-oa-questions-countmaximumteams
