@@ -30,6 +30,8 @@ int: the maximum number of teams that can be formed at one time
 
 ## Solutions
 - Solution 1: Comparison
+
+  **Python**
   ```python
   def countMaximumTeams(arr, teamSize, maxDiff):
       answer = 0
@@ -46,6 +48,7 @@ int: the maximum number of teams that can be formed at one time
       return answer
   ```
 
+  **Java**
   ```java
   public static int countMaximumTeams(int[] arr, int teamSize, int maxDiff) {
       int answer = 0;
