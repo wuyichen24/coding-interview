@@ -28,6 +28,9 @@ Complete the function countMaximumTeams in the editor below.
 **Returns:**
 int: the maximum number of teams that can be formed at one time
 
+![103407v6fbz92zye09whq3](https://github.com/wuyichen24/coding-interview/assets/8989447/a93f3d92-56e5-4273-b9b1-498f1df035e2)
+![103409s30dq1x4u13h3063](https://github.com/wuyichen24/coding-interview/assets/8989447/854a41db-7c9f-46bb-9af2-69c015d0b1a2)
+
 ## Solutions
 - Solution 1: Comparison
 
