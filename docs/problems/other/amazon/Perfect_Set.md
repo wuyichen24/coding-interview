@@ -7,7 +7,7 @@ When the rice bags in the set perfect are sorted in increasing order by grain co
 
 Find the largest possible set perfect and return an integer, the size of that set. If no such set is possible, then return -1. It is guaranteed that all elements in riceBags are distinct.
 
-Example
+**Example**
 
 Let the bags of rice available on Amazon have grain counts [3, 9, 4, 2, 16]. The following are the perfect sets.
 
@@ -18,7 +18,7 @@ Set perfect = [4, 2, 16]. The size of this set is 3.
 
 The size of the largest set is 3. The image below illustrates the correct ordering of the purchased rice bags by grains of rice.
 
-Function Description
+**Function Description**
 
 Complete the function maxSetSize in the editor below.
 
