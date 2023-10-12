@@ -25,3 +25,18 @@ Complete the function maxSetSize in the editor below.
 maxSetSize has the following parameter: int riceBags[n]: the list of bags of rice by rice grain count
 
 ## Solutions
+- **Solution 1: Sort and count**
+
+  ```java
+  public int maxSetSize(int[] riceBags) {
+      HashMap<Integer, Integer> map = new HashMap<>();
+      Arrays.sort(riceBags);
+      int max = 1;
+      for(int bag : riceBags){
+          int tmp = 0;
+          map.put(bag*bag, tmp = map.getOrDefault(bag, 0)+1);
+          max = Math.max(tmp, max);
+      }
+      return max;
+  }
+  ```
