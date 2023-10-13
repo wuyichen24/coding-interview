@@ -34,6 +34,9 @@ Complete the function *minimumTimeSpent* in the editor below.
 #### Return
 *int*: the earliest time you can finish watching two movies
 
+![103409s30dq1x4u13h3063](https://github.com/wuyichen24/coding-interview/assets/8989447/593b9ba0-5cb4-4644-bb37-10fba353a28c)
+![103411qy11ryo1ruchm22g](https://github.com/wuyichen24/coding-interview/assets/8989447/6c5ecea8-cb17-4287-aeb0-578392c3331c)
+
 ## Solutions
 - **Solution 1: Convert to intervals**
    - Idea
