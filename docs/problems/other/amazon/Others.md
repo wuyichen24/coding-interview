@@ -28,3 +28,11 @@
 - so if you 1个    0th item, the cost would be a[0], if you buy 2 个 0th item， cost would be a[0] + b[0]...以此类推。。
 - 很简单， 用pq，构造一个 itemcost class存放 acost, bcost, count  ， pq的c‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌ompator就是 按照itemcost 的 总cost和排序。
 - 不知道为什么有个case 没过，因为是re turn long，应该是溢出问题（但是debug时没发现溢出） 所有输入最大值100000.很难溢出。。
+
+## String
+### K flip
+给一个string, 一个k， 然后问你有几种反转k个char之后string  同位字母排序变小了；
+比如说amazon, 3
+那转换就是amazon (不行，因为没变）,azamon(不行，因为zan比maz是变大了)，amozan（不行， 因为oza比azo是变大了）, amanoz(可以，因为noz比zon是变小了）
+直接scan扫一遍比较i 和 i + k的char序列关系就行
+
