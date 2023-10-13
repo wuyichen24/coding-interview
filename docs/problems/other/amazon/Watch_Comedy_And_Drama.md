@@ -8,7 +8,7 @@ Amazon Prime Video has movies in the category 'comedy' or 'drama'. Determine the
 - If a movie ends at time *t + duration*, the second can start at that time, *t + duration*, or later.
 - The movies can be watched in any order.
 
-**Example**
+#### Example
 *comedyReleaseTime = [1, 4]*
 *comedyDuration = [3, 2]*
 *dramaReleaseTime = [5, 2]*
@@ -22,7 +22,7 @@ Two of the best ways to finish watching one movie from each category at the earl
 
 The earliest finish time  and also the answer is 6.
 
-**Function Description**
+#### Function Description
 Complete the function *minimumTimeSpent* in the editor below.
 
 *minimumTimeSpent* has the following parameters:
@@ -31,5 +31,5 @@ Complete the function *minimumTimeSpent* in the editor below.
 - *int dramaReleaseTime[n]*: release times
 - *int dramaDuration[n]*: duration
 
-**Return**
+#### Return
 *int*: the earliest time you can finish watching two movies
