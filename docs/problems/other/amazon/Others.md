@@ -16,3 +16,8 @@
 - 如果第二件买 index 1 ， 需要 2 + （1-1）* 2 = 2
 - input: int ‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌a[], int b[], int m
 - return: int cost
+
+每个 ith  item的花费是a[i] + (j-1)*b[i], a and b are 2 input arrays, j is purchased number of ith item.
+- so if you 1个    0th item, the cost would be a[0], if you buy 2 个 0th item， cost would be a[0] + b[0]...以此类推。。
+- 很简单， 用pq，构造一个 itemcost class存放 acost, bcost, count  ， pq的c‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌ompator就是 按照itemcost 的 总cost和排序。
+- 不知道为什么有个case 没过，因为是re turn long，应该是溢出问题（但是debug时没发现溢出） 所有输入最大值100000.很难溢出。。
