@@ -35,3 +35,91 @@ getAverageStanding has the following parameters:
 
 ### Return 
 - int[d][2]: the average standings for each player.
+
+## Solutions
+- **Solution 1**
+   - Steps
+      - Create a map to aggregate results by race
+         - Key: race id
+         - Value: priority queue of int array, each element is [player id, time].
+      - Create a map to aggregate results by player
+         - Key: player id
+         - Value: list of int, each element is the rank for certain race.
+      - Calculate the total number of race and total rank per player.
+
+  ```java
+  public class AverageStanding {
+      int[][] getAverageStanding(int d, int records[][]) {
+          // key: race id, value: ranking, priority queue -> [player id, time]
+          Map<Integer, Queue<int[]>> raceMap = new HashMap<>();
+
+          // Create a map to aggregate results by race
+          for (int i = 0; i < records.length; i++) {
+              raceMap.putIfAbsent(records[i][0], new PriorityQueue<int[]>((a, b)->{
+                  int cmp = Integer.compare(a[1], b[1]);
+                  if (cmp != 0) {
+                      return cmp;
+                  }
+                  return Integer.compare(a[0], b[0]);
+              }));
+              raceMap.get(records[i][0]).add(new int[]{ records[i][1], records[i][2] });
+          }
+
+          Map<Integer, List<Integer>> playerMap = new HashMap<>();
+
+          // Create a map to aggregate results by player
+          for (int raceId : raceMap.keySet()) {
+              int rank = 1;
+              while (!raceMap.get(raceId).isEmpty()) {
+                  int[] result = raceMap.get(raceId).poll();
+                  playerMap.putIfAbsent(result[0], new ArrayList<>());
+                  playerMap.get(result[0]).add(rank);
+                  rank = rank + 1;
+              }
+          }
+
+          int [][] results = new int[d][2];
+          // Calculate the total number of race and total rank per player.
+          for (int playerId = 0; playerId < d; playerId++) {
+              if (playerMap.get(playerId) == null) {          // If player didn't participate any race
+                  results[playerId][0] = -1;
+                  results[playerId][1] = -1;
+                  continue;
+              }
+
+              int numRace = playerMap.get(playerId).size();
+              int totalRank = 0;
+              for (int rank : playerMap.get(playerId)) {
+                  totalRank = totalRank + rank;
+              }
+              int[] finalResult = reduceFraction(new int[]{totalRank, numRace});
+              results[playerId][0] = finalResult[0];
+              results[playerId][1] = finalResult[1];
+          }
+
+          return results;
+      }
+
+      int[] reduceFraction(int[] fraction) {
+          int numerator = fraction[0];
+          int denominator = fraction[1];
+
+          // Find the greatest common divisor (GCD) using Euclidean algorithm
+          int gcd = findGCD(Math.abs(numerator), Math.abs(denominator));
+
+          // Reduce the fraction by dividing both numerator and denominator by the GCD
+          numerator /= gcd;
+          denominator /= gcd;
+
+          int[] reducedFraction = {numerator, denominator};
+          return reducedFraction;
+      }
+
+      int findGCD(int a, int b) {
+          if (b == 0) {
+              return a;
+          }
+          return findGCD(b, a % b);
+      }
+  }
+  ```
