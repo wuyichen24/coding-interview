@@ -36,6 +36,21 @@ getAverageStanding has the following parameters:
 ### Return 
 - int[d][2]: the average standings for each player.
 
+## Examples
+- Example
+   - Input
+     ```
+     d = 5
+     n = 5
+     records = [
+       [25,1,1000],[25,2,2000],[25,4,200],[30,2,90],[30,1,90],[30,4,90],[35,1,50000]
+     ]
+     ```
+   - Output
+     ```
+     [[-1,-1],[4,3],[5,2],[-1,-1],[2,1]]
+     ```
+
 ## Solutions
 - **Solution 1**
    - Steps
