@@ -138,3 +138,7 @@ getAverageStanding has the following parameters:
       }
   }
   ```
+
+![091220fg4b4jjfd53if4ik](https://github.com/wuyichen24/coding-interview/assets/8989447/399e183e-6c14-4a3c-91d1-80b94b84eb66)
+![091228bt1ssj1q1gchhyye](https://github.com/wuyichen24/coding-interview/assets/8989447/2081f7f6-839e-43d5-968e-a06c09bdb400)
+![091241enlo1apxnz0rmzw0](https://github.com/wuyichen24/coding-interview/assets/8989447/d1ec4ade-aff8-423b-8df0-eab7c46243c8)
