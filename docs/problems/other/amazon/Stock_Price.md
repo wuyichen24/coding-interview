@@ -48,7 +48,7 @@ Complete the function *countMaximumProfitableGroups* function in the editor belo
    - Input
      ```
      n = 3
-     stockPrice = [1, 5, 2]
+     stockPrice = [1,5,2]
      ```
    - Output
      ```
