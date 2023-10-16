@@ -135,7 +135,73 @@ The only suitable locations are {-1, 0, 1}. Return 3.
       }
   }
   ```
+- Solution 3
+  ```java
+  public class Warehouse3 {
+      public static void main(String[] args) {
+          List<Integer> center = new ArrayList<>();
+          center.add(-2);
+          center.add(1);
+          center.add(0);
+          long d = 8;
 
+          System.out.println(numberOfSuitableLocations(center, d));
+      }
+
+      public static int numberOfSuitableLocations(List<Integer> center, long d) {
+          int n = center.size();
+          d /= 2;
+
+          Collections.sort(center);
+
+          long minDistance = 0L;
+          for(int i = 0; i < n / 2; i++) {
+              minDistance += center.get(n - 1 - i) - center.get(i);
+          }
+          if(minDistance > d)
+              return 0;
+
+          int left = searchLeft(center, -1_000_000_000, center.get(n / 2), d);
+          int right = searchRight(center, center.get(n / 2), 1_000_000_000, d);
+
+          return right - left + 1;
+      }
+
+      private static int searchLeft(List<Integer> center, int start, int end, long d) {
+          while(start < end) {
+              int mid = start + (end - start) / 2;
+              if(canFulfill(center, mid, d)) {
+                  end = mid;
+              } else {
+                  start = mid + 1;
+              }
+          }
+          return start;
+      }
+
+      private static int searchRight(List<Integer> center, int start, int end, long d) {
+          while(start < end) {
+              int mid = start + (end - start + 1) / 2;
+              if(canFulfill(center, mid, d)) {
+                  start = mid;
+              } else {
+                  end = mid - 1;
+              }
+          }
+          return start;
+      }
+
+      private static boolean canFulfill(List<Integer> center, int mid, long d) {
+          long distance = 0L;
+          for(int c: center) {
+              distance += (long)Math.abs(mid - c);
+              if(distance > d)
+                  return false;
+          }
+          return true;
+      }
+  }
+  ```
 ## References
 - https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
 - https://www.1point3acres.com/bbs/thread-1017363-1-1.html
