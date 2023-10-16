@@ -79,3 +79,6 @@ Complete the function *findUniqueValues* in the editor below.
       }
   }
   ```
+![174520s8lq73ltxzz7iqix](https://github.com/wuyichen24/coding-interview/assets/8989447/88d2b020-f929-4ea0-8443-99663f00640c)
+![174534lgpawjdddg8u547p](https://github.com/wuyichen24/coding-interview/assets/8989447/c75b864b-df10-4b5c-8967-cd2fc92ee800)
+
