@@ -122,3 +122,6 @@ Complete the function *findMaximumMaximaCount* in the editor below. The function
       }
   }
   ```
+
+![174439oikccrbrzch0uria](https://github.com/wuyichen24/coding-interview/assets/8989447/f52f6879-091b-4b47-baee-7af06534b0e8)
+![174455v5uuvr04rr5dzruu](https://github.com/wuyichen24/coding-interview/assets/8989447/9cdf94b5-07f6-4da3-9599-6ef5d0dc2ea1)
