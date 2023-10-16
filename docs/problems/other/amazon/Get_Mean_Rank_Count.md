@@ -98,3 +98,52 @@ Complete the function *getMeanRankCount* in the editor below.
   rank = [1, 2, 3, 4, 5] #out = [1,2,3,2,1]
   print(getMeanRankCount(rank))
   ```
+
+  **Java (ChatGPT converted)**
+  ```java
+  public class RankMeanCount {
+      public static void main(String[] args) {
+          int[] rank1 = {4, 3, 2, 1}; // Expected output: [1, 2, 2, 1]
+          int[] rank2 = {4, 7, 3, 6, 5, 2, 1}; // Expected output: [1, 1, 1, 4, 4, 1, 1]
+          int[] rank3 = {1, 2, 3, 4, 5}; // Expected output: [1, 2, 3, 2, 1]
+
+          List<Integer> result1 = getMeanRankCount(rank1);
+          List<Integer> result2 = getMeanRankCount(rank2);
+          List<Integer> result3 = getMeanRankCount(rank3);
+
+          System.out.println(result1);
+          System.out.println(result2);
+          System.out.println(result3);
+      }
+
+      public static List<Integer> getMeanRankCount(int[] rank) {
+          int n = rank.length;
+          List<Integer> result = new ArrayList<>();
+
+          for (int i = 1; i <= n; i++) {
+              result.add(countKAverageSubarrays(rank, i));
+          }
+
+          return result;
+      }
+
+      private static int countKAverageSubarrays(int[] rank, int k) {
+          int res = 0;
+          int curSum = 0;
+          Map<Integer, Integer> dt = new HashMap<>();
+
+          for (int i = 0; i < rank.length; i++) {
+              curSum += rank[i] - k;
+              if (curSum == 0) {
+                  res++;
+              }
+              if (dt.containsKey(curSum)) {
+                  res += dt.get(curSum);
+              }
+              dt.put(curSum, dt.getOrDefault(curSum, 0) + 1);
+          }
+
+          return res;
+      }
+  }
+  ```
