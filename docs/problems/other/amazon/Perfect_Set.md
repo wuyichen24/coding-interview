@@ -22,7 +22,8 @@ The size of the largest set is 3. The image below illustrates the correct orderi
 
 Complete the function maxSetSize in the editor below.
 
-maxSetSize has the following parameter: int riceBags[n]: the list of bags of rice by rice grain count
+maxSetSize has the following parameter: 
+- int riceBags[n]: the list of bags of rice by rice grain count
 
 ## Solutions
 - **Solution 1: Sort and count**
