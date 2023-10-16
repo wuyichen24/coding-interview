@@ -20,3 +20,66 @@ Their execution can be virsualized as follows where each set of cohesive process
 
 ### Function Description
 `long findTotalExecutionTime(List<Integer> execution)`
+
+## Solutions
+- Solution 1
+   - Idea
+      - Use a hashmap to remember cohesive sets
+         - Key: Execution time
+         - Value: A list of indexes which execution time are same.
+       
+
+  ```java
+  public class TotalExecutionTime {
+
+      public static void main(String[] args) {
+          List<Integer> execution = new ArrayList<>();
+          execution.add(5);
+          execution.add(5);
+          execution.add(3);
+          execution.add(6);
+          execution.add(5);
+          execution.add(3);
+          System.out.println(findTotalExecutionTime2(execution));
+      }
+    
+      static long findTotalExecutionTime2(List<Integer> execution) {
+          int[] exeArr = convertListToArray(execution);
+
+          Map<Integer, List<Integer>> cohesives = new HashMap<>();
+          for (int i = 0; i < exeArr.length; i++) {
+              cohesives.putIfAbsent(exeArr[i], new ArrayList<>());
+              cohesives.get(exeArr[i]).add(i);
+          }
+
+          long time = 0;
+          for (int i = 0; i < exeArr.length; i++) {
+              time = time + exeArr[i];
+              if (cohesives.get(exeArr[i]) != null) {
+                  for (int index : cohesives.get(exeArr[i])) {   // reduce all the members in the cohesive set
+                      exeArr[index] = ceil(exeArr[i]);
+                  }
+                  cohesives.remove(exeArr[i]);                   // if the cohesive set has been reduced, it cannot be reduced anymore
+              }
+          }
+          return time;
+      }
+
+      static int[] convertListToArray(List<Integer> list) {
+          int[] array = new int[list.size()];
+
+          for (int i = 0; i < list.size(); i++) {
+              array[i] = list.get(i);
+          }
+
+          return array;
+      }
+
+      static int ceil(int n) {
+          if(n%2 == 0)
+              return n/2;
+
+          return n/2 + 1;
+      }
+  }
+  ```
