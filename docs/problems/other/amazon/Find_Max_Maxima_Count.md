@@ -32,6 +32,26 @@ Complete the function *findMaximumMaximaCount* in the editor below. The function
 ### Return
 - int: the maximum MaximaCount
 
+## Examples
+- Example 1
+   - Input
+     ```
+     adbcbcbcc
+     ```
+   - Output
+     ```
+     6
+     ```
+- Example 2
+   - Input
+     ```
+     zzzz
+     ```
+   - Output
+     ```
+     4
+     ```
+
 ## Solutions
 - Solution 1
    - Idea
