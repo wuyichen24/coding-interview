@@ -83,3 +83,8 @@ Their execution can be virsualized as follows where each set of cohesive process
       }
   }
   ```
+![174135h5fo35dg4i23c2n3](https://github.com/wuyichen24/coding-interview/assets/8989447/8bc787c8-d1d5-451e-9365-1fe146a92c32)
+![image](https://github.com/wuyichen24/coding-interview/assets/8989447/a88531e1-465d-4851-b5c1-6574715b7a25)
+![image (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/8d4aa86d-8ab2-40cc-84a0-b6d61d451209)
+
+
