@@ -40,6 +40,7 @@ maxSetSize has the following parameter: int riceBags[n]: the list of bags of ric
       return max;
   }
   ```
+需用二分搜索否则很多case会超时
 
 ## Reference
 - https://leetcode.com/discuss/interview-question/object-oriented-design/3694878/OA:-max-LENGTH-of-perfect-set
