@@ -1,11 +1,11 @@
 # Peak Number
 
 ## Problem
-就是 有一串 array int[] 和 一个 K 作为参数 传进来， 让 你找符合以下条件 peak number 的个数
-peak number 就是 以它为中心 它俩边至少有k 个数比它小 左边有至少 k 右边 有至少k个
-上个例子：
-input： 【1,2,8,5,3,4】 k = 2   
-输出： 2 （因为 有8 和 5 满足条件）
+- 就是 有一串 array int[] 和 一个 K 作为参数 传进来， 让 你找符合以下条件 peak number 的个数
+- peak number 就是 以它为中心 它俩边至少有k 个数比它小 左边有至少 k 右边 有至少k个
+- 上个例子：
+- input： 【1,2,8,5,3,4】 k = 2   
+- 输出： 2 （因为 有8 和 5 满足条件）
 
 ## Solutions
 - Solution 1: Priority queue
