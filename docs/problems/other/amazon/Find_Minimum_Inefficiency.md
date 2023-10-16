@@ -5,5 +5,6 @@ Amazon Web Server has *n* servers, each of them either has high fault tolerance 
 
 Consider, for example, a set of servers described as 1001001 where '0' means the server has high fault tolerance, '1' means the server has high reliability. The inefficiency of this group is 4 as described in the image below:
 
-![Uploading Screenshot 2023-10-16 at 9.52.11 AM.png…]()
+<img width="459" alt="Screenshot 2023-10-16 at 9 52 11 AM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/8e66bc7f-f4c9-4b9f-9bca-ddb12e024bae">
+
 
