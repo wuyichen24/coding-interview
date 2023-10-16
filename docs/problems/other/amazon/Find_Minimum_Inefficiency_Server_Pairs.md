@@ -52,3 +52,34 @@ Complete the function *findMinimumIneffciency* in the editor below.
      ```
    - Explanation
       - Only install one type of server so there are no dissimilar pairs.
+
+## Solutions
+- Solution 1
+   - Idea
+      - Ignore all the '?' and compare each 2 adjacent pairs
+  ```java
+  public class FindMinimumInefficiency {
+      public static void main(String[] args) {
+          String serverType = "????";
+          System.out.println(findMinimumIneffciency(serverType));
+      }
+
+      static int findMinimumIneffciency(String serverType) {
+          StringBuilder newServer = new StringBuilder();
+          for (int i = 0; i < serverType.length(); i++) {
+              char ch = serverType.charAt(i);
+              if (ch != '?') {
+                  newServer.append(ch);
+              }
+          }
+
+          int inefficiency = 0;
+          for (int i = 1; i < newServer.length(); i++) {
+              if (newServer.charAt(i-1) != newServer.charAt(i)) {
+                  inefficiency++;
+              }
+          }
+          return inefficiency;
+      }
+  }
+  ```
