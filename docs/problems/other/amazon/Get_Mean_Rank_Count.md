@@ -71,3 +71,30 @@ Complete the function *getMeanRankCount* in the editor below.
       - x = 5 -> [5], [7,3], [4,7,3,6], [4,7,3,6,5]
       - x = 6 -> [6]
       - x = 7 -> [7]
+
+## Solutions
+- Solution 1
+
+  **Python**
+  ```python
+  import collections
+
+  def getMeanRankCount(rank):
+      def countKAverageSubarrays(k):
+          res, curSum, dt = 0,0,collections.defaultdict(int)
+          for i in range(n):
+              curSum += rank[i] - k
+              res += curSum == 0
+              res += dt[curSum]
+              dt[curSum] += 1
+          return res
+      n = len(rank)
+      return [countKAverageSubarrays(i) for i in range(1, n + 1)]
+
+  rank = [4,3,2,1] #out = [1,2,2,1]
+  print(getMeanRankCount(rank))
+  rank = [4,7,3,6,5,2,1] #out = [1,1,1,4,4,1,1]
+  print(getMeanRankCount(rank))
+  rank = [1, 2, 3, 4, 5] #out = [1,2,3,2,1]
+  print(getMeanRankCount(rank))
+  ```
