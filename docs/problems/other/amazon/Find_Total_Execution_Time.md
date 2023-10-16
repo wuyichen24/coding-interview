@@ -55,11 +55,12 @@ Their execution can be virsualized as follows where each set of cohesive process
           long time = 0;
           for (int i = 0; i < exeArr.length; i++) {
               time = time + exeArr[i];
-              if (cohesives.get(exeArr[i]) != null) {
-                  for (int index : cohesives.get(exeArr[i])) {   // reduce all the members in the cohesive set
-                      exeArr[index] = ceil(exeArr[i]);
+              int current = exeArr[i];
+              int newValue = ceil((double)current/2.0);
+              if (cohesives.get(execution.get(i)) != null) {                                        // use original value (not reduced value) to find the cohesive set
+                  for (int index : cohesives.getOrDefault(execution.get(i), new ArrayList<>())) {   // reduce all the members in the cohesive set
+                      exeArr[index] = newValue;
                   }
-                  cohesives.remove(exeArr[i]);                   // if the cohesive set has been reduced, it cannot be reduced anymore
               }
           }
           return time;
