@@ -21,3 +21,23 @@ Complete the function *findUniqueValues* in the editor below.
 - 2 <= n <= 10<sup>5</sup>
 - n is an even number
 - 1 <= experience[i] <= 10<sup>9</sup>
+
+## Examples
+- Example 1
+   - Input
+     ```
+     [1,1,1,1,1,1]
+     ```
+   - Output
+     ```
+     1
+     ```
+- Example 2
+   - Input
+     ```
+     [1,100,10,1000]
+     ```
+   - Output
+     ```
+     2
+     ```
