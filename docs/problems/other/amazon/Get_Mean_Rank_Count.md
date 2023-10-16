@@ -147,3 +147,9 @@ Complete the function *getMeanRankCount* in the editor below.
       }
   }
   ```
+
+![KklBRQN](https://github.com/wuyichen24/coding-interview/assets/8989447/c0ff9a3a-ab90-4099-853c-be31d1699b05)
+![MJvpGrL](https://github.com/wuyichen24/coding-interview/assets/8989447/f514e8c0-6374-41ee-b435-4c82452b614e)
+![MeZaAoN](https://github.com/wuyichen24/coding-interview/assets/8989447/67f98442-9c7e-4a01-9133-e54ee935e371)
+![0k43CTg](https://github.com/wuyichen24/coding-interview/assets/8989447/0012b82c-e6e9-4059-baba-2c3f67e67df6)
+
