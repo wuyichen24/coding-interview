@@ -24,63 +24,37 @@ Their execution can be virsualized as follows where each set of cohesive process
 ## Solutions
 - Solution 1
    - Idea
-      - Use a hashmap to remember cohesive sets
-         - Key: Execution time
-         - Value: A list of indexes which execution time are same.
-       
+      - Use a hashmap to store each unique execution time and its frequency
+      - Calculate the total executiion time by each unique execution time and its frequency.
 
   ```java
-  public class TotalExecutionTime {
-
-      public static void main(String[] args) {
-          List<Integer> execution = new ArrayList<>();
-          execution.add(5);
-          execution.add(5);
-          execution.add(3);
-          execution.add(6);
-          execution.add(5);
-          execution.add(3);
-          System.out.println(findTotalExecutionTime2(execution));
-      }
-    
-      static long findTotalExecutionTime2(List<Integer> execution) {
-          int[] exeArr = convertListToArray(execution);
-
-          Map<Integer, List<Integer>> cohesives = new HashMap<>();
-          for (int i = 0; i < exeArr.length; i++) {
-              cohesives.putIfAbsent(exeArr[i], new ArrayList<>());
-              cohesives.get(exeArr[i]).add(i);
+  public class TotalExecutionTime {    
+      static long findTotalExecutionTime3(List<Integer> execution) {
+          Map<Integer, Integer> counters = new HashMap<>();
+          for (int i = 0; i < execution.size(); i++) {
+              counters.put(execution.get(i), counters.getOrDefault(execution.get(i), 0) + 1);
           }
 
+          long totalTime = 0l;
+          for (Integer exe : counters.keySet()) {
+              totalTime = totalTime + calculateTimeForCohesive(exe, counters.get(exe));
+          }
+          return totalTime;
+      }
+
+      static long calculateTimeForCohesive(int value, int frequency) {
           long time = 0;
-          for (int i = 0; i < exeArr.length; i++) {
-              time = time + exeArr[i];
-              int current = exeArr[i];
-              int newValue = ceil((double)current/2.0);
-              if (cohesives.get(execution.get(i)) != null) {                                        // use original value (not reduced value) to find the cohesive set
-                  for (int index : cohesives.getOrDefault(execution.get(i), new ArrayList<>())) {   // reduce all the members in the cohesive set
-                      exeArr[index] = newValue;
-                  }
-              }
+          int nextValue = value;
+          while (frequency > 0) {
+              time = time + nextValue;
+              nextValue = ceil((double)nextValue/2.0);
+              frequency--;
           }
           return time;
       }
 
-      static int[] convertListToArray(List<Integer> list) {
-          int[] array = new int[list.size()];
-
-          for (int i = 0; i < list.size(); i++) {
-              array[i] = list.get(i);
-          }
-
-          return array;
-      }
-
-      static int ceil(int n) {
-          if(n%2 == 0)
-              return n/2;
-
-          return n/2 + 1;
+      public static int ceil(double number) {
+          return (int) Math.ceil(number);
       }
   }
   ```
