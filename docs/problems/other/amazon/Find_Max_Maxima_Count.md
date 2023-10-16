@@ -33,3 +33,72 @@ Complete the function *findMaximumMaximaCount* in the editor below. The function
 - int: the maximum MaximaCount
 
 ## Solutions
+- Solution 1
+   - Idea
+      - One map count the frequency of each character, another map count the maxima count of each character
+      - When read a new character:
+         - Update the frequency map.
+         - Find the top frequency characters.
+         - Update the maxima count of those top frequency characters.
+  ```java
+  public class FindMaximumMaximaCount {
+      public static void main(String[] args) {
+          String categories1 = "bccaaacb";
+          System.out.println(findMaximumMaximaCount(categories1));
+
+          String categories2 = "adbcbcbcc";
+          System.out.println(findMaximumMaximaCount(categories2));
+
+          String categories3 = "zzzz";
+          System.out.println(findMaximumMaximaCount(categories3));
+      }
+
+      static int findMaximumMaximaCount(String categories) {
+          Map<Character, Integer> counter = new HashMap<>();                                       // count the frequency of each character
+          Map<Character, Integer> maximaCount = new HashMap<>();                                   // maximaCount of each character
+          int currentMaxCount = 0;
+          for (int i = 0; i < categories.length(); i++) {
+              char ch = categories.charAt(i);
+              counter.put(ch, counter.getOrDefault(ch, 0) + 1);                         // update the frequency
+              // try findMaximumMaximaCount + 1
+              List<Character> charList1 = getCharacterByCount(counter, currentMaxCount + 1); // find the top frequency (old top + 1) characters
+              if (!charList1.isEmpty()) {
+                  updateMaximaCountByCharList(maximaCount, charList1);                             // update the maxima count of top frequency characters
+                  currentMaxCount = currentMaxCount + 1;
+              } else {
+                  // try findMaximumMaximaCount
+                  List<Character> charList0 = getCharacterByCount(counter, currentMaxCount);       // find the top frequency (old top) characters
+                  updateMaximaCountByCharList(maximaCount, charList0);                             // update the maxima count of top frequency characters
+              }
+          }
+
+          return getMaximumMaximaCount(maximaCount);
+      }
+
+      static List<Character> getCharacterByCount(Map<Character, Integer> counter, int count) {
+          List<Character> charList = new ArrayList<>();
+          for (Character ch : counter.keySet()) {
+              if (counter.get(ch) == count) {
+                  charList.add(ch);
+              }
+          }
+          return charList;
+      }
+
+      static void updateMaximaCountByCharList(Map<Character, Integer> maximaCount, List<Character> charList) {
+          for (Character ch : charList) {
+              maximaCount.put(ch, maximaCount.getOrDefault(ch, 0) + 1);
+          }
+      }
+
+      static int getMaximumMaximaCount(Map<Character, Integer> maximaCount) {
+          int max = 0;
+          for (Character ch : maximaCount.keySet()) {
+              if (maximaCount.get(ch) > max) {
+                  max = maximaCount.get(ch);
+              }
+          }
+          return max;
+      }
+  }
+  ```
