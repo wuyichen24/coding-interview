@@ -41,3 +41,41 @@ Complete the function *findUniqueValues* in the editor below.
      ```
      2
      ```
+
+## Solutions
+- Solution 1: 2 pointers
+   - Idea
+      - Sort the experiences
+      - Use 2 pointers start from each end, calculate the average experience and add it to a set for unifying the values.
+
+  ```java
+  public class UniqueAverageExperience {
+      public static void main(String[] args) {
+          List<Integer> experience = new ArrayList<>();
+          experience.add(1);
+          experience.add(4);
+          experience.add(1);
+          experience.add(3);
+          experience.add(5);
+          experience.add(6);
+          System.out.println(findUniqueValues(experience));
+      }
+
+      static int findUniqueValues(List<Integer> experience) {
+          Collections.sort(experience);
+
+          int i = 0;
+          int j = experience.size()-1;
+
+          Set<Double> uniques = new HashSet<>();
+          while (j > i) {
+              double average = ((double) experience.get(i) + (double) experience.get(j)) / 2.0;
+              uniques.add(average);
+              i++;
+              j--;
+          }
+
+          return uniques.size();
+      }
+  }
+  ```
