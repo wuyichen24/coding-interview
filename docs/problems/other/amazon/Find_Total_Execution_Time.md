@@ -19,4 +19,4 @@ Their execution can be virsualized as follows where each set of cohesive process
 <img width="616" alt="Screenshot 2023-10-15 at 9 56 19 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/04b675f4-d429-4afd-ac6d-614e582773d0">
 
 ### Function Description
-long findTotalExecutionTime(List<Integer> execution)
+`long findTotalExecutionTime(List<Integer> execution)`
