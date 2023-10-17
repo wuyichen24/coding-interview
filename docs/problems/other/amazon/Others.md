@@ -22,6 +22,7 @@
 - input: [1,2,3] 4
 - output: 2
 - input: [1,2,3,10,20,30,40] 9
+- output: 20
 
 ## Price
 ### Version 1
