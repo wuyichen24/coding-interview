@@ -45,3 +45,6 @@
 比如说amazon, 3
 那转换就是amazon (不行，因为没变）,azamon(不行，因为zan比maz是变大了)，amozan（不行， 因为oza比azo是变大了）, amanoz(可以，因为noz比zon是变小了）
 直接scan扫一遍比较i 和 i + k的char序列关系就行
+
+## Leetcode
+- [2272 Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)
