@@ -11,6 +11,49 @@ The *quality* of the transfer for a channel is defined by the median of the size
 
 Find the maximum possible sum of the qualities of all channels. If the answer is a floating-point value round it to the next higher integer.
 
+## Examples
+- Example 1
+   - Input
+     ```
+     input = [1,2,3,4,5]
+     channels = 2
+     ```
+   - Output
+     ```
+     8
+     ```
+   - Explanation
+      - So answer is maximun Qulity achivable is '8' with configuration 1,2,3,4 on channel 1 and 5 on channel 2
+
+     | Channel 1 | Channel 2 | Median |
+     |---|---|---|
+     | 1 | 2,3,4,5 | 1 + (3+4)/2 = 1 + 3.5 = 4.5 = 5 (rounded) |
+     | 1,2 | 3,4,5 | (1+2)/2 + 4 =1.5+4 = 5.5 =6 |
+     | 1,2,3 | 4,5 | 2 + (4+5)/2 = 6.5 = 7 |
+     | **1,2,3,4** | **5** |(2+3)/2 + 5 =2.5 + 5 = 7.5 = **8** |
+     
+- Example 2
+   - Input
+     ```
+     input = [1,2,3,4,5]
+     channels = 3
+     ```
+   - Output
+     ```
+     11
+     ```
+   - Explanation
+      - So maximum quality attainable is 11 with configuration 1,2,3 on channel1, 4 on channel 2 and 5 on channel 3.
+ 
+     | Channel 1 | Channel 2 | Channel 3 | Median |
+     |---|---|---|---|
+     | 1 | 2 | 3,4,5 | 1+2+4 = 7 |
+     | 1 | 2,3 | 4,5 | 1+2.5+4.5 = 8 |
+     | 1 | 2,3,4 | 5 | 1+3+5 = 9 |
+     | 1,2 | 3 | 4,5 | 1.5+ 3 + 4.5 = 9 |
+     | 1,2 | 3,4 | 5 | 1.5 + 3.5 + 5 = 10 |
+     | **1,2,3** | **4** | **5** | 2 + 4 + 5 = **11** |
+
 ## Solutions
 - Solution 1: Sorting
 
@@ -54,3 +97,5 @@ Find the maximum possible sum of the qualities of all channels. If the answer is
   }
   ```
   
+## References
+- https://leetcode.com/discuss/interview-question/1940397/Amazon-Online-Assessment-Find-the-Maximum-Quality-for-given-input-streamlist-over-n-channels.
