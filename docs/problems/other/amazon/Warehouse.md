@@ -204,4 +204,5 @@ The only suitable locations are {-1, 0, 1}. Return 3.
   ```
 ## References
 - https://leetcode.com/discuss/interview-question/3949864/Amazon-OA
+- https://leetcode.com/discuss/interview-question/4077811/Amazon-OA
 - https://www.1point3acres.com/bbs/thread-1017363-1-1.html
