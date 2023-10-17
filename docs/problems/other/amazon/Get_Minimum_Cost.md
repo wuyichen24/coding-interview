@@ -50,3 +50,24 @@ Complete the function *getMinimumCost* in the editor below.
          - 2 units of type 1 with cost 3, 4 for a total cost of 7.
          - 1 unit of type 2 that cost 2.
       - 4 + 7 + 2 = 13. 
+
+## Solutions
+- Solution 1: Priority queue
+
+  **Python**
+  ```python
+  from heapq import heappush, heappop, heapify
+
+  def solve(a, b, m):
+      h = [(e, i, 1) for i, e in enumerate(a)]
+      heapify(h)
+      res = 0
+      while m:
+          e, i, j = heappop(h)
+          res += e
+          heappush(h, (a[i]+j*b[i],i,j+1))
+          m -= 1
+      return res
+
+  print(solve([1,3,2],[2,1,3],5))
+  ```
