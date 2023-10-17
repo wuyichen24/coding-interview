@@ -24,22 +24,6 @@
 - input: [1,2,3,10,20,30,40] 9
 - output: 20
 
-## Price
-### Version 1
-两个一样size的array a,b, 用来计算商品价格， 你想要买m件商品。 每次购买第i种商品的花费是 a[i] + (j-1) * b[i]. j是当前购买的第几件 i 商品。 求买m件商品的最小花费。
-- e.g a[1, 2, 3] b[3,2,1]
-- 第一件买 index 0 需要花 1 + （1-1）*3 = 1
-- 第二件再买 index 0 则需要花 1 + （2-1）*3 = 4
-- 如果第二件买 index 1 ， 需要 2 + （1-1）* 2 = 2
-- input: int ‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌a[], int b[], int m
-- return: int cost
-
-### Version 2
-每个 ith  item的花费是a[i] + (j-1)*b[i], a and b are 2 input arrays, j is purchased number of ith item.
-- so if you 1个    0th item, the cost would be a[0], if you buy 2 个 0th item， cost would be a[0] + b[0]...以此类推。。
-- 很简单， 用pq，构造一个 itemcost class存放 acost, bcost, count  ， pq的c‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌ompator就是 按照itemcost 的 总cost和排序。
-- 不知道为什么有个case 没过，因为是re turn long，应该是溢出问题（但是debug时没发现溢出） 所有输入最大值100000.很难溢出。。
-
 ## String
 ### K flip
 给一个string, 一个k， 然后问你有几种反转k个char之后string  同位字母排序变小了；
