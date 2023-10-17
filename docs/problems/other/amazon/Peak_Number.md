@@ -7,6 +7,15 @@
 - input： 【1,2,8,5,3,4】 k = 2   
 - 输出： 2 （因为 有8 和 5 满足条件）
 
+- Count the number of k-Spikes in the given array.
+- Example
+- prices = [1, 2, 8, 5, 3, 4]
+- k= 2
+- There are 2 k-Spikes:
+﻿﻿- 8 at index 2 has (1, 2) to the left and (5, 3, 4) to the right that are less than 8.
+﻿﻿- 5 at index 3 has (1, 2) to the left and (3, 4) to the right that are less than 5.
+
+
 ## Solutions
 - Solution 1: Priority queue
    - Idea
@@ -57,3 +66,5 @@
           result += 1
       return result
   ```
+## Reference
+- https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
