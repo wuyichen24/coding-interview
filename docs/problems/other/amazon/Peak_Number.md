@@ -67,4 +67,5 @@
       return result
   ```
 ## Reference
+- Same question: https://leetcode.com/problems/count-the-number-of-k-big-indices/
 - https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
