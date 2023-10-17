@@ -20,3 +20,4 @@
 | [Stock Price](Stock_Price.md) | Stock | `countMaximumProfitableGroups` | the maximum value should be either the first nor the last element |
 | [Unique Average Experience](Unique_Average_Experience.md) | Developer | `findUniqueValues` | All the unique average values of pairs |
 | [Warehouse](Warehouse.md) | Warehouse | | `2 * abs(x - center[i])` |
+| [Watch Comedy And Drama](Watch_Comedy_And_Drama.md) | Movies | minimumTimeSpent | Intervals problem |
