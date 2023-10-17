@@ -11,3 +11,6 @@
 | [Get Mean Rank Count](Get_Mean_Rank_Count.md) | Academy, Student | `getMeanRankCount` | Get all the possible means of subarrays |
 | [Get Minimum Cost](Get_Minimum_Cost.md) | Item | `getMinimumCost` | `Cost = a[i] + (j - 1) * b[i]` (`j` is the jth times to buy) |
 | [Get Priority After Execution](Get_Priority_After_Execution.md) | Processes | `getPrioritiesAfterExecution` | `floor(p/2)` |
+| [Longest Substring] | Review | | Longest substring without prohibited words |
+| [Max Number of Teams](Max_Number_Of_Teams.md) | Hackathon, Developer expericence | `countMaximumTeams` | `The max gap between the values in subarray <= maxDiff` |
+ 
