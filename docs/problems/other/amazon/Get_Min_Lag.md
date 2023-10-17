@@ -24,3 +24,6 @@ Complete the function *getMinLag* in the editor below.
 - Solution 1:
    - Idea
       - Sort the servers and centers, then add up abs(servers[i] - centers[i]) for all i
+
+## References
+- https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
