@@ -10,8 +10,18 @@
 - return: int x
 
 ### Version 2
-就是给个 书的页数 list， 一个最大的允许读完天数，让你求每天最少读几页，可以在最大天数内读完。
-每一天， 你只能读一本书的某些页数，直至读完。 很简单，二分查找就好了，类似于https://leetcode.com/problems/cutting-ribbons/
+- 就是给个 书的页数 list， 一个最大的允许读完天数，让你求每天最少读几页，可以在最大天数内读完。
+- 每一天， 你只能读一本书的某些页数，直至读完。 很简单，二分查找就好了，类似于https://leetcode.com/problems/cutting-ribbons/
+
+### Version 3
+- 给定数组int[] chapters和int days. 其中, chapter是每章的页数, 如[1,2,3,4]; day是需要在多少天内读完.
+- 求, 每天至少需要读多少页.
+- 限定条件, 你每天只能阅读同一章, 比如你每天可以读100页,但这章只有4页, 那读完后不能读后面的章.
+- input: [1,2,3] 3
+- output: 3
+- input: [1,2,3] 4
+- output: 2
+- input: [1,2,3,10,20,30,40] 9
 
 ## Price
 ### Version 1
