@@ -99,3 +99,5 @@ Find the maximum possible sum of the qualities of all channels. If the answer is
   
 ## References
 - https://leetcode.com/discuss/interview-question/1940397/Amazon-Online-Assessment-Find-the-Maximum-Quality-for-given-input-streamlist-over-n-channels.
+
+![133204o1zmc8qzm0coijcq](https://github.com/wuyichen24/coding-interview/assets/8989447/b0feedf7-a161-49ff-8def-8324ec59ad5d)
