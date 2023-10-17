@@ -22,3 +22,4 @@
 | [Warehouse](Warehouse.md) | Warehouse | | `2 * abs(x - center[i])` |
 | [Watch Comedy And Drama](Watch_Comedy_And_Drama.md) | Movies | minimumTimeSpent | Intervals problem |
 | [Rat Eat Cheese](Rat_Eat_Cheese.md) ** | Rat | | 2D array traveral |
+| [Get Min Lag](Get_Min_Lag.md) ** | Data center, Server | getMinLag | Connect data centers with servers with min total distance |
