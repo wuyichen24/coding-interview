@@ -12,9 +12,9 @@ Given the capacity of each server in a row, find the number of balanced subsegem
 - 1 <= capacity[i] <= 10 ^ 9
 
 ### Example
-assert(findBalancedSubsegments([9, 3, 3, 3, 9]) == 2)
-assert(findBalancedSubsegments([9, 3, 1, 2, 3, 9, 10]) == 2)
-assert(findBalancedSubsegments([6, 1, 2, 3, 6]) == 1)
+- assert(findBalancedSubsegments([9, 3, 3, 3, 9]) == 2)
+- assert(findBalancedSubsegments([9, 3, 1, 2, 3, 9, 10]) == 2)
+- assert(findBalancedSubsegments([6, 1, 2, 3, 6]) == 1)
 
 ## Solutions
 ```python
