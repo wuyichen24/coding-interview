@@ -50,3 +50,9 @@ Return minimum time required to eat all cheese available.
    - Explanation
       - The rat will start at [0, 0], then it'll go to [1, 0], next it'll go [0, 2], [1, 1], after that it'll go to [1, 2] and in the end to [2,2].
       - But at index [2,0], one cheese will be left, so it'll return -1.
+
+![28ff4c5a-cd70-4a49-9118-e514509130c8_1696005593 0823214](https://github.com/wuyichen24/coding-interview/assets/8989447/5792c6cf-8c42-45c3-bf9a-a9d0f64355f3)
+![224d26b9-b526-4503-ac60-f084ab57b65d_1696005593 1181629](https://github.com/wuyichen24/coding-interview/assets/8989447/4fc0c9c4-f370-4c04-9aa8-181f4f0ba7b9)
+![d0cd9e5f-f826-49c2-a50d-c3d7424bc2ca_1696005593 617133](https://github.com/wuyichen24/coding-interview/assets/8989447/c0f6e75d-3e44-421f-b3c0-cad46953c525)
+
+
