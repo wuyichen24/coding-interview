@@ -48,3 +48,6 @@ def findBalancedSubsegments(capacity):
     
     return res
 ```
+
+## References
+- https://leetcode.com/discuss/interview-question/4153220/Amazon-OA-oror-Intern-2024-oror-Solutions
