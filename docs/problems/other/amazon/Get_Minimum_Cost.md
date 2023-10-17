@@ -78,6 +78,7 @@ Complete the function *getMinimumCost* in the editor below.
 ## Reference
 - https://leetcode.com/discuss/interview-question/3816550/Amazon-or-OA-or-Find-minimum-cost-to-purchase-m-items
 
+![114825jrkk3k1g7ni2ykyy](https://github.com/wuyichen24/coding-interview/assets/8989447/c544d6bf-6ec8-4911-a946-dd5aefc31557)
 ![114823nyi4bt92t24gnbd2](https://github.com/wuyichen24/coding-interview/assets/8989447/d13ccd6d-df0b-4585-85f0-345f0615216c)
 ![114821ydw0p07jssqo50zs](https://github.com/wuyichen24/coding-interview/assets/8989447/87b09b8c-1300-4dea-9842-a23188c999c4)
 
