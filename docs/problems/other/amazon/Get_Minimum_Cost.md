@@ -71,3 +71,14 @@ Complete the function *getMinimumCost* in the editor below.
 
   print(solve([1,3,2],[2,1,3],5))
   ```
+
+- 很简单， 用pq，构造一个 itemcost class存放 acost, bcost, count  ， pq的c‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌ompator就是 按照itemcost 的 总cost和排序。
+- 不知道为什么有个case 没过，因为是re turn long，应该是溢出问题（但是debug时没发现溢出） 所有输入最大值100000.很难溢出
+
+## Reference
+- https://leetcode.com/discuss/interview-question/3816550/Amazon-or-OA-or-Find-minimum-cost-to-purchase-m-items
+
+![114823nyi4bt92t24gnbd2](https://github.com/wuyichen24/coding-interview/assets/8989447/d13ccd6d-df0b-4585-85f0-345f0615216c)
+![114821ydw0p07jssqo50zs](https://github.com/wuyichen24/coding-interview/assets/8989447/87b09b8c-1300-4dea-9842-a23188c999c4)
+
+
