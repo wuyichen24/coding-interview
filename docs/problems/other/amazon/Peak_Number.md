@@ -71,54 +71,34 @@ int: the number of k-Spikes.
 
 ## Solutions
 - Solution 1: Priority queue
-   - Idea
-      - We could maintain a max heap whose maximum length is K.
-      - Then we iterate the list from left to right,  
-         - if  len(heapq)<k, we insert the current number into heapq.
-         - If len(heapq)==k and heapq[0]<current number, it means that there are at least K numbers in the left of the current number and smaller than the current number.
-         - If len(heapq)==k and heapq[0]<current number, we pop from the heapq and then insert the current number.
-         - Then we iterate the array from right to left.
-         - time complexity is O(n)+O(klogk)
 
-  **Python**
-  ```python
-  import heapq
-  def CheckPeakNum(array, k):
-      # left to right
-      left_flag = [False] * len(array)
-      heap = []
-      for i, num in enumerate(array):
-      if len(heap)<k:
-          heapq.heappush(heap, -1*num)
-      else:
-          # if cur<max
-          if (-1*num)>heap[0]:
-              heapq.heappop(heap)
-              heapq.heappush(heap, -1*num)
-          elif (-1*num)<heap[0]:
-              left_flag[i] = True
-     
-      # right to left
-      right_flag = [False] * len(array)
-      heap = []
-      for i in range(len(array)-1, -1, -1):
-      num = array[i]
-      if len(heap)<k:
-          heapq.heappush(heap, -1*num)
-      else:
-          # cur<max
-          if (-1*num)>heap[0]:
-              heapq.heappop(heap)
-              heapq.heappush(heap, -1*num)
-          elif (-1*num)<heap[0]:
-              right_flag[i] = True
-     
-      result = 0
-      for i in range(len(array)):
-      if left_flag[i] and right_flag[i]:
-          result += 1
-      return result
-  ```
+```java
+public class PeakNumber {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 8, 3, 7, 4, 6, 5};
+        System.out.println(kBigIndices(arr, 3));
+    }
+
+    public static int kBigIndices(int[] nums, int k) {
+        int n = nums.length;
+        boolean[] prefix = new boolean[n];
+        Queue<Integer> pq = new PriorityQueue(Collections.reverseOrder());
+        for (int i = 0; i < n; ++i) {
+            if (pq.size() == k && pq.peek() < nums[i]) prefix[i] = true;
+            pq.add(nums[i]);
+            if (pq.size() > k) pq.poll();
+        }
+        int ans = 0;
+        pq.clear();
+        for (int i = n-1; i >= 0; --i) {
+            if (pq.size() == k && pq.peek() < nums[i] && prefix[i]) ++ans;
+            pq.add(nums[i]);
+            if (pq.size() > k) pq.poll();
+        }
+        return ans;
+    }
+}
+```
 ## Reference
 - Same question: https://leetcode.com/problems/count-the-number-of-k-big-indices/
 - https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
