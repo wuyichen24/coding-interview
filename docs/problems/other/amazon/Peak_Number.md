@@ -101,18 +101,5 @@ public class PeakNumber {
 ```
 ## Reference
 - Same question: https://leetcode.com/problems/count-the-number-of-k-big-indices/
+- https://leetcode.com/discuss/interview-question/3928710/Amazon-or-OA-2023-or-Count-k-spikes-of-stock-prices
 - https://leetcode.com/discuss/interview-question/4061311/Spike-and-datacenters-OA-amazon
-
-- 就是 有一串 array int[] 和 一个 K 作为参数 传进来， 让 你找符合以下条件 peak number 的个数
-- peak number 就是 以它为中心 它俩边至少有k 个数比它小 左边有至少 k 右边 有至少k个
-- 上个例子：
-- input： 【1,2,8,5,3,4】 k = 2   
-- 输出： 2 （因为 有8 和 5 满足条件）
-
-- Count the number of k-Spikes in the given array.
-- Example
-- prices = [1, 2, 8, 5, 3, 4]
-- k= 2
-- There are 2 k-Spikes:
-﻿﻿- 8 at index 2 has (1, 2) to the left and (5, 3, 4) to the right that are less than 8.
-﻿﻿- 5 at index 3 has (1, 2) to the left and (3, 4) to the right that are less than 5.
