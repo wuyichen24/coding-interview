@@ -149,6 +149,7 @@ Complete the function *getMeanRankCount* in the editor below.
   ```
 ## References
 - https://leetcode.com/discuss/interview-question/3838926/Amazon-SDE-1-or-Online-Assessment
+- https://leetcode.com/discuss/interview-question/3469731/amazon-OA-or-SDE-intern-or-middle-east-or-April-2023
 
 ![KklBRQN](https://github.com/wuyichen24/coding-interview/assets/8989447/c0ff9a3a-ab90-4099-853c-be31d1699b05)
 ![MJvpGrL](https://github.com/wuyichen24/coding-interview/assets/8989447/f514e8c0-6374-41ee-b435-4c82452b614e)
