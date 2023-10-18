@@ -47,3 +47,6 @@ public class MaxNumberWithAddAndRemove {
     }
 }
 ```
+
+## References
+- https://leetcode.com/discuss/interview-question/4049655/Amazon-Online-Assessment-OA-question
