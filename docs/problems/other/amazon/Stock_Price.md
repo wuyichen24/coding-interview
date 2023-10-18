@@ -79,6 +79,7 @@ Complete the function *countMaximumProfitableGroups* function in the editor belo
 - https://leetcode.com/discuss/interview-question/4158924/Amazon-OA
 - https://leetcode.com/discuss/interview-question/3871019/Amazon-OA
 - https://leetcode.com/discuss/interview-question/3779857/Amazon-OA
+- https://leetcode.com/discuss/interview-question/3719223/Amazon-SDE-OA-2023%3A-Find-Maximum-Profitable-Months
 
 ![1873131f-38c0-41e3-8954-efc82d595d39_1689616244 6543124](https://github.com/wuyichen24/coding-interview/assets/8989447/9157663a-d597-4bd5-94fa-cbfcfb27b61b)
 ![cc61f2b7-ca97-4f5c-ae37-7a94db4e465c_1689616272 2436926](https://github.com/wuyichen24/coding-interview/assets/8989447/bb5df6fb-10b7-4f74-938a-f2a33bef61f2)
