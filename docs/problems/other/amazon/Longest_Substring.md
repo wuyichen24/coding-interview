@@ -74,5 +74,6 @@ The longest substring is "dProductButScra", return the length, 15.
 ## References
 - https://leetcode.com/discuss/interview-experience/803109/amazon-phone-interview-sde2-aug-2020
 - https://leetcode.com/discuss/interview-question/3807889/Amazon-OA-%2B-Phone-Screen
-
+- https://leetcode.com/discuss/interview-question/3714711/Amazon-SDE-OA-2023
+  
 ![133237r3iib4w53bzr4kzp](https://github.com/wuyichen24/coding-interview/assets/8989447/a0476bea-33b5-4ccb-a9de-e8176005e0c1)
