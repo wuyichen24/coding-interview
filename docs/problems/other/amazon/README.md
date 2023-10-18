@@ -14,7 +14,7 @@
 | [Longest Substring](Longest_Substring.md) | Review | | Longest substring without prohibited words |
 | [Max Number of Teams](Max_Number_Of_Teams.md) | Hackathon, Developer expericence | `countMaximumTeams` | `The max gap between the values in subarray <= maxDiff` |
 | [Maximum length of subarray product equal to 1](Maximum_Length_Subarray_Product_Is_1.md) | | | |
-| [Peak Number](Peak_Number.md) | | | peak number if both left and right have k elements smaller than it |
+| [Peak Number](Peak_Number.md) | Stock | `countkSpikes` | peak number if both left and right have k elements smaller than it |
 | [Perfect Set](Perfect_Set.md) | Bag of rice | `maxSetSize` | `perfect[i] * perfect[i]= perfect[i+1]` |
 | [Server Channel Quality](Server_Channel_Quality.md) | Channel | | Quality of channel = median of subarray |
 | [Stock Price](Stock_Price.md) | Stock | `countMaximumProfitableGroups` | the maximum value should be either the first nor the last element |
