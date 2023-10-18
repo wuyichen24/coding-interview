@@ -23,3 +23,4 @@
 | [Watch Comedy And Drama](Watch_Comedy_And_Drama.md) | Movies | minimumTimeSpent | Intervals problem |
 | [Rat Eat Cheese](Rat_Eat_Cheese.md) ** | Rat | | 2D array traveral |
 | [Get Min Lag](Get_Min_Lag.md) ** | Data center, Server | getMinLag | Connect data centers with servers with min total distance |
+| [Max Number with Add And Remove](Max_Number_With_Add_And_Remove.md) | | Find maximum number upto that index in an array | 
