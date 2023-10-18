@@ -24,4 +24,6 @@
 | [Rat Eat Cheese](Rat_Eat_Cheese.md) ** | Rat | | 2D array traveral |
 | [Get Min Lag](Get_Min_Lag.md) ** | Data center, Server | getMinLag | Connect data centers with servers with min total distance |
 | [Max Number with Add And Remove](Max_Number_With_Add_And_Remove.md) | | Find maximum number upto that index in an array | 
-｜ [SinglyLinkedList](https://leetcode.com/discuss/interview-question/3919449/AMAZON-OA-%3A-LONGEST-DECREASING-SUBSEQUENCE)*** | | | |
+| [SinglyLinkedList](https://leetcode.com/discuss/interview-question/3919449/AMAZON-OA-%3A-LONGEST-DECREASING-SUBSEQUENCE)*** | | | |
+| [String of parenthesis](https://leetcode.com/discuss/interview-question/3957299/Amazon-OA)*** | | | |
+| [Queued Seats Hankerland](https://leetcode.com/discuss/interview-question/3917819/OA-question)*** | | | |
