@@ -34,5 +34,6 @@
    - https://leetcode.com/discuss/interview-question/3838938/Online-assessment-or-Amazon
    - https://leetcode.com/discuss/interview-question/3891270/Amazon-OA-or-2-Questions-With-Solution
    - https://leetcode.com/discuss/interview-question/3698398/Amazon-OA%3A-Find-the-similar-Passwords
+   - https://leetcode.com/discuss/interview-question/3469731/amazon-OA-or-SDE-intern-or-middle-east-or-April-2023
 - "+-" for entry and exit
    - https://leetcode.com/discuss/interview-question/3891270/Amazon-OA-or-2-Questions-With-Solution
