@@ -1,7 +1,7 @@
 # Max Number with Add And Remove
 
 ## Problem
-The question was to find maximum number upto that index in an array where an array will be given of posiive and negative numbers , positive means that the number has been added and negative means number has been remove for eg
+The question was to find maximum number upto that index in an array where an array will be given of posiive and negative numbers , positive means that the number has been added and negative means number has been remove.
 
 [6,1,8,-8,6,-6,-6] should output [6,6,8,6,6,6,1]
 - index 0 : 6 is maximum number appearing once
