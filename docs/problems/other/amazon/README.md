@@ -41,3 +41,5 @@
    - [Catch Max Goats](https://leetcode.com/discuss/interview-question/3389820/Amazon-or-OA-or-Catch-Max-Goats)
 - Sort boxes (prioritized orders)
    - https://leetcode.com/discuss/interview-question/3054211/AMAZON-OA
+- Find max pages read (SinglyLinkedListNode)
+   - https://leetcode.com/discuss/interview-question/2153375/Amazon-or-OA-or-Find-max-pages-read
