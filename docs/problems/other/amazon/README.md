@@ -28,3 +28,10 @@
 | [String of parenthesis](https://leetcode.com/discuss/interview-question/3957299/Amazon-OA)*** | | | |
 | [Queued Seats Hankerland](https://leetcode.com/discuss/interview-question/3917819/OA-question)*** | | | |
 | [Portal Update (Q2)](https://leetcode.com/discuss/interview-question/3905762/Amazon-OA) | | | |
+| [Regex Generator](https://leetcode.com/discuss/interview-question/3852291/Amazon-OA-oror-2023-Generate-Longest-String-Regex-(With-AC-Code)) | | | |
+
+- Old Password New Password
+   - https://leetcode.com/discuss/interview-question/3838938/Online-assessment-or-Amazon
+   - https://leetcode.com/discuss/interview-question/3891270/Amazon-OA-or-2-Questions-With-Solution
+- "+-" for entry and exit
+   - https://leetcode.com/discuss/interview-question/3891270/Amazon-OA-or-2-Questions-With-Solution
