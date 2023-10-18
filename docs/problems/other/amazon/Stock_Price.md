@@ -79,8 +79,9 @@ Complete the function *countMaximumProfitableGroups* function in the editor belo
 - https://leetcode.com/discuss/interview-question/4158924/Amazon-OA
 - https://leetcode.com/discuss/interview-question/3871019/Amazon-OA
 - https://leetcode.com/discuss/interview-question/3779857/Amazon-OA
-![091249zy6eo6szysy0msg0](https://github.com/wuyichen24/coding-interview/assets/8989447/f0783015-a62c-4991-929b-953c2f086426)
-![091304ka9ip558a5zj859h](https://github.com/wuyichen24/coding-interview/assets/8989447/420228f5-0741-4600-9a25-7e560a946d42)
-![091315omml86k9q3ukmduq](https://github.com/wuyichen24/coding-interview/assets/8989447/a95f8b72-d953-4bee-8cd4-fe4b913f9de0)
+
+![1873131f-38c0-41e3-8954-efc82d595d39_1689616244 6543124](https://github.com/wuyichen24/coding-interview/assets/8989447/9157663a-d597-4bd5-94fa-cbfcfb27b61b)
+![cc61f2b7-ca97-4f5c-ae37-7a94db4e465c_1689616272 2436926](https://github.com/wuyichen24/coding-interview/assets/8989447/bb5df6fb-10b7-4f74-938a-f2a33bef61f2)
+
 
 
