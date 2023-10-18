@@ -33,6 +33,5 @@
 
 ## Leetcode
 - [2272 Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)
+- [2825 Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/)
 
-## Array
-第一题是，给一个Integer Array，寻找一个pattern which is nums[left], nums[left+1], nums[left+2].....nums[right]中，nums[left] = nums[right] = nums[left+1] + nums[left + 2] +.... + nums[right - 1]。就是两头两个数相等，且等‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌于中间所有数相加。问给你的这个array里面有多少个符合这个pattern的子数组。
