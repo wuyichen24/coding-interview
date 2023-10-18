@@ -39,3 +39,5 @@
    - https://leetcode.com/discuss/interview-question/3891270/Amazon-OA-or-2-Questions-With-Solution
 - Catch Max Goats
    - [Catch Max Goats](https://leetcode.com/discuss/interview-question/3389820/Amazon-or-OA-or-Catch-Max-Goats)
+- Sort boxes (prioritized orders)
+   - https://leetcode.com/discuss/interview-question/3054211/AMAZON-OA
