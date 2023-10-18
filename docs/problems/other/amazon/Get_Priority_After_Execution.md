@@ -121,3 +121,6 @@ public class GetPriorityAfterExecution {
 
 ## References
 - https://leetcode.com/discuss/interview-question/4147887/AMAZON-OA-oror-AWS
+- https://leetcode.com/discuss/interview-question/3905762/Amazon-OA
+
+![c383c61b-b868-4f18-adde-31b11b3aa3ca_1691954335 1564462](https://github.com/wuyichen24/coding-interview/assets/8989447/f0e31c5c-3def-49cd-bd18-1f8c48972c07)
