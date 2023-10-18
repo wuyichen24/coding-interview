@@ -93,6 +93,9 @@ Complete the function *findMinimumIneffciency* in the editor below.
 ### Version 2
 给定一个字符串只‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌包含'0','1',?',在'?'上放上'0'或'1'使得相邻的'0'和'1'的对数最小，简单dp即可
 
+## References
+- https://leetcode.com/discuss/interview-question/3927496/Amazon-OA
+
 ![174329oitwt2ti3wy6ry6r](https://github.com/wuyichen24/coding-interview/assets/8989447/2a559a45-935b-4216-8c6f-fd98b8848f05)
 ![174349wazztth6th6s6wvt](https://github.com/wuyichen24/coding-interview/assets/8989447/acd964c0-f161-48ba-9eb6-9ff073ea7716)
 ![174409swukc92482pk4yc2](https://github.com/wuyichen24/coding-interview/assets/8989447/e7c44cd3-9c78-46ae-b258-53f3d1a34821)
