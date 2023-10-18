@@ -34,7 +34,7 @@ int: the number of k-Spikes.
    - Input
      ```
      prices = [1, 3, 2, 5, 4]
-     k = 2
+     k = 1
      ```
    - Output
      ```
