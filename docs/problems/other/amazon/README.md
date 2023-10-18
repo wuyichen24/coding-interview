@@ -27,3 +27,4 @@
 | [SinglyLinkedList](https://leetcode.com/discuss/interview-question/3919449/AMAZON-OA-%3A-LONGEST-DECREASING-SUBSEQUENCE)*** | | | |
 | [String of parenthesis](https://leetcode.com/discuss/interview-question/3957299/Amazon-OA)*** | | | |
 | [Queued Seats Hankerland](https://leetcode.com/discuss/interview-question/3917819/OA-question)*** | | | |
+| [Portal Update (Q2)](https://leetcode.com/discuss/interview-question/3905762/Amazon-OA) | | | |
