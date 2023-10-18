@@ -1,7 +1,5 @@
 # Others
 
-## Longest substring
-第二题没见过，给一个string，和一个prohibited words的list，判断这个string里不包含prohibited words的substring的最大长度是多少‍‌‌‌‌‍‌‍‌‌‍‍‍‍‍‍‍‍‍‌‌。
 
 ## Book and chapters
 ### Version 1
