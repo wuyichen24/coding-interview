@@ -3,6 +3,12 @@
 ## Concepts
 - Binary search is a search algorithm that finds the position of a target value within a sorted array.
 
+## Problems can use this pattern
+- Find a number
+- Find the maximum/minimum value.
+- Properties
+   - `f(x)` must be a monotonic function.
+
 ## Algorithm
 - **Idea**
    - Narrow down the search range by half each time.
