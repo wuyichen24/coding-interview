@@ -164,10 +164,6 @@
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
-- Need to figure out `x`, `f(x)` and `target`.
-   - `x`: The input value.
-   - `f(x)`: The monotonic function.
-   - `target`: The target need to find or satisfy.
 
 ## Problems can use this pattern
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
