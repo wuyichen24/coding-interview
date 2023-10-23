@@ -56,49 +56,91 @@
       return -1;
   }
   ```
-### Find a minimal number which is greater than or equal to a target
-- **Meaning**
-   - Find minimum `x`, which `f(x) >= target`
-   - Find left boundary.
-- **Code**
-  ```java
-  int findMinNum(int[] nums, int target) {
-      int left = 0, right = nums.length - 1;
-      while (left <= right) {
-          int mid = left + (right - left) / 2;
-          if (nums[mid] >= target) {
-              right = mid - 1;
-          } else {
-              left = mid + 1;
-          }
-      }
-      return left;
-  }
-  ```
-- **Problem**
-   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
+### Find `f(x)` >= target
+- **f(x) is monotonic increasing function**
+   - *Meaning*
+      - Find minimum `x`, which `f(x) >= target`
+      - Find left boundary.
+   - *Code*
+     ```java
+     int findMinNum(int[] nums, int target) {
+         int left = 0, right = nums.length - 1;
+         while (left <= right) {
+             int mid = left + (right - left) / 2;
+             if (nums[mid] >= target) {
+                 right = mid - 1;
+             } else {
+                 left = mid + 1;
+             }
+         }
+         return left;
+     }
+     ```
+- **f(x) is monotonic decreasing function**
+   - *Meaning*
+      - Find maximum `x`, which `f(x) >= target`
+      - Find right boundary.
+   - **Code**
+     ```java
+     int findMinNum(int[] nums, int target) {
+         int left = 0, right = nums.length - 1;
+         while (left <= right) {
+             int mid = left + (right - left) / 2;
+             if (nums[mid] >= target) {
+                 left = mid + 1;    // reverse the statements in the if-else
+             } else {
+                 right = mid - 1;   // reverse the statements in the if-else
+             }
+         }
+         return left;
+     }
+     ```
 
-### Find a maximum number which is less than or equal to a target
-- **Meaning**
-   - Find maximum `x`, which `f(x) <= target`
-   - Find right boundary.
-- **Code**
-  ```java
-  int findMaxNum(int[] nums, int target) {
-      int left = 0, right = nums.length - 1;
+### Find `f(x)` <= target
+- **f(x) is monotonic increasing function**
+   - *Meaning*
+      - Find maximum `x`, which `f(x) <= target`
+      - Find right boundary.
+   - *Code*
+     ```java
+     int find(int[] nums, int target) {
+         int left = 0, right = nums.length - 1;
+ 
+         while (left <= right) {
+             int mid = left + (right - left) / 2;
+             if (nums[mid] <= target) {
+                 left = mid + 1;
+             } else {
+                 right = mid - 1;
+             }
+         }
 
-      while (left <= right) {
-          int mid = left + (right - left) / 2;
-          if (nums[mid] <= target) {
-              left = mid + 1;
-          } else {
-              right = mid - 1;
-          }
-      }
+         return right;
+     }
+     ```
 
-      return right;
-  }
-  ```
+   - *Meaning*
+      - Find minimal `x`, which `f(x) <= target`
+      - Find left boundary.
+   - *Code*
+     ```java
+     int find(int[] nums, int target) {
+         int left = 0, right = nums.length - 1;
+ 
+         while (left <= right) {
+             int mid = left + (right - left) / 2;
+             if (nums[mid] <= target) {
+                 right = mid - 1;        // reverse the statements in the if-else
+             } else {
+                 left = mid + 1;         // reverse the statements in the if-else
+             }
+         }
+
+         return right;
+     }
+     ```
+   - *Problem*
+      - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
@@ -110,4 +152,4 @@
 ## Problems can use this pattern
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
 - [Search in Rotated Sorted Array](../problems/array/Search_In_Rotated_Sorted_Array.md)
-- [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
+
