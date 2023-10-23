@@ -87,6 +87,9 @@
    - *Meaning*
       - Find minimum `x`, which minimum `f(x) >= target`
       - Find left boundary.
+
+        ![Min_X_Min_Fx drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/c7aefe54-c140-4788-89bf-e2b36e0e394a)
+
    - *Code*
      ```java
      int findMinNum(int[] nums, int target) {
@@ -106,6 +109,9 @@
    - *Meaning*
       - Find maximum `x`, which minimum `f(x) >= target`
       - Find right boundary.
+    
+        ![Min_X_Min_Fx drawio (1)](https://github.com/wuyichen24/coding-interview/assets/8989447/67d74dd1-1ec0-48ad-815e-562513e25e28)
+
    - **Code**
      ```java
      int findMinNum(int[] nums, int target) {
@@ -127,6 +133,9 @@
    - *Meaning*
       - Find maximum `x`, which maximum `f(x) <= target`
       - Find right boundary.
+    
+        ![Min_X_Min_Fx drawio (2)](https://github.com/wuyichen24/coding-interview/assets/8989447/04b73e60-1800-4ebc-9e5e-cc1bb72cf03f)
+
    - *Code*
      ```java
      int find(int[] nums, int target) {
@@ -148,6 +157,9 @@
    - *Meaning*
       - Find minimal `x`, which maximum `f(x) <= target`
       - Find left boundary.
+
+        ![Min_X_Min_Fx drawio (4)](https://github.com/wuyichen24/coding-interview/assets/8989447/47f4113b-9c23-4d6f-9dd4-9ab1a38b901f)
+        
    - *Code*
      ```java
      int find(int[] nums, int target) {
