@@ -36,6 +36,21 @@
 - **Time complexity**
    - O(*log*n)
 
+## Process
+- **Step 1**: Classify the problem is to find a certain number or find a certain boundary.
+- **Step 2**: Classify `x`, `f(x)` and `target`.
+   - `x`: The input value.
+   - `f(x)`: The monotonic function.
+      - Monotonic increasing function
+         - `f(x)` is increasing while `x` is increasing.
+         - Examples：
+            - The elements of the array are sorted in ascending order.
+      - Monotonic decreasing function
+         - `f(x)` is decreasing while `x` is increasing.
+         - Examples:
+            - The elements of the array are sorted in descending order.
+   - `target`: The target need to find or satisfy.
+
 ## Types
 ### Find a number
 - **Meaning**
