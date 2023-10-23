@@ -12,7 +12,7 @@
       - If the target value = The middle element, its position in the array is returned. 
       - If the target value < The middle element, the search continues in the lower half of the search range. 
       - If the target value > The middle element, the search continues in the upper half of the search range.
-- **Code**
+- **Basic code**
   ```
   int binarySearch(int[] nums, int target) {
       int left = 0;
@@ -28,9 +28,7 @@
       return -1;
   }
   ```
-
-## Complexity
-- Time complexity
+- **Time complexity**
    - O(*log*n)
 
 ## Strategies
