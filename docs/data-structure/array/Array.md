@@ -52,6 +52,7 @@ void reverse(int[] nums, int i, int j) {
    - [Maximum Sum Subarray](../../problems/array/Maximum_Sum_Subarray.md)
    - [Minimum Size Subarray Sum](../../problems/array/Minimum_Size_Subarray_Sum.md)
    - [Maximum Product Subarray](../../problems/array/Maximum_Product_Subarray.md)
+   - [Split Array And Minimize Sum Of Subarray](../../problems/array/Split_Array_And_Minimize_Sum_Of_Subarray.md)
 - **Subsequence**
    - [Longest Increasing Subsequence](../../problems/string/Longest_Increasing_Subsequence.md)
 - **Subset**
@@ -99,6 +100,7 @@ void reverse(int[] nums, int i, int j) {
    - *Move*
       - [Move Zeroes to End of Array](../../problems/array/Move_Zeroes_To_End_Of_Array.md)
    - *Split*
+      - [Split Array And Minimize Sum Of Subarray](../../problems/array/Split_Array_And_Minimize_Sum_Of_Subarray.md)
       - [Optimizing Box Weights](../../problems/array/Optimizing_Box_Weights.md)
    - *Remove*
       - [Remove All Occurrences of Value from Array](../../problems/array/Remove_All_Occurrences_Of_Value_From_Array.md)
