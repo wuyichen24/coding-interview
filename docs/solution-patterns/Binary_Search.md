@@ -79,7 +79,8 @@
               right = mid;
           }
       }
-      return left;                            // left == right
+  
+      return left;
   }
   ```
 
