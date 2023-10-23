@@ -179,6 +179,7 @@
      ```
    - *Problem*
       - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
+      - [Capacity To Ship Packages Within D Days](../problems/other/Capacity_To_Ship_Packages_Within_D_Days.md)
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
