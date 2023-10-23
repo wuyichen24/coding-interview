@@ -75,7 +75,8 @@
       return left;
   }
   ```
-
+- **Problem**
+   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
 
 ### Find a maximum number which is less than or equal to a target
 - **Meaning**
@@ -98,8 +99,6 @@
       return right;
   }
   ```
-- **Problem**
-   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
