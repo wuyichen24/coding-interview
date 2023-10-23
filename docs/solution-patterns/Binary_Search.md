@@ -60,7 +60,7 @@
   ```
 ### Find a minimal number which is greater than or equal to a target
 - **Meaning**
-   - Find miniimum `x`, which `f(x) >= target`
+   - Find minimum `x`, which `f(x) >= target`
 - **Search range**
    - [left, right)
 - **Code**
