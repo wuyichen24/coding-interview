@@ -48,6 +48,7 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
 - **Solution 1: Binary search**
    - Idea
       - Use binary search to search the `x` which `f(x)` hours can eat all the bananas.
+         - Find minimum `x` which `f(x) <= target` (right boundary).
 
   ```java
   class Solution {
