@@ -49,7 +49,7 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
    - Idea
       - Use binary search to search the `x` which `f(x)` hours can eat all the bananas.
          - `f(x)` is monotonic decreasing function: When `x` increasing, `f(x)` decreasing.
-         - Find minimum `x` which `f(x) <= target`.
+         - Find minimum `x` which maximum `f(x) <= target`.
 
   <img width="534" alt="Screenshot 2023-10-22 at 10 34 31 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/b08a23b0-4f49-49fb-bf9c-c8b2865ff683">
 
