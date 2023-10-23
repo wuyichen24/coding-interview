@@ -51,15 +51,15 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
 
   ```java
   class Solution {
-      public int minEatingSpeed(int[] piles, int hours) {
+      public int minEatingSpeed(int[] piles, int h) {
           int left = 1;
           int right = 1000000000 + 1;
 
           while (left < right) {
               int mid = left + (right - left) / 2;
-              if (f(piles, mid) <= hours) {         // if speed is not enough
+              if (f(piles, mid) <= h) {         // if speed is not enough
                   right = mid;
-              } else {                              // if speed is too much 
+              } else {                          // if speed is too much 
                   left = mid + 1;
               }
           }
