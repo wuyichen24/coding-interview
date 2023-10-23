@@ -34,6 +34,7 @@
    - O(*log*n)
 
 ## Strategies
+- If the input array for the question is sorted or "kind of sorted", consider use binary search.
 - Need to figure out `x`, `f(x)` and `target`.
    - Key components
       - `x`: The input value.
