@@ -66,12 +66,12 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
           return left;
       }
 
-      // input is speed, the output is the number of hours to eat all the bananas
-      int f(int[] piles, int speed) {
+      // f(x), input x is speed, the output is the number of hours to eat all the bananas
+      int f(int[] piles, int x) {
           int hours = 0;
           for (int i = 0; i < piles.length; i++) {
-              hours += piles[i] / speed;
-              if (piles[i] % speed > 0) {
+              hours += piles[i] / x;
+              if (piles[i] % x > 0) {
                   hours++;
               }
           }
