@@ -4,15 +4,15 @@
 - Binary search is a search algorithm that finds the position of a target value within a sorted array.
 
 ## Algorithm
-- Idea
+- **Idea**
    - Narrow down the search range by half each time.
-- Process
+- **Process**
    - Use upper bound and lower bound to define the search range.
    - Each time, compare the middle element in the search range with the target value.
       - If the target value = The middle element, its position in the array is returned. 
       - If the target value < The middle element, the search continues in the lower half of the search range. 
       - If the target value > The middle element, the search continues in the upper half of the search range.
-- Code
+- **Code**
   ```
   int binarySearch(int[] nums, int target) {
       int left = 0;
