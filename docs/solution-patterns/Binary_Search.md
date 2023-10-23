@@ -38,9 +38,13 @@
 
 ## Types
 ### Find a number
+- **Meaning**
+   - find x which `f(x) = target`
+- **Search range**
+   - `[left, right]`
 - **Code**
   ```java
-  int binarySearch(int[] nums, int target) {
+  int findNumber(int[] nums, int target) {
       int left = 0;
       int right = nums.length - 1;
       
@@ -52,6 +56,30 @@
       }
       
       return -1;
+  }
+  ```
+### Find a maximum number which is less than a target
+- **Meaning**
+   - Find maximum `x`, which `f(x) < target`
+- **Search range**
+   - [left, right)
+- **Code**
+  ```java
+  int findMaximumNumLessThanTarget(int[] nums, int target) {
+      int left = 0;
+      int right = nums.length;
+    
+      while (left < right) {
+          int mid = left + (right - left) / 2;
+          if (nums[mid] == target) {
+              right = mid;
+          } else if (nums[mid] < target) {
+              left = mid + 1;
+          } else if (nums[mid] > target) {
+              right = mid;
+          }
+      }
+      return left;                            // left == right
   }
   ```
 
