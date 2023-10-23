@@ -48,6 +48,7 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
 - **Solution 1: Binary search**
    - Idea
       - Use binary search to search the `x` which `f(x)` hours can eat all the bananas.
+         - When `x` increasing, `f(x)` decreasing.
          - Find minimum `x` which `f(x) <= target`.
 
   <img width="534" alt="Screenshot 2023-10-22 at 10 34 31 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/b08a23b0-4f49-49fb-bf9c-c8b2865ff683">
