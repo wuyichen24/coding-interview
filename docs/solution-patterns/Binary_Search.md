@@ -30,7 +30,7 @@
   ```
 - **Details**
    - *Why while-loop is `while (left <= right)` rather than `while (left < right)`?*
-       - If `left` and `right` are same, the search range is `[right, right]` (e.g., `[2, 2]`). But in this case, the seach range is not empty. If you terminate the while-loop under this situation, you will miss this search range.
+       - If `left` and `right` are same, the search range is `[right, right]` (e.g., `[2, 2]`). But in this case, the seach range is not empty. If you terminate the while-loop under this situation, you will miss the search range `[right, right]` (e.g., `[2, 2]`).
 - **Time complexity**
    - O(*log*n)
 
