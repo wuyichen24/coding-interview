@@ -56,7 +56,7 @@
       return -1;
   }
   ```
-### Find `f(x)` >= target
+### Find `f(x) >= target`
 - **f(x) is monotonic increasing function**
    - *Meaning*
       - Find minimum `x`, which `f(x) >= target`
@@ -96,7 +96,7 @@
      }
      ```
 
-### Find `f(x)` <= target
+### Find `f(x) <= target`
 - **f(x) is monotonic increasing function**
    - *Meaning*
       - Find maximum `x`, which `f(x) <= target`
