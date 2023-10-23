@@ -82,10 +82,10 @@
       return -1;
   }
   ```
-### Find `f(x) >= target`
+### Find minimum `f(x)` which `f(x) >= target`
 - **f(x) is monotonic increasing function**
    - *Meaning*
-      - Find minimum `x`, which `f(x) >= target`
+      - Find minimum `x`, which minimum `f(x) >= target`
       - Find left boundary.
    - *Code*
      ```java
@@ -104,7 +104,7 @@
      ```
 - **f(x) is monotonic decreasing function**
    - *Meaning*
-      - Find maximum `x`, which `f(x) >= target`
+      - Find maximum `x`, which minimum `f(x) >= target`
       - Find right boundary.
    - **Code**
      ```java
@@ -122,10 +122,10 @@
      }
      ```
 
-### Find `f(x) <= target`
+### Find maximum `f(x)` which `f(x) <= target`
 - **f(x) is monotonic increasing function**
    - *Meaning*
-      - Find maximum `x`, which `f(x) <= target`
+      - Find maximum `x`, which maximum `f(x) <= target`
       - Find right boundary.
    - *Code*
      ```java
@@ -144,9 +144,9 @@
          return right;
      }
      ```
-
+- **f(x) is monotonic decreasing function**
    - *Meaning*
-      - Find minimal `x`, which `f(x) <= target`
+      - Find minimal `x`, which maximum `f(x) <= target`
       - Find left boundary.
    - *Code*
      ```java
