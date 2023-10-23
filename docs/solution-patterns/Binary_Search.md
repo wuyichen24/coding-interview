@@ -28,9 +28,21 @@
       return -1;
   }
   ```
+
 ## Complexity
 - Time complexity
    - O(*log*n)
+
+## Strategies
+- Need to figure out `x`, `f(x)` and `target`.
+   - Key components
+      - `x`: The input value.
+      - `f(x)`: The monotonic function.
+      - `target`: The target need to find or satisfy.
+   - Common types
+      - Find minimum `x`, which `f(x) >= target`
+      - Find maximum `x`, which `f(x) <= target`
+      - Find `x`, which `f(x) = target`
 
 ## Problems can use this pattern
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
