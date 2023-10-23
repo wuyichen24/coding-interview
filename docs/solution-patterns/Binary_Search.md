@@ -158,7 +158,7 @@
       - Find minimal `x`, which maximum `f(x) <= target`
       - Find left boundary.
 
-        ![Min_X_Min_Fx drawio (4)](https://github.com/wuyichen24/coding-interview/assets/8989447/47f4113b-9c23-4d6f-9dd4-9ab1a38b901f)
+        ![Min_X_Min_Fx drawio (5)](https://github.com/wuyichen24/coding-interview/assets/8989447/404708f2-11c1-4342-a229-e1ad98a58570)
         
    - *Code*
      ```java
