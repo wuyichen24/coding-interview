@@ -20,7 +20,7 @@
             - Meet `(`, push the index into stack.
             - Meet `)`, pop the index of the corresponding `(` from stack.
          - Template
-           ```
+           ```java
            Stack<Integer> stack = new Stack<>();
            for (int i = 0; i < s.length(); i++) {
                if (s.charAt(i) == '(') {               // meet (
