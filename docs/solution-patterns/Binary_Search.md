@@ -7,7 +7,7 @@
 - Find a number
 - Find the maximum/minimum value.
 - Properties
-   - `f(x)` must be a monotonic function.
+   - `f(x)` must be a monotonic function, either increasing or decreasing.
 
 ## Algorithm
 - **Idea**
