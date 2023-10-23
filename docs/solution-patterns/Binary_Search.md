@@ -59,6 +59,7 @@
 ### Find a minimal number which is greater than or equal to a target
 - **Meaning**
    - Find minimum `x`, which `f(x) >= target`
+   - Find left boundary.
 - **Code**
   ```java
   int findMinNum(int[] nums, int target) {
@@ -80,6 +81,7 @@
 ### Find a maximum number which is less than or equal to a target
 - **Meaning**
    - Find maximum `x`, which `f(x) <= target`
+   - Find right boundary.
 - **Code**
   ```java
   int findMaxNum(int[] nums, int target) {
