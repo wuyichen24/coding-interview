@@ -37,8 +37,7 @@
    - O(*log*n)
 
 ## Process
-- **Step 1**: Classify the problem is to find a certain number or find a certain boundary.
-- **Step 2**: Classify `x`, `f(x)` and `target`.
+- **Step 1**: Classify `x`, `f(x)` and `target`.
    - `x`: The input value.
    - `f(x)`: The monotonic function.
       - Monotonic increasing function
@@ -49,8 +48,14 @@
          - `f(x)` is decreasing while `x` is increasing.
          - Examples:
             - The elements of the array are sorted in descending order.
+            - The relationship between speed and time (For a certain distance, more speed needs less time).
    - `target`: The target need to find or satisfy.
-
+- **Step 2**: Classify the problem is to find a certain number or find a certain boundary.
+   - Find a number
+   - Fina a boundary
+      - Find `f(x) >= target`
+      - Find `f(x) <= target`
+  
 ## Types
 ### Find a number
 - **Meaning**
