@@ -20,7 +20,7 @@
       
       while (left <= right) {                            // left and right could point to the same element
           int mid = (left + right) / 2;
-          if (target == nums[mid]) return mid;
+          if (target == nums[mid]) return mid;           // termination criteria
           if (target < nums[mid]) right = mid - 1;
           if (target > nums[mid]) left = mid + 1;
       }
@@ -30,6 +30,25 @@
   ```
 - **Time complexity**
    - O(*log*n)
+
+## Types
+### Find a number
+- **Code**
+  ```java
+  int binarySearch(int[] nums, int target) {
+      int left = 0;
+      int right = nums.length - 1;
+      
+      while (left <= right) {
+          int mid = (left + right) / 2;
+          if (target == nums[mid]) return mid;
+          if (target < nums[mid]) right = mid - 1;
+          if (target > nums[mid]) left = mid + 1;
+      }
+      
+      return -1;
+  }
+  ```
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
