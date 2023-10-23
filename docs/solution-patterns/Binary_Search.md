@@ -58,43 +58,59 @@
       return -1;
   }
   ```
-### Find a maximum number which is less than a target
+### Find a minimal number which is greater than or equal to a target
 - **Meaning**
-   - Find maximum `x`, which `f(x) < target`
+   - Find miniimum `x`, which `f(x) >= target`
 - **Search range**
    - [left, right)
 - **Code**
   ```java
-  int findMaximumNumLessThanTarget(int[] nums, int target) {
+  int findMinNum(int[] nums, int target) {
       int left = 0;
       int right = nums.length;
-    
+
       while (left < right) {
           int mid = left + (right - left) / 2;
-          if (nums[mid] == target) {
+          if (nums[mid] >= target) {
               right = mid;
           } else if (nums[mid] < target) {
+              left = mid + 1;
+          }
+      }
+      return left;
+  }
+  ```
+- **Problem**
+   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
+
+### Find a maximum number which is less than or equal to a target
+- **Meaning**
+   - Find maximum `x`, which `f(x) <= target`
+- **Search range**
+   - [left, right)
+- **Code**
+  ```java
+  int findMaxNum(int[] nums, int target) {
+      int left = 0, right = nums.length;
+
+      while (left < right) {
+          int mid = left + (right - left) / 2;
+          if (nums[mid] <= target) {
               left = mid + 1;
           } else if (nums[mid] > target) {
               right = mid;
           }
       }
-  
-      return left;
+      return left - 1;
   }
   ```
 
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
 - Need to figure out `x`, `f(x)` and `target`.
-   - Key components
-      - `x`: The input value.
-      - `f(x)`: The monotonic function.
-      - `target`: The target need to find or satisfy.
-   - Common types
-      - Find minimum `x`, which `f(x) >= target`
-      - Find maximum `x`, which `f(x) <= target`
-      - Find `x`, which `f(x) = target`
+   - `x`: The input value.
+   - `f(x)`: The monotonic function.
+   - `target`: The target need to find or satisfy.
 
 ## Problems can use this pattern
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
