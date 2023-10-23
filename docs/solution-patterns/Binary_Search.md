@@ -40,8 +40,6 @@
 ### Find a number
 - **Meaning**
    - find x which `f(x) = target`
-- **Search range**
-   - `[left, right]`
 - **Code**
   ```java
   int findNumber(int[] nums, int target) {
@@ -61,8 +59,6 @@
 ### Find a minimal number which is greater than or equal to a target
 - **Meaning**
    - Find minimum `x`, which `f(x) >= target`
-- **Search range**
-   - [left, right)
 - **Code**
   ```java
   int findMinNum(int[] nums, int target) {
@@ -86,12 +82,11 @@
 ### Find a maximum number which is less than or equal to a target
 - **Meaning**
    - Find maximum `x`, which `f(x) <= target`
-- **Search range**
-   - [left, right)
 - **Code**
   ```java
   int findMaxNum(int[] nums, int target) {
-      int left = 0, right = nums.length;
+      int left = 0
+      int right = nums.length;
 
       while (left < right) {
           int mid = left + (right - left) / 2;
