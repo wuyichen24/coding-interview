@@ -51,27 +51,27 @@ Koko likes to eat slowly but still wants to finish eating all the bananas before
 
   ```java
   class Solution {
-      public int minEatingSpeed(int[] piles, int H) {
+      public int minEatingSpeed(int[] piles, int hours) {
           int left = 1;
           int right = 1000000000 + 1;
 
           while (left < right) {
               int mid = left + (right - left) / 2;
-              if (f(piles, mid) <= H) {
+              if (f(piles, mid) <= hours) {         // if speed is not enough
                   right = mid;
-              } else {
+              } else {                              // if speed is too much 
                   left = mid + 1;
               }
           }
           return left;
       }
 
-      // when speed is x, need to use f(x) hours to eat all the bananas
-      int f(int[] piles, int x) {
+      // input is speed, the output is the number of hours to eat all the bananas
+      int f(int[] piles, int speed) {
           int hours = 0;
           for (int i = 0; i < piles.length; i++) {
-              hours += piles[i] / x;
-              if (piles[i] % x > 0) {
+              hours += piles[i] / speed;
+              if (piles[i] % speed > 0) {
                   hours++;
               }
           }
