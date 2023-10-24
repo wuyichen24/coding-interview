@@ -1,5 +1,16 @@
 # Binary Search
 
+- [**Concepts**](#concepts)
+- [**Problems can use this pattern**](#problems-can-use-this-pattern)
+- [**Algorithm**](#algorithm)
+- [**Process**](#process)
+- [**Types**](#types)
+   - [Find a number](#find-a-number)
+   - [Find minimum `f(x)` which `f(x) >= target`](#find-minimum-fx-which-fx--target)
+   - [Find maximum `f(x)` which `f(x) <= target`](#find-maximum-fx-which-fx--target)
+- [**Strategies**](#strategies)
+- [**Problems**](#problems)
+
 ## Concepts
 - Binary search is a search algorithm that finds the position of a target value within a sorted array.
 
@@ -184,7 +195,7 @@
 ## Strategies
 - If the input array for the question is sorted or "kind of sorted", consider use binary search.
 
-## Problems can use this pattern
+## Problems
 - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
 - [Search in Rotated Sorted Array](../problems/array/Search_In_Rotated_Sorted_Array.md)
 - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
