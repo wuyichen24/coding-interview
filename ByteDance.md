@@ -61,8 +61,9 @@
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](docs/problems/graph/Course_Schedule_II.md) | | 8 (6m.), 3 (1y.) |
 | [856](https://leetcode.com/problems/score-of-parentheses/) | [Score of Parentheses](docs/problems/string/parentheses/Score_Of_Parentheses.md) | | 5 (6m.) |
 | [115](https://leetcode.com/problems/distinct-subsequences/) | [Distinct Subsequences](docs/problems/string/Distinct_Subsequences.md) | 2 | |
-| [110](https://leetcode.com/problems/balanced-binary-tree/) | [Is Balanced Binary Tree](docs/problems/tree/Is_Balanced_Binary_Tree.md) | 1 | |
-| [1010](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [Pairs of 2 Songs Divisible By 60](docs/problems/math/Pairs_Of_2_Songs_Divisible_By_60.md) | 1 | 2 (1y.) |
+| [110](https://leetcode.com/problems/balanced-binary-tree/) | [**Is Balanced Binary Tree**](docs/problems/tree/Is_Balanced_Binary_Tree.md) | 1 | |
+| [1010](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [**Pairs of 2 Songs Divisible By 60**](docs/problems/math/Pairs_Of_2_Songs_Divisible_By_60.md) | 1 | 2 (1y.) |
+| [269](https://leetcode.com/problems/alien-dictionary/) | [**Get Lexicographically Increasing Order from Words**](docs/problems/string/Get_Lexicographically_Increasing_Order_From_Words.md) | 1 | |
 
 **Notes:**
 - `# occs.` = number of occurrences
@@ -71,4 +72,5 @@
 - `1y.` = 1 year
 - `2y.` = 2 year
 - `*` means the solution has been provided and verified. But still need to add more details to explain the idea.
-- `**` means the question was captured but no solution provided.
+- `**` means the question was captured but no solution was provided.
+- **The problem I experienced**
