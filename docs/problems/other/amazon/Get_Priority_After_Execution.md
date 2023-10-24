@@ -123,4 +123,8 @@ public class GetPriorityAfterExecution {
 - https://leetcode.com/discuss/interview-question/4147887/AMAZON-OA-oror-AWS
 - https://leetcode.com/discuss/interview-question/3905762/Amazon-OA
 
-![c383c61b-b868-4f18-adde-31b11b3aa3ca_1691954335 1564462](https://github.com/wuyichen24/coding-interview/assets/8989447/f0e31c5c-3def-49cd-bd18-1f8c48972c07)
+<img width="428" alt="Screen Shot 2023-10-18 at 2 58 42 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/70bebb07-f678-47d3-afd9-0ebe00a81e09">
+<img width="432" alt="Screen Shot 2023-10-18 at 2 58 52 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/b2f15c68-39e1-43f8-a961-dbf518643049">
+<img width="425" alt="Screen Shot 2023-10-18 at 2 59 03 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/8ef945d7-8cee-4e55-af42-a56318575683">
+<img width="417" alt="Screen Shot 2023-10-18 at 2 59 13 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/66d1d5db-c706-420b-8bdf-f739bfb2f9cc">
+<img width="406" alt="Screen Shot 2023-10-18 at 2 59 35 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/68a9d366-267d-4ef1-b040-b0b1d11a0472">
