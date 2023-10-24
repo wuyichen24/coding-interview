@@ -99,6 +99,7 @@
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
 ## Problems In Real Interviews
+### Facebook
 | Problem | Company | Stage |
 |----|----|----|
 | [Get Equilibrium Index from Array](docs/problems/array/Get_Equilibrium_Index_From_Array.md) | Facebook | Screening |
@@ -106,5 +107,14 @@
 | [Find Missing Ranges from Array](docs/problems/array/Find_Missing_Ranges_from_Array.md) | Facebook | Onsite |
 | [Get Range Sum of Binary Search Tree](docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Facebook | Onsite |
 | [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
-| [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
-| [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
+
+### Amazon OA
+- [2023 Amazon OA](https://github.com/wuyichen24/coding-interview/tree/master/docs/problems/other/amazon#readme)
+- 2021 Amazon OA
+  | Problem | Company | Stage |
+  |----|----|----|
+  | [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
+  | [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
+
+### ByteDance
+- [ByteDance OA and VO](https://github.com/wuyichen24/coding-interview/blob/master/ByteDance.md)
