@@ -45,3 +45,9 @@ maxSetSize has the following parameter:
 
 ## Reference
 - https://leetcode.com/discuss/interview-question/object-oriented-design/3694878/OA:-max-LENGTH-of-perfect-set
+
+<img width="430" alt="Screen Shot 2023-10-18 at 2 54 32 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/8606a969-75ce-4948-bcb9-d9e50c3f52bd">
+<img width="416" alt="Screen Shot 2023-10-18 at 2 54 43 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/c3b2da07-9e08-46cd-b28b-2098bdef55e5">
+<img width="413" alt="Screen Shot 2023-10-18 at 2 54 52 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/863ed058-1039-43b6-a401-cd2d5ab8c7c9">
+<img width="416" alt="Screen Shot 2023-10-18 at 2 55 20 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/4963ee7c-017a-4309-a5c4-b3be523d1edb">
+
