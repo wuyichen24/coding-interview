@@ -102,6 +102,7 @@
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
       - 1143 Longest Common Subsequence
    - [Edit Distance](../../problems/string/Edit_Distance.md)
+   - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
    - 14 Longest Common Prefix
 - **Math**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
