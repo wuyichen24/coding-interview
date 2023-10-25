@@ -76,17 +76,18 @@ Given an `m x n` `matrix`, return all elements of the `matrix` in spiral order.
               res.add(matrix[j][colEnd]);
           }
           colEnd--;
-            
+
+          // Traverse Left
           if (rowBegin <= rowEnd) {
-              // Traverse Left
+              
               for (int j = colEnd; j >= colBegin; j --) {
                   res.add(matrix[rowEnd][j]);
               }
           }
           rowEnd--;
-            
+
+          // Traverse Up
           if (colBegin <= colEnd) {
-              // Traver Up
               for (int j = rowEnd; j >= rowBegin; j --) {
                   res.add(matrix[j][colBegin]);
               }
