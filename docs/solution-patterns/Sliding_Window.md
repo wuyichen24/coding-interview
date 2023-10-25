@@ -12,38 +12,43 @@
 - Reduce the time complexity comparing to brute force solution.
 
 ## Template
-```java
-void slidingWindow(String s) {
-    // store the indexes of each character in the window
-    HashMap<Character, Integer> window = new HashMap<>();
+- **Key idea**
+   - Use 2 pointers (`left` and `right`) to define a sliding window `[left, right)`.
+   - Repeatedly increase the sliding window by increasing the pointer `right` until it satisfies the criteria.
+   - Repeatedly shrink the sliding window by decreasing the pointer `left` until it cannot satify the criteria anymore.
+- **Code**
+  ```java
+  void slidingWindow(String s) {
+      // store the indexes of each character in the window
+      HashMap<Character, Integer> window = new HashMap<>();
 
-    int left = 0, right = 0;
-    while (right < s.length()) {
-        // c is the new character needs to be added into the window
-        char c = s.charAt(right);
-        window.put(c, window.getOrDefault(c, 0) + 1);
-        // increase the window
-        right++;
-        // do something for the window
-        ...
+      int left = 0, right = 0;
+      while (right < s.length()) {
+          // c is the new character needs to be added into the window
+          char c = s.charAt(right);
+          window.put(c, window.getOrDefault(c, 0) + 1);
+          // increase the window
+          right++;
+          // do something for the window
+          ...
 
-        /*** debug location ***/
-        System.out.printf("window: [%d, %d)\n", left, right);
-        /********************/
+          /*** debug location ***/
+          System.out.printf("window: [%d, %d)\n", left, right);
+          /********************/
 
-        // decide the window needs to be shrinked
-        while (left < right && window needs shrink) {
-            // d is the character needs to be removed
-            char d = s.charAt(left);
-            window.put(d, window.get(d) - 1);
-            // shrink the window
-            left++;
-            // do something for the window
-            ...
-        }
-    }
-}
-```
+          // decide the window needs to be shrinked
+          while (left < right && window needs shrink) {
+              // d is the character needs to be removed
+              char d = s.charAt(left);
+              window.put(d, window.get(d) - 1);
+              // shrink the window
+              left++;
+              // do something for the window
+              ...
+          }
+      }
+  }
+  ```
 ## Time complexity
 - O(*log*n)
 
