@@ -96,6 +96,7 @@
    - [Longest Valid Parentheses Substring](../../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
    - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
    - [Longest Substring of Repeating Character by Replacement](../../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
+   - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
 - **Strings comparison**
    - Subsequences
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
