@@ -38,7 +38,8 @@ In other words, return `true` if one of `s1`'s permutations is the substring of 
      - Define a sliding window which `[left, right)`.
         - Use 2 hashmaps (`need` and `window`) to store the frequency of each characters in the string s1 and the window. 
         - Use 1 variable (`valid`) to count the number of characters whose frequency are matched between string s1 and window.
-        - Shrink the window if the length of the window is greater than the length of s1.
+        - Shrink the window if the length of the window is greater than the length of string s1.
+        - Return true if the frequencies of all the characters are matched between the window and string s1.
 
   ```java
   public boolean checkInclusion(String s1, String s2) {
