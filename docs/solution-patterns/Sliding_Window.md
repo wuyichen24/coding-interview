@@ -44,6 +44,8 @@ void slidingWindow(String s) {
     }
 }
 ```
+## Time complexity
+- O(*log*n)
 
 ## Problems
 - [Longest Substring Without Repeating Characters](../problems/string/Longest_Substring_Without_Repeating_Characters.md)
