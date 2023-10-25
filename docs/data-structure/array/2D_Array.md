@@ -53,8 +53,10 @@
    - [Word Search](../../problems/array/2d/Word_Search.md)
 - **Traversal**
    - [Spiral Traversal](../../problems/array/2d/Spiral_Traversal.md)
+   - [Generate 2D Array by Spiral Traversal](../../problems/array/2d/Generate_2d_Array_By_Spiral_Traversal.md)
 - **Manipulation**
    - [Rotate 2D Array](../../problems/array/2d/Rotate_2D_Array.md)
+   - [Generate 2D Array by Spiral Traversal](../../problems/array/2d/Generate_2d_Array_By_Spiral_Traversal.md)
 - **Calculation**
    - *Sum*
       - [Calculate Range Sum in 2D Array](../../problems/array/2d/array/Calculate_Range_Sum_In_2D_Array.md)
