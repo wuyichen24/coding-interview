@@ -91,18 +91,23 @@
          - 1278 Palindrome Partitioning III
          - 1745 Palindrome Partitioning IV
 - **Substring**
-   - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
-   - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
-   - [Longest Valid Parentheses Substring](../../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
-   - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
-   - [Longest Substring of Repeating Character by Replacement](../../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
-   - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
+   - *Single string*
+      - [Count Binary Substrings](../../problems/string/Count_Binary_Substrings.md)
+      - [Longest Palindromic Substring](../../problems/string/Longest_Palindromic_Substring.md)
+      - [Longest Valid Parentheses Substring](../../problems/string/parentheses/Longest_Valid_Parentheses_Substring.md)
+      - [Longest Substring Without Repeating Characters](../../problems/string/Longest_Substring_Without_Repeating_Characters.md)
+      - [Longest Substring of Repeating Character by Replacement](../../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
+   - *2 strings*
+       - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
+       - [Does First String Has Substring Which Is Permutation Of Second String](../../problems/string/Does_First_String_Has_Substring_Which_Is_Permutation_Of_Second_String.md)
 - **Strings comparison**
-   - Subsequences
+   - *Subsequences*
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
       - 1143 Longest Common Subsequence
+   - *Substring*
+      - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
+      - [Does First String Has Substring Which Is Permutation Of Second String](../../problems/string/Does_First_String_Has_Substring_Which_Is_Permutation_Of_Second_String.md)
    - [Edit Distance](../../problems/string/Edit_Distance.md)
-   - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
    - 14 Longest Common Prefix
 - **Math**
    - [Get All Operator Combinations to Make Expression Match Target Number](../../problems/string/Get_All_Operator_Combinations_To_Make_Expression_Match_Target_Number.md)
