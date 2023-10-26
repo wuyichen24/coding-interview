@@ -57,6 +57,6 @@
    - [Shortest Substring Has Every Character From Another String](../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
    - [Does First String Has Substring Which Is Permutation Of Second String](../problems/string/Does_First_String_Has_Substring_Which_Is_Permutation_Of_Second_String.md)
    - [Find All Anagrams in a String](../problems/string/Find_All_Anagrams_In_String.md)
-- [Longest Substring Without Repeating Characters](../problems/string/Longest_Substring_Without_Repeating_Characters.md)
+   - [Longest Substring Without Repeating Characters](../problems/string/Longest_Substring_Without_Repeating_Characters.md)
 - [Longest Substring of Repeating Character by Replacement](../problems/string/Longest_Substring_Of_Repeating_Character_By_Replacement.md)
 - [Multi Dimensional Selection](../problems/other/Multi_Dimensional_Selection.md)
