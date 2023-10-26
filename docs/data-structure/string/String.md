@@ -100,6 +100,7 @@
    - *2 strings*
        - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
        - [Does First String Has Substring Which Is Permutation Of Second String](../../problems/string/Does_First_String_Has_Substring_Which_Is_Permutation_Of_Second_String.md)
+       - [Find All Anagrams in a String](../../problems/string/Find_All_Anagrams_In_String.md)
 - **Strings comparison**
    - *Subsequences*
       - [Distinct Subsequences](../../problems/string/Distinct_Subsequences.md)
@@ -107,6 +108,7 @@
    - *Substring*
       - [Shortest Substring Has Every Character From Another String](../../problems/string/Shortest_Substring_Has_Every_Character_From_Another_String.md)
       - [Does First String Has Substring Which Is Permutation Of Second String](../../problems/string/Does_First_String_Has_Substring_Which_Is_Permutation_Of_Second_String.md)
+      - [Find All Anagrams in a String](../../problems/string/Find_All_Anagrams_In_String.md)
    - [Edit Distance](../../problems/string/Edit_Distance.md)
    - 14 Longest Common Prefix
 - **Math**
