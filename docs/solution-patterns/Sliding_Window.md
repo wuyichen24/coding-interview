@@ -16,6 +16,10 @@
    - Use 2 pointers (`left` and `right`) to define a sliding window `[left, right)`.
    - Repeatedly increase the sliding window by increasing the pointer `right` until it satisfies the criteria.
    - Repeatedly shrink the sliding window by decreasing the pointer `left` until it cannot satify the criteria anymore.
+- **Ask 3 questions when using sliding window**
+   - When should the window be expanded?
+   - When should the window be shrinked?
+   - When should the answers be updated?
 - **Code**
   ```java
   void slidingWindow(String s) {
@@ -23,6 +27,7 @@
       HashMap<Character, Integer> window = new HashMap<>();
 
       int left = 0, right = 0;
+      // expand the window
       while (right < s.length()) {
           // c is the new character needs to be added into the window
           char c = s.charAt(right);
