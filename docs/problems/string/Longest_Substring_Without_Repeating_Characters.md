@@ -44,28 +44,36 @@
 ## Solutions
 - **Solution 1: Sliding window**
    - Idea
-      - Use a hashmap which stores the characters in string as keys and their index as values.
-      - Keep two pointers which define the max substring.
-      - Move the right pointer to scan through the string, and meanwhile update the hashmap.
-      - If any character occurs more than once, skip the characters immediately until there are no duplicate characters.
-         - If the right pointer's character is already in the hashmap, then move the left pointer to the next right position of the current right pointer.
+      - Use 1 hashmap (`window`) to store the frequency of each characters in the window.
+      - Shrink the window if there is a char occurring more than once.
    - Complexity
       - Time complexity: *O(n)*
 
   ```java
-  public int lengthOfLongestSubstring(String s) {
-      if (s.length()==0) return 0;
+  int lengthOfLongestSubstring(String s) {
+      Map<Character, Integer> window = new HashMap<>();  // store frequencies of each char in window
 
-      HashMap<Character, Integer> map = new HashMap<Character, Integer>();
-      int max=0;
-      for (int left=0, right=0; right < s.length(); ++right){       // Move right pointer to scan the string
-          if (map.containsKey(s.charAt(right))){                    // If the right pointer's character is already in the hashmap, then move the left pointer to the right of the same character last found.
-              left = Math.max(left , map.get(s.charAt(right))+1);   // 
+      int left = 0, right = 0;
+      int res = 0;
+
+      // increase the window
+      while (right < s.length()) {
+          char c = s.charAt(right);
+          right++;
+  
+          window.put(c, window.getOrDefault(c, 0) + 1);
+
+          // shrink the window
+          while (window.get(c) > 1) {
+              char d = s.charAt(left);
+              left++;
+            
+              window.put(d, window.get(d) - 1);
           }
-          map.put(s.charAt(right) , right);
-          max = Math.max(max , right-left+1);
+        
+          res = Math.max(res, right - left);
       }
-      return max;
+      return res;
   }
   ```
 - Solution 2: My solution
