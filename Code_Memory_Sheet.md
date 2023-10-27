@@ -21,3 +21,5 @@
    - Find f(x) <= target
 - **Sliding window**
    - Template
+- **Prefix sum array**
+   - Calculate
