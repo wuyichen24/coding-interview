@@ -19,3 +19,5 @@
    - Find a number
    - Find f(x) >= target
    - Find f(x) <= target
+- **Sliding window**
+   - Template
