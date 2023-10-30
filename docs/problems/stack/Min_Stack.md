@@ -13,6 +13,9 @@ Implement the MinStack class:
 - `int top()` gets the top element of the stack.
 - `int getMin()` retrieves the minimum element in the stack.
 
+## Note
+- Main difference comparing to [Max Stack](Max_Stack.md) is you don't need to remove the minimum value from stack.
+
 ## Solutions
 - **Solution 1: 2 stacks**
    - Idea
