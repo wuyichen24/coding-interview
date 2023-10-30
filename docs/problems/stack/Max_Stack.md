@@ -14,6 +14,9 @@ Implement the MaxStack class:
 - `int peekMax()` Retrieves the maximum element in the stack without removing it.
 - `int popMax()` Retrieves the maximum element in the stack and removes it. If there is more than one maximum element, only remove the top-most one.
 
+## Note
+- Main difference comparing to [Min Stack](Min_Stack.md) is you need to remove the maximum value from stack.
+
 ## Solutions
 - **Solution 1: Double linked list + TreeMap**
    - Need to consider following cases:
