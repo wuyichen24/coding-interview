@@ -281,6 +281,8 @@ void removeKthNode(ListNode head, int k) {
       - [Remove Nth Node From End of List](../../problems/linked_list/Remove_Nth_Node_From_End_Of_List.md)
    - *Rotate*
       - [Rotate List Right](../../problems/linked_list/Rotate_List_Right.md)
+   - *Swap*
+      - [Swap Every 2 Nodes In List](../../problems/linked_list/Swap_Every_2_Nodes_In_List.md)
 
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
 
