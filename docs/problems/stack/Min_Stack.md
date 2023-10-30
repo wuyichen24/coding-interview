@@ -1,0 +1,21 @@
+# Min Stack
+
+## Alias
+- Leetcode (155): [Min Stack](https://leetcode.com/problems/min-stack/)
+
+## Problem
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+Implement the MinStack class:
+- `MinStack()` initializes the stack object.
+- `void push(int val)` pushes the element `val` onto the stack.
+- `void pop()` removes the element on the top of the stack.
+- `int top()` gets the top element of the stack.
+- `int getMin()` retrieves the minimum element in the stack.
+
+## Solutions
+- **Solution 1: 2 stacks**
+   - Idea
+      - Use one stack as a normal stack, use another stack to remember the minimum value when inserting the corresonding value.
+
+  <img width="234" alt="Screenshot 2023-10-30 at 3 11 53 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/1598d74e-87b2-473e-bf71-6a22c5b594d9">
