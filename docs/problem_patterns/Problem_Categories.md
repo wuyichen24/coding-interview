@@ -74,48 +74,55 @@
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
 
 ## Problem series
-- Jump game
+- - **Buy and sell stock**
+   - [Best Time to Buy and Sell Stock In 1 Transaction](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
+   - [Best Time to Buy and Sell Stock In Multiple Transactions](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_Multiple_Transactions.md)
+   - 123 Best Time to Buy and Sell Stock III
+   - 188 Best Time to Buy and Sell Stock IV
+   - 309 Best Time to Buy and Sell Stock with Cooldown
+   - 714 Best Time to Buy and Sell Stock with Transaction Fee
+- **Jump game**
    - [Jump Game](../problems/array/jump_game/Jump_Game.md)
    - [Jump Game II](../problems/array/jump_game/Jump_Game_II.md)
    - [Jump Game IV](../problems/array/jump_game/Jump_Game_IV.md)
-- House Robber
+- **House Robber**
    - [House Robber](../problems/array/house_robber/House_Robber.md)
    - [House Robber II](../problems/array/house_robber/House_Robber_II.md)
-- Basic calculator
+- **Basic calculator**
    - 224 Basic Calculator
    - 227 Basic Calculator II
    - [Basic Calculator III](../problems/string/calculators/Basic_Calculator_III.md)
    - 770 Basic Calculator IV
-- Palindrome Partitioning
+- **Palindrome Partitioning**
    - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - 132 Palindrome Partitioning II
    - 1278 Palindrome Partitioning III
    - 1745 Palindrome Partitioning IV
-- Meeting Rooms
+- **Meeting Rooms**
    - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings)
    - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (Get the minimum number of conference rooms required)
- - Subset
+ - **Subset**
    - [Subsets (inputs are unique)](../problems/array/combinations/Subsets.md)
    - [Subsets II (inputs may contain duplicates)](../problems/array/combinations/Subsets_II.md)
-- Combination sum
+- **Combination sum**
    - [Combination Sum (element can be reused)](../problems/array/combinations/Combination_Sum.md)
    - [Combination Sum II (element can only be used once)](../problems/array/combinations/Combination_Sum_II.md)
-- Permutations
+- **Permutations**
    - [Permutations (inputs are unique)](../problems/array/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../problems/array/permutations/Permutations_II.md)
-- Course Schedule
+- **Course Schedule**
    - [Course Schedule II](../problems/graph/Course_Schedule_II.md)
-- Word Break
+- **Word Break**
    - [Word Break](../problems/string/Word_Break.md)
    - [Word Break II](../problems/string/Word_Break_II.md)
-- Valid Palindrome
+- **Valid Palindrome**
    - [Valid Palindrome II](../problems/string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md)
-- Path Sum
+- **Path Sum**
    - [Path Sum](../problems/tree/path/Is_Weight_Sum_Of_Root_To_Leaf_Path_Equal_To_Target_Value.md)
    - [Path Sum II](../problems/tree/path/Get_All_Root_To_Leaf_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
    - [Path Sum III](../problems/tree/path/Get_All_Paths_Whose_Weight_Sum_Equal_To_Target_Value.md)
    - 666 Path Sum IV
-- Linked List Cycle
+- **Linked List Cycle**
    - [Linked List Cycle](../problems/linked_list/Does_Linked_List_Have_Cycle.md)
    - [Linked List Cycle II](../problems/linked_list/Get_Node_Where_Cycle_Begins_In_List.md)
 
