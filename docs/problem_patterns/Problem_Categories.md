@@ -41,6 +41,11 @@
 - **Binary search**
    - [First Bad Version](../problems/other/First_Bad_Version.md)
    - [Divide Two Integers](../problems/math/Divide_Two_Integers.md)
+   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md) (Binary search)
+   - [Capacity To Ship Packages Within D Days](../problems/other/Capacity_To_Ship_Packages_Within_D_Days.md)
+- **Data structure**
+   - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
+   - [Max Stack](../problems/stack/Max_Stack.md) (Treemap + Double linked list)
 - **Add**
    - *String*
       - 67 Add Binary
@@ -59,11 +64,6 @@
    - [Predict the Winner](../problems/other/Predict_Winner.md) (DP)
    - [Coin Change](../problems/other/Coin_Change.md) (DP)
    - [Russian Doll Envelopes](../problems/other/Russian_Doll_Envelopes.md) (DP)
-- **Binary search**
-   - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md) (Binary search)
-   - [Capacity To Ship Packages Within D Days](../problems/other/Capacity_To_Ship_Packages_Within_D_Days.md)
-- **Data structure**
-   - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
 - **Others**
    - [Champagne Tower](../problems/other/Champagne_Tower.md)
    - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md) (Stack)
