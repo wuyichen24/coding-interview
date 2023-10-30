@@ -62,13 +62,14 @@
 - **Binary search**
    - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md) (Binary search)
    - [Capacity To Ship Packages Within D Days](../problems/other/Capacity_To_Ship_Packages_Within_D_Days.md)
+- **Data structure**
+   - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
 - **Others**
    - [Champagne Tower](../problems/other/Champagne_Tower.md)
    - [Count Exclusive Time of Functions](../problems/other/Count_Exclusive_Time_Of_Functions.md) (Stack)
    - [Task Scheduler](../problems/other/Task_Scheduler.md) (Greedy)
    - [Trap Rain Water](../problems/other/Trap_Rain_Water.md) (Monotonic stack)
    - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
-   - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
    - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
 
