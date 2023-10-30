@@ -74,7 +74,7 @@
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
 
 ## Problem series
-- - **Buy and sell stock**
+- **Buy and sell stock**
    - [Best Time to Buy and Sell Stock In 1 Transaction](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
    - [Best Time to Buy and Sell Stock In Multiple Transactions](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_Multiple_Transactions.md)
    - 123 Best Time to Buy and Sell Stock III
