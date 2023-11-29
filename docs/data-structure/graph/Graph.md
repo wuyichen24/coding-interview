@@ -139,7 +139,7 @@
   for (int i = 0; i < edges.length; i++) {
       indegree.put(edges[i][1], indegree.getOrDefault(edges[i][1], 0) + 1);
       nodes.add(edges[i][0]);        
-      nodes.add(edges[i][0]);
+      nodes.add(edges[i][1]);
   } 
 
   // add indegree=0 nodes into the map
