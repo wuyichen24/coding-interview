@@ -46,6 +46,7 @@
 - **Data structure**
    - [LRU Cache](../problems/other/LRU_Cache.md) (Hashmap + Double linked list)
    - [Max Stack](../problems/stack/Max_Stack.md) (Treemap + Double linked list)
+   - [Data Structure with All Operations in O(1)](../problems/other/Data_Structure_With_All_O1_Operations.md) (Hashmap + ArrayList)
 - **Add**
    - *String*
       - 67 Add Binary
