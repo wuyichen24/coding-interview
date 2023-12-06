@@ -112,7 +112,7 @@
 - [2023 Amazon OA](https://github.com/wuyichen24/coding-interview/tree/master/docs/problems/other/amazon#readme)
 - 2023 Amazon VO
    - [Climbing Stairs](docs/problems/other/Climbing_Stairs.md)
-   - [380]()
+   - [Data Structure with All Operations in O(1)](docs/problems/other/Data_Structure_With_All_O1_Operations.md) (Hashmap + ArrayList)
 - 2021 Amazon OA
   | Problem | Company | Stage |
   |----|----|----|
