@@ -108,7 +108,7 @@
 | [Get Range Sum of Binary Search Tree](docs/problems/tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Facebook | Onsite |
 | [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
 
-### Amazon OA
+### Amazon
 - [2023 Amazon OA](https://github.com/wuyichen24/coding-interview/tree/master/docs/problems/other/amazon#readme)
 - 2023 Amazon VO
    - [Climbing Stairs](docs/problems/other/Climbing_Stairs.md)
