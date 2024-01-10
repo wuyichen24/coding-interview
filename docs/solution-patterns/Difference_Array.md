@@ -5,6 +5,7 @@
 - diff[i] = num[i] - num[i-1]
 
 ## Benefits
+- Reduce the complexity of algorithm to modify elements in a range from O(n) to O(1).
 
 ## Construction
 - Build the difference array from the original array.
