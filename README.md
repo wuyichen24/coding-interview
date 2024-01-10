@@ -109,15 +109,18 @@
 | [Divide Two Integers](docs/problems/math/Divide_Two_Integers.md) | Facebook | Onsite | 
 
 ### Amazon
-- [2023 Amazon OA](https://github.com/wuyichen24/coding-interview/tree/master/docs/problems/other/amazon#readme)
-- 2023 Amazon VO
-   - [Climbing Stairs](docs/problems/other/Climbing_Stairs.md)
-   - [Data Structure with All Operations in O(1)](docs/problems/other/Data_Structure_With_All_O1_Operations.md)
-- 2021 Amazon OA
-  | Problem | Company | Stage |
-  |----|----|----|
-  | [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
-  | [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
+- 2023
+   - [OA](docs/problems/other/amazon#readme)
+   - VO
+      - [Best Time to Buy and Sell Stock In 1 Transaction](docs/problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
+      - [Climbing Stairs](docs/problems/other/Climbing_Stairs.md)
+      - [Data Structure with All Operations in O(1)](docs/problems/other/Data_Structure_With_All_O1_Operations.md)
+- 2021
+   - OA
+     | Problem | Company | Stage |
+     |----|----|----|
+     | [Optimizing Box Weights](docs/problems/array/Optimizing_Box_Weights.md) | Amazon | Screening |
+     | [Gifting Group (Get Number of Groups in Undirected Graph)](docs/problems/graph/Get_Number_Of_Groups_In_Undirected_Graph.md) | Amazon | Screening |
 
 ### ByteDance
 - [ByteDance OA and VO](https://github.com/wuyichen24/coding-interview/blob/master/ByteDance.md)
