@@ -11,7 +11,7 @@
 
 ## Concepts
 - Each element in a prefix sum array is the sum of all the elements which is in and before the current element of the input array.
-- prefixSum[i] = num[0] + num[1] + ... + num[i] = prefixSum [i-1] + num[i]
+- `prefixSum[i] = num[0] + num[1] + ... + num[i] = prefixSum [i-1] + num[i]`
 
   ![Untitled (3)](https://user-images.githubusercontent.com/8989447/115646395-4b51f080-a2df-11eb-9fd4-21315870d887.png)
 
@@ -30,7 +30,8 @@ void buildPrefixSumArray(int[] nums) {
 ```
 
 ## How to use
-- The sum of range [i, j] of the input array: prefixSum[j] - prefixSum[i-1]
+- To calculate the sum of the  range `[i, j]` of the input array
+   - `prefixSum[j] - prefixSum[i-1]`
 
 ## Complexity
 - Time complexity
