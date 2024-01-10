@@ -30,7 +30,7 @@ void buildPrefixSumArray(int[] nums) {
 ```
 
 ## How to use
-- To calculate the sum of the  range `[i, j]` of the input array
+- To calculate the sum of the  range `[i, j]` of the input array:
    - `prefixSum[j] - prefixSum[i-1]`
 
 ## Complexity
