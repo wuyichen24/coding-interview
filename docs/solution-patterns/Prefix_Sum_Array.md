@@ -39,7 +39,7 @@ void buildPrefixSumArray(int[] nums) {
    - O(n)
 
 ## Problems can use this pattern
-- Calculat the sum of a range/subarray of an array.
+- Calculate the sum of a range/subarray of an array.
 - Get a random candidate with different weight.
 
 ## Problems
