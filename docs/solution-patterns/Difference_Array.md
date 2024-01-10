@@ -27,6 +27,9 @@
   ```
 
 ## How to use
+
+![difference](https://github.com/wuyichen24/coding-interview/assets/8989447/364ea626-162b-4bbf-b776-22f53e759085)
+
 - To increase all the elements in the range [i, j] of the input array by x:
    - `diff[i]   = diff[i] + x`
    - `diff[j+1] = diff[j+1] - x`
