@@ -50,6 +50,7 @@
 - [**2 Pointers**](docs/solution-patterns/2_Pointers.md)
 - [**Sliding Window**](docs/solution-patterns/Sliding_Window.md)
 - [**Prefix Sum Array**](docs/solution-patterns/Prefix_Sum_Array.md)
+- [**Difference Array**](docs/solution-patterns/Difference_Array.md)
 - [**Frequency Counters**](docs/solution-patterns/Frequency_Counter.md)
 - [**Reservoir Sampling**](docs/solution-patterns/Reservoir_Sampling.md)
 - [**Heap (Priority Queue)**](docs/data-structure/tree/Heap.md)
