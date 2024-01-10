@@ -31,12 +31,20 @@
 
 ![difference](https://github.com/wuyichen24/coding-interview/assets/8989447/364ea626-162b-4bbf-b776-22f53e759085)
 
-- To increase all the elements in the range [i, j] of the input array by x:
+- To increase all the elements in the range [i, j] of the input array by `x`:
    - `diff[i]   = diff[i] + x`
    - `diff[j+1] = diff[j+1] - x`
-- To decrease all the elements in the range [i, j] of the input array by x:
-   - `diff[i]   = diff[i] - x`
-   - `diff[j+1] = diff[j+1] + x`
+- To decrease all the elements in the range [i, j] of the input array by `x`:
+   - Use the logic above with negative `x`.
+- Code example
+  ```java
+  public void increment(int i, int j, int val) {
+      diff[i] += val;
+      if (j + 1 < diff.length) {
+          diff[j + 1] -= val;
+      }
+  }
+  ```
 
 ## Problems can use this pattern
 - Frequent addition and subtraction of elements in a specific range of the original array.
