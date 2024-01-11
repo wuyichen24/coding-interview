@@ -50,3 +50,4 @@
 - Frequent addition and subtraction of elements in a specific range of the original array.
 
 ## Problems
+- [Increase Elements in Range](../problems/array/Increase_Elements_In_Range.md.md)
