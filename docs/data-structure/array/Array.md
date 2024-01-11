@@ -73,6 +73,7 @@ void reverse(int[] nums, int i, int j) {
       - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
       - [Calculate Range Sum in Array](../../problems/array/Calculate_Range_Sum_In_Array.md)
    - *Add*
+      - [Increase Elements in Range](../../problems/array/Increase_Elements_In_Range.md.md)
       - 66 Plus One
       - 989 Add to Array-Form of Integer
 - **Frequency**
