@@ -74,6 +74,7 @@
    - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
    - [Corporate Flight Bookings](../problems/other/Corporate_Flight_Bookings.md) (Difference array)
+   - [Car Pooling](../problems/other/Car_Pooling.md)
 
 ## Problem series in LeetCode
 - **Buy and sell stock**
