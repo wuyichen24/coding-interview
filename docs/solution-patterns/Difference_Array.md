@@ -56,3 +56,4 @@
 
 ## Problems
 - [Increase Elements in Range](../problems/array/Increase_Elements_In_Range.md.md)
+- [Corporate Flight Bookings](../problems/other/Corporate_Flight_Bookings.md)
