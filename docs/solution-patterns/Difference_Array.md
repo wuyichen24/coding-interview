@@ -6,6 +6,7 @@
 
 ## Benefits
 - Reduce the complexity of algorithm to modify elements in a range from O(n) to O(1).
+- To modify all the elements in a range, you only need to modify 2 ends of the range in the difference array.
 
 ## How to use
 
