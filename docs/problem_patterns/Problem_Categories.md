@@ -73,8 +73,9 @@
    - [Two City Scheduling](../problems/other/Two_City_Scheduling.md)
    - [Accounts Merge](../problems/other/Accounts_Merge.md) (BFS, DFS, Union find)
    - [Open the Lock](../problems/other/Open_The_Lock.md) (BFS)
+   - [Corporate Flight Bookings](../problems/other/Corporate_Flight_Bookings.md) (Difference array)
 
-## Problem series
+## Problem series in LeetCode
 - **Buy and sell stock**
    - [Best Time to Buy and Sell Stock In 1 Transaction](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
    - [Best Time to Buy and Sell Stock In Multiple Transactions](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_Multiple_Transactions.md)
