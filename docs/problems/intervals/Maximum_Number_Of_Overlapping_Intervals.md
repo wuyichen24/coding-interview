@@ -48,7 +48,7 @@ Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, r
          - If end point, decrease the counter by 1.
        
   ```java
-  public int minMeetingRooms(int[][] intervals) {        
+  public int maxNumOfOverlappingIntervals(int[][] intervals) {        
       List<Integer[]> list = new ArrayList<>();
       for (int i = 0; i < intervals.length; i++) {
           list.add(new Integer[]{intervals[i][0], 1});   // start point use 1
