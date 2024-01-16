@@ -15,7 +15,7 @@ Return the list of finite intervals representing **common, positive-length free 
 > Summary: Given K lists of intervals, merge them and find gaps in the merged interval list.
 
 ## Solution
-- Solution 1
+- **Solution 1
   ```java
   class Solution {
       public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
