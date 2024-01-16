@@ -128,6 +128,9 @@
 - **Linked List Cycle**
    - [Linked List Cycle](../problems/linked_list/Does_Linked_List_Have_Cycle.md)
    - [Linked List Cycle II](../problems/linked_list/Get_Node_Where_Cycle_Begins_In_List.md)
+- **Shifting Letters**
+   - 848 Shifting Letters
+   - [Shifting Letters II](../problems/string/Shifting_Letters.md)
 
 ## ByteDance Online assessment
 - [Airport send and pickup service orders make pairs](../problems/other/Airport_Send_And_Pickup_Service_Orders_Make_Pairs.md)
