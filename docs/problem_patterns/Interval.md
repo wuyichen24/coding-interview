@@ -25,7 +25,7 @@
 - Use [Sweep line algorithm](../solution-patterns/Sweep_Line_Algorithm.md)
 
 ## Problems
-- [Number of Airplanes in Sky](../problems/intervals/Number_Of_Airplanes_In_Sky.md)
+- [Maximum Number of Overlapped Intervals](../problems/intervals/Maximum_Number_Of_Overlapped_Intervals.md)
 - [Merge Intervals](../problems/intervals/Merge_Intervals.md) (LC56)
 - 57 Insert Interval
 - Meeting Rooms
