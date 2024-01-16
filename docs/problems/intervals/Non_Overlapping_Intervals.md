@@ -42,7 +42,7 @@ Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, r
       - You don't need to remove any of the intervals since they're already non-overlapping.
 
 ## Solutions
-- Solution 1: Sort inteval
+- **Solution 1: Sort intervals**
    - Idea
       - Sort the interval by the end time and let each interval compare the start time with the end time of the previous interval.
 
