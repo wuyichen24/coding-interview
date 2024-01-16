@@ -28,6 +28,7 @@
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
    - 759 Employee Free Time (hard)
+   - 986 Interval List Intersections
    - 1229 Meeting Scheduler
    - 1272 Remove Interval
    - 1288 Remove Covered Intervals
@@ -53,3 +54,4 @@
 - [LeetCode Discussion | Line Sweep Algorithms](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
 - [labuladong 的算法笔记 | 贪心算法之区间调度问题](https://labuladong.github.io/algo/di-er-zhan-a01c6/tan-xin-le-9bedf/tan-xin-su-c41e8/)
 - [labuladong 的算法笔记 | 扫描线技巧：安排会议室](https://labuladong.github.io/algo/di-er-zhan-a01c6/tan-xin-le-9bedf/sao-miao-x-2e810/)
+- [Youtube | 扫描线 - 古城算法](https://www.youtube.com/watch?v=ihf8JjQdta0&ab_channel=%E5%8F%A4%E5%9F%8E%E7%AE%97%E6%B3%95)
