@@ -15,11 +15,12 @@
 
 ## Problems
 - 1D
-   - [Number of Airplanes in Sky](problems/intervals/Number_Of_Airplanes_In_Sky.md)
+   - [Number of Airplanes in Sky](../problems/intervals/Number_Of_Airplanes_In_Sky.md)
    - 56 Merge Intervals
    - 57 Insert Interval
-   - 252 Meeting Rooms
-   - 253 Meeting Rooms II (medium)
+   - Meeting Rooms
+      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (LC252)
+      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (LC253)
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
    - 435 Non-overlapping Intervals (medium)
