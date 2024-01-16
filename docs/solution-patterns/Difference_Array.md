@@ -60,3 +60,5 @@
 - [Corporate Flight Bookings](../problems/other/Corporate_Flight_Bookings.md)
 - [Car Pooling](../problems/other/Car_Pooling.md)
 - [Shifting Letters](../problems/string/Shifting_Letters.md)
+- 798 Smallest Rotation with Highest Score
+- 2132 Stamping the Grid (2D difference array)
