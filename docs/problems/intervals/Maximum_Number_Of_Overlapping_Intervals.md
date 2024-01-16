@@ -2,9 +2,10 @@
 
 ## Alias
 - Lintcode (391): [Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
+- Leetcode (253): [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
 
 ## Problem
-Given an list `intervals`, which are taking off and landing time of the flight. How many airplanes are there at most at the same time in the sky?
+Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, return the maximum number of overlapping intervals.
 
 ## Examples
 - Example 1
@@ -19,14 +20,21 @@ Given an list `intervals`, which are taking off and landing time of the flight. 
 - Example 2
    - Input
      ```
+     [[0,30],[5,10],[15,20]]
+     ```
+   - Output
+     ```
+     2
+     ```
+- Example 3
+   - Input
+     ```
      [[1,2],[2,3],[3,4]]
      ```
    - Output
      ```
      1
      ```
-   - Explanation
-      - Landing happen before taking off.
     
 ## Solutions
 - **Solution 1: Sweep line algorithm**
