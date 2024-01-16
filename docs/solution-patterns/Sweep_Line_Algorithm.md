@@ -43,7 +43,12 @@
    - 2251 Number of Flowers in Full Bloom (hard)
    - 2848 Points That Intersect With Cars (easy)
 - 2D
+   - 218 The Skyline Problem
+   - 391 Perfect Rectangle
+   - 850 Rectangle Area II
 
 
 ## References
-https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms
+- [LeetCode Discussion | Line Sweep Algorithms](https://leetcode.com/discuss/study-guide/2166045/line-sweep-algorithms)
+- [labuladong 的算法笔记 | 贪心算法之区间调度问题](https://labuladong.github.io/algo/di-er-zhan-a01c6/tan-xin-le-9bedf/tan-xin-su-c41e8/)
+- [labuladong 的算法笔记 | 扫描线技巧：安排会议室](https://labuladong.github.io/algo/di-er-zhan-a01c6/tan-xin-le-9bedf/sao-miao-x-2e810/)
