@@ -28,7 +28,7 @@ Please calculate the minimum time that the computer can process all the tasks.
         ![Processing_Tasks drawio](https://github.com/wuyichen24/coding-interview/assets/8989447/495cef9f-4ad9-4de2-ad97-bc34f8b0df1a)
 
 ## Solutions
-- **Solution 1: Sweepline algorithm**
+- **Solution 1: Sweep line algorithm**
    - Idea
       - Split the starting and ending points for each task and sort them by time and type (let the starting point is front of the ending point if both of them have the same time).
         ```
