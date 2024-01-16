@@ -36,3 +36,40 @@ Return the final string after all such shifts to `s` are applied.
      "catz"
      ```
    - Explanation
+      - Firstly, shift the characters from index 0 to index 0 backward. Now s = "cztz".
+      - Finally, shift the characters from index 1 to index 1 forward. Now s = "catz".
+
+## Solutions
+- **Solution 1: Difference array**
+   - Idea
+      - Use difference array to Reduce the complexity for shifting letters
+      - To increase all the letters in the range `[i, j]` of the input array by `x`:
+         - `diff[i]   = diff[i] + x`
+         - `diff[j+1] = diff[j+1] - x`
+      - After calculating the difference array, use it to calculating the new letters
+         - Use `int newChar = ((oldChar - 'a') + diff) % 26`
+
+  ```java
+  public String shiftingLetters(String s, int[][] shifts) {
+      char[] ch = s.toCharArray();
+      int[] diff = new int[s.length()+1];
+        
+      // calculate the difference array
+      for(int[] shift : shifts){
+          int value = shift[2] == 1 ? 1 : -1;
+          diff[shift[0]] += value;
+          diff[shift[1] + 1] -= value;
+      }
+        
+      // rebuild the new string by difference array
+      int sum = 0;
+      for(int i = 0; i < diff.length - 1; i++){
+          sum += diff[i];
+          int newChar = ((ch[i] - 'a') + sum) % 26;
+          if(newChar < 0) newChar+= 26;
+          ch[i] =  (char)('a' + newChar);
+      }
+        
+      return String.valueOf(ch);
+  }
+  ```
