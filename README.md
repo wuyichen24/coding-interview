@@ -73,6 +73,7 @@
    - Counting sort
    - Kruskal's algorithm (for minimum spanning tree)
    - Kadane's Algorithm
+   - Fenwick tree or binary indexed tree (BIT)
 
 ## Problem Patterns
 ### New
