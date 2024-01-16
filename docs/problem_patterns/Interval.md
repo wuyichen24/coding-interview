@@ -26,7 +26,7 @@
 
 ## Problems
 - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md)
-- [Merge Intervals](../problems/intervals/Merge_Intervals.md) (LC56)
+- [Merge Overlapping Intervals](..problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
 - 57 Insert Interval
 - Meeting Rooms
    - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (LC252)
