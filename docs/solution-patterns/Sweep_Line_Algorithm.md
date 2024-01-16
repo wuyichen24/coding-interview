@@ -16,20 +16,20 @@
 ## Problems
 - 1D
    - [Number of Airplanes in Sky](../problems/intervals/Number_Of_Airplanes_In_Sky.md)
-   - 56 Merge Intervals
+   - [Merge Intervals](../problems/intervals/Merge_Intervals.md) (LC56)
    - 57 Insert Interval
    - Meeting Rooms
       - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (LC252)
       - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (LC253)
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
-   - 435 Non-overlapping Intervals (medium)
+   - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
    - 452 Minimum Number of Arrows to Burst Balloons (medium)
    - 646 Maximum Length of Pair Chain
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
-   - 759 Employee Free Time (hard)
-   - 986 Interval List Intersections
+   - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
+   - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
    - 1229 Meeting Scheduler
    - 1272 Remove Interval
    - 1288 Remove Covered Intervals
