@@ -20,6 +20,7 @@
    - 57 Insert Interval
    - 252 Meeting Rooms
    - 253 Meeting Rooms II (medium)
+   - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
    - 435 Non-overlapping Intervals (medium)
    - 452 Minimum Number of Arrows to Burst Balloons (medium)
