@@ -27,7 +27,7 @@ Given an array of meeting time `intervals` where `intervals[i] = [starti, endi]`
      ```
 
 ## Solutions
-- Solution 1: Sort intervals
+- **Solution 1: Sort intervals**
    - Idea
       - Sort the intervals by their starting points and compare 2 adjacent intervals.
     
