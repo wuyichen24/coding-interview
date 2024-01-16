@@ -25,7 +25,7 @@
 - Use [Sweep line algorithm](../solution-patterns/Sweep_Line_Algorithm.md)
 
 ## Problems
-- [Maximum Number of Overlapped Intervals](../problems/intervals/Maximum_Number_Of_Overlapped_Intervals.md)
+- [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md)
 - [Merge Intervals](../problems/intervals/Merge_Intervals.md) (LC56)
 - 57 Insert Interval
 - Meeting Rooms
