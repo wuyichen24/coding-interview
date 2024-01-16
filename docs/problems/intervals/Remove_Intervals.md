@@ -44,7 +44,8 @@ Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, r
 ## Solutions
 - **Solution 1: Sort intervals**
    - Idea
-      - Sort the interval by the end time and let each interval compare the start time with the end time of the previous interval.
+      - Sort the intervals by their end pints and compare 2 adjacent intervals
+         - Let each interval compare the start time with the end time of the previous interval.
 
   ```java
   public int eraseOverlapIntervals(int[][] intervals) {
@@ -54,7 +55,7 @@ Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, r
 
       int end = intervals[0][1];
       int count = 1;
-      for(int i =1; i < intervals.length ; i++){
+      for(int i = 1; i < intervals.length ; i++){
           if (intervals[i][0] >= end){       // If the current interval start time is after the end of the previous interval
               end = intervals[i][1];
               count++;
