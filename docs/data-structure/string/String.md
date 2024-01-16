@@ -151,6 +151,8 @@
       - [Restore IP Addresses](../../problems/string/Restore_IP_Addresses.md)
    - Rotate
       - 796 Rotate String
+   - Shift
+      - [Shifting Letters](../../problems/string/Shifting_Letters.md)
 - **Input is string array**
    - *Grouping string array* (See strategies section)
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
