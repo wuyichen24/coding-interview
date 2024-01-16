@@ -25,21 +25,19 @@
 - Use [Sweep line algorithm](../solution-patterns/Sweep_Line_Algorithm.md)
 
 ## Problems
-- [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md)
 - [Merge Overlapping Intervals](..problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
-- 57 Insert Interval
-- Meeting Rooms
-   - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (LC252)
-   - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (LC253)
+- [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
+- [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
+- [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
+- [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
+- [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
 - 352 Data Stream as Disjoint Intervals
 - 370 Range Addition (medium)
-- [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
 - 452 Minimum Number of Arrows to Burst Balloons (medium)
 - 646 Maximum Length of Pair Chain
 - 731 My Calendar II (medium)
 - 732 My Calendar III (medium)
-- [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
-- [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
+- 57 Insert Interval
 - 1229 Meeting Scheduler
 - 1272 Remove Interval
 - 1288 Remove Covered Intervals
