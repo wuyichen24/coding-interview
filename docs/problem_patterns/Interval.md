@@ -25,31 +25,37 @@
 - Use [Sweep line algorithm](../solution-patterns/Sweep_Line_Algorithm.md)
 
 ## Problems
-- [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
-- [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
-- [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
-- [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
-- [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
-- [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
-- 352 Data Stream as Disjoint Intervals
-- 370 Range Addition (medium)
-- 452 Minimum Number of Arrows to Burst Balloons (medium)
-- 646 Maximum Length of Pair Chain
-- 731 My Calendar II (medium)
-- 732 My Calendar III (medium)
-- 57 Insert Interval
-- 1229 Meeting Scheduler
-- 1272 Remove Interval
-- 1288 Remove Covered Intervals
-- 1326 Minimum Number of Taps to Open to Water a Garden (hard)
-- 1353 Maximum Number of Events That Can Be Attended
-- 1589 Maximum Sum Obtained of Any Permutation (medium)
-- 1674 Minimum Moves to Make Array Complementary (medium)
-- 1851 Minimum Interval to Include Each Query (hard)
-- 1854 Maximum Population Year (easy)
-- 1893 Check if All the Integers in a Range Are Covered (easy)
-- 1943 Describe the Painting (medium)
-- 2158 Amount of New Area Painted Each Day (hard)
-- 2237 Count Positions on Street With Required Brightness (medium)
-- 2251 Number of Flowers in Full Bloom (hard)
-- 2848 Points That Intersect With Cars (easy)
+- **Check properties**
+   - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
+   - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
+- **Manipulation**
+   - *Deoverlapping*
+      - [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
+      - [Remove Intervals](../problems/intervals/Remove_Intervals.md) (LC435)
+   - *Merge*
+      - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
+   - *Intersect*
+      - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
+- **Other**
+   - 352 Data Stream as Disjoint Intervals
+   - 370 Range Addition (medium)
+   - 452 Minimum Number of Arrows to Burst Balloons (medium)
+   - 646 Maximum Length of Pair Chain
+   - 731 My Calendar II (medium)
+   - 732 My Calendar III (medium)
+   - 57 Insert Interval
+   - 1229 Meeting Scheduler
+   - 1272 Remove Interval
+   - 1288 Remove Covered Intervals
+   - 1326 Minimum Number of Taps to Open to Water a Garden (hard)
+   - 1353 Maximum Number of Events That Can Be Attended
+   - 1589 Maximum Sum Obtained of Any Permutation (medium)
+   - 1674 Minimum Moves to Make Array Complementary (medium)
+   - 1851 Minimum Interval to Include Each Query (hard)
+   - 1854 Maximum Population Year (easy)
+   - 1893 Check if All the Integers in a Range Are Covered (easy)
+   - 1943 Describe the Painting (medium)
+   - 2158 Amount of New Area Painted Each Day (hard)
+   - 2237 Count Positions on Street With Required Brightness (medium)
+   - 2251 Number of Flowers in Full Bloom (hard)
+   - 2848 Points That Intersect With Cars (easy)
