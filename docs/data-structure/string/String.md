@@ -11,6 +11,9 @@
    - A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
 - **Anagrams**
    - An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+- **Shifting**
+   - Shifting a character forward means replacing it with the next letter in the alphabet (wrapping around so that 'z' becomes 'a').
+   - Shifting a character backward means replacing it with the previous letter in the alphabet (wrapping around so that 'a' becomes 'z').
 
 ## Strategies
 - **Parentheses**
