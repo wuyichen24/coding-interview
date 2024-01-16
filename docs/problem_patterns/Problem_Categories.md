@@ -22,13 +22,17 @@
    - [Is Palinedrome Integer](../problems/math/Is_Palindrome_Integer.md)
    - [Happy Number](../problems/math/Happy_Number.md)
 - **Intevals**
-   - Meeting Rooms
-      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (Determine if a person could attend all meetings)
-      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (Get the minimum number of conference rooms required)
-   - [Merge Intervals](../problems/intervals/Merge_Intervals.md)
-   - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md)
-   - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md)
-   - [Merge K Interval Lists And Find Gaps](../problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md)
+   - *Check properties*
+      - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
+      - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
+   - *Manipulation*
+      - Deoverlapping
+         - [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
+         - [Remove Intervals](../problems/intervals/Remove_Intervals.md) (LC435)
+      - Merge
+         - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
+      - Intersect
+         - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
 - **Random**
    - **Candidate with same weight**
       - [Generate Random Index of Target Number](../problems/array/Generate_Random_Index_Of_Target_Number.md)
