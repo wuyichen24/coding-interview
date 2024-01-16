@@ -25,7 +25,7 @@
 - Use [Sweep line algorithm](../solution-patterns/Sweep_Line_Algorithm.md)
 
 ## Problems
-- [Merge Overlapping Intervals](..problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
+- [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
 - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
 - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
 - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
