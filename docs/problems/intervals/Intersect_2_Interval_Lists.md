@@ -23,41 +23,36 @@ The intersection of two closed intervals is a set of real numbers that are eithe
   ![interval1](https://user-images.githubusercontent.com/8989447/116320084-d6fecd80-a774-11eb-9199-9fd72d4d311a.png) 
   
 ## Solution
-- Solution 1
+- **Solution 1**
+   - Idea
+      - Use 2 pointers on 2 lists respectively to compare intervals between 2 lists.
+      - When compare 2 interval.
+         - For 2 start points, find the larger one (`larger_start`).
+         - For 2 end points, find the smaller one (smaller_end).
+         - If `larger start < smaller end`, there is an intersection.
+      - Move forward 2 pointers
+         - Which interval's end is smaller, move that interval (pointer).
+        
   ```java
   public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
-      if (firstList == null || secondList == null) {
-          return null;
-      }
-        
-      List<Integer[]> resultList = new ArrayList();
-        
-      for (int i = 0; i < firstList.length; i++) {
-          int l1 = firstList[i][0];
-          int r1 = firstList[i][1];
-            
-          for (int j = 0; j < secondList.length; j++) {
-              int l2 = secondList[j][0];
-              int r2 = secondList[j][1];
-                
-              if (l1 > r2 || r1 < l2) {                         // Case 1: 2 intervals don't touch at all
-                  continue;
-              } else {                                          // Case 2: 2 intervals touch,
-                  int newL = l1 < l2 ? l2 : l1;                 //         Find the left and right for the intersection
-                  int newR = r1 > r2 ? r2 : r1;
-                
-                  resultList.add(new Integer[]{newL, newR});
-              }
+      List<int[]> result = new ArrayList();
+      int i = 0, j = 0;
+
+      while(i < firstList.length && j < secondList.length) {
+          int largerStart = Math.max(firstList[i][0], secondList[j][0]);
+          int smallerEnd  = Math.min(firstList[i][1], secondList[j][1]);
+
+          if (largerStart <= smallerEnd) {
+              result.add(new int[]{largerStart, smallerEnd});
+          }
+
+          if (firstList[i][1] < secondList[j][1]) {
+              i++;
+          } else {
+              j++;
           }
       }
-                                   
-      int[][] resultArray = new int[resultList.size()][2];
-                                   
-      for (int i = 0; i < resultList.size(); i++) {
-          resultArray[i][0] = resultList.get(i)[0];
-          resultArray[i][1] = resultList.get(i)[1];
-      }
-                                   
-      return resultArray;
+
+      return result.toArray(new int[result.size()][]);
   }
   ```
