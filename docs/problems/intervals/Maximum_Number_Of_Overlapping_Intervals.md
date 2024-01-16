@@ -1,4 +1,4 @@
-# Maximum Number of Overlapped Intervals
+# Maximum Number of Overlapping Intervals
 
 ## Alias
 - Lintcode (391): [Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
