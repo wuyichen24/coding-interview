@@ -6,3 +6,5 @@
 
 ## Problems can use this pattern
 - Find intersections of intervals
+
+## Problems
