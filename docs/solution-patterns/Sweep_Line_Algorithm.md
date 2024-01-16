@@ -18,9 +18,8 @@
    - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md)
    - [Merge Overlapping Intervals](..problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
    - 57 Insert Interval
-   - Meeting Rooms
-      - [Meeting Rooms](../problems/intervals/Meeting_Rooms.md) (LC252)
-      - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (LC253)
+   - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252)
+   - [Meeting Rooms II](../problems/intervals/Meeting_Rooms_II.md) (LC253)
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
    - [Non-overlapping Intervals](../problems/intervals/Non_Overlapping_Intervals.md) (LC435)
