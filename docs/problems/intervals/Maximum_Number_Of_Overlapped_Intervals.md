@@ -1,7 +1,7 @@
-# Number of Airplanes in Sky
+# Maximum Number of Overlapped Intervals
 
 ## Alias
-- Linttcode (391): [Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
+- Lintcode (391): [Number of Airplanes in the Sky](https://www.lintcode.com/problem/391/)
 
 ## Problem
 Given an list `interval`, which are taking off and landing time of the flight. How many airplanes are there at most at the same time in the sky?
