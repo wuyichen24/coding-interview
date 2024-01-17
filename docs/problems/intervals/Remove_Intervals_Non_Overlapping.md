@@ -1,4 +1,4 @@
-# Remove Intervals
+# Remove Intervals for Non-overlapping
 
 ## Alias
 - Leetcode (435): [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
