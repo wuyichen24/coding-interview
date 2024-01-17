@@ -57,6 +57,13 @@ Given the array points, return the **minimum** number of arrows that must be sho
       - Sort the intervals by their end points and compare 2 adjacent intervals
       - Let each interval compare the start time with the end time of the previous interval.
 
+        <img width="592" alt="Screenshot 2024-01-17 at 3 47 51 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/b4e6167b-860b-4b66-92e4-76b27e1f43c8">
+
+      - Note that 2 intervals are overlapping even if only boundaries are overlapping.
+
+        <img width="378" alt="Screenshot 2024-01-17 at 3 50 13 PM" src="https://github.com/wuyichen24/coding-interview/assets/8989447/ae145f56-41bd-4de9-9e4f-bdadb57d91cd">
+
+
   ```java
   public int findMinArrowShots(int[][] points) {
       if (points.length == 0) return 0;
