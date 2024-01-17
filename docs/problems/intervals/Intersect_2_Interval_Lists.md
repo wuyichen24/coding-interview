@@ -23,7 +23,7 @@ The intersection of two closed intervals is a set of real numbers that are eithe
   ![interval1](https://user-images.githubusercontent.com/8989447/116320084-d6fecd80-a774-11eb-9199-9fd72d4d311a.png) 
   
 ## Solution
-- **Solution 1**
+- **Solution 1: 2 pointers + Sweep line algorithm**
    - Idea
       - Use 2 pointers on 2 lists respectively to compare intervals between 2 lists.
       - When compare 2 interval.
