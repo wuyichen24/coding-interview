@@ -35,7 +35,7 @@
    - *Merge*
       - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
    - *Intersect*
-      - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
+      - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986) (Find all intersections)
 - **Other**
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
