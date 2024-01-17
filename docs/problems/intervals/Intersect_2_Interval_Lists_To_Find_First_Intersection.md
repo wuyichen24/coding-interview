@@ -37,7 +37,7 @@ It is guaranteed that no two availability slots of the same person intersect wit
      ```
 
 ## Solution
-- **Solution 1**
+- **Solution 1: 2 pointers + Sweep line algorithm**
    - Idea
       - Use 2 pointers on 2 lists respectively to compare intervals between 2 lists.
       - Sort 2 lists by start time.
