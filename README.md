@@ -65,7 +65,7 @@
 - [Recursion]()
 - Other algorithms
    - [Kahn's algorithm](docs/problem_patterns/Topological_Sorting.md#kahns-algorithm)
-   - Sweep line algorithm
+   - [Sweep line algorithm](docs/solution-patterns/Sweep_Line_Algorithm.md)
    - Kadane's algorithm
    - Dijkstra's algorithm
    - Easy rolling
