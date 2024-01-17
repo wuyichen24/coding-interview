@@ -32,7 +32,8 @@
       - Merge
          - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
       - Intersect
-         - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986)
+         - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986) (Find all intersections)
+         - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
 - **Random**
    - **Candidate with same weight**
       - [Generate Random Index of Target Number](../problems/array/Generate_Random_Index_Of_Target_Number.md)
