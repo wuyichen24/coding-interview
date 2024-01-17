@@ -20,6 +20,7 @@
    - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
    - [Remove Intervals for Non-overlapping](../problems/intervals/Remove_Intervals_Non_Overlapping.md) (LC435)
    - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
+   - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
    - 57 Insert Interval
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
