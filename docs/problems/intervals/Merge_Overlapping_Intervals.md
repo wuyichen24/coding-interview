@@ -53,13 +53,13 @@
       Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
 
       List<int[]> result = new ArrayList<>();
-      int[] newInterval = intervals[0];
-      result.add(newInterval);
-      for (int[] interval : intervals) {
-           if (interval[0] <= newInterval[1]) { // Overlapping intervals, take the max end
-               newInterval[1] = Math.max(newInterval[1], interval[1]);
+      int[] current = intervals[0];
+      result.add(current);
+      for (int[] next : intervals) {
+           if (next[0] <= current[1]) { // Overlapping intervals, take the max end
+               current[1] = Math.max(current[1], next[1]);
            } else {                             // Disjoint intervals, add the new interval to the list
-               newInterval = interval;
+               current = next;
                result.add(newInterval);
            }
       }
