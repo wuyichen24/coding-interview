@@ -56,9 +56,9 @@
       int[] current = intervals[0];
       result.add(current);
       for (int[] next : intervals) {
-           if (next[0] <= current[1]) { // Overlapping intervals, take the max end
+           if (next[0] <= current[1]) {    // Overlapping intervals, take the max end
                current[1] = Math.max(current[1], next[1]);
-           } else {                             // Disjoint intervals, add the new interval to the list
+           } else {                        // Disjoint intervals, add the new interval to the list
                current = next;
                result.add(current);
            }
