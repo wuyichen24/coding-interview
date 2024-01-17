@@ -34,6 +34,8 @@
       - Intersect
          - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986) (Find all intersections)
          - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
+      - Remove
+         - [Remove Covered Intervals](../problems/intervals/Remove_Covered_Intervals.md) 
 - **Random**
    - **Candidate with same weight**
       - [Generate Random Index of Target Number](../problems/array/Generate_Random_Index_Of_Target_Number.md)
