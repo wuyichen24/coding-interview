@@ -22,10 +22,10 @@
    - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
    - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
    - [Remove Covered Intervals](../problems/intervals/Remove_Covered_Intervals.md)
+   - [Minimum Number of Non-Overlapping Intervals](../problems/intervals/Minimum_Number_Of_Non_Overlapping_Intervals.md)
    - 57 Insert Interval
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
-   - 452 Minimum Number of Arrows to Burst Balloons (medium)
    - 646 Maximum Length of Pair Chain
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
