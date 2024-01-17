@@ -28,6 +28,7 @@
 - **Check properties**
    - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
    - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
+   - [Minimum Number of Non-Overlapping Intervals](../problems/intervals/Minimum_Number_Of_Non_Overlapping_Intervals.md)
 - **Manipulation**
    - *Deoverlapping*
       - [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
