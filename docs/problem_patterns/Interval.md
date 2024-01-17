@@ -37,6 +37,8 @@
    - *Intersect*
       - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986) (Find all intersections)
       - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
+   - *Remove*
+      - [Remove Covered Intervals](../problems/intervals/Remove_Covered_Intervals.md)
 - **Other**
    - 57 Insert Interval
    - 352 Data Stream as Disjoint Intervals
@@ -46,7 +48,6 @@
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
    - 1272 Remove Interval
-   - 1288 Remove Covered Intervals
    - 1326 Minimum Number of Taps to Open to Water a Garden (hard)
    - 1353 Maximum Number of Events That Can Be Attended
    - 1589 Maximum Sum Obtained of Any Permutation (medium)
