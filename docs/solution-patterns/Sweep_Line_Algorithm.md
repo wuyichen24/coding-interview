@@ -20,7 +20,7 @@
    - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
    - [Remove Intervals for Non-overlapping](../problems/intervals/Remove_Intervals_Non_Overlapping.md) (LC435)
    - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
-   - 57 Insert Interva
+   - 57 Insert Interval
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
    - 452 Minimum Number of Arrows to Burst Balloons (medium)
