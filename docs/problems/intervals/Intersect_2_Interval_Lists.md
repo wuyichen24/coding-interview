@@ -28,7 +28,7 @@ The intersection of two closed intervals is a set of real numbers that are eithe
       - Use 2 pointers on 2 lists respectively to compare intervals between 2 lists.
       - When compare 2 interval.
          - For 2 start points, find the larger one (`larger_start`).
-         - For 2 end points, find the smaller one (smaller_end).
+         - For 2 end points, find the smaller one (`smaller_end`).
          - If `larger start < smaller end`, there is an intersection.
       - Move forward 2 pointers
          - Which interval's end is smaller, move that interval (pointer).
