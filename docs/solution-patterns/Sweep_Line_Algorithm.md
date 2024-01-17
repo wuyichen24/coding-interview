@@ -18,7 +18,7 @@
    - [Merge Overlapping Intervals](..problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
    - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
    - [Maximum Number of Overlapping Intervals](../problems/intervals/Maximum_Number_Of_Overlapping_Intervals.md) (LC253 Meeting Rooms II)
-   - [Remove_Intervals](../problems/intervals/Remove_Intervals.md) (LC435)
+   - [Remove Intervals for Non-overlapping](../problems/intervals/Remove_Intervals_Non_Overlapping.md) (LC435)
    - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
    - 57 Insert Interva
    - 352 Data Stream as Disjoint Intervals
