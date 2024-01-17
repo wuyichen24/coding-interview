@@ -56,3 +56,22 @@ Given the array points, return the **minimum** number of arrows that must be sho
    - Idea
       - Sort the intervals by their end points and compare 2 adjacent intervals
       - Let each interval compare the start time with the end time of the previous interval.
+
+  ```java
+  public int findMinArrowShots(int[][] points) {
+      if (points.length == 0) return 0;
+        
+      Arrays.sort(points, (a, b)-> a[1]-b[1]);
+
+      int end = points[0][1];
+      int count = 1;
+      for (int[] interval : points) {
+          int start = interval[0];
+          if (start > end) {
+              count++;
+              end = interval[1];
+          }
+      }
+      return count;
+  }
+  ```
