@@ -38,14 +38,13 @@
       - [Intersect 2 Interval Lists](../problems/intervals/Intersect_2_Interval_Lists.md) (LC986) (Find all intersections)
       - [Intersect 2 Interval Lists to Find First Intersection](../problems/intervals/Intersect_2_Interval_Lists_To_Find_First_Intersection.md) (LC1229) (Find first intersection with duration limitation)
 - **Other**
+   - 57 Insert Interval
    - 352 Data Stream as Disjoint Intervals
    - 370 Range Addition (medium)
    - 452 Minimum Number of Arrows to Burst Balloons (medium)
    - 646 Maximum Length of Pair Chain
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
-   - 57 Insert Interval
-   - 1229 Meeting Scheduler
    - 1272 Remove Interval
    - 1288 Remove Covered Intervals
    - 1326 Minimum Number of Taps to Open to Water a Garden (hard)
