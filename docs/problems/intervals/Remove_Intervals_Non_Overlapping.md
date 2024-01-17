@@ -55,7 +55,7 @@ Given an array of intervals `intervals` where `intervals[i] = [starti, endi]`, r
 
       int end = intervals[0][1];
       int count = 1;
-      for(int i = 1; i < intervals.length ; i++){
+      for(int i = 1; i < intervals.length; i++){
           if (intervals[i][0] >= end){       // If the current interval start time is after the end of the previous interval
               end = intervals[i][1];
               count++;
