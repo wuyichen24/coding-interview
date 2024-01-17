@@ -28,7 +28,6 @@
    - 646 Maximum Length of Pair Chain
    - 731 My Calendar II (medium)
    - 732 My Calendar III (medium)
-   - 1229 Meeting Scheduler
    - 1272 Remove Interval
    - 1288 Remove Covered Intervals
    - 1326 Minimum Number of Taps to Open to Water a Garden (hard)
