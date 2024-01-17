@@ -60,7 +60,7 @@
                current[1] = Math.max(current[1], next[1]);
            } else {                             // Disjoint intervals, add the new interval to the list
                current = next;
-               result.add(newInterval);
+               result.add(current);
            }
       }
 
