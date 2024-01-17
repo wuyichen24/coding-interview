@@ -28,7 +28,7 @@
    - *Manipulation*
       - Deoverlapping
          - [Merge Overlapping Intervals](../problems/intervals/Merge_Overlapping_Intervals.md) (LC56)
-         - [Remove Intervals](../problems/intervals/Remove_Intervals.md) (LC435)
+         - [Remove Intervals for Non-overlapping](../problems/intervals/Remove_Intervals_Non_Overlapping.md) (LC435)
       - Merge
          - [Merge K Interval Lists And Find Gaps](..//problems/intervals/Merge_K_Interval_Lists_And_Find_Gaps.md) (LC759)
       - Intersect
