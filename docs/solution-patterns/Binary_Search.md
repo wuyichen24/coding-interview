@@ -69,7 +69,7 @@
    - `target`: The target need to find or satisfy.
 - **Step 2**: Classify the problem is to find a certain number or find a certain boundary.
    - Find a number
-   - Fina a boundary
+   - Find a boundary
       - Find `f(x) >= target`
       - Find `f(x) <= target`
   
