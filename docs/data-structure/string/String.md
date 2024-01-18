@@ -153,6 +153,8 @@
       - 796 Rotate String
    - Shift
       - [Shifting Letters](../../problems/string/Shifting_Letters.md)
+   - Merge
+      - [Merge Strings Alternately](../../problems/string/Merge_String_Alternately.md)
 - **Input is string array**
    - *Grouping string array* (See strategies section)
       - [Group Shifted Strings](../../problems/string/Group_Shifted_Strings.md)
