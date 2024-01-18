@@ -166,5 +166,6 @@
       - [Convert Absolute Path to Canonical Path](../../problems/string/Convert_Absolute_Path_To_Canonical_Path.md)
       - [Reformat Date](../../problems/string/Reformat_Date.md)
    - [Stars and Bars](../../problems/string/Stars_And_Bars.md)
+   - [Greatest Common Divisor of Strings](../../problems/string/Greatest_Common_Divisor_Of_Strings.md)
       
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
