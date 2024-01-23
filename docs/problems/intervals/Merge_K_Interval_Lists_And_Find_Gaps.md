@@ -46,16 +46,16 @@ Return the list of finite intervals representing **common, positive-length free 
           });
 
           List<Interval> result = new ArrayList<>();
-  	      Interval newInterval = mergedIntervals.get(0);
-  	      result.add(newInterval);
-  	      for (Interval interval : mergedIntervals) {
-  	          if (interval.start <= newInterval.end) {
-  	              newInterval.end = Math.max(newInterval.end, interval.end);
-  	          } else {  
-  	              newInterval = interval;
-  	              result.add(newInterval);
-  	          }
-  	      }
+          Interval newInterval = mergedIntervals.get(0);
+          result.add(newInterval);
+  	       for (Interval interval : mergedIntervals) {
+  	           if (interval.start <= newInterval.end) {
+  	               newInterval.end = Math.max(newInterval.end, interval.end);
+  	           } else {  
+  	               newInterval = interval;
+  	               result.add(newInterval);
+  	           }
+  	       }
 
           return result;
       }
