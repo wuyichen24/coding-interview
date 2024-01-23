@@ -11,51 +11,56 @@ For example:
 The probability to generate NY is 7/20, SF is 5/20 and LA 8/20.
 
 ## Solutions
-- **Solution 1: Prefix sum array**
+- **Solution 1: Prefix sum array + binary search**
    - Idea
-      - Use prefix sum array to build a random generator.
-   - Step
+      - Use prefix sum array and binary search to build a random generator.
+   - Steps
       - Constructor
-         - Initialize prefix sum array and the map between index to city name.
-         - Calculate prefix sum array.
+         - Build a prefix sum array and shift one position for `preSum[0]`
       - Generator
-         - Generate a random number between 0 to totalSum
-         - See the random number drop in which range of the prefix sum array.
-
+         - Generate a random number between `[1,preSum[n-1])`.
+         - Use binary search to find minimum `i` which `preSum[i] >` target.
+           
   ```java
-  public class CityGenerator {
-      private int[] prefixSums;
-      private int totalSum;
-      private Map<Integer, String> indexToCity;   // map index to city name
+  class Solution {
+      private int[] preSum;
+      private Random rand = new Random();
 
-      public CityGenerator (Map<String, Integer> population) {
-          this.prefixSums = new int[population.size()];
-          this.indexToCity = new HashMap<>();
-
-          int prefixSum = 0;
-          int i = 0;
-          for (String key: population.keySet()) {
-              prefixSum += population.get(key);
-              this.prefixSums[i] = prefixSum;
-              indexToCity.put(i, key);
-              i++;
+      public Solution(int[] w) {
+          int n = w.length;
+          // build prefix sum array, shift one position for preSum[0]
+          preSum = new int[n + 1];
+          preSum[0] = 0;
+          // preSum[i] = sum(w[0..i-1])
+          for (int i = 1; i <= n; i++) {
+              preSum[i] = preSum[i - 1] + w[i - 1];
           }
-          this.totalSum = prefixSum;
+      }
+    
+      public int pickIndex() {
+          int n = preSum.length;
+          // generate a random number between [0, n) 
+          // + 1 means pick a random number between [1, preSum[n - 1]]
+          int target = rand.nextInt(preSum[n - 1]) + 1;
+
+          // get the min index which prefix(i) > target 
+          return left_bound(preSum, target) - 1;
       }
 
-      public String generate() {
-          // Get a random number between 0 and totalSum
-          double target = this.totalSum * Math.random();
-          int i = 0;
-
-          // Run a linear search to find which range that random number dropping in
-          for (; i < this.prefixSums.length; ++i) {
-              if (target < this.prefixSums[i])
-                  return indexToCity.get(i);
+      int left_bound(int[] nums, int target) {
+          if (nums.length == 0) return -1;
+          int left = 0, right = nums.length;
+          while (left < right) {
+              int mid = left + (right - left) / 2;
+              if (nums[mid] == target) {
+                  right = mid;
+              } else if (nums[mid] < target) {
+                  left = mid + 1;
+              } else if (nums[mid] > target) {
+                  right = mid;
+              }
           }
-
-          // Give a default return (Should not reach here)
-          return indexToCity.get(i - 1);
+          return left;
       }
   }
   ```
