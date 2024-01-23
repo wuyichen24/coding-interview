@@ -52,13 +52,13 @@
       - *2 Pointers* ([Meet pointers](../../solution-patterns/2_Pointers.md#meet-pointers))
          - Template
            ```java
-           boolean isPalindrome(String s, int lo, int hi) {
-               while (lo < hi) {
-                   if (s.charAt(lo) != s.charAt(hi)) {
+           boolean isPalindrome(String s, int left, int right) {
+               while (left < right) {
+                   if (s.charAt(left) != s.charAt(right)) {
                        return false;
                    }
-                   lo++;
-                   hi--;
+                   left++;
+                   right--;
                }
                return true;
            }
