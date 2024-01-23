@@ -28,36 +28,56 @@
   ![Untitled (2)](https://user-images.githubusercontent.com/8989447/115642306-f2328e80-a2d7-11eb-8816-2562c6bf77e1.png)
 
 ## Solutions
-- Solution 1: Prefix sum array
+- **Solution 1: Prefix sum array + binary search**
+   - Idea
+      - Use prefix sum array and binary search to build a random generator.
+   - Steps
+      - Constructor
+         - Build a prefix sum array and shift one position for `preSum[0]`
+      - Generator
+         - Generate a random number between `[1,preSum[n-1])`.
+         - Find minimum `i` which `preSum[i] >` target.
+           
   ```java
   class Solution {
-      private int[] prefixSums;
-      private int totalSum;
+      private int[] preSum;
+      private Random rand = new Random();
 
       public Solution(int[] w) {
-          this.prefixSums = new int[w.length];
-
-          int prefixSum = 0;
-          for (int i = 0; i < w.length; ++i) {
-              prefixSum += w[i];
-              this.prefixSums[i] = prefixSum;
+          int n = w.length;
+          // build prefix sum array, shift one position for preSum[0]
+          preSum = new int[n + 1];
+          preSum[0] = 0;
+          // preSum[i] = sum(w[0..i-1])
+          for (int i = 1; i <= n; i++) {
+              preSum[i] = preSum[i - 1] + w[i - 1];
           }
-          this.totalSum = prefixSum;
+      }
+    
+      public int pickIndex() {
+          int n = preSum.length;
+          // generate a random number between [0, n) 
+          // + 1 means pick a random number between [1, preSum[n - 1]]
+          int target = rand.nextInt(preSum[n - 1]) + 1;
+
+          // get the min index which prefix(i) > target 
+          return left_bound(preSum, target) - 1;
       }
 
-      public int pickIndex() {
-          // Get a random number between 0 and totalSum
-          double target = this.totalSum * Math.random();
-          int i = 0;
-        
-          // Run a linear search to find which range that random number dropping in
-          for (; i < this.prefixSums.length; ++i) {
-              if (target < this.prefixSums[i])
-                  return i;
+      int left_bound(int[] nums, int target) {
+          if (nums.length == 0) return -1;
+          int left = 0, right = nums.length;
+          while (left < right) {
+              int mid = left + (right - left) / 2;
+              if (nums[mid] == target) {
+                  right = mid;
+              } else if (nums[mid] < target) {
+                  left = mid + 1;
+              } else if (nums[mid] > target) {
+                  right = mid;
+              }
           }
-        
-          // Give a default return (Should not reach here)
-          return i - 1;
+          return left;
       }
   }
   ```
