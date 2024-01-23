@@ -129,5 +129,6 @@ void reverse(int[] nums, int i, int j) {
    - 309 Best Time to Buy and Sell Stock with Cooldown
    - 714 Best Time to Buy and Sell Stock with Transaction Fee
 - **Other**
+   - [Nested List Weight Sum](../../problems/array/Nested_List_Weight_Sum.md)
    
 [back to **Problem_Categories**](../../problem_patterns/Problem_Categories.md)
