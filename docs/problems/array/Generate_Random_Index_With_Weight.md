@@ -36,7 +36,7 @@
          - Build a prefix sum array and shift one position for `preSum[0]`
       - Generator
          - Generate a random number between `[1,preSum[n-1])`.
-         - Find minimum `i` which `preSum[i] >` target.
+         - Use binary search to find minimum `i` which `preSum[i] >` target.
            
   ```java
   class Solution {
