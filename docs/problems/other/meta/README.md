@@ -10,6 +10,7 @@
 | LC56v| [Merge Two Sorted Interval Arrays](Merge_Two_Sorted_Interval_Arrays.md) | Sort by start points and compare adjacent intervals |
 | LC50 | [Arithmetic Power](../../math/Implement_Pow_X_N.md) | Recursion: x = x/2 * x/2 or x = x/2 + x/2 + 1 |
 | | [Graph Clone](Graph_Clone.md) | |
+| LC680 | [Almost Palindrome](../../string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md) | 2 pointers |
 
 Notes: 
 - LC000v means the variant of LC000.
