@@ -12,6 +12,8 @@
 | | [Graph Clone](Graph_Clone.md) | |
 | LC680 | [Almost Palindrome](../../string/palindrome/Is_Palindrome_String_By_Removing_One_Char.md) | 2 pointers |
 | LC528 | [City Generator](City_Generator.md) | Random generator = Prefix sum array + binary search |
+| LC938 | [Add range sum in a binary search tree](../../tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Compare current value with range |
+
 
 Notes: 
 - LC000v means the variant of LC000.
