@@ -7,6 +7,12 @@ Given two of these interval lists, return a 3rd interval list that is the union 
 
 ## Solutions
 - **Solution 1: Sweep line algorithm**
+   - Idea
+      - Merge 2 intervals lists as one.
+      - Sort intervals by start point.
+      - Compare the current interval with next one:
+         - If overlapping, take the max of end points.
+         - If no overlapping, add the current interval to result list.
 
   ```java
   public List<Interval> mergeIntervals(List<Interval> intervals1, List<Interval> intervals2) {
