@@ -7,7 +7,12 @@
 - Get the sum of values of all nodes with a value in the range `[low, high]`.
 
 ## Solutions
-- Solution 1: Recursion
+- **Solution 1: Recursion**
+   - Idea
+      - If current value < low, only go to right child.
+      - If current value > high, only go to left child.
+      - If low <= current value < high, go to both left child and right child.
+     
   ```java
   public int rangeSumBST(TreeNode root, int low, int high) {
       if (root == null) return 0;
