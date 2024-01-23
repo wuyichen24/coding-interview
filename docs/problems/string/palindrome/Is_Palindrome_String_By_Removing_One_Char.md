@@ -8,44 +8,40 @@
 - You can delete at most one character.
 
 ## Solutions
-- Solution 1: 2 pointers (meet pointers) + greedy
-   - Use 2 meet pointers until left char is not same with right char.
-   - Consider 2 substrings: One is [left, right-1], another is [left+1, right]
-   - Check both substrings are palindrome or not (greedy):
-      - If any of substring is palindrome, so the input string is palindrome.
-      - If none of them is palindrome, so the input string is not palindrome.
+- Solution 1: 2 pointers (meet pointers)
+   - Idea
+      - Compare the character of the left pointer and the character of the right pointer.
+         - If same, continue.
+         - If not same, consider remove the character of theleft pointer or remove the character of the right pointer.
+
   ```java
-  public boolean validPalindrome(String s) {
-      if (s.length() <= 2) {
+  class Solution {
+      public boolean validPalindrome(String s) {
+          int i = 0;
+          int j = s.length() - 1;
+        
+          while (i < j) {
+              // Found a mismatched pair - try both deletions
+              if (s.charAt(i) != s.charAt(j)) {
+                  return (isPalindrome(s, i, j - 1) || isPalindrome(s, i + 1, j));
+              }
+            
+              i++;
+              j--;
+          }
+        
           return true;
       }
-        
-      int i = 0;
-      int j = s.length() - 1;
-        
-      boolean hasDelete = false;
-        
-      while (i<j) {
-          char ci = s.charAt(i);
-          char cj = s.charAt(j);
-            
-          if (s.charAt(i) == s.charAt(j)) {
-              i++; 
-              j--;
-          } else {
-              String substr1 = s.substring(i, j);
-              String substr2 = s.substring(i+1, j+1);
-              boolean isStr1P = isPalindrome(substr1);
-              boolean isStr2P = isPalindrome(substr2);
-                
-              if (isStr1P || isStr2P) {
-                  return true;
-              } else {
+
+      boolean isPalindrome(String s, int left, int right) {
+          while (left < right) {
+              if (s.charAt(left) != s.charAt(right)) {
                   return false;
               }
+              left++;
+              right--;
           }
+          return true;
       }
-        
-      return true;
   }
   ```
