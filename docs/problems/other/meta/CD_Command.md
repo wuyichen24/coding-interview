@@ -19,7 +19,7 @@ The function takes two arguments (current working directory and directory to cha
          - For other thing, add the element to the end of the the `cwds` array.
         
   ```java
-  public static String cd(String cwd, String arg) {
+  public String cd(String cwd, String arg) {
       String[] cwds = null;
 
       if (!arg.startsWith("/") && !cwd.equals("/")) {
