@@ -4,7 +4,32 @@
 - Leetcode (236): [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 ## Problem
-- Get the lowest common ancestor (LCA) of two nodes in a binary tree.
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+## Examples
+- Example 1
+   - Input
+     ```
+     p = 5, q = 1
+     ```
+
+     ![binarytree](https://github.com/wuyichen24/coding-interview/assets/8989447/42f3019b-6b74-4539-8244-b1edac479f93)
+
+   - Output
+     ```
+     3
+     ```
+- Example 2
+   - Input
+     ```
+     p = 5, q = 4
+     ```
+
+     ![binarytree](https://github.com/wuyichen24/coding-interview/assets/8989447/42f3019b-6b74-4539-8244-b1edac479f93)
+   - Output
+     ```
+     5
+     ```
 
 ## Solutions
 - **Solution 1: Recursion**
