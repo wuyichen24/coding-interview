@@ -16,7 +16,7 @@
 | LC236 | [Find the lowest common ancestor of two tree nodes](../../tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md) |
 | | [Maze Walking](Maze_Walking.md) | |
 | LC138 | [Copy List with Random Pointer](../../linked_list/Copy_List_With_Random_Pointer.md) | Map to store relationship between old and new node + DFS |
-
+| LC314 LC987 | [Print Tree by Columns](../../tree/Traverse_Binary_Tree_Vertically.md) | BFS+Map(key:column,value:node) or DFS/BFS+sort on column and row |
 
 Notes: 
 - LC000v means the variant of LC000.
