@@ -57,13 +57,19 @@ void reverse(int[] nums, int i, int j) {
    - [Longest Increasing Subsequence](../../problems/string/Longest_Increasing_Subsequence.md)
 - **Subset**
    - [Longest Consecutive Sequence](../../problems/array/Longest_Consecutive_Sequence.md)
-- **Search**
-   - *Find missing*
+- **Search/Find**
+   - *By missing*
       - [Get Kth Missing Positive Number](../../problems/array/Get_Kth_Missing_Positive_Number.md)
       - [Find Missing Ranges from Array](../../problems/array/Find_Missing_Ranges_from_Array.md)
-   - [Search in Rotated Sorted Array](../../problems/array/Search_In_Rotated_Sorted_Array.md)
-- **Access**
-   - [Kth Largest Element in an Array](../../problems/array/Kth_Largest_Element_In_Array.md)
+   - *By frequency*
+      - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
+      - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
+      - [Find Element Only Appear Once](../../problems/array/single_number/Find_Element_Only_Appear_Once.md)
+      - [Find Element Only Appear Once II](../../problems/array/single_number/Find_Element_Only_Appear_Once_II.md)
+   - *By value*
+      - [Kth Largest Element in an Array](../../problems/array/Kth_Largest_Element_In_Array.md)
+      - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
+   - [Search in Rotated Sorted Array](../../problems/array/Search_In_Rotated_Sorted_Array.md)   
 - **Math**
    - *Product*
       - [Product of Array Except Self](../../problems/array/Product_Of_Array_Except_Self.md)
@@ -76,12 +82,6 @@ void reverse(int[] nums, int i, int j) {
       - [Increase Elements in Range](../../problems/array/Increase_Elements_In_Range.md.md)
       - 66 Plus One
       - 989 Add to Array-Form of Integer
-- **Frequency**
-   - [Get Top K Frequent Elements from Array](../../problems/array/Get_Top_K_Frequent_Elements_From_Array.md)
-   - [Get Top K Frequent Words from Array](../../problems/array/Get_Top_K_Frequent_Words_From_Array.md)
-   - Single number
-      - [Find Element Only Appear Once](../../problems/array/single_number/Find_Element_Only_Appear_Once.md)
-      - [Find Element Only Appear Once II](../../problems/array/single_number/Find_Element_Only_Appear_Once_II.md)
 - **Inversion**
    - [Inversions](../../problems/array/Inversions.md)
    - 1395 Count Number of Teams
