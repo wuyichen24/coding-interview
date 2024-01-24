@@ -7,38 +7,36 @@
 - Get the lowest common ancestor (LCA) of two nodes in a binary tree.
 
 ## Solutions
-- Solution 1
+- **Solution 1: Recursion**
+   - Idea
+      - Recursively call left child and right child to see they are the LCA of 2 nodes or not.
+   - Steps
+      - Base case
+         - If the current node is null, stop
+         - If 2 nodes are pointing to the current node, so the current node is LCA.
+      - Recursion
+         - Recursively call left child and right child to see they are the LCA of 2 nodes or not.
+      - Check 3 cases
+         - Case 1: If the current node is the LCA of 2 nodes, so the current node is the LCA.
+         - Case 2: If 2 nodes don't exist in the subtree of the current node, so there is no LCA in the subtree.
+         - Case 3: If LCA is either in left subtree or right subtree, use the LCA from left subtree or right subtree.
   ```java
   public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-      if (root == null) {
+      // base case
+      if (root == null) return null;
+      if (root == p || root == q) return root;
+
+      TreeNode left = lowestCommonAncestor(root.left, p, q);
+      TreeNode right = lowestCommonAncestor(root.right, p, q);
+      // Case 1
+      if (left != null && right != null) {
+          return root;
+      }
+      // Case 2
+      if (left == null && right == null) {
           return null;
       }
-        
-      if (root == p || root == q) return root;                  // If the current node is one of p or q (it means that p and q are up-down relationship)
-                                                                // Return the current node.
-                                                                   
-      boolean isPInLeft = isNodeInTree(root.left, p);           // Check the p is in left sub-tree or not
-      boolean isQInleft = isNodeInTree(root.left, q);           // Check the q is in left sub-tree or not
-        
-      if (isPInLeft != isQInleft) {                             // If p and q are in different sub-trees
-          return root;                                          // So the current node is the LCA
-      } else {
-          if (isPInLeft && isQInleft) {                         // If both p and q are in the left sub-tree.
-              return lowestCommonAncestor(root.left, p, q);     // Go to the left sub-tree
-          } else {                                              // If both p and q are in the right sub-tree.
-              return lowestCommonAncestor(root.right, p, q);    // Go to the right sub-tree
-          }
-      }
-  }
-  
-  // Check the node is in the binary tree or not
-  public boolean isNodeInTree(TreeNode root, TreeNode node) {
-      if (root == null) return false;
-        
-      if (root == node) {
-          return true;
-      } else {
-          return isNodeInTree(root.left, node) || isNodeInTree(root.right, node);
-      }
+      // Case 3
+      return left == null ? right : left;
   }
   ```
