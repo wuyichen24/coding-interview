@@ -191,7 +191,8 @@ TreeNode {
       - [Get Length of Longest Path from Binary Tree](../../problems/tree/path/Get_Length_Of_Longest_Path_From_Binary_Tree.md)
       - [Get Maximum Weight Sum of Path from Binary Tree](../../problems/tree/path/Get_Maximum_Weight_Sum_Of_Path_From_Binary_Tree)
       - [Get Path Between 2 Nodes](../../problems/tree/path/Get_Path_Between_2_Nodes.md)
-- **Get nodes**
+- **Access nodes**
+   - [Get Lowest Common Ancestor from Binary Tree](../../problems/tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md)
    - [Get All Distance K Nodes from Target Node in Binary Tree](../../problems/tree/Get_All_Distance_K_Nodes_From_Target_Node_In_Binary_Tree.md#get-all-distance-k-nodes-from-target-node-in-binary-tree)
 - **Side view**
    - [Get Right Side View of Binary Tree](../../problems/tree/Get_Right_Side_View_Of_Binary_Tree.md)
@@ -203,7 +204,6 @@ TreeNode {
    - [Traverse Binary Tree Level Order](../../problems/tree/Traverse_Binary_Tree_Level_Order.md)
    - [Traverse Binary Tree Vertically](../../problems/tree/Traverse_Binary_Tree_Vertically.md)
 - **Other**
-   - [Get Lowest Common Ancestor from Binary Tree](../../problems/tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md)
    - [Get Num of Univalue Subtrees from Binary Tree](../../problems/tree/Get_Num_Of_Univalue_Subtrees_From_Binary_Tree.md)
 
 ### Binary search tree
