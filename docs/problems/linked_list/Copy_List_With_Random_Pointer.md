@@ -66,7 +66,7 @@ Your code will **only** be given the `head` of the original linked list.
   ```java
   public Node copyRandomList(Node head) {
       HashMap<Node, Node> originToClone = new HashMap<>();
-      // 1st pass: store the mapping relationship between new node and original node in hashmap
+      // 1st pass: store the mapping relationship between original node and new node in hashmap
       // key: original node, value: new node
       for (Node p = head; p != null; p = p.next) {
           if (!originToClone.containsKey(p)) {
@@ -85,5 +85,45 @@ Your code will **only** be given the `head` of the original linked list.
       }
         
       return originToClone.get(head);
+  }
+  ```
+- **Solution 2: 1 pass + DFS**
+   - Idea
+      - When a node has 2 pointers (next and random), actually the linked list was became a graph, so you can use DFS traverse the graph and copy it.
+      - You can use the solution in LC133 Clone graph.
+
+  ```java
+  class Solution {
+      // track which node has been visited
+      HashSet<Node> visited = new HashSet<>();
+      // store the mapping relationship between new node and original node
+      HashMap<Node, Node> originToClone = new HashMap<>();
+
+      public Node copyRandomList(Node head) {
+          traverse(head);
+          return originToClone.get(head);
+      }
+
+      void traverse(Node node) {
+          if (node == null) {
+              return;
+          }
+          if (visited.contains(node)) {
+              return;
+          }
+   
+          visited.add(node);                                 // marked current node as visited
+
+          if (!originToClone.containsKey(node)) {            // store the mapping relationship
+              originToClone.put(node, new Node(node.val));
+          }
+          Node cloneNode = originToClone.get(node);
+
+          traverse(node.next);                               // traverse to next node
+          cloneNode.next = originToClone.get(node.next);     // build up next pointer
+
+          traverse(node.random);                             // traverse to random node
+          cloneNode.random = originToClone.get(node.random); // build up random pointer
+      }
   }
   ```
