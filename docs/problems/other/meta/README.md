@@ -15,6 +15,7 @@
 | LC938 | [Add range sum in a binary search tree](../../tree/Get_Range_Sum_Of_Binary_Search_Tree.md) | Compare current value with range |
 | LC236 | [Find the lowest common ancestor of two tree nodes](../../tree/Get_Lowest_Common_Ancestor_From_Binary_Tree.md) |
 | | [Maze Walking](Maze_Walking.md) | |
+| LC138 | [Copy List with Random Pointer](../../linked_list/Copy_List_With_Random_Pointer.md) 
 
 
 Notes: 
