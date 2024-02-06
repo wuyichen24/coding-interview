@@ -69,6 +69,7 @@ void reverse(int[] nums, int i, int j) {
    - *By value*
       - [Kth Largest Element in an Array](../../problems/array/Kth_Largest_Element_In_Array.md)
       - [Get Equilibrium Index from Array](../../problems/array/Get_Equilibrium_Index_From_Array.md)
+      - [Find Local Minimum](problems/array/Find_Local_MInimum.md)
    - [Search in Rotated Sorted Array](../../problems/array/Search_In_Rotated_Sorted_Array.md)   
 - **Math**
    - *Product*
