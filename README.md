@@ -102,25 +102,34 @@
 
 ```mermaid
 flowchart LR
-   1DA-->SA-->SMS-->PSA
+   %% data structure --> problem
+   1DA-->SA
    ST-->SY
    LL-->SY
+   BT-->SC
+   
+   %% problem --> solution
+   SAS-->PSA
    SY-->SK
+
+   %% problem internal
+   SA-->SAS
 
    subgraph datastructureSG ["Data Structures"]
       1DA["1D Array"]
       2DA["2D Array"]
       LL["Linked List"]
-      ST["String"] 
+      ST["String"]
+      BT["Binary tree"]
       GP["Graph"]
    end
 
    subgraph problemSG ["Problem Patterns"]
       SA["Subarray"]
-      SMS["Subarray sum"]
+      SAS["Subarray sum"]
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration"]
-      SC["Search"]
+      SC["Search (Traverse, find path)"]
    end
    subgraph solutionSG [Solution Patterns]
       PSA["Prefix sum array"]
