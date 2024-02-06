@@ -102,7 +102,7 @@
 
 ```mermaid
 flowchart LR
-   1DA-->SM-->PSA
+   1DA-->SA-->SMS-->PSA
 
    subgraph datastructureSG ["Data Structures"]
       1DA["1D Array"]
@@ -113,7 +113,8 @@ flowchart LR
    end
 
    subgraph problemSG ["Problem Patterns"]
-      SM["Sub sum"]
+      SA["Subarray"]
+      SMS["Subarray sum"]
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration"]
       SC["Search"]
