@@ -100,6 +100,19 @@
 
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
+```mermaid
+flowchart LR
+   LL-->RC
+   LL-->2P
+   subgraph problemSG [Problem Patterns]
+      LL[Linked List]
+   end
+   subgraph solutionSG [Solution Patterns]
+      RC[Recursion]
+      2P[2 Pointers]
+   end
+```
+
 ## Problems In Real Interviews
 ### Meta
 | Problem | Company | Stage |
