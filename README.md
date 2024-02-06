@@ -102,27 +102,24 @@
 
 ```mermaid
 flowchart LR
-   LL-->RC
-   LL-->2P
-   ST-->2P
-   SY-->2P
-   SY-->SK
-   EN-->BT
-   SC-->BS
-   SC-->BFS
-   SC-->DFS
-   GP-->BFS
-   GP-->DFS
+   1DA-->SM-->PSA
+
+   subgraph datastructureSG ["Data Structures"]
+      1DA["1D Array"]
+      2DA["2D Array"]
+      LL["Linked List"]
+      ST["String"] 
+      GP["Graph"]
+   end
 
    subgraph problemSG ["Problem Patterns"]
-      LL["Linked List"]
-      ST["String"]
+      SM["Sub sum"]
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration"]
       SC["Search"]
-      GP["Graph"]
    end
    subgraph solutionSG [Solution Patterns]
+      PSA["Prefix sum array"]
       RC["Recursion"]
       2P["2 Pointers"]
       SK["Stack"]
