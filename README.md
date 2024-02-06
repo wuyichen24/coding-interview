@@ -107,16 +107,29 @@ flowchart LR
    ST-->2P
    SY-->2P
    SY-->SK
+   EN-->BT
+   SC-->BS
+   SC-->BFS
+   SC-->DFS
+   GP-->BFS
+   GP-->DFS
 
    subgraph problemSG ["Problem Patterns"]
       LL["Linked List"]
       ST["String"]
       SY["Symmetry (Parentheses, Palindrome)"]
+      EN["Enumeration"]
+      SC["Search"]
+      GP["Graph"]
    end
    subgraph solutionSG [Solution Patterns]
       RC["Recursion"]
       2P["2 Pointers"]
       SK["Stack"]
+      BT["Backtracking"]
+      BS["Binary Search"]
+      BFS["Breadth-first search"]
+      DFS["Depth-first search"]
    end
 ```
 
