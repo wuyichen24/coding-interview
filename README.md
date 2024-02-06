@@ -103,8 +103,9 @@
 ```mermaid
 flowchart LR
    1DA-->SA-->SMS-->PSA
-   ST-->SY-->SK
-   LL-->SY-->SK
+   ST-->SY
+   LL-->SY
+   SY-->SK
 
    subgraph datastructureSG ["Data Structures"]
       1DA["1D Array"]
