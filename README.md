@@ -101,7 +101,7 @@
 ![Problem_Solution_Pattern_Mapping (1)](https://user-images.githubusercontent.com/8989447/119408408-e1908200-bca2-11eb-9427-10c181bef6c3.png)
 
 ## Problems In Real Interviews
-### Facebook
+### Meta
 | Problem | Company | Stage |
 |----|----|----|
 | [Get Equilibrium Index from Array](docs/problems/array/Get_Equilibrium_Index_From_Array.md) | Facebook | Screening |
