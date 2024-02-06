@@ -104,12 +104,19 @@
 flowchart LR
    LL-->RC
    LL-->2P
+   ST-->2P
+   SY-->2P
+   SY-->SK
+
    subgraph problemSG [Problem Patterns]
       LL[Linked List]
+      ST[String]
+      SY[Symmetry (Parentheses, Palindrome)]
    end
    subgraph solutionSG [Solution Patterns]
       RC[Recursion]
       2P[2 Pointers]
+      SK[Stack]
    end
 ```
 
