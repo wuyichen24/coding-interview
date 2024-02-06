@@ -200,3 +200,4 @@
 - [Search in Rotated Sorted Array](../problems/array/Search_In_Rotated_Sorted_Array.md)
 - [Koko Eating Bananas](../problems/other/Koko_Eating_Bananas.md)
 - [Capacity To Ship Packages Within D Days](../problems/other/Capacity_To_Ship_Packages_Within_D_Days.md)
+- [Find Local Minimum](../problems/array/Find_Local_MInimum.md)
