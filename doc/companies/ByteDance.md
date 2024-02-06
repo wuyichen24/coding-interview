@@ -2,7 +2,7 @@
 
 | Problem | Company | Stage |
 |----|----|----|
-| [Hack The Bank](docs/problems/other/Hack_The_Bank.md) | ByteDance | Online Assessment (HackerRank) |
+| [Hack The Bank](../problems/other/Hack_The_Bank.md) | ByteDance | Online Assessment (HackerRank) |
 | [Tom and Jerry: Jerry's Birthday](docs/problems/other/Jerrys_Birthday.md) | ByteDance | Online Assessment (HackerRank) |
 | [Gift Cards](docs/problems/other/Gift_Cards.md) | ByteDance | Online Assessment (HackerRank) |
 | [Dust Control](docs/problems/other/Dust_Control.md) | ByteDance | Online Assessment (HackerRank) |
