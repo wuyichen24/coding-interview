@@ -106,7 +106,7 @@ flowchart LR
    1DA-->SA
    ST-->SY
    LL-->SY
-   BT-->SC
+   BIT-->SC
    
    %% problem --> solution
    SAS-->PSA
@@ -120,7 +120,7 @@ flowchart LR
       2DA["2D Array"]
       LL["Linked List"]
       ST["String"]
-      BT["Binary tree"]
+      BIT["Binary tree"]
       GP["Graph"]
    end
 
@@ -131,6 +131,7 @@ flowchart LR
       EN["Enumeration"]
       SC["Search (Traverse, find path)"]
    end
+
    subgraph solutionSG [Solution Patterns]
       PSA["Prefix sum array"]
       RC["Recursion"]
