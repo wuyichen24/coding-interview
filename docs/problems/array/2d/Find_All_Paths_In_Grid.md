@@ -48,3 +48,42 @@ Given N, representing the size of an NxN square grid, Return all the paths from 
       }
   }
   ```
+- **Solution 2: BFS**
+   - Idea
+      - Use BFS to find all the paths.
+  ```java
+  class BFSState {
+      public int x;
+      public int y;
+      public String path;
+  }
+
+  public class Solution {
+      public List<String> findPaths(int n) {
+          List<String> paths = new ArrayList<>();
+          Queue<BFSState> queue = new LinkedList<>();
+          queue.offer(new BFSState(0, 0, ""));
+        
+          while (!queue.isEmpty()) {
+              BFSState currentState = queue.poll();
+              int x = currentState.x;
+              int y = currentState.y;
+              String currentPath = currentState.path;
+
+              if (x == n - 1 && y == n - 1) {
+                  paths.add(currentPath);
+                  continue;
+              }
+
+              if (x < n - 1) {
+                  queue.offer(new BFSState(x + 1, y, currentPath + "R"));
+              }
+              if (y < n - 1) {
+                  queue.offer(new BFSState(x, y + 1, currentPath + "D"));
+              }
+          }
+        
+          return paths;
+      }
+  }
+  ```
