@@ -82,11 +82,11 @@
       - [Generate All Combinations of Parentheses](../problems/string/parentheses/Generate_All_Combinations_Of_Parentheses.md)
       - [Get All Possible Strings by Removing Minimum Number of Invalid Parentheses](../problems/string/parentheses/Get_All_Possible_Strings_By_Removing_Minimum_Number_Of_Invalid_Parentheses.md)
    - Subset
-      - [Subsets (inputs are unique)](../problems/combinations/Subsets.md)
-      - [Subsets II (inputs may contain duplicates)](../problems/combinations/Subsets_II.md)
+      - [Subsets (inputs are unique)](../problems/array/combinations/Subsets.md)
+      - [Subsets II (inputs may contain duplicates)](../problems/array/combinations/Subsets_II.md)
    - Combination sum
-      - [Combination Sum (element can be reused)](../problems/combinations/Combination_Sum.md)
-      - [Combination Sum II (element can only be used once)](../problems/combinations/Combination_Sum_II.md)
+      - [Combination Sum (element can be reused)](../problems/array/combinations/Combination_Sum.md)
+      - [Combination Sum II (element can only be used once)](../problems/array/combinations/Combination_Sum_II.md)
 - Permutations
    - [Permutations (inputs are unique)](../problems/array/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../problems/array/permutations/Permutations_II.md)
