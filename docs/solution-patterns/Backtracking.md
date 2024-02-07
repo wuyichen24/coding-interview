@@ -88,8 +88,8 @@
       - [Combination Sum (element can be reused)](../problems/combinations/Combination_Sum.md)
       - [Combination Sum II (element can only be used once)](../problems/combinations/Combination_Sum_II.md)
 - Permutations
-   - [Permutations (inputs are unique)](../problems/permutations/Permutations.md)
-   - [Permutations II (inputs may contain duplicates)](../problems/permutations/Permutations_II.md)
+   - [Permutations (inputs are unique)](../problems/array/permutations/Permutations.md)
+   - [Permutations II (inputs may contain duplicates)](../problems/array/permutations/Permutations_II.md)
 - String splitting
    - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - [Restore IP Addresses](../problems/string/Restore_IP_Addresses.md)
