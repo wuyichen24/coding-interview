@@ -18,6 +18,7 @@
 | LC138 | [Copy List with Random Pointer](../../linked_list/Copy_List_With_Random_Pointer.md) | Map to store relationship between old and new node + DFS |
 | LC314 LC987 | [Print Tree by Columns](../../tree/Traverse_Binary_Tree_Vertically.md) | <li>BFS+Map(key:column,value:list of nodes)<li>DFS/BFS+sort on column and row |
 | | [Find Local Minimum](../../array/Find_Local_MInimum.md) | <li>Linear search<li>Binary search |
+| | [Find All Paths in Grid](../../array/2d/Find_All_Paths_In_Grid.md) | <li>DFS<li>DFS<li>Backtracking (permutations of D and R)
 
 Notes: 
 - LC000v means the variant of LC000.
