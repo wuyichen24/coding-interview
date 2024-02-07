@@ -112,7 +112,7 @@ flowchart LR
    SAS-->PSA
    SY-->SK
    EN-->BT
-   GP-->UF
+   GPG-->UF
    RD-->PSA
    FMM-->DP
 
@@ -134,7 +134,7 @@ flowchart LR
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration (Find all possible combinations)"]
       SC["Search (Traverse, find path)"]
-      GP["Grouping"]
+      GPG["Grouping"]
       RD["Random"]
       FMM["Find the max/min value"]
    end
