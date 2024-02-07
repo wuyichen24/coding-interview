@@ -126,6 +126,8 @@ flowchart LR
    SS-->SW
    SA-->SW
    SA-->DA
+   TOP-->QS
+   TOP-->PQ
 
    %% problem internal
    SA-->SAS
@@ -149,6 +151,7 @@ flowchart LR
       GPG["Grouping"]
       RD["Random"]
       FMM["Find the max/min value"]
+      TOP["Top K/Kth"]
    end
 
    subgraph solutionSG [Solution Patterns]
@@ -165,6 +168,8 @@ flowchart LR
       DP["Dynamic programming"]
       SW["Sliding window"]
       RS["Reservoir sampling"]
+      QS["Quickselect"]
+      PQ["Priority queue"]
    end
 ```
 
