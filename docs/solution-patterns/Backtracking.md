@@ -90,6 +90,7 @@
 - Permutations
    - [Permutations (inputs are unique)](../problems/array/permutations/Permutations.md)
    - [Permutations II (inputs may contain duplicates)](../problems/array/permutations/Permutations_II.md)
+   - [Find All Paths in Grid](../problems/array/2d/Find_All_Paths_In_Grid.md)
 - String splitting
    - [Palindrome Partitioning](../problems/string/palindrome/Palindrome_Partitioning.md)
    - [Restore IP Addresses](../problems/string/Restore_IP_Addresses.md)
