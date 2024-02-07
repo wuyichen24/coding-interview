@@ -111,6 +111,10 @@ flowchart LR
    %% problem --> solution
    SAS-->PSA
    SY-->SK
+   EN-->BT
+   GP-->UF
+   RD-->PSA
+   FMM-->DP
 
    %% problem internal
    SA-->SAS
@@ -128,8 +132,11 @@ flowchart LR
       SA["Subarray"]
       SAS["Subarray sum"]
       SY["Symmetry (Parentheses, Palindrome)"]
-      EN["Enumeration"]
+      EN["Enumeration (Find all possible combinations)"]
       SC["Search (Traverse, find path)"]
+      GP["Grouping"]
+      RD["Random"]
+      FMM["Find the max/min value"]
    end
 
    subgraph solutionSG [Solution Patterns]
@@ -141,6 +148,8 @@ flowchart LR
       BS["Binary Search"]
       BFS["Breadth-first search"]
       DFS["Depth-first search"]
+      UF["Union find"]
+      DP["Dynamic programming"]
    end
 ```
 
