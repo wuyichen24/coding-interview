@@ -10,17 +10,26 @@ Given N, representing the size of an NxN square grid, Return all the paths from 
      N = 3
      ```
    - Output
-     
+     ```
+     [
+         DDRR,
+         RRDD,
+         RDDR,
+         DRRD,
+         DRDR,
+         RDRD
+     ]
+     ```
    - Explanation
      ```
-     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
-     | X |   |   | | X | X | X | | X | X |   | | X |   |   |
-     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
-     | X |   |   | |   |   | X | |   | X |   | | X | X | X |
-     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
-     | X | X | X | |   |   | X | |   | X | X | |   |   | X |
-     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
-     DDRR          RRDD          RDDR          DRRD
+     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
+     | X |   |   | | X | X | X | | X | X |   | | X |   |   | | X |   |   | | X | X |   |
+     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
+     | X |   |   | |   |   | X | |   | X |   | | X | X | X | | X | X |   | |   | X | X |
+     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
+     | X | X | X | |   |   | X | |   | X | X | |   |   | X | |   | X | X | |   |   | X |
+     +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+ +---+---+---+
+     DDRR          RRDD          RDDR          DRRD          DRDR          RDRD
 
 ## Solutions
 - **Solution 1: DFS**
@@ -28,7 +37,7 @@ Given N, representing the size of an NxN square grid, Return all the paths from 
       - Use DFS to find all the paths.
   ```java
   public class Solution {
-      public List<String> paths(int n) {
+      public List<String> findPaths(int n) {
           List<String> paths = new ArrayList<>();
           dfs(0, 0, n, "", paths);
           return paths
@@ -84,6 +93,34 @@ Given N, representing the size of an NxN square grid, Return all the paths from 
           }
         
           return paths;
+      }
+  }
+  ```
+- **Solution 3: Backtracking**
+   - Idea
+      - Generate the permutaitons which contains N-1 times of `R` and N-1 times of `D`.
+  ```java
+  public class GridPermutations {
+      public List<String> findPaths(int n) {
+          List<String> permutations = new ArrayList<>();
+          backtracking("", n-1, n-1, permutations);
+          return permutations;
+      }
+
+      private void backtracking(String current, int remainingD, int remainingR, List<String> permutations) {
+          // Base case: if both remainingD and remainingR are 0, add current permutation to the list
+          if (remainingD == 0 && remainingR == 0) {
+              permutations.add(current);
+              return;
+          }
+
+          // Recursive cases: try adding "D" or "R" if there are remaining moves
+          if (remainingD > 0) {
+              generate(current + "D", remainingD - 1, remainingR, permutations);
+          }
+          if (remainingR > 0 && remainingR > remainingD) {
+              generate(current + "R", remainingD, remainingR - 1, permutations);
+          }
       }
   }
   ```
