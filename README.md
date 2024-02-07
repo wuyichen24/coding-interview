@@ -172,6 +172,6 @@ flowchart LR
 ```
 
 ## Problems In Real Interviews
-- [Amazon](docs/companies/Amazon.md)
-- [ByteDance](docs/companies/ByteDance.md)
-- [Meta](docs/companies/Meta.md)
+- [**Amazon**](docs/companies/Amazon.md)
+- [**ByteDance**](docs/companies/ByteDance.md)
+- [**Meta**](docs/companies/Meta.md)
