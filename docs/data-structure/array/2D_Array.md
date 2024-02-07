@@ -49,6 +49,7 @@
 
 - **Path**
    - [Shortest Path in a Grid with Obstacles Elimination](../../problems/array/2d/Shortest_Path_In_Grid_With_Obstacles_Elimination.md)
+   - [Find All Paths in Grid](../../problems/array/2d/Find_All_Paths_In_Grid.md)
 - **Search**
    - [Word Search](../../problems/array/2d/Word_Search.md)
 - **Traversal**
