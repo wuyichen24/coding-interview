@@ -104,9 +104,12 @@
 flowchart LR
    %% data structure --> problem
    1DA-->SA
+   1DA-->SC
+   2DA-->SC
    ST-->SY
    LL-->SY
    BIT-->SC
+   GP-->SC
    
    %% problem --> solution
    SAS-->PSA
@@ -115,6 +118,9 @@ flowchart LR
    GPG-->UF
    RD-->PSA
    FMM-->DP
+   SC-->BS
+   SC-->BFS
+   SC-->DFS
 
    %% problem internal
    SA-->SAS
@@ -133,7 +139,7 @@ flowchart LR
       SAS["Subarray sum"]
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration (Find all possible combinations)"]
-      SC["Search (Traverse, find path)"]
+      SC["Search"]
       GPG["Grouping"]
       RD["Random"]
       FMM["Find the max/min value"]
