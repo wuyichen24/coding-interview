@@ -110,6 +110,7 @@ flowchart LR
    LL-->SY
    BIT-->SC
    GP-->SC
+   ST-->SS
    
    %% problem --> solution
    SAS-->PSA
@@ -121,6 +122,9 @@ flowchart LR
    SC-->BS
    SC-->BFS
    SC-->DFS
+   SS-->SW
+   SA-->SW
+   SA-->DA
 
    %% problem internal
    SA-->SAS
@@ -137,6 +141,7 @@ flowchart LR
    subgraph problemSG ["Problem Patterns"]
       SA["Subarray"]
       SAS["Subarray sum"]
+      SS["Substring"]
       SY["Symmetry (Parentheses, Palindrome)"]
       EN["Enumeration (Find all possible combinations)"]
       SC["Search"]
@@ -147,6 +152,7 @@ flowchart LR
 
    subgraph solutionSG [Solution Patterns]
       PSA["Prefix sum array"]
+      DA["Difference array"]
       RC["Recursion"]
       2P["2 Pointers"]
       SK["Stack"]
@@ -156,6 +162,7 @@ flowchart LR
       DFS["Depth-first search"]
       UF["Union find"]
       DP["Dynamic programming"]
+      SW["Sliding window"]
    end
 ```
 
