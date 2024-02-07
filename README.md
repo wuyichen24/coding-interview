@@ -118,6 +118,7 @@ flowchart LR
    EN-->BT
    GPG-->UF
    RD-->PSA
+   RD-->RS
    FMM-->DP
    SC-->BS
    SC-->BFS
@@ -163,6 +164,7 @@ flowchart LR
       UF["Union find"]
       DP["Dynamic programming"]
       SW["Sliding window"]
+      RS["Reservoir sampling"]
    end
 ```
 
