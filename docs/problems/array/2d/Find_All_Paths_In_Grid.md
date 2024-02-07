@@ -98,7 +98,7 @@ Given N, representing the size of an NxN square grid, Return all the paths from 
   ```
 - **Solution 3: Backtracking**
    - Idea
-      - Generate the permutaitons which contains N-1 times of `R` and N-1 times of `D`.
+      - Generate the permutations which contains N-1 times of `R` and N-1 times of `D`.
   ```java
   public class GridPermutations {
       public List<String> findPaths(int n) {
