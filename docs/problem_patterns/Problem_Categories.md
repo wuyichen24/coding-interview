@@ -21,6 +21,7 @@
    - [Nth Digit](../problems/math/Nth_Digit.md)
    - [Is Palinedrome Integer](../problems/math/Is_Palindrome_Integer.md)
    - [Happy Number](../problems/math/Happy_Number.md)
+   - [Moving Average](../problems/math/Moving_Average.md)
 - **Intevals**
    - *Check properties*
       - [Check Intervals Have Overlapping](../problems/intervals/Check_Intervals_Have_Overlapping.md) (LC252 Meeting Rooms)
