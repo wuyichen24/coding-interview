@@ -7,7 +7,7 @@
 
 ## 2023
 ### Online assessment (OA)
-- [OA interview question bank](../../problems/other/amazon/README.md)
+- [OA interview question bank](../problems/other/amazon/README.md)
 
 ### Virtual onsite
 - [Best Time to Buy and Sell Stock In 1 Transaction](../problems/array/stock/Best_Time_To_Buy_And_Sell_Stock_In_1_Transaction.md)
